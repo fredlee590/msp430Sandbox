@@ -13,6 +13,7 @@ char* strToPrint = ORIGINAL_STR; // original assignment
 void exampleUARTSetup( void );
 unsigned char myStrLen( char* );
 void transmitChar( unsigned char );
+void transmitString( char* );
 
 // main loop
 int main( void )
@@ -64,17 +65,43 @@ __interrupt void USCI0RX_ISR(void)
   {
   case 'a':
     P1OUT ^= 0x01;
+    transmitChar('x');
     break;
   case 'b':
     P1OUT ^= 0x02;
+    transmitChar('y');
+    break;
+  case 'q':
+    P1OUT = 0x00;
+    transmitChar('z');
     break;
   default:
     break;
   }
+  transmitString("khan");
 }
 
 void transmitChar(unsigned char charToTransmit)
 {
   while (!(IFG2&UCA0TXIFG));
-  UCA0TXBUF = strToPrint[i];
+  UCA0TXBUF = charToTransmit;
+}
+
+// lighter weight strlen than strlen - avoid getting all of strings.h
+unsigned char myStrLen(char* str)
+{
+  unsigned char i = 0;
+  while(*(str + i++) != '\0');
+  return i - 1;
+}
+
+// transmit multiple character word with the USCI_A module
+void transmitString(char* strToTransmit)
+{
+  unsigned int i;
+  unsigned char len = myStrLen(strToTransmit);
+  for(i = 0; i < len; i++)
+  {
+    transmitChar(*(strToTransmit + i));
+  }
 }

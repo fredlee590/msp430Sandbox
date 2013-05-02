@@ -54,7 +54,7 @@ void exampleUARTSetup( void )
   __bis_SR_register(LPM3_bits + GIE);       // Enter LPM3, interrupts enabled
 }
 
-// lighter weight strlen than strlen
+// lighter weight strlen than strlen - avoid getting all of strings.h
 unsigned char myStrLen(char* str)
 {
   unsigned char i = 0;
@@ -111,5 +111,5 @@ __interrupt void USCI0RX_ISR(void)
 void transmitChar(unsigned char charToTransmit)
 {
   while (!(IFG2&UCA0TXIFG));
-  UCA0TXBUF = strToPrint[i];
+  UCA0TXBUF = charToTransmit;
 }
