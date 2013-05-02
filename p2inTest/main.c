@@ -3,7 +3,7 @@ this main makes sure that we can use the intended method (reed switch to act as
 input to use in clip detection. PIN and port interrupts
 */
 #include "msp430.h"
-#define WTH_DELAY 10000
+#define WTH_DELAY 5000
 
 __interrupt void P2_ISR( void );
 void P2InterruptSetupAndLoop( void );

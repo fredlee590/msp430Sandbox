@@ -33,7 +33,7 @@ void exampleUARTSetup( void )
   BCSCTL1 = CALBC1_1MHZ; // configure DCO clock RESL
   
   P1DIR = 0x03;                             // All P1.x outputs
-  P1OUT = 0;                                // All P1.x reset
+  P1OUT = 0x03;                             // All P1.x reset
   
   P2SEL = 0x03;                             // enable pins to output clocks
   P2DIR = 0x03;                             // outputs

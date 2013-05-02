@@ -16,11 +16,11 @@ void blink( void )
 {
   volatile unsigned int i;
   
+  /*
   // set up clocks (1MHz DCO)
   DCOCTL = CALDCO_1MHZ; // configure DCO clock DCO and MOD
   BCSCTL1 = CALBC1_1MHZ; // configure DCO clock RESL
   
-  /*
   // set up clocks (VLO)
   DCOCTL = CALDCO_1MHZ; // not using DCO clock for VLO test, so arbitrary
   BCSCTL1 = XT2OFF;     // select low power options
@@ -29,11 +29,21 @@ void blink( void )
                                     // master divider = 1;
   BCSCTL3 = LFXT1S_2 | XCAP_1;      // low frequency clock is VLO;
                                     // capacitance set to 6 pf (not sure why)
+  */
+  
   // set up clocks (internal 32kHz crystal)
+  /*
   BCSCTL1 = XT2OFF;
-  BCSCTL2 = SELM_2 | SELS;
+  BCSCTL2 = 0;
   BCSCTL3 = LFXT1S_0;
   */
+  
+  // production setting
+  DCOCTL = CALDCO_1MHZ;
+  BCSCTL1 = XT2OFF | CALBC1_1MHZ;
+  BCSCTL2 = SELS;
+  BCSCTL3 = LFXT1S_2; /* use ~11kHz VLO*/
+  
   // set up flashing lights
   P1DIR = 0x03;
   P1OUT = 0x01;

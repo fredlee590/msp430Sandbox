@@ -1,6 +1,6 @@
 /*
 this main makes sure that we can use the intended method (reed switch to act as
-input to use in clip detection. PIN and port interrupts
+input to use in clip detection. PIN and port interrupts)
 */
 #include "msp430.h"
 

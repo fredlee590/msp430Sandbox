@@ -1318,7 +1318,10 @@
 <L>C:\Users\Freddy\Documents\MSP430\blink\main.c:3:9: macro definition=FLASH_SPEED <US>c:macro@FLASH_SPEED<UE> <DS>FLASH_SPEED<DE> Extent=<ES>3:9 - 3:25<EE>
 <L>C:\Users\Freddy\Documents\MSP430\blink\main.c:10:12: macro expansion=WDTPW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1013:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>10:12 - 10:17<EE>
 <L>C:\Users\Freddy\Documents\MSP430\blink\main.c:10:20: macro expansion=WDTHOLD|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1011:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>10:20 - 10:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:55:20: macro expansion=FLASH_SPEED|C:\Users\Freddy\Documents\MSP430\blink\main.c:3:9 <US>c:macro@FLASH_SPEED<UE> <DS>FLASH_SPEED<DE> Extent=<ES>55:20 - 55:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:43:13: macro expansion=XT2OFF|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:316:9 <US>c:macro@XT2OFF<UE> <DS>XT2OFF<DE> Extent=<ES>43:13 - 43:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:44:13: macro expansion=SELS|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:326:9 <US>c:macro@SELS<UE> <DS>SELS<DE> Extent=<ES>44:13 - 44:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:45:13: macro expansion=LFXT1S_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:363:9 <US>c:macro@LFXT1S_2<UE> <DS>LFXT1S_2<DE> Extent=<ES>45:13 - 45:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:65:20: macro expansion=FLASH_SPEED|C:\Users\Freddy\Documents\MSP430\blink\main.c:3:9 <US>c:macro@FLASH_SPEED<UE> <DS>FLASH_SPEED<DE> Extent=<ES>65:20 - 65:31<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -1406,23 +1409,23 @@
 <L>C:\Users\Freddy\Documents\MSP430\blink\main.c:12:3: CallExpr=blink|C:\Users\Freddy\Documents\MSP430\blink\main.c:15:6 <US>c:@F@blink<UE> <DS>void blink(void)<DE> Extent=<ES>12:3 - 12:10<EE>
 <L>C:\Users\Freddy\Documents\MSP430\blink\main.c:12:3: UnexposedExpr=blink|C:\Users\Freddy\Documents\MSP430\blink\main.c:15:6 <US>c:@F@blink<UE> <DS>void blink(void)<DE> Extent=<ES>12:3 - 12:8<EE>
 <L>C:\Users\Freddy\Documents\MSP430\blink\main.c:12:3: DeclRefExpr=blink|C:\Users\Freddy\Documents\MSP430\blink\main.c:15:6 (Reference) <US>c:@F@blink<UE> <DS>void blink(void)<DE> Extent=<ES>12:3 - 12:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:15:6: FunctionDecl=blink|C:\Users\Freddy\Documents\MSP430\blink\main.c:15:6 (Definition) <US>c:@F@blink<UE> <DS>void blink(void)<DE> Extent=<ES>15:1 - 57:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:16:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>16:1 - 57:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:15:6: FunctionDecl=blink|C:\Users\Freddy\Documents\MSP430\blink\main.c:15:6 (Definition) <US>c:@F@blink<UE> <DS>void blink(void)<DE> Extent=<ES>15:1 - 67:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:16:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>16:1 - 67:2<EE>
 <L>C:\Users\Freddy\Documents\MSP430\blink\main.c:17:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>17:3 - 17:27<EE>
 <L>C:\Users\Freddy\Documents\MSP430\blink\main.c:17:25: VarDecl=i|C:\Users\Freddy\Documents\MSP430\blink\main.c:17:25 (Definition) <US>c:main.c@220@F@blink@i<UE> <DS>i<DE> Extent=<ES>17:3 - 17:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:51:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>51:3 - 56:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:51:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>51:9 - 51:10<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:52:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>52:3 - 56:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:55:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>55:5 - 55:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:55:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>55:9 - 55:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:55:9: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\blink\main.c:17:25 (Reference) <US>c:main.c@220@F@blink@i<UE> <DS>i<DE> Extent=<ES>55:9 - 55:10<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:55:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>55:13 - 55:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:55:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:13 - 55:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:55:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>55:16 - 55:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:55:16: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\blink\main.c:17:25 <US>c:main.c@220@F@blink@i<UE> <DS>i<DE> Extent=<ES>55:16 - 55:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:55:16: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\blink\main.c:17:25 (Reference) <US>c:main.c@220@F@blink@i<UE> <DS>i<DE> Extent=<ES>55:16 - 55:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:55:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>55:20 - 55:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:55:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:20 - 55:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:55:33: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>55:33 - 55:36<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:55:33: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\blink\main.c:17:25 (Reference) <US>c:main.c@220@F@blink@i<UE> <DS>i<DE> Extent=<ES>55:33 - 55:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:55:37: NullStmt= <US><UE> <DS><DE> Extent=<ES>55:37 - 55:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:61:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>61:3 - 66:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:61:9: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>61:9 - 61:10<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:62:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>62:3 - 66:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:65:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>65:5 - 65:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:65:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>65:9 - 65:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:65:9: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\blink\main.c:17:25 (Reference) <US>c:main.c@220@F@blink@i<UE> <DS>i<DE> Extent=<ES>65:9 - 65:10<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:65:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>65:13 - 65:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:65:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:13 - 65:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:65:16: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>65:16 - 65:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:65:16: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\blink\main.c:17:25 <US>c:main.c@220@F@blink@i<UE> <DS>i<DE> Extent=<ES>65:16 - 65:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:65:16: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\blink\main.c:17:25 (Reference) <US>c:main.c@220@F@blink@i<UE> <DS>i<DE> Extent=<ES>65:16 - 65:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:65:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>65:20 - 65:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:65:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>65:20 - 65:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:65:33: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>65:33 - 65:36<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:65:33: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\blink\main.c:17:25 (Reference) <US>c:main.c@220@F@blink@i<UE> <DS>i<DE> Extent=<ES>65:33 - 65:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\blink\main.c:65:37: NullStmt= <US><UE> <DS><DE> Extent=<ES>65:37 - 65:38<EE>

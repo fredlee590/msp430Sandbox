@@ -1449,10 +1449,10 @@
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:54:33: ParenExpr= <US><UE> <DS><DE> Extent=<ES>54:33 - 54:36<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:54:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>54:33 - 54:36<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:58:15: FunctionDecl=myStrLen|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:58:15 (Definition) <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>58:1 - 63:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:58:30: ParmDecl=str|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:58:30 (Definition) <US>c:main.c@1995@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>58:24 - 58:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:58:30: ParmDecl=str|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:58:30 (Definition) <US>c:main.c@1996@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>58:24 - 58:33<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:59:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>59:1 - 63:2<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>60:3 - 60:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:17: VarDecl=i|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:17 (Definition) <US>c:main.c@2012@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>60:3 - 60:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:17: VarDecl=i|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:17 (Definition) <US>c:main.c@2013@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>60:3 - 60:22<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>60:21 - 60:22<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>60:21 - 60:22<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:61:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>61:3 - 61:31<EE>
@@ -1462,19 +1462,19 @@
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:61:9: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>61:9 - 61:21<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:61:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>61:10 - 61:21<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:61:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>61:11 - 61:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:61:11: UnexposedExpr=str|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:58:30 <US>c:main.c@1995@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>61:11 - 61:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:61:11: DeclRefExpr=str|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:58:30 (Reference) <US>c:main.c@1995@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>61:11 - 61:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:61:11: UnexposedExpr=str|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:58:30 <US>c:main.c@1996@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>61:11 - 61:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:61:11: DeclRefExpr=str|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:58:30 (Reference) <US>c:main.c@1996@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>61:11 - 61:14<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:61:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>61:17 - 61:20<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:61:17: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>61:17 - 61:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:61:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:17 (Reference) <US>c:main.c@2012@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>61:17 - 61:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:61:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:17 (Reference) <US>c:main.c@2013@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>61:17 - 61:18<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:61:25: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>61:25 - 61:29<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:61:30: NullStmt= <US><UE> <DS><DE> Extent=<ES>61:30 - 61:31<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:62:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>62:3 - 62:15<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:62:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>62:10 - 62:15<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:62:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:10 - 62:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:62:10: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:17 <US>c:main.c@2012@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>62:10 - 62:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:62:10: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:17 <US>c:main.c@2012@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>62:10 - 62:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:62:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:17 (Reference) <US>c:main.c@2012@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>62:10 - 62:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:62:10: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:17 <US>c:main.c@2013@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>62:10 - 62:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:62:10: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:17 <US>c:main.c@2013@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>62:10 - 62:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:62:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:60:17 (Reference) <US>c:main.c@2013@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>62:10 - 62:11<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:62:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>62:14 - 62:15<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:69:18: FunctionDecl=USCI0TX_ISR|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:69:18 (Definition) <US>c:@F@USCI0TX_ISR<UE> <DS>void USCI0TX_ISR(void)<DE> Extent=<ES>69:13 - 76:2<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:70:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>70:1 - 76:2<EE>
@@ -1492,7 +1492,7 @@
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:82:18: FunctionDecl=USCI0RX_ISR|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:82:18 (Definition) <US>c:@F@USCI0RX_ISR<UE> <DS>void USCI0RX_ISR(void)<DE> Extent=<ES>82:13 - 109:2<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:83:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>83:1 - 109:2<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:100:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>100:3 - 100:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:100:17: VarDecl=len|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:100:17 (Definition) <US>c:main.c@2827@F@USCI0RX_ISR@len<UE> <DS>len<DE> Extent=<ES>100:3 - 100:43<EE>
+<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:100:17: VarDecl=len|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:100:17 (Definition) <US>c:main.c@2828@F@USCI0RX_ISR@len<UE> <DS>len<DE> Extent=<ES>100:3 - 100:43<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:100:23: CallExpr=myStrLen|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:58:15 <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>100:23 - 100:43<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:100:23: UnexposedExpr=myStrLen|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:58:15 <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>100:23 - 100:31<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:100:23: DeclRefExpr=myStrLen|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:58:15 (Reference) <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>100:23 - 100:31<EE>
@@ -1506,9 +1506,9 @@
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:101:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:14 - 101:21<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:101:14: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:10:23 <US>c:@i<UE> <DS>i<DE> Extent=<ES>101:14 - 101:15<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:101:14: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:10:23 (Reference) <US>c:@i<UE> <DS>i<DE> Extent=<ES>101:14 - 101:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:101:18: UnexposedExpr=len|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:100:17 <US>c:main.c@2827@F@USCI0RX_ISR@len<UE> <DS>len<DE> Extent=<ES>101:18 - 101:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:101:18: UnexposedExpr=len|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:100:17 <US>c:main.c@2827@F@USCI0RX_ISR@len<UE> <DS>len<DE> Extent=<ES>101:18 - 101:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:101:18: DeclRefExpr=len|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:100:17 (Reference) <US>c:main.c@2827@F@USCI0RX_ISR@len<UE> <DS>len<DE> Extent=<ES>101:18 - 101:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:101:18: UnexposedExpr=len|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:100:17 <US>c:main.c@2828@F@USCI0RX_ISR@len<UE> <DS>len<DE> Extent=<ES>101:18 - 101:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:101:18: UnexposedExpr=len|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:100:17 <US>c:main.c@2828@F@USCI0RX_ISR@len<UE> <DS>len<DE> Extent=<ES>101:18 - 101:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:101:18: DeclRefExpr=len|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:100:17 (Reference) <US>c:main.c@2828@F@USCI0RX_ISR@len<UE> <DS>len<DE> Extent=<ES>101:18 - 101:21<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:101:23: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>101:23 - 101:26<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:101:23: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:10:23 (Reference) <US>c:@i<UE> <DS>i<DE> Extent=<ES>101:23 - 101:24<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:102:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>102:3 - 104:4<EE>
@@ -1531,5 +1531,5 @@
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:107:7: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>107:7 - 107:8<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:107:7: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>107:7 - 107:8<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:111:6: FunctionDecl=transmitChar|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:111:6 (Definition) <US>c:@F@transmitChar<UE> <DS>void transmitChar(unsigned char)<DE> Extent=<ES>111:1 - 115:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:111:33: ParmDecl=charToTransmit|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:111:33 (Definition) <US>c:main.c@3029@F@transmitChar@charToTransmit<UE> <DS>unsigned char<DE> Extent=<ES>111:19 - 111:47<EE>
+<L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:111:33: ParmDecl=charToTransmit|C:\Users\Freddy\Documents\MSP430\uartTest\main.c:111:33 (Definition) <US>c:main.c@3030@F@transmitChar@charToTransmit<UE> <DS>unsigned char<DE> Extent=<ES>111:19 - 111:47<EE>
 <L>C:\Users\Freddy\Documents\MSP430\uartTest\main.c:112:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>112:1 - 115:2<EE>
