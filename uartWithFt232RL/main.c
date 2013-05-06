@@ -20,10 +20,10 @@
 #define ACK_VALUE       '!'
 
 /* timing constants */
-#define SENSEMODE_TIMER_PERIOD      20480   /* 15 sec, assuming 1365 Hz clock (ACLK/8) */
-#define UARTWAITMODE_TIMER_PERIOD   273     /* 200 ms, assuming 1365 Hz clock (ACLK/8) */
-#define UARTMODE_TIMER_PERIOD       36      /* 1/300 sec, assuming 10922 Hz clk (ACLK) */
-#define UARTDONEMODE_TIMER_PERIOD   1365    /* 1 sec, assuming 1365 Hz clock (ACLK/8) */
+#define SENSEMODE_TIMER_PERIOD      20000   /* 15 sec, assuming 1365 Hz clock (ACLK/8) */
+#define UARTWAITMODE_TIMER_PERIOD   267     /* 200 ms, assuming 1365 Hz clock (ACLK/8) */
+#define UARTMODE_TIMER_PERIOD       37      /* 1/300 sec, assuming 10922 Hz clk (ACLK) */
+#define UARTDONEMODE_TIMER_PERIOD   1333    /* 1 sec, assuming 1365 Hz clock (ACLK/8) */
 #define UARTWAIT_PCCOMM_HIGH_CNT    2       /* transition from UARTWAIT to UART mode when PCCOMM is high for 2 cycles (400 ms) */
 #define UART_PCCOMM_LOW_CNT         30      /* transition from UART mode to UARTDONE mode when PCCOMM is low for 30 baud cycles (100 ms) */
 #define UARTDONE_PCCOMM_LOW_CNT     2       /* transition from UARTDONE to SENSE mode when PCCOMM is low for 2 cycles (2 seconds) */
@@ -37,7 +37,7 @@
 /* macros */
 #define PCCOMMIntrOn()  do{P2IFG &= ~(PCCOMM); P2IE |= PCCOMM;}while(0)     /* turn on PC comm. interrupt */
 #define PCCOMMIntrOff() do{P2IE &= ~(PCCOMM); P2IFG &= ~(PCCOMM);}while(0)  /* turn off PC comm. interrupt */
-#define getNumTimestamps()  "dd"   /* returns the total number of stored timestamps (mocked to 11)*/
+#define getNumTimestamps() (unsigned short)128 /* returns the total number of stored timestamps (mocked) */
 
 /* debugging */
 #define ONE_DELAY 5000
@@ -46,19 +46,19 @@
 __interrupt void P2_ISR(void); // freddyChange: Use P2 for specialized tasks since P2 is accessible on AMBER
 __interrupt void TA_ISR(void);
 __interrupt void USCI0RX_ISR(void); // freddyChange: Use UART RX interrupt
- void timerASetup(unsigned char op_mode);
- void uartWaitModeStart(void); // freddyChange: config USCI_A module instead
- void uartModeStart(void); // freddyChange: config USCI_A module instead
- void uartModeStop(void); // freddyChange: config USCI_A module instead
- void startIdleSenseMode(void); // freddyChange: config USCI_A module instead
- void send16bit(unsigned short val); // freddyChange: Use USCI_A module instead
- void send32bit(unsigned long val); // freddyChange: Use USCI_A module instead
- unsigned char myStrLen(char* str); // freddyChange: Additional function
- void transmitChar(char charToTransmit); // freddyChange: Additional function
- void transmitString(char* strToTransmit); // freddyChange: Additional function
- void UARTSetup(void); // freddyChange: Additional function
- void UARTSleep(void); // freddyChange: Additional function
-
+void timerASetup(unsigned char op_mode);
+void uartWaitModeStart(void); // freddyChange: config USCI_A module instead
+void uartModeStart(void); // freddyChange: config USCI_A module instead
+void uartModeStop(void); // freddyChange: config USCI_A module instead
+void startIdleSenseMode(void); // freddyChange: config USCI_A module instead
+void send16bit(unsigned short val); // freddyChange: Use USCI_A module instead
+void send32bit(unsigned long val); // freddyChange: Use USCI_A module instead
+unsigned char myStrLen(char* str); // freddyChange: Additional function
+void transmitChar(char charToTransmit); // freddyChange: Additional function
+void transmitString(char* strToTransmit); // freddyChange: Additional function
+void UARTSetup(void); // freddyChange: Additional function
+void UARTSleep(void); // freddyChange: Additional function
+ 
  void myDelay(unsigned char units);// freddyChange: debugging function
 /* shared variables */
 
@@ -133,7 +133,7 @@ void main(void) {
    */
   DCOCTL = CALDCO_1MHZ;
   BCSCTL1 = XT2OFF | CALBC1_1MHZ;
-  BCSCTL2 = SELS;
+  BCSCTL2 = 0;
   BCSCTL3 = LFXT1S_2; /* use 10922 Hz VLO with 1pF effective load cap */
 
   /* wait until there are no osc. faults */
@@ -164,6 +164,7 @@ void main(void) {
 #pragma vector=PORT2_VECTOR
 __interrupt void P2_ISR(void)
 {
+  P1OUT = DBG0;
   if (P2IFG & PCCOMM) {       /* serial cable state changed */
     PCCOMMIntrOff();
     uartWaitModeStart();    /* wait until cable is stable before starting UART mode */
@@ -238,7 +239,6 @@ __interrupt void USCI0RX_ISR(void)
     {
       curTimestamp = rcvTimestamp;    /* save timestamp */
       recvingTimestamp = false;
-      transmitString("timestamp received\n");
       uartModeStop();                 /* UART mode completed */
     }
   } else {
@@ -248,6 +248,7 @@ __interrupt void USCI0RX_ISR(void)
     case 'q':
       sendingIndex = 0;
       recvingTimestamp = true;
+      transmitChar(ACK_VALUE);
       break;
 
     // Resetting, send 1 byte ACK
@@ -265,12 +266,12 @@ __interrupt void USCI0RX_ISR(void)
 
     // Initializing sending, send number of timestamps (2 bytes)
     case 'd':
-      transmitString(getNumTimestamps());
+      send16bit(getNumTimestamps());
       break;
 
     // Asks for next timestamp (4 bytes)
     case 'e':
-      transmitString("eeee");
+      send32bit((unsigned long)curTimestamp);
       break;
 
     // Ignore all other inputs
@@ -283,33 +284,33 @@ __interrupt void USCI0RX_ISR(void)
 /* *** Helper functions *** */
 
 // Sets up timer A with different settings depending on the mode
- void timerASetup(unsigned char op_mode) {
-    CCTL0 = 0;                              /* disable interrupt */
-    TACTL = 0;                              /* disable timer */
+void timerASetup(unsigned char op_mode) {
+  CCTL0 = 0;                              /* disable interrupt */
+  TACTL = 0;                              /* disable timer */
 
-    if (op_mode == UARTWAITMODE) {
-        CCR0 = UARTWAITMODE_TIMER_PERIOD - 1;
-        CCTL0 = CCIE;                       /* enable interrupt */
-        TACTL = TASSEL_1 | ID_3 | TACLR;    /* use ACLK/8 */
-    } else if (op_mode == UARTMODE) {
-        CCR0 = UARTMODE_TIMER_PERIOD - 1;
-        CCTL0 = CCIE;                       /* enable interrupt */
-        TACTL = TASSEL_1 | ID_0 | TACLR;    /* use ACLK/1 */
-    } else if (op_mode == UARTDONEMODE) {
-        CCR0 = UARTDONEMODE_TIMER_PERIOD - 1;
-        CCTL0 = CCIE;                       /* enable interrupt */
-        TACTL = TASSEL_1 | ID_3 | TACLR;    /* use ACLK/8 */
-    } else { /* SENSEMODE */
-        CCR0 = SENSEMODE_TIMER_PERIOD - 1;
-        CCTL0 = CCIE;                       /* enable interrupt */
-        TACTL = TASSEL_1 | ID_3 | TACLR;    /* use ACLK/8 */
-    }
-    TACTL |= MC_1;                          /* start time in up mode */
+  if (op_mode == UARTWAITMODE) {
+      CCR0 = UARTWAITMODE_TIMER_PERIOD - 1;
+      CCTL0 = CCIE;                       /* enable interrupt */
+      TACTL = TASSEL_1 | ID_3 | TACLR;    /* use ACLK/8 */
+  } else if (op_mode == UARTMODE) {
+      CCR0 = UARTMODE_TIMER_PERIOD - 1;
+      CCTL0 = CCIE;                       /* enable interrupt */
+      TACTL = TASSEL_1 | ID_0 | TACLR;    /* use ACLK/1 */
+  } else if (op_mode == UARTDONEMODE) {
+      CCR0 = UARTDONEMODE_TIMER_PERIOD - 1;
+      CCTL0 = CCIE;                       /* enable interrupt */
+      TACTL = TASSEL_1 | ID_3 | TACLR;    /* use ACLK/8 */
+  } else { /* SENSEMODE */
+      CCR0 = SENSEMODE_TIMER_PERIOD - 1;
+      CCTL0 = CCIE;                       /* enable interrupt */
+      TACTL = TASSEL_1 | ID_3 | TACLR;    /* use ACLK/8 */
+  }
+  TACTL |= MC_1;                          /* start time in up mode */
 }
 
 // Start UART wait mode (wait until cable is stable and then start UART mode)
 // freddyChange: USCI (UART) module off
- void uartWaitModeStart(void) {
+void uartWaitModeStart(void) {
    mode = UARTWAITMODE;
    curTimestamp = 0;       // will stop keeping time, so throw out the timestamp
    pcCommStableCnt = 0;
@@ -318,7 +319,7 @@ __interrupt void USCI0RX_ISR(void)
 
 // Start UART mode
 // freddyChange: turn USCI (UART) module on. actions triggered by RX interrupts
- void uartModeStart(void) {
+void uartModeStart(void) {
    mode = UARTMODE;
    recvingTimestamp = false;
    pcCommStableCnt = 0;
@@ -329,7 +330,7 @@ __interrupt void USCI0RX_ISR(void)
 
 // Wake up every 1 second to keep time
 // freddyChange: turn USCI (UART) module off. done with uart
- void uartModeStop(void) {
+void uartModeStop(void) {
     mode = UARTDONEMODE;
     pcCommStableCnt = 0;
     UARTSleep();
@@ -337,7 +338,7 @@ __interrupt void USCI0RX_ISR(void)
 }
 
 // Transition to either SENSEMODE or IDLEMODE
- void startIdleSenseMode(void) {
+void startIdleSenseMode(void) {
    //P1OUT = 0x01;
    if (curTimestamp == 0) {    /* don't go to SENSE mode, just go into IDLE */
      mode = IDLEMODE;
@@ -352,7 +353,7 @@ __interrupt void USCI0RX_ISR(void)
 }
 
 // sends 16-bit value low-order byte first
- void send16bit(unsigned short val) {
+void send16bit(unsigned short val) {
     unsigned char i;
     for (i = 0; i < 2; i++) {
         transmitChar((char)val);            /* send low byte of val */
@@ -361,7 +362,7 @@ __interrupt void USCI0RX_ISR(void)
 }
 
 // sends 32-bit value low-order byte first
- void send32bit(unsigned long val) {
+void send32bit(unsigned long val) {
     unsigned char i;
     for (i = 0; i < 4; i++) {
         transmitChar((char)val);            /* send low byte of val */
@@ -378,7 +379,7 @@ unsigned char myStrLen(char* str)
 }
 
 // transmit a single char with the USCI_A module
- void transmitChar(char charToTransmit)
+void transmitChar(char charToTransmit)
 {
   while (!(IFG2&UCA0TXIFG));
   UCA0TXBUF = charToTransmit;
@@ -408,14 +409,14 @@ void UARTSetup(void)
 }
 
 // software resets USCI module (thus rendering it inert)
- void UARTSleep(void)
+void UARTSleep(void)
 {
   UCA0CTL1 = UCSWRST;
 }
 
- void myDelay(unsigned char units)
- {
-   volatile unsigned int i;
-   unsigned int delayTime = units * ONE_DELAY;
-   for(i = 0; i < delayTime; i++);
- }
+void myDelay(unsigned char units)
+{
+  volatile unsigned int i;
+  unsigned int delayTime = units * ONE_DELAY;
+  for(i = 0; i < delayTime; i++);
+}

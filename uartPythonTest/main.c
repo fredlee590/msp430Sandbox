@@ -1,3 +1,10 @@
+/*
+main.c - uartPythonTest
+This main demonstrates how to communicate with a Python script using the Python
+serial library
+
+Turns on LEDs and sends back data depending on options sent by Python script
+*/
 
 #include "msp430.h"
 #define ORIGINAL_STR "READY TO UART\n"

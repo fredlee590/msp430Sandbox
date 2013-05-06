@@ -1395,119 +1395,119 @@
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:993:9: macro definition=UCSA1 <US>c:macro@UCSA1<UE> <DS>UCSA1<DE> Extent=<ES>993:9 - 993:38<EE>	1
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:994:9: macro definition=UCSA0 <US>c:macro@UCSA0<UE> <DS>UCSA0<DE> Extent=<ES>994:9 - 994:38<EE>	1
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:999:9: macro definition=__MSP430_HAS_WDT__ <US>c:macro@__MSP430_HAS_WDT__<UE> <DS>__MSP430_HAS_WDT__<DE> Extent=<ES>999:9 - 999:27<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:100:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>100:1 - 107:2<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:16: VarDecl=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:16 (Definition) <US>c:main.c@2864@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>101:3 - 101:17<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>101:3 - 101:18<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:17: VarDecl=len|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:17 (Definition) <US>c:main.c@2883@F@transmitString@len<UE> <DS>len<DE> Extent=<ES>102:3 - 102:46<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:23: CallExpr=myStrLen|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:15 <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>102:23 - 102:46<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:23: DeclRefExpr=myStrLen|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:15 (Reference) <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>102:23 - 102:31<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:23: UnexposedExpr=myStrLen|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:15 <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>102:23 - 102:31<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:32: DeclRefExpr=strToTransmit|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:99:27 (Reference) <US>c:main.c@2837@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>102:32 - 102:45<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:32: UnexposedExpr=strToTransmit|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:99:27 <US>c:main.c@2837@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>102:32 - 102:45<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>102:3 - 102:47<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:103:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>103:11 - 103:12<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:103:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>103:11 - 103:12<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:103:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>103:14 - 103:21<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:103:14: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:16 (Reference) <US>c:main.c@2864@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>103:14 - 103:15<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:103:14: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:16 <US>c:main.c@2864@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>103:14 - 103:15<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:103:18: DeclRefExpr=len|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:17 (Reference) <US>c:main.c@2883@F@transmitString@len<UE> <DS>len<DE> Extent=<ES>103:18 - 103:21<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:103:18: UnexposedExpr=len|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:17 <US>c:main.c@2883@F@transmitString@len<UE> <DS>len<DE> Extent=<ES>103:18 - 103:21<EE>	2
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:103:23: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:16 (Reference) <US>c:main.c@2864@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>103:23 - 103:24<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:103:23: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>103:23 - 103:26<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:103:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>103:3 - 106:4<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:103:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>103:7 - 103:12<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:103:7: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:16 (Reference) <US>c:main.c@2864@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>103:7 - 103:8<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:104:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>104:3 - 106:4<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:105:18: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>105:18 - 105:38<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:105:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>105:18 - 105:38<EE>	2
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:105:19: ParenExpr= <US><UE> <DS><DE> Extent=<ES>105:19 - 105:38<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:105:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>105:20 - 105:37<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:105:20: DeclRefExpr=strToTransmit|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:99:27 (Reference) <US>c:main.c@2837@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>105:20 - 105:33<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:105:20: UnexposedExpr=strToTransmit|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:99:27 <US>c:main.c@2837@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>105:20 - 105:33<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:105:36: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:16 (Reference) <US>c:main.c@2864@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>105:36 - 105:37<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:105:36: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:16 <US>c:main.c@2864@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>105:36 - 105:37<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:105:5: CallExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:84:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(unsigned char)<DE> Extent=<ES>105:5 - 105:39<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:105:5: DeclRefExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:84:6 (Reference) <US>c:@F@transmitChar<UE> <DS>void transmitChar(unsigned char)<DE> Extent=<ES>105:5 - 105:17<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:105:5: UnexposedExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:84:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(unsigned char)<DE> Extent=<ES>105:5 - 105:17<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:10:23: VarDecl=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:10:23 (Definition) <US>c:@i<UE> <DS>i<DE> Extent=<ES>10:1 - 10:28<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:10:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>10:27 - 10:28<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:10:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>10:27 - 10:28<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:11:20: StringLiteral= <US><UE> <DS><DE> Extent=<ES>11:20 - 11:32<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:11:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>11:20 - 11:32<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:11:20: macro expansion=ORIGINAL_STR|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:3:9 <US>c:macro@ORIGINAL_STR<UE> <DS>ORIGINAL_STR<DE> Extent=<ES>11:20 - 11:32<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:11:7: VarDecl=strToPrint|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:11:7 (Definition) <US>c:@strToPrint<UE> <DS>strToPrint<DE> Extent=<ES>11:1 - 11:32<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:13:6: FunctionDecl=exampleUARTSetup|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:30:6 (Declaration) <US>c:@F@exampleUARTSetup<UE> <DS>void exampleUARTSetup(void)<DE> Extent=<ES>13:1 - 13:30<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:14:15: FunctionDecl=myStrLen|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:15 (Declaration) <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>14:1 - 14:32<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:14:31: ParmDecl=|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:14:31 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>14:25 - 14:32<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:15:34: ParmDecl=|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:15:34 (Definition) <US><UE> <DS>unsigned char<DE> Extent=<ES>15:20 - 15:35<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:15:6: FunctionDecl=transmitChar|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:84:6 (Declaration) <US>c:@F@transmitChar<UE> <DS>void transmitChar(unsigned char)<DE> Extent=<ES>15:1 - 15:35<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:16:28: ParmDecl=|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:16:28 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>16:22 - 16:29<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:16:6: FunctionDecl=transmitString|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:99:6 (Declaration) <US>c:@F@transmitString<UE> <DS>void transmitString(char *)<DE> Extent=<ES>16:1 - 16:29<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:19:5: FunctionDecl=main|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:19:5 (Definition) <US>c:@F@main<UE> <DS>int main(void)<DE> Extent=<ES>19:1 - 25:2<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:20:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>20:1 - 25:2<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:22:12: macro expansion=WDTPW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1013:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>22:12 - 22:17<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:22:20: macro expansion=WDTHOLD|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1011:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>22:20 - 22:27<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:24:3: CallExpr=exampleUARTSetup|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:30:6 <US>c:@F@exampleUARTSetup<UE> <DS>void exampleUARTSetup(void)<DE> Extent=<ES>24:3 - 24:21<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:24:3: DeclRefExpr=exampleUARTSetup|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:30:6 (Reference) <US>c:@F@exampleUARTSetup<UE> <DS>void exampleUARTSetup(void)<DE> Extent=<ES>24:3 - 24:19<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:24:3: UnexposedExpr=exampleUARTSetup|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:30:6 <US>c:@F@exampleUARTSetup<UE> <DS>void exampleUARTSetup(void)<DE> Extent=<ES>24:3 - 24:19<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:2:1: inclusion directive=msp430.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430.h<IE>  [multi-include guarded] Extent=<ES>2:1 - 2:20<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:30:6: FunctionDecl=exampleUARTSetup|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:30:6 (Definition) <US>c:@F@exampleUARTSetup<UE> <DS>void exampleUARTSetup(void)<DE> Extent=<ES>30:1 - 56:2<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:31:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>31:1 - 56:2<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:3:9: macro definition=ORIGINAL_STR <US>c:macro@ORIGINAL_STR<UE> <DS>ORIGINAL_STR<DE> Extent=<ES>3:9 - 3:39<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:47:15: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:864:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>47:15 - 47:22<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:48:15: macro expansion=UCSSEL_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:881:9 <US>c:macro@UCSSEL_2<UE> <DS>UCSSEL_2<DE> Extent=<ES>48:15 - 48:23<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:51:14: macro expansion=UCBRS0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:890:9 <US>c:macro@UCBRS0<UE> <DS>UCBRS0<DE> Extent=<ES>51:14 - 51:20<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:52:16: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:864:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>52:16 - 52:23<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:53:10: macro expansion=UCA0RXIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:153:9 <US>c:macro@UCA0RXIE<UE> <DS>UCA0RXIE<DE> Extent=<ES>53:10 - 53:18<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:55:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>55:21 - 55:30<EE>	2
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:55:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>55:21 - 55:36<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:55:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:21 - 55:30<EE>	3
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:55:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>55:21 - 55:30<EE>	4
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:55:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>55:21 - 55:36<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:55:21: macro expansion=LPM3_bits|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:110:9 <US>c:macro@LPM3_bits<UE> <DS>LPM3_bits<DE> Extent=<ES>55:21 - 55:30<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:55:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>55:33 - 55:36<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:55:33: ParenExpr= <US><UE> <DS><DE> Extent=<ES>55:33 - 55:36<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:55:33: macro expansion=GIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:90:9 <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>55:33 - 55:36<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:55:3: CallExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>55:3 - 55:37<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:55:3: DeclRefExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>55:3 - 55:20<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:55:3: UnexposedExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>55:3 - 55:20<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:18: FunctionDecl=USCI0RX_ISR|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:18 (Definition) <US>c:@F@USCI0RX_ISR<UE> <DS>void USCI0RX_ISR(void)<DE> Extent=<ES>62:13 - 82:2<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>62:1 - 62:12<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:63:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>63:1 - 82:2<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:81:18: StringLiteral= <US><UE> <DS><DE> Extent=<ES>81:18 - 81:24<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:81:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>81:18 - 81:24<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:81:3: CallExpr=transmitString|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:99:6 <US>c:@F@transmitString<UE> <DS>void transmitString(char *)<DE> Extent=<ES>81:3 - 81:25<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:81:3: DeclRefExpr=transmitString|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:99:6 (Reference) <US>c:@F@transmitString<UE> <DS>void transmitString(char *)<DE> Extent=<ES>81:3 - 81:17<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:81:3: UnexposedExpr=transmitString|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:99:6 <US>c:@F@transmitString<UE> <DS>void transmitString(char *)<DE> Extent=<ES>81:3 - 81:17<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:84:33: ParmDecl=charToTransmit|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:84:33 (Definition) <US>c:main.c@2470@F@transmitChar@charToTransmit<UE> <DS>unsigned char<DE> Extent=<ES>84:19 - 84:47<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:84:6: FunctionDecl=transmitChar|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:84:6 (Definition) <US>c:@F@transmitChar<UE> <DS>void transmitChar(unsigned char)<DE> Extent=<ES>84:1 - 88:2<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:85:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>85:1 - 88:2<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:86:17: macro expansion=UCA0TXIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:162:9 <US>c:macro@UCA0TXIFG<UE> <DS>UCA0TXIFG<DE> Extent=<ES>86:17 - 86:26<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:15: FunctionDecl=myStrLen|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:15 (Definition) <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>91:1 - 96:2<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:30: ParmDecl=str|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:30 (Definition) <US>c:main.c@2664@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>91:24 - 91:33<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:92:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>92:1 - 96:2<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:93:17: VarDecl=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:93:17 (Definition) <US>c:main.c@2681@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>93:3 - 93:22<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:93:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>93:21 - 93:22<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:93:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>93:21 - 93:22<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:93:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>93:3 - 93:23<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:94:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>94:10 - 94:21<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:94:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>94:11 - 94:20<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:94:11: DeclRefExpr=str|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:30 (Reference) <US>c:main.c@2664@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>94:11 - 94:14<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:94:11: UnexposedExpr=str|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:30 <US>c:main.c@2664@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>94:11 - 94:14<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:94:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:93:17 (Reference) <US>c:main.c@2681@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>94:17 - 94:18<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:94:17: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>94:17 - 94:20<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:94:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>94:17 - 94:20<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:94:25: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>94:25 - 94:29<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:94:30: NullStmt= <US><UE> <DS><DE> Extent=<ES>94:30 - 94:31<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:94:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>94:3 - 94:31<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:94:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>94:9 - 94:29<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:94:9: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>94:9 - 94:21<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:94:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>94:9 - 94:21<EE>	2
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:95:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>95:10 - 95:15<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:95:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:93:17 (Reference) <US>c:main.c@2681@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>95:10 - 95:11<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:95:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>95:10 - 95:15<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:95:10: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:93:17 <US>c:main.c@2681@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>95:10 - 95:11<EE>	2
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:95:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>95:14 - 95:15<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:95:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>95:3 - 95:15<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:99:27: ParmDecl=strToTransmit|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:99:27 (Definition) <US>c:main.c@2837@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>99:21 - 99:40<EE>	1
-<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:99:6: FunctionDecl=transmitString|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:99:6 (Definition) <US>c:@F@transmitString<UE> <DS>void transmitString(char *)<DE> Extent=<ES>99:1 - 107:2<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:100:17: VarDecl=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:100:17 (Definition) <US>c:main.c@2891@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>100:3 - 100:22<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:100:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>100:21 - 100:22<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:100:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>100:21 - 100:22<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:100:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>100:3 - 100:23<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>101:10 - 101:21<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:11 - 101:20<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:11: DeclRefExpr=str|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:98:30 (Reference) <US>c:main.c@2874@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>101:11 - 101:14<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:11: UnexposedExpr=str|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:98:30 <US>c:main.c@2874@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>101:11 - 101:14<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:100:17 (Reference) <US>c:main.c@2891@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>101:17 - 101:18<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:17: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>101:17 - 101:20<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>101:17 - 101:20<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:25: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>101:25 - 101:29<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:30: NullStmt= <US><UE> <DS><DE> Extent=<ES>101:30 - 101:31<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>101:3 - 101:31<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>101:9 - 101:29<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:9: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>101:9 - 101:21<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:101:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>101:9 - 101:21<EE>	2
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>102:10 - 102:15<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:100:17 (Reference) <US>c:main.c@2891@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>102:10 - 102:11<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>102:10 - 102:15<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:10: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:100:17 <US>c:main.c@2891@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>102:10 - 102:11<EE>	2
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>102:14 - 102:15<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:102:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>102:3 - 102:15<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:106:27: ParmDecl=strToTransmit|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:106:27 (Definition) <US>c:main.c@3047@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>106:21 - 106:40<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:106:6: FunctionDecl=transmitString|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:106:6 (Definition) <US>c:@F@transmitString<UE> <DS>void transmitString(char *)<DE> Extent=<ES>106:1 - 114:2<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:107:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>107:1 - 114:2<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:108:16: VarDecl=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:108:16 (Definition) <US>c:main.c@3074@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>108:3 - 108:17<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:108:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>108:3 - 108:18<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:109:17: VarDecl=len|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:109:17 (Definition) <US>c:main.c@3093@F@transmitString@len<UE> <DS>len<DE> Extent=<ES>109:3 - 109:46<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:109:23: CallExpr=myStrLen|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:98:15 <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>109:23 - 109:46<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:109:23: DeclRefExpr=myStrLen|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:98:15 (Reference) <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>109:23 - 109:31<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:109:23: UnexposedExpr=myStrLen|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:98:15 <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>109:23 - 109:31<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:109:32: DeclRefExpr=strToTransmit|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:106:27 (Reference) <US>c:main.c@3047@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>109:32 - 109:45<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:109:32: UnexposedExpr=strToTransmit|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:106:27 <US>c:main.c@3047@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>109:32 - 109:45<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:109:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>109:3 - 109:47<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:10:9: macro definition=ORIGINAL_STR <US>c:macro@ORIGINAL_STR<UE> <DS>ORIGINAL_STR<DE> Extent=<ES>10:9 - 10:39<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:110:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>110:11 - 110:12<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:110:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>110:11 - 110:12<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:110:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>110:14 - 110:21<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:110:14: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:108:16 (Reference) <US>c:main.c@3074@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>110:14 - 110:15<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:110:14: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:108:16 <US>c:main.c@3074@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>110:14 - 110:15<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:110:18: DeclRefExpr=len|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:109:17 (Reference) <US>c:main.c@3093@F@transmitString@len<UE> <DS>len<DE> Extent=<ES>110:18 - 110:21<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:110:18: UnexposedExpr=len|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:109:17 <US>c:main.c@3093@F@transmitString@len<UE> <DS>len<DE> Extent=<ES>110:18 - 110:21<EE>	2
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:110:23: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:108:16 (Reference) <US>c:main.c@3074@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>110:23 - 110:24<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:110:23: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>110:23 - 110:26<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:110:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>110:3 - 113:4<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:110:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>110:7 - 110:12<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:110:7: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:108:16 (Reference) <US>c:main.c@3074@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>110:7 - 110:8<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:111:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>111:3 - 113:4<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:112:18: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>112:18 - 112:38<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:112:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>112:18 - 112:38<EE>	2
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:112:19: ParenExpr= <US><UE> <DS><DE> Extent=<ES>112:19 - 112:38<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:112:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>112:20 - 112:37<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:112:20: DeclRefExpr=strToTransmit|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:106:27 (Reference) <US>c:main.c@3047@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>112:20 - 112:33<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:112:20: UnexposedExpr=strToTransmit|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:106:27 <US>c:main.c@3047@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>112:20 - 112:33<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:112:36: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:108:16 (Reference) <US>c:main.c@3074@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>112:36 - 112:37<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:112:36: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:108:16 <US>c:main.c@3074@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>112:36 - 112:37<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:112:5: CallExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(unsigned char)<DE> Extent=<ES>112:5 - 112:39<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:112:5: DeclRefExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:6 (Reference) <US>c:@F@transmitChar<UE> <DS>void transmitChar(unsigned char)<DE> Extent=<ES>112:5 - 112:17<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:112:5: UnexposedExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(unsigned char)<DE> Extent=<ES>112:5 - 112:17<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:17:23: VarDecl=i|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:17:23 (Definition) <US>c:@i<UE> <DS>i<DE> Extent=<ES>17:1 - 17:28<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:17:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>17:27 - 17:28<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:17:27: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>17:27 - 17:28<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:18:20: StringLiteral= <US><UE> <DS><DE> Extent=<ES>18:20 - 18:32<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:18:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>18:20 - 18:32<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:18:20: macro expansion=ORIGINAL_STR|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:10:9 <US>c:macro@ORIGINAL_STR<UE> <DS>ORIGINAL_STR<DE> Extent=<ES>18:20 - 18:32<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:18:7: VarDecl=strToPrint|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:18:7 (Definition) <US>c:@strToPrint<UE> <DS>strToPrint<DE> Extent=<ES>18:1 - 18:32<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:20:6: FunctionDecl=exampleUARTSetup|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:37:6 (Declaration) <US>c:@F@exampleUARTSetup<UE> <DS>void exampleUARTSetup(void)<DE> Extent=<ES>20:1 - 20:30<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:21:15: FunctionDecl=myStrLen|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:98:15 (Declaration) <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>21:1 - 21:32<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:21:31: ParmDecl=|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:21:31 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>21:25 - 21:32<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:22:34: ParmDecl=|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:22:34 (Definition) <US><UE> <DS>unsigned char<DE> Extent=<ES>22:20 - 22:35<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:22:6: FunctionDecl=transmitChar|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:6 (Declaration) <US>c:@F@transmitChar<UE> <DS>void transmitChar(unsigned char)<DE> Extent=<ES>22:1 - 22:35<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:23:28: ParmDecl=|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:23:28 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>23:22 - 23:29<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:23:6: FunctionDecl=transmitString|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:106:6 (Declaration) <US>c:@F@transmitString<UE> <DS>void transmitString(char *)<DE> Extent=<ES>23:1 - 23:29<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:26:5: FunctionDecl=main|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:26:5 (Definition) <US>c:@F@main<UE> <DS>int main(void)<DE> Extent=<ES>26:1 - 32:2<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:27:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>27:1 - 32:2<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:29:12: macro expansion=WDTPW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1013:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>29:12 - 29:17<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:29:20: macro expansion=WDTHOLD|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1011:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>29:20 - 29:27<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:31:3: CallExpr=exampleUARTSetup|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:37:6 <US>c:@F@exampleUARTSetup<UE> <DS>void exampleUARTSetup(void)<DE> Extent=<ES>31:3 - 31:21<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:31:3: DeclRefExpr=exampleUARTSetup|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:37:6 (Reference) <US>c:@F@exampleUARTSetup<UE> <DS>void exampleUARTSetup(void)<DE> Extent=<ES>31:3 - 31:19<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:31:3: UnexposedExpr=exampleUARTSetup|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:37:6 <US>c:@F@exampleUARTSetup<UE> <DS>void exampleUARTSetup(void)<DE> Extent=<ES>31:3 - 31:19<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:37:6: FunctionDecl=exampleUARTSetup|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:37:6 (Definition) <US>c:@F@exampleUARTSetup<UE> <DS>void exampleUARTSetup(void)<DE> Extent=<ES>37:1 - 63:2<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:38:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>38:1 - 63:2<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:54:15: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:864:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>54:15 - 54:22<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:55:15: macro expansion=UCSSEL_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:881:9 <US>c:macro@UCSSEL_2<UE> <DS>UCSSEL_2<DE> Extent=<ES>55:15 - 55:23<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:58:14: macro expansion=UCBRS0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:890:9 <US>c:macro@UCBRS0<UE> <DS>UCBRS0<DE> Extent=<ES>58:14 - 58:20<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:59:16: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:864:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>59:16 - 59:23<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:60:10: macro expansion=UCA0RXIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:153:9 <US>c:macro@UCA0RXIE<UE> <DS>UCA0RXIE<DE> Extent=<ES>60:10 - 60:18<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:21 - 62:30<EE>	2
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:21: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>62:21 - 62:36<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>62:21 - 62:30<EE>	3
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:21: ParenExpr= <US><UE> <DS><DE> Extent=<ES>62:21 - 62:30<EE>	4
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>62:21 - 62:36<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:21: macro expansion=LPM3_bits|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:110:9 <US>c:macro@LPM3_bits<UE> <DS>LPM3_bits<DE> Extent=<ES>62:21 - 62:30<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:33: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>62:33 - 62:36<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:33: ParenExpr= <US><UE> <DS><DE> Extent=<ES>62:33 - 62:36<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:33: macro expansion=GIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:90:9 <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>62:33 - 62:36<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:3: CallExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>62:3 - 62:37<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:3: DeclRefExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>62:3 - 62:20<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:62:3: UnexposedExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>62:3 - 62:20<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:69:18: FunctionDecl=USCI0RX_ISR|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:69:18 (Definition) <US>c:@F@USCI0RX_ISR<UE> <DS>void USCI0RX_ISR(void)<DE> Extent=<ES>69:13 - 89:2<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:69:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>69:1 - 69:12<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:70:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>70:1 - 89:2<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:88:18: StringLiteral= <US><UE> <DS><DE> Extent=<ES>88:18 - 88:24<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:88:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>88:18 - 88:24<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:88:3: CallExpr=transmitString|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:106:6 <US>c:@F@transmitString<UE> <DS>void transmitString(char *)<DE> Extent=<ES>88:3 - 88:25<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:88:3: DeclRefExpr=transmitString|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:106:6 (Reference) <US>c:@F@transmitString<UE> <DS>void transmitString(char *)<DE> Extent=<ES>88:3 - 88:17<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:88:3: UnexposedExpr=transmitString|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:106:6 <US>c:@F@transmitString<UE> <DS>void transmitString(char *)<DE> Extent=<ES>88:3 - 88:17<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:33: ParmDecl=charToTransmit|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:33 (Definition) <US>c:main.c@2680@F@transmitChar@charToTransmit<UE> <DS>unsigned char<DE> Extent=<ES>91:19 - 91:47<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:6: FunctionDecl=transmitChar|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:91:6 (Definition) <US>c:@F@transmitChar<UE> <DS>void transmitChar(unsigned char)<DE> Extent=<ES>91:1 - 95:2<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:92:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>92:1 - 95:2<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:93:17: macro expansion=UCA0TXIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:162:9 <US>c:macro@UCA0TXIFG<UE> <DS>UCA0TXIFG<DE> Extent=<ES>93:17 - 93:26<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:98:15: FunctionDecl=myStrLen|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:98:15 (Definition) <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>98:1 - 103:2<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:98:30: ParmDecl=str|C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:98:30 (Definition) <US>c:main.c@2874@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>98:24 - 98:33<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:99:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>99:1 - 103:2<EE>	1
+<L>C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c:9:1: inclusion directive=msp430.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430.h<IE>  [multi-include guarded] Extent=<ES>9:1 - 9:20<EE>	1

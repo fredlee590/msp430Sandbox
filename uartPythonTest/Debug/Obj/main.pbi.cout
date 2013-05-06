@@ -204,7 +204,7 @@ C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c
 -D__PLAIN_INT_BITFIELD_IS_SIGNED__=1
 -D__IAR_COMPILERBASE__=592903
 -D__DATE__="May  2 2013"
--D__TIME__="11:07:56"
+-D__TIME__="15:04:44"
 -D__STDC__=1
 -D__STDC_VERSION__=199901L
 -D__STDC_HOSTED__=1
