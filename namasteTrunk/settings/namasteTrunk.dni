@@ -46,9 +46,31 @@ NextState1=-1
 [Action Register]
 Break=-1
 State Storage=-1
+[DebugChecksum]
+Checksum=1224074848
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
 [Breakpoints]
 Count=0
 [FET]
+Clock mode=38
 Extended Clock mode=-1
 Secure Password=
 Extended Clock Control Enable=1
