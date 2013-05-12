@@ -6,33 +6,45 @@
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Exe\uartWithFt232RL.d43</file>
-      <file>$TOOLKIT_DIR$\inc\dlib\c\stdbool.h</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$TOOLKIT_DIR$\inc\msp430f2274.h</file>
       <file>$TOOLKIT_DIR$\inc\msp430.h</file>
       <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
       <file>$TOOLKIT_DIR$\config\lnk430F2274.xcl</file>
       <file>$PROJ_DIR$\Debug\List\uartWithFt232RL.map</file>
-      <file>$PROJ_DIR$\Debug\Exe\uartWithFt232RL.ulp</file>
-      <file>$PROJ_DIR$\main.c</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
       <file>$TOOLKIT_DIR$\inc\in430.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\uartWithFt232RL.pbd</file>
+      <file>$PROJ_DIR$\Debug\Exe\uartWithFt232RL.ulp</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$TOOLKIT_DIR$\inc\dlib\c\stdbool.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\uartWithFt232RL.d43</file>
+      <file>$PROJ_DIR$\main.c</file>
     </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 6 11</file>
+        </tool>
+        <tool>
+          <name>ULP430</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+    </file>
     <file>
       <name>$PROJ_DIR$\Debug\Exe\uartWithFt232RL.d43</name>
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 8</file>
+          <file> 6</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 7 11 2</file>
+          <file> 5 0 9</file>
         </tool>
       </inputs>
     </file>
@@ -41,36 +53,23 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 11</file>
+          <file> 0</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 3</file>
+          <file> 1</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 5 4 12 6 1</file>
+          <file> 3 2 7 4 10</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 5 4 12 6 1</file>
+          <file> 3 2 7 4 10</file>
         </tool>
       </inputs>
-    </file>
-    <file>
-      <name>[ROOT_NODE]</name>
-      <outputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 0 8</file>
-        </tool>
-        <tool>
-          <name>ULP430</name>
-          <file> 9</file>
-        </tool>
-      </outputs>
     </file>
   </configuration>
   <configuration>

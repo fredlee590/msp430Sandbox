@@ -2,7 +2,7 @@
 #                                                                              #
 #      IAR Universal Linker V5.4.1.30                                          #
 #                                                                              #
-#           Link time     =  07/May/2013  13:26:26                             #
+#           Link time     =  11/May/2013  22:29:19                             #
 #           Target CPU    =  MSP430                                            #
 #           List file     =  C:\Users\Freddy\Documents\MSP430\UART\uartPythonT #
 #                            est\Debug\List\uartPythonTest.map                 #
@@ -34,10 +34,11 @@
 #                            -Z(CONST)INFOB=1080-10BF                          #
 #                            -Z(CONST)INFOC=1040-107F                          #
 #                            -Z(CONST)INFOD=1000-103F                          #
+#                            -Z(CONST)FLASH_TIMESTAMP_STORAGE=8000-81FF        #
 #                            -Z(CONST)DATA16_C,DATA16_ID,TLS16_ID,DIFUNCT,CHEC #
 #                            KSUM=8000-FFDF                                    #
 #                            -Z(CODE)CSTART,ISR_CODE,CODE_ID=8000-FFDF         #
-#                            -P(CODE)CODE=8000-FFDF -Z(CODE)INTVEC=FFE0-FFFF   #
+#                            -P(CODE)CODE=8200-FFDF -Z(CODE)INTVEC=FFE0-FFFF   #
 #                            -Z(CODE)RESET=FFFE-FFFF) -D_STACK_SIZE=50 -rt     #
 #                            "C:\Program Files\IAR Systems\Embedded Workbench  #
 #                            6.4\430\LIB\DLIB\dl430fn.r43"                     #
@@ -258,55 +259,55 @@ DATA16_AN
            CALBC1_1MHZ             10FF 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 8118 - 8125 (0xe bytes), align: 1
+  Relative segment, address: 8306 - 8313 (0xe bytes), align: 1
   Segment part 33.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           main                    8118            Segment part 17 (?cstart)
+           main                    8306            Segment part 17 (?cstart)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 8012 - 8069 (0x58 bytes), align: 1
+  Relative segment, address: 8200 - 8257 (0x58 bytes), align: 1
   Segment part 32.            Intra module refs:   main
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           exampleUARTSetup        8012 
+           exampleUARTSetup        8200 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 806A - 80C1 (0x58 bytes), align: 1
+  Relative segment, address: 8258 - 82AF (0x58 bytes), align: 1
   Segment part 31.            Intra module refs:   USCI0RX_ISR::??INTVEC 14
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           USCI0RX_ISR             806A 
+           USCI0RX_ISR             8258 
                interrupt function
                calls direct
                CSTACK = 00000000 ( 0000000C )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 8126 - 8131 (0xc bytes), align: 1
+  Relative segment, address: 8314 - 831F (0xc bytes), align: 1
   Segment part 28.            Intra module refs:   USCI0RX_ISR
                                                    transmitString
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           transmitChar            8126 
+           transmitChar            8314 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 80E8 - 8101 (0x1a bytes), align: 1
+  Relative segment, address: 82D6 - 82EF (0x1a bytes), align: 1
   Segment part 29.            Intra module refs:   transmitString
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           myStrLen                80E8 
+           myStrLen                82D6 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 80C2 - 80E7 (0x26 bytes), align: 1
+  Relative segment, address: 82B0 - 82D5 (0x26 bytes), align: 1
   Segment part 30.            Intra module refs:   USCI0RX_ISR
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           transmitString          80C2 
+           transmitString          82B0 
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
@@ -330,11 +331,11 @@ DATA16_C
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: 813A - 813B (0x2 bytes), align: 1
+  Relative segment, address: 8328 - 8329 (0x2 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __DebugBreak            813A            __exit (?__exit)
+           __DebugBreak            8328            __exit (?__exit)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?__exit
@@ -342,11 +343,11 @@ DATA16_C
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: 8102 - 8117 (0x16 bytes), align: 1
+  Relative segment, address: 82F0 - 8305 (0x16 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __exit                  8102            Segment part 6 (?_exit)
+           __exit                  82F0            Segment part 6 (?_exit)
                                                    _exit (?_exit)
                calls direct
 
@@ -356,14 +357,14 @@ DATA16_C
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: 8132, align: 1
+  Relative segment, address: 8320, align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           _exit                   8132            exit (?exit)
+           _exit                   8320            exit (?exit)
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 8132 - 8135 (0x4 bytes), align: 1
+  Relative segment, address: 8320 - 8323 (0x4 bytes), align: 1
   Segment part 6.             Intra module refs:   _exit
 
     -------------------------------------------------------------------------
@@ -410,11 +411,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: 8136 - 8139 (0x4 bytes), align: 1
+  Relative segment, address: 8324 - 8327 (0x4 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           exit                    8136            Segment part 17 (?cstart)
+           exit                    8324            Segment part 17 (?cstart)
                calls direct
                CSTACK = 00000000 ( 00000002 )
 
@@ -467,7 +468,7 @@ CSTACK                                 05B0 - 05FF              50   rel    1
 DATA16_AN                              10FE - 10FF               2   rel    0
 DATA16_C                               8000 - 8004               5   rel    0
 CSTART                                 8006 - 8011               C   rel    1
-<CODE> 1                               8012 - 813B             12A   rel    1
+<CODE> 1                               8200 - 8329             12A   rel    1
 INTVEC                                 FFE0 - FFEF              10   com    1
 RESET                                  FFFE - FFFF               2   rel    1
 

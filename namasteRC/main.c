@@ -6,6 +6,8 @@
 #define DBG1    BIT1    /* P1.1 - debug pin 1 */
 #define SENSEIN BIT0    /* P2.0 - sensor input voltage signal */
 #define PCCOMM  BIT2    /* P2.2 - high indicates that the serial communications cable is plugged in */
+#define XIN     BIT6    /* P2.6 - XIN for external crystal oscillator */
+#define XOUT    BIT7    /* P2.7 - XOUT for external crystal oscillator */
 #define UARTRX  BIT4    /* P3.4 - UART RX Pin */
 #define UARTTX  BIT5    /* P3.5 - UART TX Pin */
 
@@ -25,12 +27,11 @@
 /* communications constants */
 #define ACK_VALUE       '!'
 
-/* timing constants */
-// freddyChange: These timing values correspond to the use of the VLO oscillator
-#define SENSEMODE_TIMER_PERIOD      20480   /* 15 sec, assuming 1365 Hz clock (ACLK/8) */
-#define UARTWAITMODE_TIMER_PERIOD   273     /* 200 ms, assuming 1365 Hz clock (ACLK/8) */
-#define UARTMODE_TIMER_PERIOD       37      /* 1/300 sec, assuming 10922 Hz clk (ACLK) */
-#define UARTDONEMODE_TIMER_PERIOD   1366    /* 1 sec, assuming 1365 Hz clock (ACLK/8) */
+// freddyChange: These timing values correspond to the use of the external 32kHz crystal
+#define SENSEMODE_TIMER_PERIOD      61440   /* 15 sec, assuming 4096 Hz clock (ACLK/8) */
+#define UARTWAITMODE_TIMER_PERIOD   819     /* 200 ms, assuming 4096 Hz clock (ACLK/8) */
+#define UARTMODE_TIMER_PERIOD       109     /* 1/300 sec, assuming 32768 Hz clk (ACLK) */
+#define UARTDONEMODE_TIMER_PERIOD   4096    /* 1 sec, assuming 4096 Hz clock (ACLK/8) */
 
 #define UARTWAIT_PCCOMM_HIGH_CNT    2       /* transition from UARTWAIT to UART mode when PCCOMM is high for 2 cycles (400 ms) */
 #define UART_PCCOMM_LOW_CNT         30      /* transition from UART mode to UARTDONE mode when PCCOMM is low for 30 baud cycles (100 ms) */
@@ -119,48 +120,46 @@ void main(void) {
    * Outputs: 
    *  P1: (DBG0 | DGB1)
    *  P2: ()
-   *  P3: ()
+   *  P3: (UARTTX)
    * Pull-ups:
    *  P1: ()
    *  P2: ()
    *  P3: ()
    * Disabled pull-up/downs: 
-   *  P1: (UARTOUT)
-   *  P2: ()
+   *  P1: (UARTOUT | ADCOUT)
+   *  P2: (XIN | XOUT)
    *  P3: ()
    */
   /* set inputs and outputs */
-  P1DIR = DBG0 | DBG1; /* debugging leds */
-  P2DIR = 0;
+  P1DIR = DBG0 | DBG1; /* debugging leds on AMBER */
 
   /* use pulldowns */
   P1OUT = 0;
 
   /* enable/disable pull-downs */
-  P1REN = (unsigned char)(~(DBG0 | DBG1));
-  P2REN = (unsigned char)(~(PCCOMM | SENSEIN));
-  P3REN = (unsigned char)(~(UARTTX | UARTRX));
+  P2REN = PCCOMM;
 
   /* set I/O type */
-  P3SEL = (UARTTX | UARTRX);
+  P2SEL = XOUT | XIN;
+  P3SEL = UARTTX | UARTRX;
 
   /* initialize interrupt pins */
   P2IES &= ~(PCCOMM);                 /* respond to rising edge of PCCOMM */
-
-  // freddyChange: only here to run on AMBER Board independently
+  
+  // freddyChange: use this to use external 32kHz crystal
   /* *** setup clocks *** 
    * 
-   * XT1 = 10922 Hz (internal VLO)
+   * XT1 = 32768 Hz (external)
    * DCOCLK = 1 MHz, sourced from XT1
    * 
    * MCLK = DCOCLK
-   * SMCLK = DCOCLK
+   * SMCLK = XT1
    * ACLK = XT1
    */
   DCOCTL = CALDCO_1MHZ;
   BCSCTL1 = XT2OFF | CALBC1_1MHZ;
-  BCSCTL2 = 0;
-  BCSCTL3 = LFXT1S_2; /* use 10922 Hz VLO with 1pF effective load cap */
+  BCSCTL2 = SELS; /* SMCLK = ACLK */
+  BCSCTL3 = LFXT1S_0 | XCAP_3; /* use 32768 Hz XT1 with 12.5pF effective load cap */
 
   /* wait until there are no osc. faults */
   do {
@@ -169,7 +168,7 @@ void main(void) {
     IFG1 &= ~OFIFG;
     __delay_cycles(50);             /* wait 50 us */
   } while (IFG1 & OFIFG);             /* test oscillator fault flag */
-  
+
   /* *** setup FLASH controller *** */
   FCTL2 = FWKEY + FSSEL0 + FN1;       /* MCLK/3 for Flash Timing Generator */
 
@@ -189,10 +188,11 @@ void main(void) {
   }
 }
 
+
 #pragma vector=PORT2_VECTOR
 __interrupt void P2_ISR(void)
 {
-  P1OUT ^= DBG0;
+  P1OUT = DBG0;
   if (P2IFG & PCCOMM) {       /* serial cable state changed */
     PCCOMMIntrOff();
     uartWaitModeStart();    /* wait until cable is stable before starting UART mode */
@@ -378,6 +378,7 @@ void uartModeStop(void) {
 
 // Transition to either SENSEMODE or IDLEMODE
 void startIdleSenseMode(void) {
+   //P1OUT = 0x01;
    if (curTimestamp == 0) {    /* don't go to SENSE mode, just go into IDLE */
      mode = IDLEMODE;
      CCTL0 = 0;              /* disable timer interrupt */
@@ -439,10 +440,10 @@ void transmitString(char* strToTransmit)
 void UARTSetup(void)
 {
   UCA0CTL1 |= UCSWRST;
-  UCA0CTL1 |= UCSSEL_2;                     // BRCLK = SMCLK = MCLK = 1MHz
-  UCA0BR0 = 104;                            // 1MHz/9600 = 104.166
+  UCA0CTL1 |= UCSSEL_2;                     // BRCLK = SMCLK
+  UCA0BR0 = 3;                              // 32kHz/9600 = 3 - SMCLK = 32kHz
   UCA0BR1 = 0x00;
-  UCA0MCTL = UCBRS0;                        // Modulation UCBRSx = 1
+  UCA0MCTL = UCBRS0 | UCBRS1;               // Modulation UCBRSx = 3 - SMCLK = 32kHz
   UCA0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
   IE2 |= UCA0RXIE;               // Enable USCI_A0 TX interrupt
 }

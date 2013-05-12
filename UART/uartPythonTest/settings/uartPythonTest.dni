@@ -36,7 +36,7 @@ ActionState=1
 Enabled=0
 ShowSource=1
 [DebugChecksum]
-Checksum=-1702287451
+Checksum=-903822911
 [State Storage]
 Control Register=-1
 [EEM State Storage]
@@ -90,5 +90,6 @@ SR=0
 all registers=0
 File name=
 [Aliases]
-Count=0
+A0=_ "C:\Users\Freddy\Documents\MSP430\uartPythonTest\main.c" "C:\Users\Freddy\Documents\MSP430\UART\uartPythonTest\main.c"
+Count=1
 SuppressDialog=0
