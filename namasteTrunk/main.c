@@ -6,8 +6,8 @@
 #define DBG1    BIT1    /* P1.1 - debug pin 1 */
 #define SENSEIN BIT0    /* P2.0 - sensor input voltage signal */
 #define PCCOMM  BIT2    /* P2.2 - high indicates that the serial communications cable is plugged in */
-#define UARTRX  BIT4    /* P3.4 - UART RX Pin */
-#define UARTTX  BIT5    /* P3.5 - UART TX Pin */
+#define UARTTX  BIT4    /* P3.4 - UART TX Pin */
+#define UARTRX  BIT5    /* P3.5 - UART RX Pin */
 
 /* mode values */
 #define IDLEMODE        0       /* wait for communication with PC to get timestamp */
@@ -26,7 +26,7 @@
 #define ACK_VALUE       '!'
 
 /* timing constants */
-// freddyChange: These timing values correspond to the use of the VLO oscillator
+// freddyChange: These timing values correspond to the use of the VLO oscillator for prototyping
 #define SENSEMODE_TIMER_PERIOD      20480   /* 15 sec, assuming 1365 Hz clock (ACLK/8) */
 #define UARTWAITMODE_TIMER_PERIOD   273     /* 200 ms, assuming 1365 Hz clock (ACLK/8) */
 #define UARTMODE_TIMER_PERIOD       37      /* 1/300 sec, assuming 10922 Hz clk (ACLK) */
@@ -75,9 +75,6 @@ void recordEvent(unsigned char matState);
 void clearTimestamps(void);
 unsigned long getTimestamp(unsigned short timestampIndex);
  
-/* debugging functions */
-//void myDelay(unsigned char units);
- 
 /* shared variables */
 /* time variables */
 static unsigned long curTimestamp;      /* current system timestamp in seconds from epoch (UNIX timestamp) */
@@ -101,7 +98,6 @@ void main(void) {
   WDTCTL = WDTPW + WDTHOLD;   // Stop WDT
   __disable_interrupt();      // disable global interrupts during initialization
 
-  // freddyChange: Take a look at this
   /* *** initialize all pins ***
    * 
    * This is done in one step to optimize code space. The following settings are used:
@@ -124,14 +120,12 @@ void main(void) {
    *  P2: ()
    *  P3: ()
    * Disabled pull-up/downs: 
-   *  P1: (UARTOUT)
-   *  P2: ()
-   *  P3: ()
+   *  P1: (DBG0 | DBG1)
+   *  P2: (PCCOM | SENSEIN)
+   *  P3: (UARTTX | UARTRX)
    */
   /* set inputs and outputs */
-  P1DIR = DBG0 | DBG1; /* debugging leds */
-  P2DIR = 0;
-  P3DIR = UARTTX;
+  P1DIR = DBG0 | DBG1; /* debugging leds are outputs. all others are inputs / don't cares */
 
   /* use pulldowns */
   P1OUT = 0;
@@ -416,6 +410,7 @@ void transmitChar(char charToTransmit)
 }
 
 // configure USCI module for UART mode
+// freddyChange: consider turning UCA0RXIE on and off (power considerations?)
 void UARTSetup(void)
 {
   UCA0CTL1 |= UCSWRST;
@@ -428,20 +423,11 @@ void UARTSetup(void)
 }
 
 // software resets USCI module (thus rendering it inert)
+// freddyChange: consider turning UCA0RXIE on and off (power considerations?)
 void UARTSleep(void)
 {
   UCA0CTL1 = UCSWRST;
 }
-
-// delay for a period of time. used for debugging leds
-/*
-void myDelay(unsigned char units)
-{
-  volatile unsigned int i;
-  unsigned int delayTime = units * ONE_DELAY;
-  for(i = 0; i < delayTime; i++);
-}
-*/
 
 // record event and timestamp in flash memory
 void recordEvent(unsigned char matState) {
