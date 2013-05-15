@@ -52,24 +52,23 @@
 
 /* function prototypes */
 /* interrupts */
-__interrupt void P2_ISR(void); // freddyChange: Use P2 for specialized tasks since P2 is accessible on AMBER
+__interrupt void P2_ISR(void);
 __interrupt void TA_ISR(void);
-__interrupt void USCI0RX_ISR(void); // freddyChange: Use UART RX interrupt
+__interrupt void USCI0RX_ISR(void);
 
+/* timer setups */
 void timerASetup(unsigned char op_mode);
 
 /* UART functions */
-void uartWaitModeStart(void); // freddyChange: config USCI_A module instead
-void uartModeStart(void); // freddyChange: config USCI_A module instead
-void uartModeStop(void); // freddyChange: config USCI_A module instead
-void startIdleSenseMode(void); // freddyChange: config USCI_A module instead
-void send16bit(unsigned short val); // freddyChange: Use USCI_A module instead
-void send32bit(unsigned long val); // freddyChange: Use USCI_A module instead
-unsigned char myStrLen(char* str); // freddyChange: custom strlen for space
-void transmitChar(char charToTransmit); // freddyChange: transmit 1 char w/ USCI_A module
-void transmitString(char* strToTransmit); // freddyChange: transmit > 1 char w/ USCI_A module
-void UARTSetup(void); // freddyChange: configure USCI_A module for UART
-void UARTSleep(void); // freddyChange: turn off UART on USCI_A module
+void uartWaitModeStart(void);
+void uartModeStart(void);
+void uartModeStop(void);
+void startIdleSenseMode(void);
+void send16bit(unsigned short val);
+void send32bit(unsigned long val);
+void transmitChar(char charToTransmit);
+void UARTSetup(void);
+void UARTSleep(void);
 
 /* Flash memory / data storage functions */
 void recordEvent(unsigned char matState);
@@ -77,7 +76,7 @@ void clearTimestamps(void);
 unsigned long getTimestamp(unsigned short timestampIndex);
  
 /* debugging functions */
- void myDelay(unsigned char units);// freddyChange: debugging function
+//void myDelay(unsigned char units);
  
 /* shared variables */
 /* time variables */
@@ -93,8 +92,8 @@ volatile static unsigned char mode;     /* system mode */
 static unsigned char pcCommStableCnt;   /* number of seconds that PCCOMM is stable */
 static unsigned char prevMatState;      /* Previous state of mat */
 
-/* UART communications */ // freddyChange: removed a bunch of stuff
-static bool recvingTimestamp;           /* true when we are receiving the timestamp (after quit) */ // keep
+/* UART communications */
+static bool recvingTimestamp;           /* true when we are receiving the timestamp (after quit) */
 
 /* mainloop */
 void main(void) {
@@ -132,9 +131,12 @@ void main(void) {
   /* set inputs and outputs */
   P1DIR = DBG0 | DBG1; /* debugging leds */
   P2DIR = 0;
+  P3DIR = UARTTX;
 
   /* use pulldowns */
   P1OUT = 0;
+  P2OUT = 0;
+  P3OUT = 0;
 
   /* enable/disable pull-downs */
   P1REN = (unsigned char)(~(DBG0 | DBG1));
@@ -348,7 +350,6 @@ void timerASetup(unsigned char op_mode) {
 }
 
 // Start UART wait mode (wait until cable is stable and then start UART mode)
-// freddyChange: USCI (UART) module off
 void uartWaitModeStart(void) {
    mode = UARTWAITMODE;
    curTimestamp = 0;       // will stop keeping time, so throw out the timestamp
@@ -357,7 +358,6 @@ void uartWaitModeStart(void) {
 }
 
 // Start UART mode
-// freddyChange: turn USCI (UART) module on. actions triggered by RX interrupts
 void uartModeStart(void) {
    mode = UARTMODE;
    recvingTimestamp = false;
@@ -368,7 +368,6 @@ void uartModeStart(void) {
 }
 
 // Wake up every 1 second to keep time
-// freddyChange: turn USCI (UART) module off. done with uart
 void uartModeStop(void) {
     mode = UARTDONEMODE;
     pcCommStableCnt = 0;
@@ -409,30 +408,11 @@ void send32bit(unsigned long val) {
     }
 }
 
-// custom function to determine a string's length. isolated function to avoid including strings.h
-unsigned char myStrLen(char* str)
-{
-  unsigned char i = 0;
-  while(*(str + i++) != '\0');
-  return i - 1;
-}
-
 // transmit a single char with the USCI_A module
 void transmitChar(char charToTransmit)
 {
   while (!(IFG2&UCA0TXIFG));
   UCA0TXBUF = charToTransmit;
-}
-
-// transmit multiple character word with the USCI_A module
-void transmitString(char* strToTransmit)
-{
-  unsigned int i;
-  unsigned char len = myStrLen(strToTransmit);
-  for(i = 0; i < len; i++)
-  {
-    transmitChar(*(strToTransmit + i));
-  }
 }
 
 // configure USCI module for UART mode
@@ -444,7 +424,7 @@ void UARTSetup(void)
   UCA0BR1 = 0x00;
   UCA0MCTL = UCBRS0;                        // Modulation UCBRSx = 1
   UCA0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
-  IE2 |= UCA0RXIE;               // Enable USCI_A0 TX interrupt
+  IE2 |= UCA0RXIE;                          // Enable USCI_A0 TX interrupt
 }
 
 // software resets USCI module (thus rendering it inert)
@@ -454,12 +434,14 @@ void UARTSleep(void)
 }
 
 // delay for a period of time. used for debugging leds
+/*
 void myDelay(unsigned char units)
 {
   volatile unsigned int i;
   unsigned int delayTime = units * ONE_DELAY;
   for(i = 0; i < delayTime; i++);
 }
+*/
 
 // record event and timestamp in flash memory
 void recordEvent(unsigned char matState) {

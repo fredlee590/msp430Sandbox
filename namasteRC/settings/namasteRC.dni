@@ -35,6 +35,17 @@ ActionState=1
 [Trace1]
 Enabled=0
 ShowSource=1
+[State Storage]
+Control Register=-1
+[EEM State Storage]
+Buffer=BAAAAAAADAAAAAAAAAAAAAAA
+[Sequencer]
+Control Register=-1
+NextState0=-1
+NextState1=-1
+[Action Register]
+Break=-1
+State Storage=-1
 [Breakpoints]
 Count=0
 [FET]
@@ -56,17 +67,6 @@ SP=0
 SR=0
 all registers=0
 File name=
-[State Storage]
-Control Register=-1
-[EEM State Storage]
-Buffer=BAAAAAAADAAAAAAAAAAAAAAA
-[Sequencer]
-Control Register=-1
-NextState0=-1
-NextState1=-1
-[Action Register]
-Break=-1
-State Storage=-1
 [Aliases]
 Count=0
 SuppressDialog=0
