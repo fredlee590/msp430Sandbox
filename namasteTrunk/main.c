@@ -6,8 +6,8 @@
 #define DBG1    BIT1    /* P1.1 - debug pin 1 */
 #define SENSEIN BIT0    /* P2.0 - sensor input voltage signal */
 #define PCCOMM  BIT2    /* P2.2 - high indicates that the serial communications cable is plugged in */
-#define UARTTX  BIT4    /* P3.4 - UART TX Pin */
-#define UARTRX  BIT5    /* P3.5 - UART RX Pin */
+#define UARTRX  BIT4    /* P3.4 - UART RX Pin */
+#define UARTTX  BIT5    /* P3.5 - UART TX Pin */
 
 /* mode values */
 #define IDLEMODE        0       /* wait for communication with PC to get timestamp */
@@ -143,7 +143,7 @@ void main(void) {
   /* initialize interrupt pins */
   P2IES &= ~(PCCOMM);                 /* respond to rising edge of PCCOMM */
 
-  // freddyChange: only here to run on AMBER Board independently
+  // freddyChange: use this to run on AMBER Board independently
   /* *** setup clocks *** 
    * 
    * XT1 = 10922 Hz (internal VLO)
@@ -155,7 +155,7 @@ void main(void) {
    */
   DCOCTL = CALDCO_1MHZ;
   BCSCTL1 = XT2OFF | CALBC1_1MHZ;
-  BCSCTL2 = 0;
+  BCSCTL2 = 0;        /* SMCLK = DCOCLK */
   BCSCTL3 = LFXT1S_2; /* use 10922 Hz VLO with 1pF effective load cap */
 
   /* wait until there are no osc. faults */
@@ -165,7 +165,7 @@ void main(void) {
     IFG1 &= ~OFIFG;
     __delay_cycles(50);             /* wait 50 us */
   } while (IFG1 & OFIFG);             /* test oscillator fault flag */
-  
+
   /* *** setup FLASH controller *** */
   FCTL2 = FWKEY + FSSEL0 + FN1;       /* MCLK/3 for Flash Timing Generator */
 
@@ -221,13 +221,13 @@ __interrupt void TA_ISR(void) {
         return;
       }
     } else {                        /* cable is still connected */
-      pcCommStableCnt = 0;        /* reset counter */
+      pcCommStableCnt = 0;          /* reset counter */
     }
     break;
   case UARTDONEMODE:
    
     if (curTimestamp != 0) {    // update time
-      curTimestamp += 1;      // increment by 1 second
+      curTimestamp += 1;        // increment by 1 second
     }
     if (!(P2IN & PCCOMM)) {         /* PC comm pin is low (cable is disconnected) */
       if (++pcCommStableCnt == UARTDONE_PCCOMM_LOW_CNT) {
@@ -236,12 +236,12 @@ __interrupt void TA_ISR(void) {
         __low_power_mode_off_on_exit(); /* change power modes if transitioning to IDLEMODE */
       }
     } else {                        /* cable is still connected */
-      pcCommStableCnt = 0;        /* reset counter */
+      pcCommStableCnt = 0;          /* reset counter */
     }
     break;
   case SENSEMODE:
     if (curTimestamp != 0) {    // update time
-      curTimestamp += 15;     // increment by 15 seconds
+      curTimestamp += 15;       // increment by 15 seconds
     }
     if (prevMatState != MAT_OPEN && (P2IN & SENSEIN)) {
       recordEvent(MAT_OPEN);
@@ -373,8 +373,8 @@ void uartModeStop(void) {
 void startIdleSenseMode(void) {
    if (curTimestamp == 0) {    /* don't go to SENSE mode, just go into IDLE */
      mode = IDLEMODE;
-     CCTL0 = 0;              /* disable timer interrupt */
-     TACTL = 0;              /* disable timer */
+     CCTL0 = 0;                /* disable timer interrupt */
+     TACTL = 0;                /* disable timer */
      PCCOMMIntrOn();
    } else {                    /* go into SENSE mode */
      mode = SENSEMODE;
@@ -388,7 +388,7 @@ void startIdleSenseMode(void) {
 void send16bit(unsigned short val) {
     unsigned char i;
     for (i = 0; i < 2; i++) {
-        transmitChar((char)val);            /* send low byte of val */
+        transmitChar((char)val);        /* send low byte of val */
         val >>= 8;                      /* shift to next byte */
     }
 }
@@ -397,7 +397,7 @@ void send16bit(unsigned short val) {
 void send32bit(unsigned long val) {
     unsigned char i;
     for (i = 0; i < 4; i++) {
-        transmitChar((char)val);            /* send low byte of val */
+        transmitChar((char)val);        /* send low byte of val */
         val >>= 8;                      /* shift to next byte */
     }
 }
@@ -410,7 +410,6 @@ void transmitChar(char charToTransmit)
 }
 
 // configure USCI module for UART mode
-// freddyChange: consider turning UCA0RXIE on and off (power considerations?)
 void UARTSetup(void)
 {
   UCA0CTL1 |= UCSWRST;
@@ -419,11 +418,10 @@ void UARTSetup(void)
   UCA0BR1 = 0x00;
   UCA0MCTL = UCBRS0;                        // Modulation UCBRSx = 1
   UCA0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
-  IE2 |= UCA0RXIE;                          // Enable USCI_A0 TX interrupt
+  IE2 |= UCA0RXIE;                          // Enable USCI_A0 RX interrupt
 }
 
 // software resets USCI module (thus rendering it inert)
-// freddyChange: consider turning UCA0RXIE on and off (power considerations?)
 void UARTSleep(void)
 {
   UCA0CTL1 = UCSWRST;

@@ -27,6 +27,7 @@
 /* communications constants */
 #define ACK_VALUE       '!'
 
+/* timing constants */
 // freddyChange: These timing values correspond to the use of the external 32kHz crystal
 #define SENSEMODE_TIMER_PERIOD      61440   /* 15 sec, assuming 4096 Hz clock (ACLK/8) */
 #define UARTWAITMODE_TIMER_PERIOD   819     /* 200 ms, assuming 4096 Hz clock (ACLK/8) */
@@ -53,32 +54,28 @@
 
 /* function prototypes */
 /* interrupts */
-__interrupt void P2_ISR(void); // freddyChange: Use P2 for specialized tasks since P2 is accessible on AMBER
+__interrupt void P2_ISR(void);
 __interrupt void TA_ISR(void);
-__interrupt void USCI0RX_ISR(void); // freddyChange: Use UART RX interrupt
+__interrupt void USCI0RX_ISR(void);
 
+/* timer setups */
 void timerASetup(unsigned char op_mode);
 
 /* UART functions */
-void uartWaitModeStart(void); // freddyChange: config USCI_A module instead
-void uartModeStart(void); // freddyChange: config USCI_A module instead
-void uartModeStop(void); // freddyChange: config USCI_A module instead
-void startIdleSenseMode(void); // freddyChange: config USCI_A module instead
-void send16bit(unsigned short val); // freddyChange: Use USCI_A module instead
-void send32bit(unsigned long val); // freddyChange: Use USCI_A module instead
-unsigned char myStrLen(char* str); // freddyChange: custom strlen for space
-void transmitChar(char charToTransmit); // freddyChange: transmit 1 char w/ USCI_A module
-void transmitString(char* strToTransmit); // freddyChange: transmit > 1 char w/ USCI_A module
-void UARTSetup(void); // freddyChange: configure USCI_A module for UART
-void UARTSleep(void); // freddyChange: turn off UART on USCI_A module
+void uartWaitModeStart(void);
+void uartModeStart(void);
+void uartModeStop(void);
+void startIdleSenseMode(void);
+void send16bit(unsigned short val);
+void send32bit(unsigned long val);
+void transmitChar(char charToTransmit);
+void UARTSetup(void);
+void UARTSleep(void);
 
 /* Flash memory / data storage functions */
 void recordEvent(unsigned char matState);
 void clearTimestamps(void);
 unsigned long getTimestamp(unsigned short timestampIndex);
- 
-/* debugging functions */
- void myDelay(unsigned char units);// freddyChange: debugging function
  
 /* shared variables */
 /* time variables */
@@ -94,8 +91,8 @@ volatile static unsigned char mode;     /* system mode */
 static unsigned char pcCommStableCnt;   /* number of seconds that PCCOMM is stable */
 static unsigned char prevMatState;      /* Previous state of mat */
 
-/* UART communications */ // freddyChange: removed a bunch of stuff
-static bool recvingTimestamp;           /* true when we are receiving the timestamp (after quit) */ // keep
+/* UART communications */
+static bool recvingTimestamp;           /* true when we are receiving the timestamp (after quit) */
 
 /* mainloop */
 void main(void) {
@@ -103,7 +100,6 @@ void main(void) {
   WDTCTL = WDTPW + WDTHOLD;   // Stop WDT
   __disable_interrupt();      // disable global interrupts during initialization
 
-  // freddyChange: Take a look at this
   /* *** initialize all pins ***
    * 
    * This is done in one step to optimize code space. The following settings are used:
@@ -115,37 +111,41 @@ void main(void) {
    *
    * Non-digital I/Os: 
    *  P1: ()
-   *  P2: ()
+   *  P2: (XIN | XOUT)
    *  P3: (UARTTX | UARTRX)
    * Outputs: 
    *  P1: (DBG0 | DGB1)
    *  P2: ()
-   *  P3: (UARTTX)
+   *  P3: ()
    * Pull-ups:
    *  P1: ()
    *  P2: ()
    *  P3: ()
    * Disabled pull-up/downs: 
-   *  P1: (UARTOUT | ADCOUT)
-   *  P2: (XIN | XOUT)
-   *  P3: ()
+   *  P1: (DBG0 | DBG1)
+   *  P2: (PCCOM | SENSEIN | XIN | XOUT)
+   *  P3: (UARTTX | UARTRX)
    */
   /* set inputs and outputs */
-  P1DIR = DBG0 | DBG1; /* debugging leds on AMBER */
+  P1DIR = DBG0 | DBG1; /* debugging leds are outputs. all others are inputs / don't cares */
 
   /* use pulldowns */
   P1OUT = 0;
+  P2OUT = 0;
+  P3OUT = 0;
 
   /* enable/disable pull-downs */
-  P2REN = PCCOMM;
+  P1REN = (unsigned char)(~(DBG0 | DBG1));
+  P2REN = (unsigned char)(~(PCCOMM | SENSEIN | XIN | XOUT));
+  P3REN = (unsigned char)(~(UARTTX | UARTRX));
 
   /* set I/O type */
-  P2SEL = XOUT | XIN;
-  P3SEL = UARTTX | UARTRX;
+  P3SEL = (UARTTX | UARTRX);
+  P2SEL = (XIN | XOUT);
 
   /* initialize interrupt pins */
   P2IES &= ~(PCCOMM);                 /* respond to rising edge of PCCOMM */
-  
+
   // freddyChange: use this to use external 32kHz crystal
   /* *** setup clocks *** 
    * 
@@ -188,11 +188,10 @@ void main(void) {
   }
 }
 
-
 #pragma vector=PORT2_VECTOR
 __interrupt void P2_ISR(void)
 {
-  P1OUT = DBG0;
+  P1OUT ^= DBG0;
   if (P2IFG & PCCOMM) {       /* serial cable state changed */
     PCCOMMIntrOff();
     uartWaitModeStart();    /* wait until cable is stable before starting UART mode */
@@ -225,13 +224,13 @@ __interrupt void TA_ISR(void) {
         return;
       }
     } else {                        /* cable is still connected */
-      pcCommStableCnt = 0;        /* reset counter */
+      pcCommStableCnt = 0;          /* reset counter */
     }
     break;
   case UARTDONEMODE:
    
     if (curTimestamp != 0) {    // update time
-      curTimestamp += 1;      // increment by 1 second
+      curTimestamp += 1;        // increment by 1 second
     }
     if (!(P2IN & PCCOMM)) {         /* PC comm pin is low (cable is disconnected) */
       if (++pcCommStableCnt == UARTDONE_PCCOMM_LOW_CNT) {
@@ -240,12 +239,12 @@ __interrupt void TA_ISR(void) {
         __low_power_mode_off_on_exit(); /* change power modes if transitioning to IDLEMODE */
       }
     } else {                        /* cable is still connected */
-      pcCommStableCnt = 0;        /* reset counter */
+      pcCommStableCnt = 0;          /* reset counter */
     }
     break;
   case SENSEMODE:
     if (curTimestamp != 0) {    // update time
-      curTimestamp += 15;     // increment by 15 seconds
+      curTimestamp += 15;       // increment by 15 seconds
     }
     if (prevMatState != MAT_OPEN && (P2IN & SENSEIN)) {
       recordEvent(MAT_OPEN);
@@ -348,7 +347,6 @@ void timerASetup(unsigned char op_mode) {
 }
 
 // Start UART wait mode (wait until cable is stable and then start UART mode)
-// freddyChange: USCI (UART) module off
 void uartWaitModeStart(void) {
    mode = UARTWAITMODE;
    curTimestamp = 0;       // will stop keeping time, so throw out the timestamp
@@ -357,7 +355,6 @@ void uartWaitModeStart(void) {
 }
 
 // Start UART mode
-// freddyChange: turn USCI (UART) module on. actions triggered by RX interrupts
 void uartModeStart(void) {
    mode = UARTMODE;
    recvingTimestamp = false;
@@ -368,7 +365,6 @@ void uartModeStart(void) {
 }
 
 // Wake up every 1 second to keep time
-// freddyChange: turn USCI (UART) module off. done with uart
 void uartModeStop(void) {
     mode = UARTDONEMODE;
     pcCommStableCnt = 0;
@@ -378,11 +374,10 @@ void uartModeStop(void) {
 
 // Transition to either SENSEMODE or IDLEMODE
 void startIdleSenseMode(void) {
-   //P1OUT = 0x01;
    if (curTimestamp == 0) {    /* don't go to SENSE mode, just go into IDLE */
      mode = IDLEMODE;
-     CCTL0 = 0;              /* disable timer interrupt */
-     TACTL = 0;              /* disable timer */
+     CCTL0 = 0;                /* disable timer interrupt */
+     TACTL = 0;                /* disable timer */
      PCCOMMIntrOn();
    } else {                    /* go into SENSE mode */
      mode = SENSEMODE;
@@ -396,7 +391,7 @@ void startIdleSenseMode(void) {
 void send16bit(unsigned short val) {
     unsigned char i;
     for (i = 0; i < 2; i++) {
-        transmitChar((char)val);            /* send low byte of val */
+        transmitChar((char)val);        /* send low byte of val */
         val >>= 8;                      /* shift to next byte */
     }
 }
@@ -405,17 +400,9 @@ void send16bit(unsigned short val) {
 void send32bit(unsigned long val) {
     unsigned char i;
     for (i = 0; i < 4; i++) {
-        transmitChar((char)val);            /* send low byte of val */
+        transmitChar((char)val);        /* send low byte of val */
         val >>= 8;                      /* shift to next byte */
     }
-}
-
-// custom function to determine a string's length. isolated function to avoid including strings.h
-unsigned char myStrLen(char* str)
-{
-  unsigned char i = 0;
-  while(*(str + i++) != '\0');
-  return i - 1;
 }
 
 // transmit a single char with the USCI_A module
@@ -425,41 +412,22 @@ void transmitChar(char charToTransmit)
   UCA0TXBUF = charToTransmit;
 }
 
-// transmit multiple character word with the USCI_A module
-void transmitString(char* strToTransmit)
-{
-  unsigned int i;
-  unsigned char len = myStrLen(strToTransmit);
-  for(i = 0; i < len; i++)
-  {
-    transmitChar(*(strToTransmit + i));
-  }
-}
-
 // configure USCI module for UART mode
 void UARTSetup(void)
 {
   UCA0CTL1 |= UCSWRST;
-  UCA0CTL1 |= UCSSEL_2;                     // BRCLK = SMCLK
-  UCA0BR0 = 3;                              // 32kHz/9600 = 3 - SMCLK = 32kHz
+  UCA0CTL1 |= UCSSEL_2;                     // BRCLK = SMCLK = ACLK = 32kHz
+  UCA0BR0 = 3;                              // 32kHz/9600 = 3
   UCA0BR1 = 0x00;
-  UCA0MCTL = UCBRS0 | UCBRS1;               // Modulation UCBRSx = 3 - SMCLK = 32kHz
+  UCA0MCTL = UCBRS0 | UCBRS1;               // Modulation UCBRSx = 3
   UCA0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
-  IE2 |= UCA0RXIE;               // Enable USCI_A0 TX interrupt
+  IE2 |= UCA0RXIE;                          // Enable USCI_A0 RX interrupt
 }
 
 // software resets USCI module (thus rendering it inert)
 void UARTSleep(void)
 {
   UCA0CTL1 = UCSWRST;
-}
-
-// delay for a period of time. used for debugging leds
-void myDelay(unsigned char units)
-{
-  volatile unsigned int i;
-  unsigned int delayTime = units * ONE_DELAY;
-  for(i = 0; i < delayTime; i++);
 }
 
 // record event and timestamp in flash memory
