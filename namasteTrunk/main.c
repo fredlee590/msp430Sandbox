@@ -202,7 +202,6 @@ __interrupt void TA_ISR(void) {
   switch(mode)
   {
   case UARTWAITMODE:
-    P1OUT |= DBG0;
     if (P2IN & PCCOMM) {            /* PC comm pin is high (cable is still connected) */
       if (++pcCommStableCnt == UARTWAIT_PCCOMM_HIGH_CNT) {
                                 /* cable is stable and connected, switch to UART mode */
@@ -212,20 +211,7 @@ __interrupt void TA_ISR(void) {
       pcCommStableCnt = 0;        /* reset counter */
     }
     break;
-  case UARTMODE:
-   
-    if (!(P2IN & PCCOMM)) {         /* PC comm pin is low (cable is disconnected) */
-      if (++pcCommStableCnt == UART_PCCOMM_LOW_CNT) {
-                                        /* cable has been disconnected, switch to UARTDONE mode */
-        uartModeStop();         /* UART mode is now done */
-        return;
-      }
-    } else {                        /* cable is still connected */
-      pcCommStableCnt = 0;          /* reset counter */
-    }
-    break;
   case UARTDONEMODE:
-    P1OUT &= ~DBG0;
     if (curTimestamp != 0) {    // update time
       curTimestamp += 1;        // increment by 1 second
     }
@@ -359,16 +345,18 @@ void uartModeStart(void) {
    recvingTimestamp = false;
    pcCommStableCnt = 0;
    UARTSetup();
+   P1OUT |= DBG0;
    CCTL0 = 0;              /* disable timer interrupt */
    TACTL = 0;              /* disable timer */
 }
 
 // Wake up every 1 second to keep time
 void uartModeStop(void) {
-    mode = UARTDONEMODE;
-    pcCommStableCnt = 0;
-    UARTSleep();
-    timerASetup(mode);      // will generate periodic interrupts
+  mode = UARTDONEMODE;
+  pcCommStableCnt = 0;
+  UARTSleep();
+  P1OUT &= ~DBG0;
+  timerASetup(mode);      // will generate periodic interrupts
 }
 
 // Transition to either SENSEMODE or IDLEMODE
