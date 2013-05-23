@@ -4,12 +4,15 @@
 /* pin definitions */
 #define DBG0    BIT0    /* P1.0 - debug pin 0 */
 #define DBG1    BIT1    /* P1.1 - debug pin 1 */
-#define SENSEIN BIT0    /* P2.0 - sensor input voltage signal */
+#define DBG2    BIT4    /* P1.4 - debug pin 2 */
+#define SENVCC  BIT0    /* P2.0 - switch circuit power */
+#define SENSEIN BIT1    /* P2.1 - sensor input voltage signal */
 #define PCCOMM  BIT2    /* P2.2 - high indicates that the serial communications cable is plugged in */
 #define XIN     BIT6    /* P2.6 - XIN for external crystal oscillator */
 #define XOUT    BIT7    /* P2.7 - XOUT for external crystal oscillator */
 #define UARTRX  BIT4    /* P3.4 - UART RX Pin */
 #define UARTTX  BIT5    /* P3.5 - UART TX Pin */
+#define LED0    BIT6    /* P3.6 - LED indicator light */
 
 /* mode values */
 #define IDLEMODE        0       /* wait for communication with PC to get timestamp */
@@ -114,8 +117,8 @@ void main(void) {
    *  P2: (XIN | XOUT)
    *  P3: (UARTTX | UARTRX)
    * Outputs: 
-   *  P1: (DBG0 | DGB1)
-   *  P2: ()
+   *  P1: (DBG0 | DGB1 | DBG2)
+   *  P2: (SENVCC)
    *  P3: ()
    * Pull-ups:
    *  P1: ()
@@ -123,25 +126,26 @@ void main(void) {
    *  P3: ()
    * Disabled pull-up/downs: 
    *  P1: (DBG0 | DBG1)
-   *  P2: (PCCOM | SENSEIN | XIN | XOUT)
+   *  P2: (PCCOM | SENSEIN | SENVCC | XIN | XOUT)
    *  P3: (UARTTX | UARTRX)
    */
   /* set inputs and outputs */
-  P1DIR = DBG0 | DBG1; /* debugging leds are outputs. all others are inputs / don't cares */
-
+  P1DIR = DBG0 | DBG1 | DBG2; /* debugging leds are outputs. all others are inputs / don't cares */
+  P2DIR = SENVCC;
+  
   /* use pulldowns */
   P1OUT = 0;
   P2OUT = 0;
   P3OUT = 0;
 
   /* enable/disable pull-downs */
-  P1REN = (unsigned char)(~(DBG0 | DBG1));
-  P2REN = (unsigned char)(~(PCCOMM | SENSEIN | XIN | XOUT));
+  P1REN = (unsigned char)(~(DBG0 | DBG1 | DBG2));
+  P2REN = (unsigned char)(~(PCCOMM | SENSEIN | SENVCC | XIN | XOUT));
   P3REN = (unsigned char)(~(UARTTX | UARTRX));
 
   /* set I/O type */
-  P3SEL = (UARTTX | UARTRX);
   P2SEL = (XIN | XOUT);
+  P3SEL = (UARTTX | UARTRX);
 
   /* initialize interrupt pins */
   P2IES &= ~(PCCOMM);                 /* respond to rising edge of PCCOMM */
@@ -159,7 +163,7 @@ void main(void) {
   DCOCTL = CALDCO_1MHZ;
   BCSCTL1 = XT2OFF | CALBC1_1MHZ;
   BCSCTL2 = SELS; /* SMCLK = ACLK */
-  BCSCTL3 = LFXT1S_0 | XCAP_3; /* use 32768 Hz XT1 with 12.5pF effective load cap */
+  BCSCTL3 = LFXT1S_0 | XCAP_1; /* use 32768 Hz XT1 with 6pF effective load cap */
 
   /* wait until there are no osc. faults */
   do {
@@ -191,7 +195,6 @@ void main(void) {
 #pragma vector=PORT2_VECTOR
 __interrupt void P2_ISR(void)
 {
-  P1OUT ^= DBG0;
   if (P2IFG & PCCOMM) {       /* serial cable state changed */
     PCCOMMIntrOff();
     uartWaitModeStart();    /* wait until cable is stable before starting UART mode */
@@ -205,7 +208,7 @@ __interrupt void TA_ISR(void) {
   switch(mode)
   {
   case UARTWAITMODE:
-   
+    P3OUT |= LED0;
     if (P2IN & PCCOMM) {            /* PC comm pin is high (cable is still connected) */
       if (++pcCommStableCnt == UARTWAIT_PCCOMM_HIGH_CNT) {
                                 /* cable is stable and connected, switch to UART mode */
@@ -228,7 +231,7 @@ __interrupt void TA_ISR(void) {
     }
     break;
   case UARTDONEMODE:
-   
+    P3OUT &= ~LED0;
     if (curTimestamp != 0) {    // update time
       curTimestamp += 1;        // increment by 1 second
     }
@@ -246,11 +249,13 @@ __interrupt void TA_ISR(void) {
     if (curTimestamp != 0) {    // update time
       curTimestamp += 15;       // increment by 15 seconds
     }
+    P2OUT |= SENVCC;
     if (prevMatState != MAT_OPEN && (P2IN & SENSEIN)) {
       recordEvent(MAT_OPEN);
     } else if(prevMatState != MAT_CLOSED && !(P2IN & SENSEIN)) {
       recordEvent(MAT_CLOSED);
     }
+    P2OUT &= ~SENVCC;
     break;
   }
 }

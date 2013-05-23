@@ -3,8 +3,8 @@
 
 /* pin definitions */
 #define DBG0    BIT0    /* P1.0 - debug pin 0 */
-#define DBG1    BIT1    /* P1.1 - debug pin 1 */
-#define SENSEIN BIT0    /* P2.0 - sensor input voltage signal */
+#define SENVCC  BIT0    /* P2.0 - switch circuit power */
+#define SENSEIN BIT1    /* P2.1 - sensor input voltage signal */
 #define PCCOMM  BIT2    /* P2.2 - high indicates that the serial communications cable is plugged in */
 #define UARTRX  BIT4    /* P3.4 - UART RX Pin */
 #define UARTTX  BIT5    /* P3.5 - UART TX Pin */
@@ -112,29 +112,30 @@ void main(void) {
    *  P2: ()
    *  P3: (UARTTX | UARTRX)
    * Outputs: 
-   *  P1: (DBG0 | DGB1)
-   *  P2: ()
+   *  P1: (DBG0)
+   *  P2: (SENVCC)
    *  P3: ()
    * Pull-ups:
    *  P1: ()
    *  P2: ()
    *  P3: ()
    * Disabled pull-up/downs: 
-   *  P1: (DBG0 | DBG1)
-   *  P2: (PCCOM | SENSEIN)
+   *  P1: (DBG0)
+   *  P2: (PCCOM | SENSEIN | SENVCC)
    *  P3: (UARTTX | UARTRX)
    */
   /* set inputs and outputs */
-  P1DIR = DBG0 | DBG1; /* debugging leds are outputs. all others are inputs / don't cares */
-
+  P1DIR = DBG0; /* debugging leds are outputs. all others are inputs / don't cares */
+  P2DIR = SENVCC;
+  
   /* use pulldowns */
   P1OUT = 0;
   P2OUT = 0;
   P3OUT = 0;
 
   /* enable/disable pull-downs */
-  P1REN = (unsigned char)(~(DBG0 | DBG1));
-  P2REN = (unsigned char)(~(PCCOMM | SENSEIN));
+  P1REN = (unsigned char)(~DBG0);
+  P2REN = (unsigned char)(~(PCCOMM | SENSEIN | SENVCC));
   P3REN = (unsigned char)(~(UARTTX | UARTRX));
 
   /* set I/O type */
@@ -188,7 +189,6 @@ void main(void) {
 #pragma vector=PORT2_VECTOR
 __interrupt void P2_ISR(void)
 {
-  P1OUT ^= DBG0;
   if (P2IFG & PCCOMM) {       /* serial cable state changed */
     PCCOMMIntrOff();
     uartWaitModeStart();    /* wait until cable is stable before starting UART mode */
@@ -202,7 +202,7 @@ __interrupt void TA_ISR(void) {
   switch(mode)
   {
   case UARTWAITMODE:
-   
+    P1OUT |= DBG0;
     if (P2IN & PCCOMM) {            /* PC comm pin is high (cable is still connected) */
       if (++pcCommStableCnt == UARTWAIT_PCCOMM_HIGH_CNT) {
                                 /* cable is stable and connected, switch to UART mode */
@@ -225,7 +225,7 @@ __interrupt void TA_ISR(void) {
     }
     break;
   case UARTDONEMODE:
-   
+    P1OUT &= ~DBG0;
     if (curTimestamp != 0) {    // update time
       curTimestamp += 1;        // increment by 1 second
     }
@@ -243,11 +243,13 @@ __interrupt void TA_ISR(void) {
     if (curTimestamp != 0) {    // update time
       curTimestamp += 15;       // increment by 15 seconds
     }
+    P2OUT |= SENVCC;
     if (prevMatState != MAT_OPEN && (P2IN & SENSEIN)) {
       recordEvent(MAT_OPEN);
     } else if(prevMatState != MAT_CLOSED && !(P2IN & SENSEIN)) {
       recordEvent(MAT_CLOSED);
     }
+    P2OUT &= ~SENVCC;
     break;
   }
 }

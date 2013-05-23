@@ -1322,7 +1322,7 @@
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:22:9: macro definition=false <US>c:macro@false<UE> <DS>false<DE> Extent=<ES>22:9 - 22:16<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:26:9: macro definition=__bool_true_false_are_defined <US>c:macro@__bool_true_false_are_defined<UE> <DS>__bool_true_false_are_defined<DE> Extent=<ES>26:9 - 26:40<EE>
 <L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:5:9: macro definition=DBG0 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>5:9 - 5:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:6:9: macro definition=DBG1 <US>c:macro@DBG1<UE> <DS>DBG1<DE> Extent=<ES>6:9 - 6:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:6:9: macro definition=SENVCC <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>6:9 - 6:21<EE>
 <L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:7:9: macro definition=SENSEIN <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>7:9 - 7:21<EE>
 <L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:8:9: macro definition=PCCOMM <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>8:9 - 8:21<EE>
 <L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:9:9: macro definition=UARTRX <US>c:macro@UARTRX<UE> <DS>UARTRX<DE> Extent=<ES>9:9 - 9:21<EE>
@@ -1355,145 +1355,147 @@
 <L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:55:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>55:1 - 55:12<EE>
 <L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:56:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>56:1 - 56:12<EE>
 <L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:57:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>57:1 - 57:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:86:38: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:42:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>86:38 - 86:57<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:38: macro expansion=TIMESTAMP_STOR_SIZE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:43:9 <US>c:macro@TIMESTAMP_STOR_SIZE<UE> <DS>TIMESTAMP_STOR_SIZE<DE> Extent=<ES>89:38 - 89:57<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:97:8: macro expansion=bool|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:20:9 <US>c:macro@bool<UE> <DS>bool<DE> Extent=<ES>97:8 - 97:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:102:12: macro expansion=WDTPW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1013:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>102:12 - 102:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:102:20: macro expansion=WDTHOLD|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1011:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>102:20 - 102:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:133:11: macro expansion=DBG0|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:5:9 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>133:11 - 133:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:133:18: macro expansion=DBG1|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:6:9 <US>c:macro@DBG1<UE> <DS>DBG1<DE> Extent=<ES>133:18 - 133:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:135:11: macro expansion=UARTTX|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:10:9 <US>c:macro@UARTTX<UE> <DS>UARTTX<DE> Extent=<ES>135:11 - 135:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:143:29: macro expansion=DBG0|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:5:9 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>143:29 - 143:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:143:36: macro expansion=DBG1|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:6:9 <US>c:macro@DBG1<UE> <DS>DBG1<DE> Extent=<ES>143:36 - 143:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:144:29: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:8:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>144:29 - 144:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:144:38: macro expansion=SENSEIN|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:7:9 <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>144:38 - 144:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:145:29: macro expansion=UARTTX|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:10:9 <US>c:macro@UARTTX<UE> <DS>UARTTX<DE> Extent=<ES>145:29 - 145:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:145:38: macro expansion=UARTRX|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:9:9 <US>c:macro@UARTRX<UE> <DS>UARTRX<DE> Extent=<ES>145:38 - 145:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:148:12: macro expansion=UARTTX|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:10:9 <US>c:macro@UARTTX<UE> <DS>UARTTX<DE> Extent=<ES>148:12 - 148:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:148:21: macro expansion=UARTRX|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:9:9 <US>c:macro@UARTRX<UE> <DS>UARTRX<DE> Extent=<ES>148:21 - 148:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:151:14: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:8:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>151:14 - 151:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:164:13: macro expansion=XT2OFF|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:316:9 <US>c:macro@XT2OFF<UE> <DS>XT2OFF<DE> Extent=<ES>164:13 - 164:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:166:13: macro expansion=LFXT1S_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:363:9 <US>c:macro@LFXT1S_2<UE> <DS>LFXT1S_2<DE> Extent=<ES>166:13 - 166:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:171:18: macro expansion=XT2OF|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:348:9 <US>c:macro@XT2OF<UE> <DS>XT2OF<DE> Extent=<ES>171:18 - 171:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:171:26: macro expansion=LFXT1OF|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:347:9 <US>c:macro@LFXT1OF<UE> <DS>LFXT1OF<DE> Extent=<ES>171:26 - 171:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:172:14: macro expansion=OFIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:145:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>172:14 - 172:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:174:19: macro expansion=OFIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:145:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>174:19 - 174:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:177:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>177:11 - 177:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:177:19: macro expansion=FSSEL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:407:9 <US>c:macro@FSSEL0<UE> <DS>FSSEL0<DE> Extent=<ES>177:19 - 177:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:177:28: macro expansion=FN1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:396:9 <US>c:macro@FN1<UE> <DS>FN1<DE> Extent=<ES>177:28 - 177:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:186:10: macro expansion=true|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:21:9 <US>c:macro@true<UE> <DS>true<DE> Extent=<ES>186:10 - 186:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:187:19: macro expansion=IDLEMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:13:9 <US>c:macro@IDLEMODE<UE> <DS>IDLEMODE<DE> Extent=<ES>187:19 - 187:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: macro expansion=__low_power_mode_4|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:190:9 <US>c:macro@__low_power_mode_4<UE> <DS>__low_power_mode_4<DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: macro expansion=__low_power_mode_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:184:9 <US>c:macro@__low_power_mode_3<UE> <DS>__low_power_mode_3<DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:196:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>196:1 - 196:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:198:12: macro expansion=DBG0|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:5:9 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>198:12 - 198:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:199:15: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:8:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>199:15 - 199:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:200:5: macro expansion=PCCOMMIntrOff|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:47:9 <US>c:macro@PCCOMMIntrOff<UE> <DS>PCCOMMIntrOff<DE> Extent=<ES>200:5 - 200:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:202:5: macro expansion=__low_power_mode_off_on_exit|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:197:9 <US>c:macro@__low_power_mode_off_on_exit<UE> <DS>__low_power_mode_off_on_exit<DE> Extent=<ES>202:5 - 202:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:207:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>207:1 - 207:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:211:8: macro expansion=UARTWAITMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:14:9 <US>c:macro@UARTWAITMODE<UE> <DS>UARTWAITMODE<DE> Extent=<ES>211:8 - 211:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:213:16: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:8:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>213:16 - 213:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:214:32: macro expansion=UARTWAIT_PCCOMM_HIGH_CNT|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:35:9 <US>c:macro@UARTWAIT_PCCOMM_HIGH_CNT<UE> <DS>UARTWAIT_PCCOMM_HIGH_CNT<DE> Extent=<ES>214:32 - 214:56<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:222:8: macro expansion=UARTMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:15:9 <US>c:macro@UARTMODE<UE> <DS>UARTMODE<DE> Extent=<ES>222:8 - 222:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:224:18: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:8:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>224:18 - 224:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:225:32: macro expansion=UART_PCCOMM_LOW_CNT|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:36:9 <US>c:macro@UART_PCCOMM_LOW_CNT<UE> <DS>UART_PCCOMM_LOW_CNT<DE> Extent=<ES>225:32 - 225:51<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:234:8: macro expansion=UARTDONEMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:16:9 <US>c:macro@UARTDONEMODE<UE> <DS>UARTDONEMODE<DE> Extent=<ES>234:8 - 234:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:239:18: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:8:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>239:18 - 239:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:240:32: macro expansion=UARTDONE_PCCOMM_LOW_CNT|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:37:9 <US>c:macro@UARTDONE_PCCOMM_LOW_CNT<UE> <DS>UARTDONE_PCCOMM_LOW_CNT<DE> Extent=<ES>240:32 - 240:55<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:243:9: macro expansion=__low_power_mode_off_on_exit|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:197:9 <US>c:macro@__low_power_mode_off_on_exit<UE> <DS>__low_power_mode_off_on_exit<DE> Extent=<ES>243:9 - 243:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:249:8: macro expansion=SENSEMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:17:9 <US>c:macro@SENSEMODE<UE> <DS>SENSEMODE<DE> Extent=<ES>249:8 - 249:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:253:25: macro expansion=MAT_OPEN|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:20:9 <US>c:macro@MAT_OPEN<UE> <DS>MAT_OPEN<DE> Extent=<ES>253:25 - 253:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:253:45: macro expansion=SENSEIN|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:7:9 <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>253:45 - 253:52<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:254:19: macro expansion=MAT_OPEN|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:20:9 <US>c:macro@MAT_OPEN<UE> <DS>MAT_OPEN<DE> Extent=<ES>254:19 - 254:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:255:31: macro expansion=MAT_CLOSED|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:21:9 <US>c:macro@MAT_CLOSED<UE> <DS>MAT_CLOSED<DE> Extent=<ES>255:31 - 255:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:255:54: macro expansion=SENSEIN|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:7:9 <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>255:54 - 255:61<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:256:19: macro expansion=MAT_CLOSED|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:21:9 <US>c:macro@MAT_CLOSED<UE> <DS>MAT_CLOSED<DE> Extent=<ES>256:19 - 256:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:266:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>266:1 - 266:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:274:26: macro expansion=TIMESTAMP_BYTES|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:40:9 <US>c:macro@TIMESTAMP_BYTES<UE> <DS>TIMESTAMP_BYTES<DE> Extent=<ES>274:26 - 274:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:277:26: macro expansion=false|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:22:9 <US>c:macro@false<UE> <DS>false<DE> Extent=<ES>277:26 - 277:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:286:26: macro expansion=true|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:21:9 <US>c:macro@true<UE> <DS>true<DE> Extent=<ES>286:26 - 286:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:287:20: macro expansion=ACK_VALUE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:26:9 <US>c:macro@ACK_VALUE<UE> <DS>ACK_VALUE<DE> Extent=<ES>287:20 - 287:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:300:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>300:7 - 300:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:302:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>302:7 - 302:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:302:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>302:15 - 302:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:303:20: macro expansion=ACK_VALUE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:26:9 <US>c:macro@ACK_VALUE<UE> <DS>ACK_VALUE<DE> Extent=<ES>303:20 - 303:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:308:17: macro expansion=getNumTimestamps|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:48:9 <US>c:macro@getNumTimestamps<UE> <DS>getNumTimestamps<DE> Extent=<ES>308:17 - 308:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:314:26: macro expansion=getNumTimestamps|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:48:9 <US>c:macro@getNumTimestamps<UE> <DS>getNumTimestamps<DE> Extent=<ES>314:26 - 314:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:330:3: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>330:3 - 330:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:333:18: macro expansion=UARTWAITMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:14:9 <US>c:macro@UARTWAITMODE<UE> <DS>UARTWAITMODE<DE> Extent=<ES>333:18 - 333:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:334:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:583:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>334:7 - 334:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:334:14: macro expansion=UARTWAITMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:31:9 <US>c:macro@UARTWAITMODE_TIMER_PERIOD<UE> <DS>UARTWAITMODE_TIMER_PERIOD<DE> Extent=<ES>334:14 - 334:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:335:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>335:7 - 335:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:335:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>335:15 - 335:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:336:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:633:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>336:15 - 336:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:336:26: macro expansion=ID_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:631:9 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>336:26 - 336:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:336:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:620:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>336:33 - 336:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:337:25: macro expansion=UARTMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:15:9 <US>c:macro@UARTMODE<UE> <DS>UARTMODE<DE> Extent=<ES>337:25 - 337:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:338:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:583:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>338:7 - 338:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:338:14: macro expansion=UARTMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:32:9 <US>c:macro@UARTMODE_TIMER_PERIOD<UE> <DS>UARTMODE_TIMER_PERIOD<DE> Extent=<ES>338:14 - 338:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:339:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>339:7 - 339:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:339:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>339:15 - 339:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:340:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:633:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>340:15 - 340:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:340:26: macro expansion=ID_0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:628:9 <US>c:macro@ID_0<UE> <DS>ID_0<DE> Extent=<ES>340:26 - 340:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:340:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:620:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>340:33 - 340:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:341:25: macro expansion=UARTDONEMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:16:9 <US>c:macro@UARTDONEMODE<UE> <DS>UARTDONEMODE<DE> Extent=<ES>341:25 - 341:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:342:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:583:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>342:7 - 342:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:342:14: macro expansion=UARTDONEMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:33:9 <US>c:macro@UARTDONEMODE_TIMER_PERIOD<UE> <DS>UARTDONEMODE_TIMER_PERIOD<DE> Extent=<ES>342:14 - 342:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:343:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>343:7 - 343:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:343:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>343:15 - 343:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:344:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:633:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>344:15 - 344:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:344:26: macro expansion=ID_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:631:9 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>344:26 - 344:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:344:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:620:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>344:33 - 344:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:346:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:583:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>346:7 - 346:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:346:14: macro expansion=SENSEMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:30:9 <US>c:macro@SENSEMODE_TIMER_PERIOD<UE> <DS>SENSEMODE_TIMER_PERIOD<DE> Extent=<ES>346:14 - 346:36<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:347:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>347:7 - 347:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:347:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>347:15 - 347:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:348:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:633:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>348:15 - 348:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:348:26: macro expansion=ID_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:631:9 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>348:26 - 348:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:348:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:620:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>348:33 - 348:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:350:12: macro expansion=MC_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:625:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>350:12 - 350:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:356:11: macro expansion=UARTWAITMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:14:9 <US>c:macro@UARTWAITMODE<UE> <DS>UARTWAITMODE<DE> Extent=<ES>356:11 - 356:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:365:11: macro expansion=UARTMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:15:9 <US>c:macro@UARTMODE<UE> <DS>UARTMODE<DE> Extent=<ES>365:11 - 365:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:366:23: macro expansion=false|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:22:9 <US>c:macro@false<UE> <DS>false<DE> Extent=<ES>366:23 - 366:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:369:4: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>369:4 - 369:9<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:376:12: macro expansion=UARTDONEMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:16:9 <US>c:macro@UARTDONEMODE<UE> <DS>UARTDONEMODE<DE> Extent=<ES>376:12 - 376:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:385:13: macro expansion=IDLEMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:13:9 <US>c:macro@IDLEMODE<UE> <DS>IDLEMODE<DE> Extent=<ES>385:13 - 385:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:386:6: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>386:6 - 386:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:388:6: macro expansion=PCCOMMIntrOn|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:46:9 <US>c:macro@PCCOMMIntrOn<UE> <DS>PCCOMMIntrOn<DE> Extent=<ES>388:6 - 388:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:390:13: macro expansion=SENSEMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:17:9 <US>c:macro@SENSEMODE<UE> <DS>SENSEMODE<DE> Extent=<ES>390:13 - 390:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:391:21: macro expansion=MAT_UNDEF|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:22:9 <US>c:macro@MAT_UNDEF<UE> <DS>MAT_UNDEF<DE> Extent=<ES>391:21 - 391:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:392:6: macro expansion=PCCOMMIntrOn|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:46:9 <US>c:macro@PCCOMMIntrOn<UE> <DS>PCCOMMIntrOn<DE> Extent=<ES>392:6 - 392:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:426:17: macro expansion=UCA0TXIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:162:9 <US>c:macro@UCA0TXIFG<UE> <DS>UCA0TXIFG<DE> Extent=<ES>426:17 - 426:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:15: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:864:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>444:15 - 444:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:445:15: macro expansion=UCSSEL_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:881:9 <US>c:macro@UCSSEL_2<UE> <DS>UCSSEL_2<DE> Extent=<ES>445:15 - 445:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:448:14: macro expansion=UCBRS0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:890:9 <US>c:macro@UCBRS0<UE> <DS>UCBRS0<DE> Extent=<ES>448:14 - 448:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:449:16: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:864:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>449:16 - 449:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:450:10: macro expansion=UCA0RXIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:153:9 <US>c:macro@UCA0RXIE<UE> <DS>UCA0RXIE<DE> Extent=<ES>450:10 - 450:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:14: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:864:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>456:14 - 456:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:36: macro expansion=ONE_DELAY|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:51:9 <US>c:macro@ONE_DELAY<UE> <DS>ONE_DELAY<DE> Extent=<ES>463:36 - 463:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:27: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:42:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>470:27 - 470:46<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:471:23: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:42:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>471:23 - 471:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:471:47: macro expansion=TIMESTAMP_STOR_SIZE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:43:9 <US>c:macro@TIMESTAMP_STOR_SIZE<UE> <DS>TIMESTAMP_STOR_SIZE<DE> Extent=<ES>471:47 - 471:66<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:475:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>475:13 - 475:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:475:21: macro expansion=WRT|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:391:9 <US>c:macro@WRT<UE> <DS>WRT<DE> Extent=<ES>475:21 - 475:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>476:13 - 476:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:21: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:421:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>476:21 - 476:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:21: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:42:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>478:21 - 478:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:481:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>481:13 - 481:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:482:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>482:13 - 482:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:482:21: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:421:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>482:21 - 482:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:482:29: macro expansion=LOCK|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:419:9 <US>c:macro@LOCK<UE> <DS>LOCK<DE> Extent=<ES>482:29 - 482:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:488:25: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:42:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>488:25 - 488:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:72: macro expansion=MAT_STATE_SHIFT|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:23:9 <US>c:macro@MAT_STATE_SHIFT<UE> <DS>MAT_STATE_SHIFT<DE> Extent=<ES>490:72 - 490:87<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:107: macro expansion=TIMESTAMP_MASK|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:41:9 <US>c:macro@TIMESTAMP_MASK<UE> <DS>TIMESTAMP_MASK<DE> Extent=<ES>490:107 - 490:121<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:502:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>502:11 - 502:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:502:19: macro expansion=ERASE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:387:9 <US>c:macro@ERASE<UE> <DS>ERASE<DE> Extent=<ES>502:19 - 502:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:503:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>503:11 - 503:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:503:19: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:421:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>503:19 - 503:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:505:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>505:11 - 505:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:506:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>506:11 - 506:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:506:19: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:421:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>506:19 - 506:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:506:27: macro expansion=LOCK|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:419:9 <US>c:macro@LOCK<UE> <DS>LOCK<DE> Extent=<ES>506:27 - 506:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:82:38: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:42:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>82:38 - 82:57<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:38: macro expansion=TIMESTAMP_STOR_SIZE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:43:9 <US>c:macro@TIMESTAMP_STOR_SIZE<UE> <DS>TIMESTAMP_STOR_SIZE<DE> Extent=<ES>85:38 - 85:57<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:93:8: macro expansion=bool|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:20:9 <US>c:macro@bool<UE> <DS>bool<DE> Extent=<ES>93:8 - 93:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:98:12: macro expansion=WDTPW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1013:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>98:12 - 98:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:98:20: macro expansion=WDTHOLD|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1011:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>98:20 - 98:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:128:11: macro expansion=DBG0|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:5:9 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>128:11 - 128:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:129:11: macro expansion=SENVCC|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:6:9 <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>129:11 - 129:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:137:28: macro expansion=DBG0|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:5:9 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>137:28 - 137:32<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:138:29: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:8:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>138:29 - 138:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:138:38: macro expansion=SENSEIN|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:7:9 <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>138:38 - 138:45<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:138:48: macro expansion=SENVCC|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:6:9 <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>138:48 - 138:54<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:139:29: macro expansion=UARTTX|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:10:9 <US>c:macro@UARTTX<UE> <DS>UARTTX<DE> Extent=<ES>139:29 - 139:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:139:38: macro expansion=UARTRX|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:9:9 <US>c:macro@UARTRX<UE> <DS>UARTRX<DE> Extent=<ES>139:38 - 139:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:142:12: macro expansion=UARTTX|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:10:9 <US>c:macro@UARTTX<UE> <DS>UARTTX<DE> Extent=<ES>142:12 - 142:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:142:21: macro expansion=UARTRX|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:9:9 <US>c:macro@UARTRX<UE> <DS>UARTRX<DE> Extent=<ES>142:21 - 142:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:145:14: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:8:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>145:14 - 145:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:158:13: macro expansion=XT2OFF|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:316:9 <US>c:macro@XT2OFF<UE> <DS>XT2OFF<DE> Extent=<ES>158:13 - 158:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:160:13: macro expansion=LFXT1S_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:363:9 <US>c:macro@LFXT1S_2<UE> <DS>LFXT1S_2<DE> Extent=<ES>160:13 - 160:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:165:18: macro expansion=XT2OF|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:348:9 <US>c:macro@XT2OF<UE> <DS>XT2OF<DE> Extent=<ES>165:18 - 165:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:165:26: macro expansion=LFXT1OF|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:347:9 <US>c:macro@LFXT1OF<UE> <DS>LFXT1OF<DE> Extent=<ES>165:26 - 165:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:166:14: macro expansion=OFIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:145:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>166:14 - 166:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:168:19: macro expansion=OFIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:145:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>168:19 - 168:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:171:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>171:11 - 171:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:171:19: macro expansion=FSSEL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:407:9 <US>c:macro@FSSEL0<UE> <DS>FSSEL0<DE> Extent=<ES>171:19 - 171:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:171:28: macro expansion=FN1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:396:9 <US>c:macro@FN1<UE> <DS>FN1<DE> Extent=<ES>171:28 - 171:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:180:10: macro expansion=true|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:21:9 <US>c:macro@true<UE> <DS>true<DE> Extent=<ES>180:10 - 180:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:181:19: macro expansion=IDLEMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:13:9 <US>c:macro@IDLEMODE<UE> <DS>IDLEMODE<DE> Extent=<ES>181:19 - 181:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: macro expansion=__low_power_mode_4|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:190:9 <US>c:macro@__low_power_mode_4<UE> <DS>__low_power_mode_4<DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: macro expansion=__low_power_mode_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:184:9 <US>c:macro@__low_power_mode_3<UE> <DS>__low_power_mode_3<DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>190:1 - 190:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:192:15: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:8:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>192:15 - 192:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:193:5: macro expansion=PCCOMMIntrOff|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:47:9 <US>c:macro@PCCOMMIntrOff<UE> <DS>PCCOMMIntrOff<DE> Extent=<ES>193:5 - 193:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:195:5: macro expansion=__low_power_mode_off_on_exit|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:197:9 <US>c:macro@__low_power_mode_off_on_exit<UE> <DS>__low_power_mode_off_on_exit<DE> Extent=<ES>195:5 - 195:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:200:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>200:1 - 200:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:204:8: macro expansion=UARTWAITMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:14:9 <US>c:macro@UARTWAITMODE<UE> <DS>UARTWAITMODE<DE> Extent=<ES>204:8 - 204:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:205:14: macro expansion=DBG0|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:5:9 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>205:14 - 205:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:206:16: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:8:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>206:16 - 206:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:207:32: macro expansion=UARTWAIT_PCCOMM_HIGH_CNT|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:35:9 <US>c:macro@UARTWAIT_PCCOMM_HIGH_CNT<UE> <DS>UARTWAIT_PCCOMM_HIGH_CNT<DE> Extent=<ES>207:32 - 207:56<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:215:8: macro expansion=UARTMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:15:9 <US>c:macro@UARTMODE<UE> <DS>UARTMODE<DE> Extent=<ES>215:8 - 215:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:217:18: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:8:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>217:18 - 217:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:218:32: macro expansion=UART_PCCOMM_LOW_CNT|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:36:9 <US>c:macro@UART_PCCOMM_LOW_CNT<UE> <DS>UART_PCCOMM_LOW_CNT<DE> Extent=<ES>218:32 - 218:51<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:227:8: macro expansion=UARTDONEMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:16:9 <US>c:macro@UARTDONEMODE<UE> <DS>UARTDONEMODE<DE> Extent=<ES>227:8 - 227:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:228:15: macro expansion=DBG0|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:5:9 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>228:15 - 228:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:232:18: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:8:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>232:18 - 232:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:233:32: macro expansion=UARTDONE_PCCOMM_LOW_CNT|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:37:9 <US>c:macro@UARTDONE_PCCOMM_LOW_CNT<UE> <DS>UARTDONE_PCCOMM_LOW_CNT<DE> Extent=<ES>233:32 - 233:55<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:236:9: macro expansion=__low_power_mode_off_on_exit|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:197:9 <US>c:macro@__low_power_mode_off_on_exit<UE> <DS>__low_power_mode_off_on_exit<DE> Extent=<ES>236:9 - 236:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:242:8: macro expansion=SENSEMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:17:9 <US>c:macro@SENSEMODE<UE> <DS>SENSEMODE<DE> Extent=<ES>242:8 - 242:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:246:14: macro expansion=SENVCC|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:6:9 <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>246:14 - 246:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:247:25: macro expansion=MAT_OPEN|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:20:9 <US>c:macro@MAT_OPEN<UE> <DS>MAT_OPEN<DE> Extent=<ES>247:25 - 247:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:247:45: macro expansion=SENSEIN|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:7:9 <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>247:45 - 247:52<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:248:19: macro expansion=MAT_OPEN|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:20:9 <US>c:macro@MAT_OPEN<UE> <DS>MAT_OPEN<DE> Extent=<ES>248:19 - 248:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:249:31: macro expansion=MAT_CLOSED|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:21:9 <US>c:macro@MAT_CLOSED<UE> <DS>MAT_CLOSED<DE> Extent=<ES>249:31 - 249:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:249:54: macro expansion=SENSEIN|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:7:9 <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>249:54 - 249:61<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:250:19: macro expansion=MAT_CLOSED|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:21:9 <US>c:macro@MAT_CLOSED<UE> <DS>MAT_CLOSED<DE> Extent=<ES>250:19 - 250:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:252:15: macro expansion=SENVCC|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:6:9 <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>252:15 - 252:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:261:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>261:1 - 261:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:269:26: macro expansion=TIMESTAMP_BYTES|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:40:9 <US>c:macro@TIMESTAMP_BYTES<UE> <DS>TIMESTAMP_BYTES<DE> Extent=<ES>269:26 - 269:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:272:26: macro expansion=false|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:22:9 <US>c:macro@false<UE> <DS>false<DE> Extent=<ES>272:26 - 272:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:281:26: macro expansion=true|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:21:9 <US>c:macro@true<UE> <DS>true<DE> Extent=<ES>281:26 - 281:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:282:20: macro expansion=ACK_VALUE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:26:9 <US>c:macro@ACK_VALUE<UE> <DS>ACK_VALUE<DE> Extent=<ES>282:20 - 282:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:295:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>295:7 - 295:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:297:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>297:7 - 297:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:297:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>297:15 - 297:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:298:20: macro expansion=ACK_VALUE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:26:9 <US>c:macro@ACK_VALUE<UE> <DS>ACK_VALUE<DE> Extent=<ES>298:20 - 298:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:303:17: macro expansion=getNumTimestamps|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:48:9 <US>c:macro@getNumTimestamps<UE> <DS>getNumTimestamps<DE> Extent=<ES>303:17 - 303:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:309:26: macro expansion=getNumTimestamps|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:48:9 <US>c:macro@getNumTimestamps<UE> <DS>getNumTimestamps<DE> Extent=<ES>309:26 - 309:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:325:3: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>325:3 - 325:8<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:328:18: macro expansion=UARTWAITMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:14:9 <US>c:macro@UARTWAITMODE<UE> <DS>UARTWAITMODE<DE> Extent=<ES>328:18 - 328:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:583:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>329:7 - 329:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:14: macro expansion=UARTWAITMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:31:9 <US>c:macro@UARTWAITMODE_TIMER_PERIOD<UE> <DS>UARTWAITMODE_TIMER_PERIOD<DE> Extent=<ES>329:14 - 329:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:330:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>330:7 - 330:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:330:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>330:15 - 330:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:331:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:633:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>331:15 - 331:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:331:26: macro expansion=ID_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:631:9 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>331:26 - 331:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:331:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:620:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>331:33 - 331:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:332:25: macro expansion=UARTMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:15:9 <US>c:macro@UARTMODE<UE> <DS>UARTMODE<DE> Extent=<ES>332:25 - 332:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:333:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:583:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>333:7 - 333:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:333:14: macro expansion=UARTMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:32:9 <US>c:macro@UARTMODE_TIMER_PERIOD<UE> <DS>UARTMODE_TIMER_PERIOD<DE> Extent=<ES>333:14 - 333:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:334:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>334:7 - 334:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:334:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>334:15 - 334:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:335:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:633:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>335:15 - 335:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:335:26: macro expansion=ID_0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:628:9 <US>c:macro@ID_0<UE> <DS>ID_0<DE> Extent=<ES>335:26 - 335:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:335:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:620:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>335:33 - 335:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:336:25: macro expansion=UARTDONEMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:16:9 <US>c:macro@UARTDONEMODE<UE> <DS>UARTDONEMODE<DE> Extent=<ES>336:25 - 336:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:337:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:583:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>337:7 - 337:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:337:14: macro expansion=UARTDONEMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:33:9 <US>c:macro@UARTDONEMODE_TIMER_PERIOD<UE> <DS>UARTDONEMODE_TIMER_PERIOD<DE> Extent=<ES>337:14 - 337:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:338:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>338:7 - 338:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:338:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>338:15 - 338:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:339:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:633:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>339:15 - 339:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:339:26: macro expansion=ID_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:631:9 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>339:26 - 339:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:339:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:620:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>339:33 - 339:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:341:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:583:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>341:7 - 341:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:341:14: macro expansion=SENSEMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:30:9 <US>c:macro@SENSEMODE_TIMER_PERIOD<UE> <DS>SENSEMODE_TIMER_PERIOD<DE> Extent=<ES>341:14 - 341:36<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:342:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>342:7 - 342:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:342:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>342:15 - 342:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:343:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:633:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>343:15 - 343:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:343:26: macro expansion=ID_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:631:9 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>343:26 - 343:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:343:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:620:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>343:33 - 343:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:345:12: macro expansion=MC_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:625:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>345:12 - 345:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:350:11: macro expansion=UARTWAITMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:14:9 <US>c:macro@UARTWAITMODE<UE> <DS>UARTWAITMODE<DE> Extent=<ES>350:11 - 350:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:358:11: macro expansion=UARTMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:15:9 <US>c:macro@UARTMODE<UE> <DS>UARTMODE<DE> Extent=<ES>358:11 - 358:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:359:23: macro expansion=false|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:22:9 <US>c:macro@false<UE> <DS>false<DE> Extent=<ES>359:23 - 359:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:362:4: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>362:4 - 362:9<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:364:13: macro expansion=DBG0|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:5:9 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>364:13 - 364:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:369:12: macro expansion=UARTDONEMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:16:9 <US>c:macro@UARTDONEMODE<UE> <DS>UARTDONEMODE<DE> Extent=<ES>369:12 - 369:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:378:13: macro expansion=IDLEMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:13:9 <US>c:macro@IDLEMODE<UE> <DS>IDLEMODE<DE> Extent=<ES>378:13 - 378:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:379:6: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>379:6 - 379:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:381:6: macro expansion=PCCOMMIntrOn|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:46:9 <US>c:macro@PCCOMMIntrOn<UE> <DS>PCCOMMIntrOn<DE> Extent=<ES>381:6 - 381:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:383:13: macro expansion=SENSEMODE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:17:9 <US>c:macro@SENSEMODE<UE> <DS>SENSEMODE<DE> Extent=<ES>383:13 - 383:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:384:21: macro expansion=MAT_UNDEF|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:22:9 <US>c:macro@MAT_UNDEF<UE> <DS>MAT_UNDEF<DE> Extent=<ES>384:21 - 384:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:385:6: macro expansion=PCCOMMIntrOn|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:46:9 <US>c:macro@PCCOMMIntrOn<UE> <DS>PCCOMMIntrOn<DE> Extent=<ES>385:6 - 385:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:411:17: macro expansion=UCA0TXIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:162:9 <US>c:macro@UCA0TXIFG<UE> <DS>UCA0TXIFG<DE> Extent=<ES>411:17 - 411:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:418:15: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:864:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>418:15 - 418:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:15: macro expansion=UCSSEL_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:881:9 <US>c:macro@UCSSEL_2<UE> <DS>UCSSEL_2<DE> Extent=<ES>419:15 - 419:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:422:14: macro expansion=UCBRS0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:890:9 <US>c:macro@UCBRS0<UE> <DS>UCBRS0<DE> Extent=<ES>422:14 - 422:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:423:16: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:864:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>423:16 - 423:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:10: macro expansion=UCA0RXIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:153:9 <US>c:macro@UCA0RXIE<UE> <DS>UCA0RXIE<DE> Extent=<ES>424:10 - 424:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:430:14: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:864:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>430:14 - 430:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:436:27: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:42:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>436:27 - 436:46<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:23: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:42:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>437:23 - 437:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:47: macro expansion=TIMESTAMP_STOR_SIZE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:43:9 <US>c:macro@TIMESTAMP_STOR_SIZE<UE> <DS>TIMESTAMP_STOR_SIZE<DE> Extent=<ES>437:47 - 437:66<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:441:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>441:13 - 441:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:441:21: macro expansion=WRT|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:391:9 <US>c:macro@WRT<UE> <DS>WRT<DE> Extent=<ES>441:21 - 441:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:442:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>442:13 - 442:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:442:21: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:421:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>442:21 - 442:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:21: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:42:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>444:21 - 444:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:447:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>447:13 - 447:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:448:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>448:13 - 448:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:448:21: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:421:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>448:21 - 448:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:448:29: macro expansion=LOCK|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:419:9 <US>c:macro@LOCK<UE> <DS>LOCK<DE> Extent=<ES>448:29 - 448:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:454:25: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:42:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>454:25 - 454:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:72: macro expansion=MAT_STATE_SHIFT|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:23:9 <US>c:macro@MAT_STATE_SHIFT<UE> <DS>MAT_STATE_SHIFT<DE> Extent=<ES>456:72 - 456:87<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:107: macro expansion=TIMESTAMP_MASK|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:41:9 <US>c:macro@TIMESTAMP_MASK<UE> <DS>TIMESTAMP_MASK<DE> Extent=<ES>456:107 - 456:121<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:468:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>468:11 - 468:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:468:19: macro expansion=ERASE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:387:9 <US>c:macro@ERASE<UE> <DS>ERASE<DE> Extent=<ES>468:19 - 468:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:469:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>469:11 - 469:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:469:19: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:421:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>469:19 - 469:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:471:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>471:11 - 471:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:472:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>472:11 - 472:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:472:19: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:421:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>472:19 - 472:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:472:27: macro expansion=LOCK|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:419:9 <US>c:macro@LOCK<UE> <DS>LOCK<DE> Extent=<ES>472:27 - 472:31<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -1575,624 +1577,528 @@
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:67:56: ParmDecl=|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:67:56 (Definition) <US><UE> <DS>unsigned short<DE> Extent=<ES>67:42 - 67:57<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:71:30: FunctionDecl=_BIS_NMI_IE1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:71:30 (Declaration) <US>c:@F@_BIS_NMI_IE1<UE> <DS>unsigned short _BIS_NMI_IE1(unsigned short)<DE> Extent=<ES>71:15 - 71:58<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:71:57: ParmDecl=|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:71:57 (Definition) <US><UE> <DS>unsigned short<DE> Extent=<ES>71:43 - 71:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:55:18: FunctionDecl=P2_ISR|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:196:18 (Declaration) <US>c:@F@P2_ISR<UE> <DS>void P2_ISR(void)<DE> Extent=<ES>55:13 - 55:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:56:18: FunctionDecl=TA_ISR|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:207:18 (Declaration) <US>c:@F@TA_ISR<UE> <DS>void TA_ISR(void)<DE> Extent=<ES>56:13 - 56:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:57:18: FunctionDecl=USCI0RX_ISR|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:266:18 (Declaration) <US>c:@F@USCI0RX_ISR<UE> <DS>void USCI0RX_ISR(void)<DE> Extent=<ES>57:13 - 57:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:59:6: FunctionDecl=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:6 (Declaration) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>59:1 - 59:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:59:32: ParmDecl=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:59:32 (Definition) <US>c:main.c@3191@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>59:18 - 59:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:62:6: FunctionDecl=uartWaitModeStart|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:355:6 (Declaration) <US>c:@F@uartWaitModeStart<UE> <DS>void uartWaitModeStart(void)<DE> Extent=<ES>62:1 - 62:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:63:6: FunctionDecl=uartModeStart|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:364:6 (Declaration) <US>c:@F@uartModeStart<UE> <DS>void uartModeStart(void)<DE> Extent=<ES>63:1 - 63:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:64:6: FunctionDecl=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:375:6 (Declaration) <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>64:1 - 64:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:65:6: FunctionDecl=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:383:6 (Declaration) <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>65:1 - 65:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:66:6: FunctionDecl=send16bit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:398:6 (Declaration) <US>c:@F@send16bit<UE> <DS>void send16bit(unsigned short)<DE> Extent=<ES>66:1 - 66:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:66:31: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:66:31 (Definition) <US>c:main.c@3555@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>66:16 - 66:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:67:6: FunctionDecl=send32bit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:407:6 (Declaration) <US>c:@F@send32bit<UE> <DS>void send32bit(unsigned long)<DE> Extent=<ES>67:1 - 67:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:67:30: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:67:30 (Definition) <US>c:main.c@3635@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>67:16 - 67:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:68:15: FunctionDecl=myStrLen|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:15 (Declaration) <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>68:1 - 68:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:68:30: ParmDecl=str|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:68:30 (Definition) <US>c:main.c@3722@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>68:24 - 68:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:69:6: FunctionDecl=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:6 (Declaration) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>69:1 - 69:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:69:24: ParmDecl=charToTransmit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:69:24 (Definition) <US>c:main.c@3794@F@transmitChar@charToTransmit<UE> <DS>char<DE> Extent=<ES>69:19 - 69:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:70:6: FunctionDecl=transmitString|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:431:6 (Declaration) <US>c:@F@transmitString<UE> <DS>void transmitString(char *)<DE> Extent=<ES>70:1 - 70:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:70:27: ParmDecl=strToTransmit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:70:27 (Definition) <US>c:main.c@3887@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>70:21 - 70:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:71:6: FunctionDecl=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:442:6 (Declaration) <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>71:1 - 71:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:72:6: FunctionDecl=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:454:6 (Declaration) <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>72:1 - 72:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:75:6: FunctionDecl=recordEvent|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:468:6 (Declaration) <US>c:@F@recordEvent<UE> <DS>void recordEvent(unsigned char)<DE> Extent=<ES>75:1 - 75:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:75:32: ParmDecl=matState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:75:32 (Definition) <US>c:main.c@4170@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>75:18 - 75:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:76:6: FunctionDecl=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:496:6 (Declaration) <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>76:1 - 76:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:77:15: FunctionDecl=getTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:15 (Declaration) <US>c:@F@getTimestamp<UE> <DS>unsigned long getTimestamp(unsigned short)<DE> Extent=<ES>77:1 - 77:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:77:43: ParmDecl=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:77:43 (Definition) <US>c:main.c@4252@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>77:28 - 77:57<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:7: FunctionDecl=myDelay|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:460:6 (Declaration) <US>c:@F@myDelay<UE> <DS>void myDelay(unsigned char)<DE> Extent=<ES>80:2 - 80:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:29: ParmDecl=units|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:29 (Definition) <US>c:main.c@4329@F@myDelay@units<UE> <DS>unsigned char<DE> Extent=<ES>80:15 - 80:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22: VarDecl=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22 (Declaration) <US>c:main.c@4436@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>84:1 - 84:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:22: VarDecl=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:22 (Declaration) <US>c:main.c@4547@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>85:1 - 85:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:86:22: VarDecl=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:86:22 (Declaration) <US>c:main.c@4629@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>86:1 - 86:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:86:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>86:38 - 86:57<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22: VarDecl=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 (Declaration) <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>87:1 - 87:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:21: VarDecl=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:21 (Declaration) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>89:1 - 89:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>89:38 - 89:57<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31: VarDecl=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 (Declaration) <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>92:1 - 92:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:93:22: VarDecl=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:93:22 (Declaration) <US>c:main.c@5054@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>93:1 - 93:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:94:22: VarDecl=prevMatState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:94:22 (Declaration) <US>c:main.c@5141@prevMatState<UE> <DS>prevMatState<DE> Extent=<ES>94:1 - 94:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:97:13: VarDecl=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:97:13 (Declaration) <US>c:main.c@5281@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>97:1 - 97:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:100:6: FunctionDecl=main|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:100:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>100:1 - 193:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:100:17: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>100:17 - 193:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:103:3: CallExpr=__disable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>103:3 - 103:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:103:3: UnexposedExpr=__disable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>103:3 - 103:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:103:3: DeclRefExpr=__disable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 (Reference) <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>103:3 - 103:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:180:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>180:3 - 180:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:180:3: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22 (Reference) <US>c:main.c@4436@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>180:3 - 180:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:180:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>180:18 - 180:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:180:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>180:18 - 180:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:181:3: CallExpr=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:496:6 <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>181:3 - 181:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:181:3: UnexposedExpr=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:496:6 <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>181:3 - 181:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:181:3: DeclRefExpr=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:496:6 (Reference) <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>181:3 - 181:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:3: CallExpr=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:383:6 <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>182:3 - 182:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:3: UnexposedExpr=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:383:6 <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>182:3 - 182:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:3: DeclRefExpr=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:383:6 (Reference) <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>182:3 - 182:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:3: CallExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>184:3 - 184:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:3: UnexposedExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>184:3 - 184:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:3: DeclRefExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>184:3 - 184:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:186:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>186:3 - 192:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:186:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>186:10 - 186:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:186:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>186:16 - 192:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:187:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>187:7 - 191:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:187:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>187:11 - 187:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:187:11: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>187:11 - 187:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:187:11: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>187:11 - 187:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:187:11: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 (Reference) <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>187:11 - 187:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:187:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>187:19 - 187:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:187:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>187:29 - 189:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: CallExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: UnexposedExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: DeclRefExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:189:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>189:14 - 191:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: CallExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: UnexposedExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: DeclRefExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:196:18: FunctionDecl=P2_ISR|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:196:18 (Definition) <US>c:@F@P2_ISR<UE> <DS>void P2_ISR(void)<DE> Extent=<ES>196:13 - 204:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:197:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>197:1 - 204:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:207:18: FunctionDecl=TA_ISR|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:207:18 (Definition) <US>c:@F@TA_ISR<UE> <DS>void TA_ISR(void)<DE> Extent=<ES>207:13 - 260:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:207:31: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>207:31 - 260:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:209:3: SwitchStmt= <US><UE> <DS><DE> Extent=<ES>209:3 - 259:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:209:10: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>209:10 - 209:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:209:10: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>209:10 - 209:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:209:10: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 (Reference) <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>209:10 - 209:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:210:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>210:3 - 259:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:211:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:211:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>211:8 - 211:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:55:18: FunctionDecl=P2_ISR|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:18 (Declaration) <US>c:@F@P2_ISR<UE> <DS>void P2_ISR(void)<DE> Extent=<ES>55:13 - 55:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:56:18: FunctionDecl=TA_ISR|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:200:18 (Declaration) <US>c:@F@TA_ISR<UE> <DS>void TA_ISR(void)<DE> Extent=<ES>56:13 - 56:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:57:18: FunctionDecl=USCI0RX_ISR|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:261:18 (Declaration) <US>c:@F@USCI0RX_ISR<UE> <DS>void USCI0RX_ISR(void)<DE> Extent=<ES>57:13 - 57:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:60:6: FunctionDecl=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:6 (Declaration) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>60:1 - 60:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:60:32: ParmDecl=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:60:32 (Definition) <US>c:main.c@3119@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>60:18 - 60:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:63:6: FunctionDecl=uartWaitModeStart|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:349:6 (Declaration) <US>c:@F@uartWaitModeStart<UE> <DS>void uartWaitModeStart(void)<DE> Extent=<ES>63:1 - 63:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:64:6: FunctionDecl=uartModeStart|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:357:6 (Declaration) <US>c:@F@uartModeStart<UE> <DS>void uartModeStart(void)<DE> Extent=<ES>64:1 - 64:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:65:6: FunctionDecl=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:368:6 (Declaration) <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>65:1 - 65:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:66:6: FunctionDecl=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:376:6 (Declaration) <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>66:1 - 66:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:67:6: FunctionDecl=send16bit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:391:6 (Declaration) <US>c:@F@send16bit<UE> <DS>void send16bit(unsigned short)<DE> Extent=<ES>67:1 - 67:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:67:31: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:67:31 (Definition) <US>c:main.c@3299@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>67:16 - 67:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:68:6: FunctionDecl=send32bit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:6 (Declaration) <US>c:@F@send32bit<UE> <DS>void send32bit(unsigned long)<DE> Extent=<ES>68:1 - 68:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:68:30: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:68:30 (Definition) <US>c:main.c@3336@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>68:16 - 68:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:69:6: FunctionDecl=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:6 (Declaration) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>69:1 - 69:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:69:24: ParmDecl=charToTransmit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:69:24 (Definition) <US>c:main.c@3375@F@transmitChar@charToTransmit<UE> <DS>char<DE> Extent=<ES>69:19 - 69:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:70:6: FunctionDecl=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:6 (Declaration) <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>70:1 - 70:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:71:6: FunctionDecl=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:428:6 (Declaration) <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>71:1 - 71:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:74:6: FunctionDecl=recordEvent|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:6 (Declaration) <US>c:@F@recordEvent<UE> <DS>void recordEvent(unsigned char)<DE> Extent=<ES>74:1 - 74:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:74:32: ParmDecl=matState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:74:32 (Definition) <US>c:main.c@3508@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>74:18 - 74:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:75:6: FunctionDecl=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:462:6 (Declaration) <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>75:1 - 75:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:76:15: FunctionDecl=getTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:15 (Declaration) <US>c:@F@getTimestamp<UE> <DS>unsigned long getTimestamp(unsigned short)<DE> Extent=<ES>76:1 - 76:58<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:76:43: ParmDecl=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:76:43 (Definition) <US>c:main.c@3590@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>76:28 - 76:57<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22: VarDecl=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22 (Declaration) <US>c:main.c@3672@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>80:1 - 80:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:81:22: VarDecl=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:81:22 (Declaration) <US>c:main.c@3783@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>81:1 - 81:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:82:22: VarDecl=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:82:22 (Declaration) <US>c:main.c@3865@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>82:1 - 82:58<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:82:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>82:38 - 82:57<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22: VarDecl=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 (Declaration) <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>83:1 - 83:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:21: VarDecl=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:21 (Declaration) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>85:1 - 85:58<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>85:38 - 85:57<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31: VarDecl=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 (Declaration) <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>88:1 - 88:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:22: VarDecl=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:22 (Declaration) <US>c:main.c@4290@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>89:1 - 89:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:90:22: VarDecl=prevMatState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:90:22 (Declaration) <US>c:main.c@4377@prevMatState<UE> <DS>prevMatState<DE> Extent=<ES>90:1 - 90:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:93:13: VarDecl=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:93:13 (Declaration) <US>c:main.c@4475@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>93:1 - 93:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:96:6: FunctionDecl=main|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:96:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>96:1 - 187:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:96:17: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>96:17 - 187:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:99:3: CallExpr=__disable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>99:3 - 99:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:99:3: UnexposedExpr=__disable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>99:3 - 99:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:99:3: DeclRefExpr=__disable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 (Reference) <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>99:3 - 99:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:174:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>174:3 - 174:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:174:3: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22 (Reference) <US>c:main.c@3672@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>174:3 - 174:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:174:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>174:18 - 174:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:174:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>174:18 - 174:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:175:3: CallExpr=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:462:6 <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>175:3 - 175:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:175:3: UnexposedExpr=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:462:6 <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>175:3 - 175:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:175:3: DeclRefExpr=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:462:6 (Reference) <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>175:3 - 175:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:176:3: CallExpr=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:376:6 <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>176:3 - 176:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:176:3: UnexposedExpr=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:376:6 <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>176:3 - 176:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:176:3: DeclRefExpr=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:376:6 (Reference) <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>176:3 - 176:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:178:3: CallExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>178:3 - 178:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:178:3: UnexposedExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>178:3 - 178:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:178:3: DeclRefExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>178:3 - 178:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:180:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>180:3 - 186:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:180:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>180:10 - 180:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:180:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>180:16 - 186:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:181:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>181:7 - 185:8<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:181:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>181:11 - 181:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:181:11: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>181:11 - 181:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:181:11: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>181:11 - 181:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:181:11: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 (Reference) <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>181:11 - 181:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:181:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>181:19 - 181:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:181:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>181:29 - 183:8<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: CallExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: UnexposedExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: DeclRefExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:182:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>182:11 - 182:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:183:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>183:14 - 185:8<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: CallExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: UnexposedExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: DeclRefExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:184:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>184:11 - 184:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:18: FunctionDecl=P2_ISR|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:190:18 (Definition) <US>c:@F@P2_ISR<UE> <DS>void P2_ISR(void)<DE> Extent=<ES>190:13 - 197:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:191:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>191:1 - 197:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:200:18: FunctionDecl=TA_ISR|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:200:18 (Definition) <US>c:@F@TA_ISR<UE> <DS>void TA_ISR(void)<DE> Extent=<ES>200:13 - 255:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:200:31: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>200:31 - 255:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:202:3: SwitchStmt= <US><UE> <DS><DE> Extent=<ES>202:3 - 254:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:202:10: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>202:10 - 202:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:202:10: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>202:10 - 202:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:202:10: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 (Reference) <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>202:10 - 202:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:203:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>203:3 - 254:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:204:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:204:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>204:8 - 204:20<EE>
 <L><invalid loc>:0:0: NullStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:221:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>221:5 - 221:10<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:222:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:222:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>222:8 - 222:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:214:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>214:5 - 214:10<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:215:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:215:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>215:8 - 215:16<EE>
 <L><invalid loc>:0:0: NullStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:233:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>233:5 - 233:10<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:234:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>234:3 - 238:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:234:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>234:8 - 234:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:236:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>236:5 - 238:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:236:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>236:9 - 236:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:236:9: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22 <US>c:main.c@4436@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>236:9 - 236:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:236:9: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22 (Reference) <US>c:main.c@4436@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>236:9 - 236:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:236:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>236:25 - 236:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:236:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>236:25 - 236:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:236:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>236:28 - 238:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:237:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>237:7 - 237:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:237:7: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22 (Reference) <US>c:main.c@4436@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>237:7 - 237:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:237:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>237:23 - 237:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:237:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>237:23 - 237:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:248:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>248:5 - 248:10<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:249:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>249:3 - 252:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:249:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>249:8 - 249:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:250:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>250:5 - 252:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:250:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>250:9 - 250:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:250:9: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22 <US>c:main.c@4436@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>250:9 - 250:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:250:9: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22 (Reference) <US>c:main.c@4436@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>250:9 - 250:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:250:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>250:25 - 250:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:250:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>250:25 - 250:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:250:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>250:28 - 252:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:251:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>251:7 - 251:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:251:7: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22 (Reference) <US>c:main.c@4436@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>251:7 - 251:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:251:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>251:23 - 251:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:251:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>251:23 - 251:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:258:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>258:5 - 258:10<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:266:18: FunctionDecl=USCI0RX_ISR|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:266:18 (Definition) <US>c:@F@USCI0RX_ISR<UE> <DS>void USCI0RX_ISR(void)<DE> Extent=<ES>266:13 - 324:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:267:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>267:1 - 324:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:268:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>268:3 - 268:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:268:25: VarDecl=sendingIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:268:25 (Definition) <US>c:main.c@10604@F@USCI0RX_ISR@sendingIndex<UE> <DS>sendingIndex<DE> Extent=<ES>268:3 - 268:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:268:40: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>268:40 - 268:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:268:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>268:40 - 268:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:269:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>269:3 - 269:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:269:24: VarDecl=rcvTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:269:24 (Definition) <US>c:main.c@10647@F@USCI0RX_ISR@rcvTimestamp<UE> <DS>rcvTimestamp<DE> Extent=<ES>269:3 - 269:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:269:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>269:39 - 269:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:269:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>269:39 - 269:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:271:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>271:3 - 323:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:271:6: UnexposedExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:97:13 <US>c:main.c@5281@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>271:6 - 271:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:271:6: DeclRefExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:97:13 (Reference) <US>c:main.c@5281@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>271:6 - 271:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:271:24: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>271:24 - 280:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:274:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>274:5 - 279:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:274:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>274:8 - 274:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:274:8: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>274:8 - 274:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:274:8: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>274:8 - 274:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:274:10: DeclRefExpr=sendingIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:268:25 (Reference) <US>c:main.c@10604@F@USCI0RX_ISR@sendingIndex<UE> <DS>sendingIndex<DE> Extent=<ES>274:10 - 274:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:274:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>274:26 - 274:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:275:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>275:5 - 279:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:276:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>276:7 - 276:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:276:7: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22 (Reference) <US>c:main.c@4436@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>276:7 - 276:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:276:22: UnexposedExpr=rcvTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:269:24 <US>c:main.c@10647@F@USCI0RX_ISR@rcvTimestamp<UE> <DS>rcvTimestamp<DE> Extent=<ES>276:22 - 276:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:276:22: DeclRefExpr=rcvTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:269:24 (Reference) <US>c:main.c@10647@F@USCI0RX_ISR@rcvTimestamp<UE> <DS>rcvTimestamp<DE> Extent=<ES>276:22 - 276:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:277:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>277:7 - 277:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:277:7: DeclRefExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:97:13 (Reference) <US>c:main.c@5281@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>277:7 - 277:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:277:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>277:26 - 277:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:277:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>277:26 - 277:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:278:7: CallExpr=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:375:6 <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>278:7 - 278:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:278:7: UnexposedExpr=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:375:6 <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>278:7 - 278:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:278:7: DeclRefExpr=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:375:6 (Reference) <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>278:7 - 278:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:280:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>280:10 - 323:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:6: FunctionDecl=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:6 (Definition) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>329:1 - 351:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:32: ParmDecl=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:32 (Definition) <US>c:main.c@12502@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>329:18 - 329:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:41: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>329:41 - 351:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:333:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>333:3 - 349:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:333:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>333:7 - 333:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:333:7: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:32 <US>c:main.c@12502@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>333:7 - 333:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:333:7: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:32 <US>c:main.c@12502@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>333:7 - 333:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:333:7: DeclRefExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:32 (Reference) <US>c:main.c@12502@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>333:7 - 333:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:333:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>333:18 - 333:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:333:32: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>333:32 - 337:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:337:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>337:10 - 349:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:337:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>337:14 - 337:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:337:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:32 <US>c:main.c@12502@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>337:14 - 337:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:337:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:32 <US>c:main.c@12502@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>337:14 - 337:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:337:14: DeclRefExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:32 (Reference) <US>c:main.c@12502@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>337:14 - 337:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:337:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>337:25 - 337:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:337:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>337:35 - 341:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:341:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>341:10 - 349:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:341:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>341:14 - 341:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:341:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:32 <US>c:main.c@12502@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>341:14 - 341:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:341:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:32 <US>c:main.c@12502@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>341:14 - 341:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:341:14: DeclRefExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:32 (Reference) <US>c:main.c@12502@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>341:14 - 341:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:341:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>341:25 - 341:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:341:39: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>341:39 - 345:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:345:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>345:10 - 349:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:355:6: FunctionDecl=uartWaitModeStart|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:355:6 (Definition) <US>c:@F@uartWaitModeStart<UE> <DS>void uartWaitModeStart(void)<DE> Extent=<ES>355:1 - 360:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:355:30: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>355:30 - 360:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:356:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>356:4 - 356:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:356:4: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 (Reference) <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>356:4 - 356:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:356:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>356:11 - 356:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:356:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>356:11 - 356:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:357:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>357:4 - 357:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:357:4: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22 (Reference) <US>c:main.c@4436@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>357:4 - 357:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:357:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>357:19 - 357:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:357:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>357:19 - 357:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:358:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>358:4 - 358:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:358:4: DeclRefExpr=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:93:22 (Reference) <US>c:main.c@5054@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>358:4 - 358:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:358:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>358:22 - 358:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:358:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>358:22 - 358:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:359:4: CallExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>359:4 - 359:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:359:4: UnexposedExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>359:4 - 359:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:359:4: DeclRefExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:6 (Reference) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>359:4 - 359:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:359:16: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>359:16 - 359:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:359:16: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 (Reference) <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>359:16 - 359:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:364:6: FunctionDecl=uartModeStart|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:364:6 (Definition) <US>c:@F@uartModeStart<UE> <DS>void uartModeStart(void)<DE> Extent=<ES>364:1 - 371:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:364:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>364:26 - 371:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:365:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>365:4 - 365:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:365:4: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 (Reference) <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>365:4 - 365:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:365:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>365:11 - 365:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:365:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>365:11 - 365:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:366:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>366:4 - 366:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:366:4: DeclRefExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:97:13 (Reference) <US>c:main.c@5281@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>366:4 - 366:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:366:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>366:23 - 366:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:366:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>366:23 - 366:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:367:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>367:4 - 367:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:367:4: DeclRefExpr=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:93:22 (Reference) <US>c:main.c@5054@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>367:4 - 367:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:367:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>367:22 - 367:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:367:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>367:22 - 367:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:368:4: CallExpr=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:442:6 <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>368:4 - 368:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:368:4: UnexposedExpr=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:442:6 <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>368:4 - 368:13<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:368:4: DeclRefExpr=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:442:6 (Reference) <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>368:4 - 368:13<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:375:6: FunctionDecl=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:375:6 (Definition) <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>375:1 - 380:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:375:25: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>375:25 - 380:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:376:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>376:5 - 376:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:376:5: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 (Reference) <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>376:5 - 376:9<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:376:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>376:12 - 376:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:376:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>376:12 - 376:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:377:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>377:5 - 377:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:377:5: DeclRefExpr=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:93:22 (Reference) <US>c:main.c@5054@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>377:5 - 377:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:377:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>377:23 - 377:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:377:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>377:23 - 377:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:378:5: CallExpr=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:454:6 <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>378:5 - 378:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:378:5: UnexposedExpr=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:454:6 <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>378:5 - 378:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:378:5: DeclRefExpr=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:454:6 (Reference) <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>378:5 - 378:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:379:5: CallExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>379:5 - 379:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:379:5: UnexposedExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>379:5 - 379:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:379:5: DeclRefExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:6 (Reference) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>379:5 - 379:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:379:17: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>379:17 - 379:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:379:17: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 (Reference) <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>379:17 - 379:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:383:6: FunctionDecl=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:383:6 (Definition) <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>383:1 - 395:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:383:31: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>383:31 - 395:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:384:4: IfStmt= <US><UE> <DS><DE> Extent=<ES>384:4 - 394:5<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:384:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>384:8 - 384:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:384:8: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22 <US>c:main.c@4436@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>384:8 - 384:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:384:8: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22 (Reference) <US>c:main.c@4436@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>384:8 - 384:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:384:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>384:24 - 384:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:384:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>384:24 - 384:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:384:27: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>384:27 - 389:5<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:385:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>385:6 - 385:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:385:6: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 (Reference) <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>385:6 - 385:10<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:385:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>385:13 - 385:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:385:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>385:13 - 385:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:388:6: DoStmt= <US><UE> <DS><DE> Extent=<ES>388:6 - 388:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:388:6: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>388:6 - 388:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:388:6: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>388:6 - 388:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:389:11: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>389:11 - 394:5<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:390:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>390:6 - 390:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:390:6: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 (Reference) <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>390:6 - 390:10<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:390:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>390:13 - 390:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:390:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>390:13 - 390:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:391:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>391:6 - 391:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:391:6: DeclRefExpr=prevMatState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:94:22 (Reference) <US>c:main.c@5141@prevMatState<UE> <DS>prevMatState<DE> Extent=<ES>391:6 - 391:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:391:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>391:21 - 391:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:391:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>391:21 - 391:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:392:6: DoStmt= <US><UE> <DS><DE> Extent=<ES>392:6 - 392:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:392:6: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>392:6 - 392:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:392:6: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>392:6 - 392:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:6: CallExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>393:6 - 393:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:6: UnexposedExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>393:6 - 393:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:6: DeclRefExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:329:6 (Reference) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>393:6 - 393:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:18: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>393:18 - 393:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:18: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:92:31 (Reference) <US>c:main.c@4995@mode<UE> <DS>mode<DE> Extent=<ES>393:18 - 393:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:398:6: FunctionDecl=send16bit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:398:6 (Definition) <US>c:@F@send16bit<UE> <DS>void send16bit(unsigned short)<DE> Extent=<ES>398:1 - 404:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:398:31: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:398:31 (Definition) <US>c:main.c@15102@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>398:16 - 398:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:398:36: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>398:36 - 404:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:399:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>399:5 - 399:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:399:19: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:399:19 (Definition) <US>c:main.c@15129@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>399:5 - 399:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>400:5 - 403:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>400:10 - 400:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:399:19 (Reference) <US>c:main.c@15129@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>400:10 - 400:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>400:14 - 400:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>400:14 - 400:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>400:17 - 400:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:399:19 <US>c:main.c@15129@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>400:17 - 400:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:399:19 <US>c:main.c@15129@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>400:17 - 400:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:399:19 (Reference) <US>c:main.c@15129@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>400:17 - 400:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>400:21 - 400:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:24: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>400:24 - 400:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:24: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:399:19 (Reference) <US>c:main.c@15129@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>400:24 - 400:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>400:29 - 403:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:401:9: CallExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>401:9 - 401:32<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:401:9: UnexposedExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>401:9 - 401:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:401:9: DeclRefExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:6 (Reference) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>401:9 - 401:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:401:22: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>401:22 - 401:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:401:28: UnexposedExpr=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:398:31 <US>c:main.c@15102@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>401:28 - 401:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:401:28: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:398:31 (Reference) <US>c:main.c@15102@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>401:28 - 401:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:9: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>402:9 - 402:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:9: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:398:31 (Reference) <US>c:main.c@15102@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>402:9 - 402:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>402:17 - 402:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:407:6: FunctionDecl=send32bit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:407:6 (Definition) <US>c:@F@send32bit<UE> <DS>void send32bit(unsigned long)<DE> Extent=<ES>407:1 - 413:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:407:30: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:407:30 (Definition) <US>c:main.c@15387@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>407:16 - 407:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:407:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>407:35 - 413:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:408:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>408:5 - 408:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:408:19: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:408:19 (Definition) <US>c:main.c@15413@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>408:5 - 408:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>409:5 - 412:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>409:10 - 409:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:408:19 (Reference) <US>c:main.c@15413@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>409:10 - 409:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>409:14 - 409:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>409:14 - 409:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>409:17 - 409:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:408:19 <US>c:main.c@15413@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>409:17 - 409:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:408:19 <US>c:main.c@15413@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>409:17 - 409:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:408:19 (Reference) <US>c:main.c@15413@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>409:17 - 409:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>409:21 - 409:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:24: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>409:24 - 409:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:24: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:408:19 (Reference) <US>c:main.c@15413@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>409:24 - 409:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>409:29 - 412:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:410:9: CallExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>410:9 - 410:32<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:410:9: UnexposedExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>410:9 - 410:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:410:9: DeclRefExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:6 (Reference) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>410:9 - 410:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:410:22: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>410:22 - 410:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:410:28: UnexposedExpr=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:407:30 <US>c:main.c@15387@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>410:28 - 410:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:410:28: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:407:30 (Reference) <US>c:main.c@15387@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>410:28 - 410:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:411:9: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>411:9 - 411:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:411:9: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:407:30 (Reference) <US>c:main.c@15387@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>411:9 - 411:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:411:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>411:17 - 411:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:15: FunctionDecl=myStrLen|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:15 (Definition) <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>416:1 - 421:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:30: ParmDecl=str|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:30 (Definition) <US>c:main.c@15734@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>416:24 - 416:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:417:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>417:1 - 421:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:418:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>418:3 - 418:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:418:17: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:418:17 (Definition) <US>c:main.c@15751@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>418:3 - 418:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:418:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>418:21 - 418:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:418:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>418:21 - 418:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>419:3 - 419:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>419:9 - 419:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>419:9 - 419:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:9: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>419:9 - 419:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:9: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>419:9 - 419:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:10: ParenExpr= <US><UE> <DS><DE> Extent=<ES>419:10 - 419:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>419:11 - 419:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:11: UnexposedExpr=str|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:30 <US>c:main.c@15734@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>419:11 - 419:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:11: DeclRefExpr=str|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:30 (Reference) <US>c:main.c@15734@F@myStrLen@str<UE> <DS>char *<DE> Extent=<ES>419:11 - 419:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:17: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>419:17 - 419:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:17: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>419:17 - 419:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:418:17 (Reference) <US>c:main.c@15751@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>419:17 - 419:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:25: CharacterLiteral= <US><UE> <DS><DE> Extent=<ES>419:25 - 419:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:419:30: NullStmt= <US><UE> <DS><DE> Extent=<ES>419:30 - 419:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:420:3: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>420:3 - 420:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:420:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>420:10 - 420:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:420:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>420:10 - 420:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:420:10: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:418:17 <US>c:main.c@15751@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>420:10 - 420:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:420:10: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:418:17 <US>c:main.c@15751@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>420:10 - 420:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:420:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:418:17 (Reference) <US>c:main.c@15751@F@myStrLen@i<UE> <DS>i<DE> Extent=<ES>420:10 - 420:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:420:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>420:14 - 420:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:6: FunctionDecl=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:6 (Definition) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>424:1 - 428:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:24: ParmDecl=charToTransmit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:24 (Definition) <US>c:main.c@15895@F@transmitChar@charToTransmit<UE> <DS>char<DE> Extent=<ES>424:19 - 424:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:425:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>425:1 - 428:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:431:6: FunctionDecl=transmitString|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:431:6 (Definition) <US>c:@F@transmitString<UE> <DS>void transmitString(char *)<DE> Extent=<ES>431:1 - 439:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:431:27: ParmDecl=strToTransmit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:431:27 (Definition) <US>c:main.c@16066@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>431:21 - 431:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:432:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>432:1 - 439:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:433:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>433:3 - 433:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:433:16: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:433:16 (Definition) <US>c:main.c@16093@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>433:3 - 433:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>434:3 - 434:47<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:17: VarDecl=len|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:17 (Definition) <US>c:main.c@16112@F@transmitString@len<UE> <DS>len<DE> Extent=<ES>434:3 - 434:46<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:23: CallExpr=myStrLen|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:15 <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>434:23 - 434:46<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:23: UnexposedExpr=myStrLen|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:15 <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>434:23 - 434:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:23: DeclRefExpr=myStrLen|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:15 (Reference) <US>c:@F@myStrLen<UE> <DS>unsigned char myStrLen(char *)<DE> Extent=<ES>434:23 - 434:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:32: UnexposedExpr=strToTransmit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:431:27 <US>c:main.c@16066@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>434:32 - 434:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:32: DeclRefExpr=strToTransmit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:431:27 (Reference) <US>c:main.c@16066@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>434:32 - 434:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:435:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>435:3 - 438:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:435:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>435:7 - 435:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:435:7: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:433:16 (Reference) <US>c:main.c@16093@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>435:7 - 435:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:435:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>435:11 - 435:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:435:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>435:11 - 435:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:435:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>435:14 - 435:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:435:14: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:433:16 <US>c:main.c@16093@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>435:14 - 435:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:435:14: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:433:16 (Reference) <US>c:main.c@16093@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>435:14 - 435:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:435:18: UnexposedExpr=len|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:17 <US>c:main.c@16112@F@transmitString@len<UE> <DS>len<DE> Extent=<ES>435:18 - 435:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:435:18: UnexposedExpr=len|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:17 <US>c:main.c@16112@F@transmitString@len<UE> <DS>len<DE> Extent=<ES>435:18 - 435:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:435:18: DeclRefExpr=len|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:17 (Reference) <US>c:main.c@16112@F@transmitString@len<UE> <DS>len<DE> Extent=<ES>435:18 - 435:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:435:23: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>435:23 - 435:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:435:23: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:433:16 (Reference) <US>c:main.c@16093@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>435:23 - 435:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:436:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>436:3 - 438:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:5: CallExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>437:5 - 437:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:5: UnexposedExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>437:5 - 437:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:5: DeclRefExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:424:6 (Reference) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>437:5 - 437:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>437:18 - 437:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:18: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>437:18 - 437:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:19: ParenExpr= <US><UE> <DS><DE> Extent=<ES>437:19 - 437:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:20: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>437:20 - 437:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:20: UnexposedExpr=strToTransmit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:431:27 <US>c:main.c@16066@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>437:20 - 437:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:20: DeclRefExpr=strToTransmit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:431:27 (Reference) <US>c:main.c@16066@F@transmitString@strToTransmit<UE> <DS>char *<DE> Extent=<ES>437:20 - 437:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:36: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:433:16 <US>c:main.c@16093@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>437:36 - 437:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:36: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:433:16 (Reference) <US>c:main.c@16093@F@transmitString@i<UE> <DS>i<DE> Extent=<ES>437:36 - 437:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:442:6: FunctionDecl=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:442:6 (Definition) <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>442:1 - 451:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:443:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>443:1 - 451:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:454:6: FunctionDecl=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:454:6 (Definition) <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>454:1 - 457:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:455:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>455:1 - 457:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:460:6: FunctionDecl=myDelay|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:460:6 (Definition) <US>c:@F@myDelay<UE> <DS>void myDelay(unsigned char)<DE> Extent=<ES>460:1 - 465:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:460:28: ParmDecl=units|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:460:28 (Definition) <US>c:main.c@16896@F@myDelay@units<UE> <DS>unsigned char<DE> Extent=<ES>460:14 - 460:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:461:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>461:1 - 465:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:462:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>462:3 - 462:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:462:25: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:462:25 (Definition) <US>c:main.c@16923@F@myDelay@i<UE> <DS>i<DE> Extent=<ES>462:3 - 462:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>463:3 - 463:46<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:16: VarDecl=delayTime|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:16 (Definition) <US>c:main.c@16951@F@myDelay@delayTime<UE> <DS>delayTime<DE> Extent=<ES>463:3 - 463:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:28: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>463:28 - 463:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>463:28 - 463:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:28: UnexposedExpr=units|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:460:28 <US>c:main.c@16896@F@myDelay@units<UE> <DS>unsigned char<DE> Extent=<ES>463:28 - 463:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:28: UnexposedExpr=units|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:460:28 <US>c:main.c@16896@F@myDelay@units<UE> <DS>unsigned char<DE> Extent=<ES>463:28 - 463:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:28: DeclRefExpr=units|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:460:28 (Reference) <US>c:main.c@16896@F@myDelay@units<UE> <DS>unsigned char<DE> Extent=<ES>463:28 - 463:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:36: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>463:36 - 463:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:3: ForStmt= <US><UE> <DS><DE> Extent=<ES>464:3 - 464:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>464:7 - 464:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:7: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:462:25 (Reference) <US>c:main.c@16923@F@myDelay@i<UE> <DS>i<DE> Extent=<ES>464:7 - 464:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>464:11 - 464:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>464:11 - 464:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>464:14 - 464:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:14: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:462:25 <US>c:main.c@16923@F@myDelay@i<UE> <DS>i<DE> Extent=<ES>464:14 - 464:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:14: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:462:25 (Reference) <US>c:main.c@16923@F@myDelay@i<UE> <DS>i<DE> Extent=<ES>464:14 - 464:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:18: UnexposedExpr=delayTime|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:16 <US>c:main.c@16951@F@myDelay@delayTime<UE> <DS>delayTime<DE> Extent=<ES>464:18 - 464:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:18: DeclRefExpr=delayTime|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:16 (Reference) <US>c:main.c@16951@F@myDelay@delayTime<UE> <DS>delayTime<DE> Extent=<ES>464:18 - 464:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:29: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>464:29 - 464:32<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:29: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:462:25 (Reference) <US>c:main.c@16923@F@myDelay@i<UE> <DS>i<DE> Extent=<ES>464:29 - 464:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:33: NullStmt= <US><UE> <DS><DE> Extent=<ES>464:33 - 464:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:468:6: FunctionDecl=recordEvent|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:468:6 (Definition) <US>c:@F@recordEvent<UE> <DS>void recordEvent(unsigned char)<DE> Extent=<ES>468:1 - 493:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:468:32: ParmDecl=matState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:468:32 (Definition) <US>c:main.c@17100@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>468:18 - 468:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:468:42: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>468:42 - 493:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>470:3 - 485:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>470:7 - 471:67<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>470:7 - 470:47<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>470:8 - 470:46<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:8: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:22 <US>c:main.c@4547@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>470:8 - 470:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:8: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:22 <US>c:main.c@4547@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>470:8 - 470:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:8: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:22 (Reference) <US>c:main.c@4547@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>470:8 - 470:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>470:27 - 470:46<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:471:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>471:5 - 471:67<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:471:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>471:6 - 471:66<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:471:6: ParenExpr= <US><UE> <DS><DE> Extent=<ES>471:6 - 471:43<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:471:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>471:7 - 471:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:471:7: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>471:7 - 471:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:471:7: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>471:7 - 471:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:471:7: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 (Reference) <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>471:7 - 471:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:471:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>471:23 - 471:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:471:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>471:47 - 471:66<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:472:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>472:3 - 485:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:474:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>474:5 - 474:77<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:474:21: VarDecl=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:474:21 (Definition) <US>c:main.c@17395@F@recordEvent@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>474:5 - 474:76<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:474:43: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>474:43 - 474:76<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:474:60: UnexposedExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:21 <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>474:60 - 474:76<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:474:60: DeclRefExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:21 (Reference) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>474:60 - 474:76<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>477:5 - 477:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:19: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:19 (Definition) <US>c:main.c@17623@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>477:5 - 477:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>478:5 - 480:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>478:10 - 478:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:19 (Reference) <US>c:main.c@17623@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>478:10 - 478:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>478:14 - 478:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>478:14 - 478:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>478:17 - 478:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:19 <US>c:main.c@17623@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>478:17 - 478:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:19 <US>c:main.c@17623@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>478:17 - 478:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:19 (Reference) <US>c:main.c@17623@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>478:17 - 478:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>478:21 - 478:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:42: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>478:42 - 478:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:42: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:19 (Reference) <US>c:main.c@17623@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>478:42 - 478:43<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:47: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>478:47 - 480:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>479:7 - 479:64<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>479:7 - 479:43<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:7: UnexposedExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:474:21 <US>c:main.c@17395@F@recordEvent@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>479:7 - 479:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:7: DeclRefExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:474:21 (Reference) <US>c:main.c@17395@F@recordEvent@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>479:7 - 479:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:27: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>479:27 - 479:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:27: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 (Reference) <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>479:27 - 479:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:46: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>479:46 - 479:64<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:46: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>479:46 - 479:64<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:46: UnexposedExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:86:22 <US>c:main.c@4629@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>479:46 - 479:61<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:46: DeclRefExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:86:22 (Reference) <US>c:main.c@4629@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>479:46 - 479:61<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:62: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:19 <US>c:main.c@17623@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>479:62 - 479:63<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:62: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:19 (Reference) <US>c:main.c@17623@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>479:62 - 479:63<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:484:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>484:5 - 484:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:484:5: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:22 (Reference) <US>c:main.c@4547@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>484:5 - 484:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:484:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>484:23 - 484:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:484:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>484:23 - 484:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:488:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>488:3 - 492:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:488:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>488:7 - 488:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:488:7: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:22 <US>c:main.c@4547@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>488:7 - 488:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:488:7: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:22 <US>c:main.c@4547@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>488:7 - 488:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:488:7: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:22 (Reference) <US>c:main.c@4547@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>488:7 - 488:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:488:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>488:25 - 488:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:488:46: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>488:46 - 492:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>490:5 - 490:122<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>490:5 - 490:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:5: UnexposedExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:86:22 <US>c:main.c@4629@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>490:5 - 490:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:5: DeclRefExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:86:22 (Reference) <US>c:main.c@4629@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>490:5 - 490:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:21: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>490:21 - 490:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:21: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:22 (Reference) <US>c:main.c@4547@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>490:21 - 490:36<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:42: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>490:42 - 490:122<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:42: ParenExpr= <US><UE> <DS><DE> Extent=<ES>490:42 - 490:88<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:43: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>490:43 - 490:87<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:43: ParenExpr= <US><UE> <DS><DE> Extent=<ES>490:43 - 490:68<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:44: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>490:44 - 490:67<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:59: UnexposedExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:468:32 <US>c:main.c@17100@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>490:59 - 490:67<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:59: DeclRefExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:468:32 (Reference) <US>c:main.c@17100@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>490:59 - 490:67<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:72: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>490:72 - 490:87<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:91: ParenExpr= <US><UE> <DS><DE> Extent=<ES>490:91 - 490:122<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:92: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>490:92 - 490:121<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:92: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22 <US>c:main.c@4436@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>490:92 - 490:104<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:92: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:84:22 (Reference) <US>c:main.c@4436@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>490:92 - 490:104<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:107: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>490:107 - 490:121<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:490:107: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>490:107 - 490:121<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:491:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>491:5 - 491:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:491:5: DeclRefExpr=prevMatState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:94:22 (Reference) <US>c:main.c@5141@prevMatState<UE> <DS>prevMatState<DE> Extent=<ES>491:5 - 491:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:491:20: UnexposedExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:468:32 <US>c:main.c@17100@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>491:20 - 491:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:491:20: DeclRefExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:468:32 (Reference) <US>c:main.c@17100@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>491:20 - 491:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:496:6: FunctionDecl=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:496:6 (Definition) <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>496:1 - 507:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:496:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>496:28 - 507:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:497:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>497:3 - 497:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:497:3: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:22 (Reference) <US>c:main.c@4547@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>497:3 - 497:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:497:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>497:21 - 497:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:497:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>497:21 - 497:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:498:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>498:3 - 498:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:498:3: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 (Reference) <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>498:3 - 498:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:498:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>498:19 - 498:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:498:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>498:19 - 498:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:501:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>501:3 - 501:75<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:501:19: VarDecl=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:501:19 (Definition) <US>c:main.c@18483@F@clearTimestamps@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>501:3 - 501:74<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:501:41: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>501:41 - 501:74<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:501:58: UnexposedExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:21 <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>501:58 - 501:74<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:501:58: DeclRefExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:21 (Reference) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>501:58 - 501:74<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:504:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>504:3 - 504:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:504:3: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>504:3 - 504:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:504:4: UnexposedExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:501:19 <US>c:main.c@18483@F@clearTimestamps@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>504:4 - 504:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:504:4: DeclRefExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:501:19 (Reference) <US>c:main.c@18483@F@clearTimestamps@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>504:4 - 504:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:504:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>504:26 - 504:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:504:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>504:26 - 504:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:15: FunctionDecl=getTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:15 (Definition) <US>c:@F@getTimestamp<UE> <DS>unsigned long getTimestamp(unsigned short)<DE> Extent=<ES>510:1 - 518:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:43: ParmDecl=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:43 (Definition) <US>c:main.c@18973@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>510:28 - 510:57<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:59: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>510:59 - 518:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:511:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>511:3 - 517:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:511:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>511:7 - 511:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:511:7: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:43 <US>c:main.c@18973@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>511:7 - 511:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:511:7: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:43 <US>c:main.c@18973@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>511:7 - 511:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:511:7: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:43 (Reference) <US>c:main.c@18973@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>511:7 - 511:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:511:24: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>511:24 - 511:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:511:24: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>511:24 - 511:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:511:24: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 (Reference) <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>511:24 - 511:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:511:39: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>511:39 - 513:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:512:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>512:5 - 512:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:512:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>512:12 - 512:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:512:12: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>512:12 - 512:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:512:12: UnexposedExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:21 <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>512:12 - 512:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:512:12: DeclRefExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:21 (Reference) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>512:12 - 512:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:512:29: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:43 <US>c:main.c@18973@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>512:29 - 512:43<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:512:29: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:43 (Reference) <US>c:main.c@18973@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>512:29 - 512:43<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:513:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>513:10 - 517:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:513:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>513:14 - 513:64<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:513:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>513:14 - 513:46<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:513:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>513:15 - 513:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:513:15: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:43 <US>c:main.c@18973@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>513:15 - 513:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:513:15: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:43 <US>c:main.c@18973@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>513:15 - 513:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:513:15: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:43 (Reference) <US>c:main.c@18973@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>513:15 - 513:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:513:32: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>513:32 - 513:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:513:32: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>513:32 - 513:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:513:32: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 (Reference) <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>513:32 - 513:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:513:49: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:22 <US>c:main.c@4547@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>513:49 - 513:64<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:513:49: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:22 <US>c:main.c@4547@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>513:49 - 513:64<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:513:49: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:22 (Reference) <US>c:main.c@4547@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>513:49 - 513:64<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:513:66: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>513:66 - 515:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:514:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>514:5 - 514:59<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:514:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>514:12 - 514:59<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:514:12: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>514:12 - 514:59<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:514:12: UnexposedExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:86:22 <US>c:main.c@4629@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>514:12 - 514:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:514:12: DeclRefExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:86:22 (Reference) <US>c:main.c@4629@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>514:12 - 514:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:514:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>514:28 - 514:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:514:28: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:43 <US>c:main.c@18973@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>514:28 - 514:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:514:28: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:43 <US>c:main.c@18973@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>514:28 - 514:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:514:28: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:510:43 (Reference) <US>c:main.c@18973@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>514:28 - 514:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:514:45: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>514:45 - 514:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:514:45: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>514:45 - 514:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:514:45: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:87:22 (Reference) <US>c:main.c@4735@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>514:45 - 514:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:515:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>515:10 - 517:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:516:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>516:5 - 516:13<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:516:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>516:12 - 516:13<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:516:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>516:12 - 516:13<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:226:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>226:5 - 226:10<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:227:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:227:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>227:8 - 227:20<EE>
+<L><invalid loc>:0:0: NullStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:229:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>229:5 - 231:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:229:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>229:9 - 229:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:229:9: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22 <US>c:main.c@3672@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>229:9 - 229:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:229:9: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22 (Reference) <US>c:main.c@3672@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>229:9 - 229:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:229:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>229:25 - 229:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:229:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>229:25 - 229:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:229:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>229:28 - 231:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:230:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>230:7 - 230:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:230:7: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22 (Reference) <US>c:main.c@3672@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>230:7 - 230:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:230:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>230:23 - 230:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:230:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>230:23 - 230:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:241:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>241:5 - 241:10<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:242:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>242:3 - 245:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:242:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>242:8 - 242:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:243:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>243:5 - 245:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:243:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>243:9 - 243:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:243:9: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22 <US>c:main.c@3672@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>243:9 - 243:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:243:9: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22 (Reference) <US>c:main.c@3672@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>243:9 - 243:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:243:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>243:25 - 243:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:243:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>243:25 - 243:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:243:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>243:28 - 245:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:244:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>244:7 - 244:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:244:7: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22 (Reference) <US>c:main.c@3672@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>244:7 - 244:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:244:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>244:23 - 244:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:244:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>244:23 - 244:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:253:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>253:5 - 253:10<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:261:18: FunctionDecl=USCI0RX_ISR|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:261:18 (Definition) <US>c:@F@USCI0RX_ISR<UE> <DS>void USCI0RX_ISR(void)<DE> Extent=<ES>261:13 - 319:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:262:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>262:1 - 319:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:263:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>263:3 - 263:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:263:25: VarDecl=sendingIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:263:25 (Definition) <US>c:main.c@9904@F@USCI0RX_ISR@sendingIndex<UE> <DS>sendingIndex<DE> Extent=<ES>263:3 - 263:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:263:40: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>263:40 - 263:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:263:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>263:40 - 263:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:264:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>264:3 - 264:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:264:24: VarDecl=rcvTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:264:24 (Definition) <US>c:main.c@9947@F@USCI0RX_ISR@rcvTimestamp<UE> <DS>rcvTimestamp<DE> Extent=<ES>264:3 - 264:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:264:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>264:39 - 264:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:264:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>264:39 - 264:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:266:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>266:3 - 318:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:266:6: UnexposedExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:93:13 <US>c:main.c@4475@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>266:6 - 266:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:266:6: DeclRefExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:93:13 (Reference) <US>c:main.c@4475@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>266:6 - 266:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:266:24: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>266:24 - 275:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:269:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>269:5 - 274:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:269:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>269:8 - 269:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:269:8: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>269:8 - 269:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:269:8: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>269:8 - 269:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:269:10: DeclRefExpr=sendingIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:263:25 (Reference) <US>c:main.c@9904@F@USCI0RX_ISR@sendingIndex<UE> <DS>sendingIndex<DE> Extent=<ES>269:10 - 269:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:269:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>269:26 - 269:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:270:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>270:5 - 274:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:271:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>271:7 - 271:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:271:7: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22 (Reference) <US>c:main.c@3672@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>271:7 - 271:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:271:22: UnexposedExpr=rcvTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:264:24 <US>c:main.c@9947@F@USCI0RX_ISR@rcvTimestamp<UE> <DS>rcvTimestamp<DE> Extent=<ES>271:22 - 271:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:271:22: DeclRefExpr=rcvTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:264:24 (Reference) <US>c:main.c@9947@F@USCI0RX_ISR@rcvTimestamp<UE> <DS>rcvTimestamp<DE> Extent=<ES>271:22 - 271:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:272:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>272:7 - 272:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:272:7: DeclRefExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:93:13 (Reference) <US>c:main.c@4475@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>272:7 - 272:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:272:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>272:26 - 272:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:272:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>272:26 - 272:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:273:7: CallExpr=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:368:6 <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>273:7 - 273:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:273:7: UnexposedExpr=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:368:6 <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>273:7 - 273:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:273:7: DeclRefExpr=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:368:6 (Reference) <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>273:7 - 273:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:275:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>275:10 - 318:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:6: FunctionDecl=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:6 (Definition) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>324:1 - 346:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:32: ParmDecl=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:32 (Definition) <US>c:main.c@11802@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>324:18 - 324:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:41: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>324:41 - 346:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:328:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>328:3 - 344:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:328:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>328:7 - 328:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:328:7: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:32 <US>c:main.c@11802@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>328:7 - 328:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:328:7: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:32 <US>c:main.c@11802@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>328:7 - 328:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:328:7: DeclRefExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:32 (Reference) <US>c:main.c@11802@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>328:7 - 328:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:328:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>328:18 - 328:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:328:32: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>328:32 - 332:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:332:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>332:10 - 344:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:332:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>332:14 - 332:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:332:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:32 <US>c:main.c@11802@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>332:14 - 332:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:332:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:32 <US>c:main.c@11802@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>332:14 - 332:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:332:14: DeclRefExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:32 (Reference) <US>c:main.c@11802@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>332:14 - 332:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:332:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>332:25 - 332:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:332:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>332:35 - 336:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:336:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>336:10 - 344:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:336:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>336:14 - 336:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:336:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:32 <US>c:main.c@11802@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>336:14 - 336:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:336:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:32 <US>c:main.c@11802@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>336:14 - 336:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:336:14: DeclRefExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:32 (Reference) <US>c:main.c@11802@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>336:14 - 336:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:336:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>336:25 - 336:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:336:39: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>336:39 - 340:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:340:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>340:10 - 344:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:349:6: FunctionDecl=uartWaitModeStart|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:349:6 (Definition) <US>c:@F@uartWaitModeStart<UE> <DS>void uartWaitModeStart(void)<DE> Extent=<ES>349:1 - 354:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:349:30: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>349:30 - 354:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:350:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>350:4 - 350:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:350:4: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 (Reference) <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>350:4 - 350:8<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:350:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>350:11 - 350:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:350:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>350:11 - 350:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:351:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>351:4 - 351:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:351:4: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22 (Reference) <US>c:main.c@3672@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>351:4 - 351:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:351:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>351:19 - 351:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:351:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>351:19 - 351:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:352:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>352:4 - 352:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:352:4: DeclRefExpr=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:22 (Reference) <US>c:main.c@4290@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>352:4 - 352:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:352:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>352:22 - 352:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:352:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>352:22 - 352:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:353:4: CallExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>353:4 - 353:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:353:4: UnexposedExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>353:4 - 353:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:353:4: DeclRefExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:6 (Reference) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>353:4 - 353:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:353:16: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>353:16 - 353:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:353:16: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 (Reference) <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>353:16 - 353:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:357:6: FunctionDecl=uartModeStart|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:357:6 (Definition) <US>c:@F@uartModeStart<UE> <DS>void uartModeStart(void)<DE> Extent=<ES>357:1 - 365:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:357:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>357:26 - 365:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:358:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>358:4 - 358:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:358:4: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 (Reference) <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>358:4 - 358:8<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:358:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>358:11 - 358:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:358:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>358:11 - 358:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:359:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>359:4 - 359:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:359:4: DeclRefExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:93:13 (Reference) <US>c:main.c@4475@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>359:4 - 359:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:359:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>359:23 - 359:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:359:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>359:23 - 359:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:360:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>360:4 - 360:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:360:4: DeclRefExpr=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:22 (Reference) <US>c:main.c@4290@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>360:4 - 360:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:360:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>360:22 - 360:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:360:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>360:22 - 360:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:361:4: CallExpr=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:6 <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>361:4 - 361:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:361:4: UnexposedExpr=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:6 <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>361:4 - 361:13<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:361:4: DeclRefExpr=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:6 (Reference) <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>361:4 - 361:13<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:368:6: FunctionDecl=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:368:6 (Definition) <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>368:1 - 373:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:368:25: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>368:25 - 373:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:369:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>369:5 - 369:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:369:5: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 (Reference) <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>369:5 - 369:9<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:369:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>369:12 - 369:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:369:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>369:12 - 369:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:370:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>370:5 - 370:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:370:5: DeclRefExpr=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:89:22 (Reference) <US>c:main.c@4290@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>370:5 - 370:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:370:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>370:23 - 370:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:370:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>370:23 - 370:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:371:5: CallExpr=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:428:6 <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>371:5 - 371:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:371:5: UnexposedExpr=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:428:6 <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>371:5 - 371:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:371:5: DeclRefExpr=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:428:6 (Reference) <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>371:5 - 371:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:372:5: CallExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>372:5 - 372:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:372:5: UnexposedExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>372:5 - 372:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:372:5: DeclRefExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:6 (Reference) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>372:5 - 372:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:372:17: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>372:17 - 372:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:372:17: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 (Reference) <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>372:17 - 372:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:376:6: FunctionDecl=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:376:6 (Definition) <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>376:1 - 388:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:376:31: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>376:31 - 388:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:377:4: IfStmt= <US><UE> <DS><DE> Extent=<ES>377:4 - 387:5<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:377:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>377:8 - 377:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:377:8: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22 <US>c:main.c@3672@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>377:8 - 377:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:377:8: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22 (Reference) <US>c:main.c@3672@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>377:8 - 377:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:377:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>377:24 - 377:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:377:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>377:24 - 377:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:377:27: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>377:27 - 382:5<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:378:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>378:6 - 378:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:378:6: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 (Reference) <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>378:6 - 378:10<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:378:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>378:13 - 378:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:378:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>378:13 - 378:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:381:6: DoStmt= <US><UE> <DS><DE> Extent=<ES>381:6 - 381:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:381:6: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>381:6 - 381:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:381:6: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>381:6 - 381:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:382:11: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>382:11 - 387:5<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:383:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>383:6 - 383:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:383:6: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 (Reference) <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>383:6 - 383:10<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:383:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>383:13 - 383:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:383:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>383:13 - 383:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:384:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>384:6 - 384:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:384:6: DeclRefExpr=prevMatState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:90:22 (Reference) <US>c:main.c@4377@prevMatState<UE> <DS>prevMatState<DE> Extent=<ES>384:6 - 384:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:384:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>384:21 - 384:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:384:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>384:21 - 384:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:385:6: DoStmt= <US><UE> <DS><DE> Extent=<ES>385:6 - 385:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:385:6: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>385:6 - 385:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:385:6: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>385:6 - 385:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:386:6: CallExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>386:6 - 386:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:386:6: UnexposedExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>386:6 - 386:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:386:6: DeclRefExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:324:6 (Reference) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>386:6 - 386:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:386:18: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>386:18 - 386:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:386:18: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:88:31 (Reference) <US>c:main.c@4231@mode<UE> <DS>mode<DE> Extent=<ES>386:18 - 386:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:391:6: FunctionDecl=send16bit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:391:6 (Definition) <US>c:@F@send16bit<UE> <DS>void send16bit(unsigned short)<DE> Extent=<ES>391:1 - 397:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:391:31: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:391:31 (Definition) <US>c:main.c@14241@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>391:16 - 391:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:391:36: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>391:36 - 397:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:392:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>392:5 - 392:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:392:19: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:392:19 (Definition) <US>c:main.c@14268@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>392:5 - 392:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>393:5 - 396:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>393:10 - 393:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:392:19 (Reference) <US>c:main.c@14268@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>393:10 - 393:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>393:14 - 393:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>393:14 - 393:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>393:17 - 393:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:392:19 <US>c:main.c@14268@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>393:17 - 393:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:392:19 <US>c:main.c@14268@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>393:17 - 393:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:392:19 (Reference) <US>c:main.c@14268@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>393:17 - 393:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>393:21 - 393:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:24: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>393:24 - 393:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:24: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:392:19 (Reference) <US>c:main.c@14268@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>393:24 - 393:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:393:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>393:29 - 396:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:394:9: CallExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>394:9 - 394:32<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:394:9: UnexposedExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>394:9 - 394:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:394:9: DeclRefExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:6 (Reference) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>394:9 - 394:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:394:22: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>394:22 - 394:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:394:28: UnexposedExpr=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:391:31 <US>c:main.c@14241@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>394:28 - 394:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:394:28: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:391:31 (Reference) <US>c:main.c@14241@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>394:28 - 394:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:395:9: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>395:9 - 395:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:395:9: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:391:31 (Reference) <US>c:main.c@14241@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>395:9 - 395:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:395:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>395:17 - 395:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:6: FunctionDecl=send32bit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:6 (Definition) <US>c:@F@send32bit<UE> <DS>void send32bit(unsigned long)<DE> Extent=<ES>400:1 - 406:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:30: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:30 (Definition) <US>c:main.c@14522@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>400:16 - 400:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>400:35 - 406:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:401:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>401:5 - 401:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:401:19: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:401:19 (Definition) <US>c:main.c@14548@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>401:5 - 401:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>402:5 - 405:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>402:10 - 402:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:401:19 (Reference) <US>c:main.c@14548@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>402:10 - 402:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>402:14 - 402:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>402:14 - 402:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>402:17 - 402:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:401:19 <US>c:main.c@14548@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>402:17 - 402:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:401:19 <US>c:main.c@14548@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>402:17 - 402:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:401:19 (Reference) <US>c:main.c@14548@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>402:17 - 402:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>402:21 - 402:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:24: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>402:24 - 402:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:24: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:401:19 (Reference) <US>c:main.c@14548@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>402:24 - 402:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:402:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>402:29 - 405:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:403:9: CallExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>403:9 - 403:32<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:403:9: UnexposedExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>403:9 - 403:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:403:9: DeclRefExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:6 (Reference) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>403:9 - 403:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:403:22: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>403:22 - 403:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:403:28: UnexposedExpr=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:30 <US>c:main.c@14522@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>403:28 - 403:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:403:28: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:30 (Reference) <US>c:main.c@14522@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>403:28 - 403:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:404:9: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>404:9 - 404:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:404:9: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:400:30 (Reference) <US>c:main.c@14522@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>404:9 - 404:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:404:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>404:17 - 404:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:6: FunctionDecl=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:6 (Definition) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>409:1 - 413:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:24: ParmDecl=charToTransmit|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:409:24 (Definition) <US>c:main.c@14811@F@transmitChar@charToTransmit<UE> <DS>char<DE> Extent=<ES>409:19 - 409:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:410:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>410:1 - 413:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:6: FunctionDecl=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:416:6 (Definition) <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>416:1 - 425:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:417:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>417:1 - 425:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:428:6: FunctionDecl=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:428:6 (Definition) <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>428:1 - 431:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:429:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>429:1 - 431:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:6: FunctionDecl=recordEvent|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:6 (Definition) <US>c:@F@recordEvent<UE> <DS>void recordEvent(unsigned char)<DE> Extent=<ES>434:1 - 459:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:32: ParmDecl=matState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:32 (Definition) <US>c:main.c@15562@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>434:18 - 434:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:42: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>434:42 - 459:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:436:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>436:3 - 451:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:436:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>436:7 - 437:67<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:436:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>436:7 - 436:47<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:436:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>436:8 - 436:46<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:436:8: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:81:22 <US>c:main.c@3783@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>436:8 - 436:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:436:8: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:81:22 <US>c:main.c@3783@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>436:8 - 436:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:436:8: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:81:22 (Reference) <US>c:main.c@3783@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>436:8 - 436:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:436:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>436:27 - 436:46<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>437:5 - 437:67<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>437:6 - 437:66<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:6: ParenExpr= <US><UE> <DS><DE> Extent=<ES>437:6 - 437:43<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>437:7 - 437:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:7: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>437:7 - 437:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:7: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>437:7 - 437:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:7: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 (Reference) <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>437:7 - 437:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>437:23 - 437:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:437:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>437:47 - 437:66<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:438:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>438:3 - 451:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:440:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>440:5 - 440:77<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:440:21: VarDecl=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:440:21 (Definition) <US>c:main.c@15857@F@recordEvent@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>440:5 - 440:76<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:440:43: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>440:43 - 440:76<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:440:60: UnexposedExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:21 <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>440:60 - 440:76<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:440:60: DeclRefExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:21 (Reference) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>440:60 - 440:76<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:443:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>443:5 - 443:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:443:19: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:443:19 (Definition) <US>c:main.c@16085@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>443:5 - 443:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>444:5 - 446:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>444:10 - 444:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:443:19 (Reference) <US>c:main.c@16085@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>444:10 - 444:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>444:14 - 444:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>444:14 - 444:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>444:17 - 444:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:443:19 <US>c:main.c@16085@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>444:17 - 444:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:443:19 <US>c:main.c@16085@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>444:17 - 444:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:443:19 (Reference) <US>c:main.c@16085@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>444:17 - 444:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>444:21 - 444:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:42: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>444:42 - 444:45<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:42: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:443:19 (Reference) <US>c:main.c@16085@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>444:42 - 444:43<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:444:47: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>444:47 - 446:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:445:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>445:7 - 445:64<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:445:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>445:7 - 445:43<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:445:7: UnexposedExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:440:21 <US>c:main.c@15857@F@recordEvent@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>445:7 - 445:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:445:7: DeclRefExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:440:21 (Reference) <US>c:main.c@15857@F@recordEvent@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>445:7 - 445:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:445:27: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>445:27 - 445:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:445:27: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 (Reference) <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>445:27 - 445:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:445:46: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>445:46 - 445:64<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:445:46: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>445:46 - 445:64<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:445:46: UnexposedExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:82:22 <US>c:main.c@3865@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>445:46 - 445:61<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:445:46: DeclRefExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:82:22 (Reference) <US>c:main.c@3865@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>445:46 - 445:61<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:445:62: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:443:19 <US>c:main.c@16085@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>445:62 - 445:63<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:445:62: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:443:19 (Reference) <US>c:main.c@16085@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>445:62 - 445:63<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:450:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>450:5 - 450:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:450:5: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:81:22 (Reference) <US>c:main.c@3783@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>450:5 - 450:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:450:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>450:23 - 450:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:450:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>450:23 - 450:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:454:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>454:3 - 458:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:454:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>454:7 - 454:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:454:7: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:81:22 <US>c:main.c@3783@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>454:7 - 454:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:454:7: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:81:22 <US>c:main.c@3783@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>454:7 - 454:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:454:7: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:81:22 (Reference) <US>c:main.c@3783@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>454:7 - 454:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:454:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>454:25 - 454:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:454:46: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>454:46 - 458:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>456:5 - 456:122<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>456:5 - 456:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:5: UnexposedExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:82:22 <US>c:main.c@3865@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>456:5 - 456:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:5: DeclRefExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:82:22 (Reference) <US>c:main.c@3865@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>456:5 - 456:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:21: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>456:21 - 456:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:21: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:81:22 (Reference) <US>c:main.c@3783@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>456:21 - 456:36<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:42: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>456:42 - 456:122<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:42: ParenExpr= <US><UE> <DS><DE> Extent=<ES>456:42 - 456:88<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:43: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>456:43 - 456:87<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:43: ParenExpr= <US><UE> <DS><DE> Extent=<ES>456:43 - 456:68<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:44: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>456:44 - 456:67<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:59: UnexposedExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:32 <US>c:main.c@15562@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>456:59 - 456:67<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:59: DeclRefExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:32 (Reference) <US>c:main.c@15562@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>456:59 - 456:67<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:72: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>456:72 - 456:87<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:91: ParenExpr= <US><UE> <DS><DE> Extent=<ES>456:91 - 456:122<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:92: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>456:92 - 456:121<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:92: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22 <US>c:main.c@3672@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>456:92 - 456:104<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:92: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:80:22 (Reference) <US>c:main.c@3672@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>456:92 - 456:104<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:107: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>456:107 - 456:121<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:456:107: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>456:107 - 456:121<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:457:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>457:5 - 457:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:457:5: DeclRefExpr=prevMatState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:90:22 (Reference) <US>c:main.c@4377@prevMatState<UE> <DS>prevMatState<DE> Extent=<ES>457:5 - 457:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:457:20: UnexposedExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:32 <US>c:main.c@15562@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>457:20 - 457:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:457:20: DeclRefExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:434:32 (Reference) <US>c:main.c@15562@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>457:20 - 457:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:462:6: FunctionDecl=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:462:6 (Definition) <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>462:1 - 473:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:462:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>462:28 - 473:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>463:3 - 463:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:3: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:81:22 (Reference) <US>c:main.c@3783@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>463:3 - 463:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>463:21 - 463:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:463:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>463:21 - 463:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>464:3 - 464:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:3: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 (Reference) <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>464:3 - 464:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>464:19 - 464:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:464:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>464:19 - 464:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:467:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>467:3 - 467:75<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:467:19: VarDecl=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:467:19 (Definition) <US>c:main.c@16945@F@clearTimestamps@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>467:3 - 467:74<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:467:41: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>467:41 - 467:74<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:467:58: UnexposedExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:21 <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>467:58 - 467:74<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:467:58: DeclRefExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:21 (Reference) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>467:58 - 467:74<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>470:3 - 470:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:3: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>470:3 - 470:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:4: UnexposedExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:467:19 <US>c:main.c@16945@F@clearTimestamps@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>470:4 - 470:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:4: DeclRefExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:467:19 (Reference) <US>c:main.c@16945@F@clearTimestamps@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>470:4 - 470:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>470:26 - 470:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:470:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>470:26 - 470:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:15: FunctionDecl=getTimestamp|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:15 (Definition) <US>c:@F@getTimestamp<UE> <DS>unsigned long getTimestamp(unsigned short)<DE> Extent=<ES>476:1 - 484:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:43: ParmDecl=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:43 (Definition) <US>c:main.c@17435@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>476:28 - 476:57<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:59: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>476:59 - 484:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>477:3 - 483:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>477:7 - 477:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:7: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:43 <US>c:main.c@17435@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>477:7 - 477:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:7: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:43 <US>c:main.c@17435@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>477:7 - 477:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:7: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:43 (Reference) <US>c:main.c@17435@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>477:7 - 477:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:24: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>477:24 - 477:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:24: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>477:24 - 477:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:24: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 (Reference) <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>477:24 - 477:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:477:39: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>477:39 - 479:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>478:5 - 478:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>478:12 - 478:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:12: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>478:12 - 478:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:12: UnexposedExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:21 <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>478:12 - 478:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:12: DeclRefExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:85:21 (Reference) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>478:12 - 478:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:29: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:43 <US>c:main.c@17435@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>478:29 - 478:43<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:478:29: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:43 (Reference) <US>c:main.c@17435@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>478:29 - 478:43<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>479:10 - 483:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>479:14 - 479:64<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>479:14 - 479:46<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>479:15 - 479:45<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:15: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:43 <US>c:main.c@17435@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>479:15 - 479:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:15: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:43 <US>c:main.c@17435@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>479:15 - 479:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:15: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:43 (Reference) <US>c:main.c@17435@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>479:15 - 479:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:32: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>479:32 - 479:45<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:32: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>479:32 - 479:45<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:32: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 (Reference) <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>479:32 - 479:45<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:49: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:81:22 <US>c:main.c@3783@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>479:49 - 479:64<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:49: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:81:22 <US>c:main.c@3783@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>479:49 - 479:64<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:49: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:81:22 (Reference) <US>c:main.c@3783@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>479:49 - 479:64<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:479:66: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>479:66 - 481:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:480:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>480:5 - 480:59<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:480:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>480:12 - 480:59<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:480:12: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>480:12 - 480:59<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:480:12: UnexposedExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:82:22 <US>c:main.c@3865@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>480:12 - 480:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:480:12: DeclRefExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:82:22 (Reference) <US>c:main.c@3865@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>480:12 - 480:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:480:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>480:28 - 480:58<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:480:28: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:43 <US>c:main.c@17435@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>480:28 - 480:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:480:28: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:43 <US>c:main.c@17435@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>480:28 - 480:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:480:28: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:476:43 (Reference) <US>c:main.c@17435@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>480:28 - 480:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:480:45: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>480:45 - 480:58<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:480:45: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>480:45 - 480:58<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:480:45: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:83:22 (Reference) <US>c:main.c@3971@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>480:45 - 480:58<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:481:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>481:10 - 483:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:482:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>482:5 - 482:13<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:482:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>482:12 - 482:13<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteTrunk\main.c:482:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>482:12 - 482:13<EE>

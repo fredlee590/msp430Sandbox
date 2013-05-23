@@ -7,14 +7,13 @@
     <name>Debug</name>
     <outputs>
       <file>$PROJ_DIR$\main.c</file>
-      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$PROJ_DIR$\Debug\Exe\namasteRC.d43</file>
       <file>$PROJ_DIR$\Debug\Exe\namasteRC.ulp</file>
+      <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\namasteRC.d43</file>
       <file>$PROJ_DIR$\Debug\Obj\namasteRC.pbd</file>
-      <file>$PROJ_DIR$\..\namasteTrunk\main.c</file>
       <file>$TOOLKIT_DIR$\inc\msp430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
       <file>$TOOLKIT_DIR$\config\lnk430F2274.xcl</file>
       <file>$TOOLKIT_DIR$\inc\msp430f2274.h</file>
       <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
@@ -27,11 +26,11 @@
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 4 12</file>
+          <file> 3 11</file>
         </tool>
         <tool>
           <name>ULP430</name>
-          <file> 5</file>
+          <file> 1</file>
         </tool>
       </outputs>
     </file>
@@ -40,21 +39,21 @@
       <outputs>
         <tool>
           <name>ICC430</name>
-          <file> 2</file>
+          <file> 7</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 3</file>
+          <file> 6</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>ICC430</name>
-          <file> 8 10 13 1 14</file>
+          <file> 5 9 12 2 13</file>
         </tool>
         <tool>
           <name>BICOMP</name>
-          <file> 8 10 13 1 14</file>
+          <file> 5 9 12 2 13</file>
         </tool>
       </inputs>
     </file>
@@ -63,13 +62,13 @@
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 12</file>
+          <file> 11</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 9 2 11</file>
+          <file> 8 7 10</file>
         </tool>
       </inputs>
     </file>
