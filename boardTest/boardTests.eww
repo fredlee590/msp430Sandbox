@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\blink\blink.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\clocks\clocks.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\reedSwitchTest\reedSwitchTest.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\sampleUartTest\sampleUartTest.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\spamTest\spamTest.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\uartTest\uartTest.ewp</path>
+  </project>
+  <batchBuild/>
+</workspace>
+
+

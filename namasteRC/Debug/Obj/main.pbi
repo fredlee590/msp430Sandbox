@@ -67,7 +67,7 @@
 <L><invalid loc>:68:9: macro definition=__STDC__ <US>c:macro@__STDC__<UE> <DS>__STDC__<DE> Extent=<ES>68:9 - 68:19<EE>
 <L><invalid loc>:69:9: macro definition=__STDC_HOSTED__ <US>c:macro@__STDC_HOSTED__<UE> <DS>__STDC_HOSTED__<DE> Extent=<ES>69:9 - 69:26<EE>
 <L><invalid loc>:70:9: macro definition=__STDC_VERSION__ <US>c:macro@__STDC_VERSION__<UE> <DS>__STDC_VERSION__<DE> Extent=<ES>70:9 - 70:33<EE>
-<L><invalid loc>:72:9: macro definition=__MSP430F2274__ <US>c:macro@__MSP430F2274__<UE> <DS>__MSP430F2274__<DE> Extent=<ES>72:9 - 72:26<EE>
+<L><invalid loc>:72:9: macro definition=__MSP430F2132__ <US>c:macro@__MSP430F2132__<UE> <DS>__MSP430F2132__<DE> Extent=<ES>72:9 - 72:26<EE>
 <L><invalid loc>:73:9: macro definition=__CHAR_BITS__ <US>c:macro@__CHAR_BITS__<UE> <DS>__CHAR_BITS__<DE> Extent=<ES>73:9 - 73:24<EE>
 <L><invalid loc>:74:9: macro definition=__CHAR_MAX__ <US>c:macro@__CHAR_MAX__<UE> <DS>__CHAR_MAX__<DE> Extent=<ES>74:9 - 74:26<EE>
 <L><invalid loc>:75:9: macro definition=__CHAR_MIN__ <US>c:macro@__CHAR_MIN__<UE> <DS>__CHAR_MIN__<DE> Extent=<ES>75:9 - 75:23<EE>
@@ -289,7 +289,7 @@
 <L><invalid loc>:293:9: macro definition=__EDG_SYSV <US>c:macro@__EDG_SYSV<UE> <DS>__EDG_SYSV<DE> Extent=<ES>293:9 - 293:21<EE>
 <L><invalid loc>:294:9: macro definition=__EDG_ANSIC <US>c:macro@__EDG_ANSIC<UE> <DS>__EDG_ANSIC<DE> Extent=<ES>294:9 - 294:22<EE>
 <L><invalid loc>:295:9: macro definition=__EDG_CPP0X_IL_EXTENSIONS_SUPPORTED <US>c:macro@__EDG_CPP0X_IL_EXTENSIONS_SUPPORTED<UE> <DS>__EDG_CPP0X_IL_EXTENSIONS_SUPPORTED<DE> Extent=<ES>295:9 - 295:46<EE>
-<L><invalid loc>:296:9: macro definition=__MSP430F2274__ <US>c:macro@__MSP430F2274__<UE> <DS>__MSP430F2274__<DE> Extent=<ES>296:9 - 296:26<EE>
+<L><invalid loc>:296:9: macro definition=__MSP430F2132__ <US>c:macro@__MSP430F2132__<UE> <DS>__MSP430F2132__<DE> Extent=<ES>296:9 - 296:26<EE>
 <L><invalid loc>:297:9: macro definition=_DLIB_CONFIG_FILE_HEADER_NAME <US>c:macro@_DLIB_CONFIG_FILE_HEADER_NAME<UE> <DS>_DLIB_CONFIG_FILE_HEADER_NAME<DE> Extent=<ES>297:9 - 297:115<EE>
 <L><invalid loc>:298:9: macro definition=_DLIB_CONFIG_FILE_STRING <US>c:macro@_DLIB_CONFIG_FILE_STRING<UE> <DS>_DLIB_CONFIG_FILE_STRING<DE> Extent=<ES>298:9 - 298:117<EE>
 <L><invalid loc>:299:9: macro definition=__VERSION__ <US>c:macro@__VERSION__<UE> <DS>__VERSION__<DE> Extent=<ES>299:9 - 299:70<EE>
@@ -323,13 +323,13 @@
 <L><invalid loc>:327:9: macro definition=__TOPP_DATA_MEMORY_LIST3__ <US>c:macro@__TOPP_DATA_MEMORY_LIST3__<UE> <DS>__TOPP_DATA_MEMORY_LIST3__<DE> Extent=<ES>327:9 - 327:97<EE>
 <L><invalid loc>:328:9: macro definition=__DATA_MEM0_SIZE_TYPE__ <US>c:macro@__DATA_MEM0_SIZE_TYPE__<UE> <DS>__DATA_MEM0_SIZE_TYPE__<DE> Extent=<ES>328:9 - 328:45<EE>
 <L><invalid loc>:329:9: macro definition=__DATA_MEM0_INDEX_TYPE__ <US>c:macro@__DATA_MEM0_INDEX_TYPE__<UE> <DS>__DATA_MEM0_INDEX_TYPE__<DE> Extent=<ES>329:9 - 329:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:1:1: inclusion directive=msp430.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430.h<IE>  [multi-include guarded] Extent=<ES>1:1 - 1:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:6:1: inclusion directive=msp430.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430.h<IE>  [multi-include guarded] Extent=<ES>6:1 - 6:11<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430.h:9:9: macro definition=__msp430 <US>c:macro@__msp430<UE> <DS>__msp430<DE> Extent=<ES>9:9 - 9:17<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430.h:241:1: inclusion directive=msp430f2274.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h<IE>  [multi-include guarded] Extent=<ES>241:1 - 241:25<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:22:9: macro definition=__msp430x22x4 <US>c:macro@__msp430x22x4<UE> <DS>__msp430x22x4<DE> Extent=<ES>22:9 - 22:22<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:24:9: macro definition=__MSP430_HEADER_VERSION__ <US>c:macro@__MSP430_HEADER_VERSION__<UE> <DS>__MSP430_HEADER_VERSION__<DE> Extent=<ES>24:9 - 24:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:32:8: macro expansion=__TID__|<invalid loc>:210:9 <US>c:macro@__TID__<UE> <DS>__TID__<DE> Extent=<ES>32:8 - 32:15<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:38:1: inclusion directive=in430.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h<IE>  [multi-include guarded] Extent=<ES>38:1 - 38:19<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430.h:223:1: inclusion directive=msp430f2132.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h<IE>  [multi-include guarded] Extent=<ES>223:1 - 223:25<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:18:9: macro definition=__msp430x21x2 <US>c:macro@__msp430x21x2<UE> <DS>__msp430x21x2<DE> Extent=<ES>18:9 - 18:22<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:20:9: macro definition=__MSP430_HEADER_VERSION__ <US>c:macro@__MSP430_HEADER_VERSION__<UE> <DS>__MSP430_HEADER_VERSION__<DE> Extent=<ES>20:9 - 20:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:28:8: macro expansion=__TID__|<invalid loc>:210:9 <US>c:macro@__TID__<UE> <DS>__TID__<DE> Extent=<ES>28:8 - 28:15<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:34:1: inclusion directive=in430.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h<IE>  [multi-include guarded] Extent=<ES>34:1 - 34:19<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:28:9: macro definition=__IN430_H <US>c:macro@__IN430_H<UE> <DS>__IN430_H<DE> Extent=<ES>28:9 - 28:18<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:34:1: inclusion directive=intrinsics.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h<IE>  [multi-include guarded] Extent=<ES>34:1 - 34:24<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:12:9: macro definition=__INTRINSICS_H <US>c:macro@__INTRINSICS_H<UE> <DS>__INTRINSICS_H<DE> Extent=<ES>12:9 - 12:23<EE>
@@ -392,1124 +392,1076 @@
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:95:9: macro definition=_SWAP_BYTES <US>c:macro@_SWAP_BYTES<UE> <DS>_SWAP_BYTES<DE> Extent=<ES>95:9 - 95:39<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:99:9: macro definition=monitor <US>c:macro@monitor<UE> <DS>monitor<DE> Extent=<ES>99:9 - 99:33<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:102:9: macro definition=no_init <US>c:macro@no_init<UE> <DS>no_init<DE> Extent=<ES>102:9 - 102:33<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9: macro definition=DEFC <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>41:9 - 41:77<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9: macro definition=DEFW <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>42:9 - 42:78<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:43:9: macro definition=DEFXC <US>c:macro@DEFXC<UE> <DS>DEFXC<DE> Extent=<ES>43:9 - 43:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:44:9: macro definition=DEFXW <US>c:macro@DEFXW<UE> <DS>DEFXW<DE> Extent=<ES>44:9 - 44:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9: macro definition=READ_ONLY <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>58:9 - 58:24<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:65:9: macro definition=BIT0 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>65:9 - 65:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:66:9: macro definition=BIT1 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>66:9 - 66:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:67:9: macro definition=BIT2 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>67:9 - 67:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:68:9: macro definition=BIT3 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>68:9 - 68:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:69:9: macro definition=BIT4 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>69:9 - 69:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:70:9: macro definition=BIT5 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>70:9 - 70:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:71:9: macro definition=BIT6 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>71:9 - 71:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:72:9: macro definition=BIT7 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>72:9 - 72:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:73:9: macro definition=BIT8 <US>c:macro@BIT8<UE> <DS>BIT8<DE> Extent=<ES>73:9 - 73:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:74:9: macro definition=BIT9 <US>c:macro@BIT9<UE> <DS>BIT9<DE> Extent=<ES>74:9 - 74:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:75:9: macro definition=BITA <US>c:macro@BITA<UE> <DS>BITA<DE> Extent=<ES>75:9 - 75:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:76:9: macro definition=BITB <US>c:macro@BITB<UE> <DS>BITB<DE> Extent=<ES>76:9 - 76:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:77:9: macro definition=BITC <US>c:macro@BITC<UE> <DS>BITC<DE> Extent=<ES>77:9 - 77:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:78:9: macro definition=BITD <US>c:macro@BITD<UE> <DS>BITD<DE> Extent=<ES>78:9 - 78:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:79:9: macro definition=BITE <US>c:macro@BITE<UE> <DS>BITE<DE> Extent=<ES>79:9 - 79:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:80:9: macro definition=BITF <US>c:macro@BITF<UE> <DS>BITF<DE> Extent=<ES>80:9 - 80:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:86:9: macro definition=C <US>c:macro@C<UE> <DS>C<DE> Extent=<ES>86:9 - 86:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:87:9: macro definition=Z <US>c:macro@Z<UE> <DS>Z<DE> Extent=<ES>87:9 - 87:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:88:9: macro definition=N <US>c:macro@N<UE> <DS>N<DE> Extent=<ES>88:9 - 88:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:89:9: macro definition=V <US>c:macro@V<UE> <DS>V<DE> Extent=<ES>89:9 - 89:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:90:9: macro definition=GIE <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>90:9 - 90:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:91:9: macro definition=CPUOFF <US>c:macro@CPUOFF<UE> <DS>CPUOFF<DE> Extent=<ES>91:9 - 91:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:92:9: macro definition=OSCOFF <US>c:macro@OSCOFF<UE> <DS>OSCOFF<DE> Extent=<ES>92:9 - 92:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:93:9: macro definition=SCG0 <US>c:macro@SCG0<UE> <DS>SCG0<DE> Extent=<ES>93:9 - 93:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:94:9: macro definition=SCG1 <US>c:macro@SCG1<UE> <DS>SCG1<DE> Extent=<ES>94:9 - 94:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:107:9: macro definition=LPM0_bits <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>107:9 - 107:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:108:9: macro definition=LPM1_bits <US>c:macro@LPM1_bits<UE> <DS>LPM1_bits<DE> Extent=<ES>108:9 - 108:42<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:109:9: macro definition=LPM2_bits <US>c:macro@LPM2_bits<UE> <DS>LPM2_bits<DE> Extent=<ES>109:9 - 109:42<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:110:9: macro definition=LPM3_bits <US>c:macro@LPM3_bits<UE> <DS>LPM3_bits<DE> Extent=<ES>110:9 - 110:47<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:111:9: macro definition=LPM4_bits <US>c:macro@LPM4_bits<UE> <DS>LPM4_bits<DE> Extent=<ES>111:9 - 111:54<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:113:1: inclusion directive=in430.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h<IE>  [multi-include guarded] Extent=<ES>113:1 - 113:19<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:115:9: macro definition=LPM0 <US>c:macro@LPM0<UE> <DS>LPM0<DE> Extent=<ES>115:9 - 115:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:116:9: macro definition=LPM0_EXIT <US>c:macro@LPM0_EXIT<UE> <DS>LPM0_EXIT<DE> Extent=<ES>116:9 - 116:41<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:117:9: macro definition=LPM1 <US>c:macro@LPM1<UE> <DS>LPM1<DE> Extent=<ES>117:9 - 117:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:118:9: macro definition=LPM1_EXIT <US>c:macro@LPM1_EXIT<UE> <DS>LPM1_EXIT<DE> Extent=<ES>118:9 - 118:41<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:119:9: macro definition=LPM2 <US>c:macro@LPM2<UE> <DS>LPM2<DE> Extent=<ES>119:9 - 119:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:120:9: macro definition=LPM2_EXIT <US>c:macro@LPM2_EXIT<UE> <DS>LPM2_EXIT<DE> Extent=<ES>120:9 - 120:41<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:121:9: macro definition=LPM3 <US>c:macro@LPM3<UE> <DS>LPM3<DE> Extent=<ES>121:9 - 121:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:122:9: macro definition=LPM3_EXIT <US>c:macro@LPM3_EXIT<UE> <DS>LPM3_EXIT<DE> Extent=<ES>122:9 - 122:41<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:123:9: macro definition=LPM4 <US>c:macro@LPM4<UE> <DS>LPM4<DE> Extent=<ES>123:9 - 123:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:124:9: macro definition=LPM4_EXIT <US>c:macro@LPM4_EXIT<UE> <DS>LPM4_EXIT<DE> Extent=<ES>124:9 - 124:41<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:135:9: macro definition=IE1_ <US>c:macro@IE1_<UE> <DS>IE1_<DE> Extent=<ES>135:9 - 135:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:136:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>136:1 - 136:34<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:136:29: macro expansion=IE1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:135:9 <US>c:macro@IE1_<UE> <DS>IE1_<DE> Extent=<ES>136:29 - 136:33<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:137:9: macro definition=WDTIE <US>c:macro@WDTIE<UE> <DS>WDTIE<DE> Extent=<ES>137:9 - 137:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:138:9: macro definition=OFIE <US>c:macro@OFIE<UE> <DS>OFIE<DE> Extent=<ES>138:9 - 138:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:139:9: macro definition=NMIIE <US>c:macro@NMIIE<UE> <DS>NMIIE<DE> Extent=<ES>139:9 - 139:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:140:9: macro definition=ACCVIE <US>c:macro@ACCVIE<UE> <DS>ACCVIE<DE> Extent=<ES>140:9 - 140:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:142:9: macro definition=IFG1_ <US>c:macro@IFG1_<UE> <DS>IFG1_<DE> Extent=<ES>142:9 - 142:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:143:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>143:1 - 143:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:143:29: macro expansion=IFG1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:142:9 <US>c:macro@IFG1_<UE> <DS>IFG1_<DE> Extent=<ES>143:29 - 143:34<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:144:9: macro definition=WDTIFG <US>c:macro@WDTIFG<UE> <DS>WDTIFG<DE> Extent=<ES>144:9 - 144:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:145:9: macro definition=OFIFG <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>145:9 - 145:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:146:9: macro definition=PORIFG <US>c:macro@PORIFG<UE> <DS>PORIFG<DE> Extent=<ES>146:9 - 146:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:147:9: macro definition=RSTIFG <US>c:macro@RSTIFG<UE> <DS>RSTIFG<DE> Extent=<ES>147:9 - 147:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:148:9: macro definition=NMIIFG <US>c:macro@NMIIFG<UE> <DS>NMIIFG<DE> Extent=<ES>148:9 - 148:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:150:9: macro definition=IE2_ <US>c:macro@IE2_<UE> <DS>IE2_<DE> Extent=<ES>150:9 - 150:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:151:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>151:1 - 151:34<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:151:29: macro expansion=IE2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:150:9 <US>c:macro@IE2_<UE> <DS>IE2_<DE> Extent=<ES>151:29 - 151:33<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:152:9: macro definition=UC0IE <US>c:macro@UC0IE<UE> <DS>UC0IE<DE> Extent=<ES>152:9 - 152:32<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:153:9: macro definition=UCA0RXIE <US>c:macro@UCA0RXIE<UE> <DS>UCA0RXIE<DE> Extent=<ES>153:9 - 153:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:154:9: macro definition=UCA0TXIE <US>c:macro@UCA0TXIE<UE> <DS>UCA0TXIE<DE> Extent=<ES>154:9 - 154:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:155:9: macro definition=UCB0RXIE <US>c:macro@UCB0RXIE<UE> <DS>UCB0RXIE<DE> Extent=<ES>155:9 - 155:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:156:9: macro definition=UCB0TXIE <US>c:macro@UCB0TXIE<UE> <DS>UCB0TXIE<DE> Extent=<ES>156:9 - 156:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:158:9: macro definition=IFG2_ <US>c:macro@IFG2_<UE> <DS>IFG2_<DE> Extent=<ES>158:9 - 158:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:159:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>159:1 - 159:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:159:29: macro expansion=IFG2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:158:9 <US>c:macro@IFG2_<UE> <DS>IFG2_<DE> Extent=<ES>159:29 - 159:34<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:160:9: macro definition=UC0IFG <US>c:macro@UC0IFG<UE> <DS>UC0IFG<DE> Extent=<ES>160:9 - 160:33<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:161:9: macro definition=UCA0RXIFG <US>c:macro@UCA0RXIFG<UE> <DS>UCA0RXIFG<DE> Extent=<ES>161:9 - 161:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:162:9: macro definition=UCA0TXIFG <US>c:macro@UCA0TXIFG<UE> <DS>UCA0TXIFG<DE> Extent=<ES>162:9 - 162:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:163:9: macro definition=UCB0RXIFG <US>c:macro@UCB0RXIFG<UE> <DS>UCB0RXIFG<DE> Extent=<ES>163:9 - 163:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:164:9: macro definition=UCB0TXIFG <US>c:macro@UCB0TXIFG<UE> <DS>UCB0TXIFG<DE> Extent=<ES>164:9 - 164:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:169:9: macro definition=__MSP430_HAS_ADC10__ <US>c:macro@__MSP430_HAS_ADC10__<UE> <DS>__MSP430_HAS_ADC10__<DE> Extent=<ES>169:9 - 169:29<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:171:9: macro definition=ADC10DTC0_ <US>c:macro@ADC10DTC0_<UE> <DS>ADC10DTC0_<DE> Extent=<ES>171:9 - 171:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:172:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>172:1 - 172:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:172:29: macro expansion=ADC10DTC0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:171:9 <US>c:macro@ADC10DTC0_<UE> <DS>ADC10DTC0_<DE> Extent=<ES>172:29 - 172:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:173:9: macro definition=ADC10DTC1_ <US>c:macro@ADC10DTC1_<UE> <DS>ADC10DTC1_<DE> Extent=<ES>173:9 - 173:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:174:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>174:1 - 174:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:174:29: macro expansion=ADC10DTC1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:173:9 <US>c:macro@ADC10DTC1_<UE> <DS>ADC10DTC1_<DE> Extent=<ES>174:29 - 174:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:175:9: macro definition=ADC10AE0_ <US>c:macro@ADC10AE0_<UE> <DS>ADC10AE0_<DE> Extent=<ES>175:9 - 175:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:176:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>176:1 - 176:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:176:29: macro expansion=ADC10AE0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:175:9 <US>c:macro@ADC10AE0_<UE> <DS>ADC10AE0_<DE> Extent=<ES>176:29 - 176:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:177:9: macro definition=ADC10AE1_ <US>c:macro@ADC10AE1_<UE> <DS>ADC10AE1_<DE> Extent=<ES>177:9 - 177:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:178:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>178:1 - 178:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:178:29: macro expansion=ADC10AE1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:177:9 <US>c:macro@ADC10AE1_<UE> <DS>ADC10AE1_<DE> Extent=<ES>178:29 - 178:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:180:9: macro definition=ADC10CTL0_ <US>c:macro@ADC10CTL0_<UE> <DS>ADC10CTL0_<DE> Extent=<ES>180:9 - 180:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:181:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>181:1 - 181:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:181:29: macro expansion=ADC10CTL0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:180:9 <US>c:macro@ADC10CTL0_<UE> <DS>ADC10CTL0_<DE> Extent=<ES>181:29 - 181:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:182:9: macro definition=ADC10CTL1_ <US>c:macro@ADC10CTL1_<UE> <DS>ADC10CTL1_<DE> Extent=<ES>182:9 - 182:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:183:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>183:1 - 183:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:183:29: macro expansion=ADC10CTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:182:9 <US>c:macro@ADC10CTL1_<UE> <DS>ADC10CTL1_<DE> Extent=<ES>183:29 - 183:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:184:9: macro definition=ADC10MEM_ <US>c:macro@ADC10MEM_<UE> <DS>ADC10MEM_<DE> Extent=<ES>184:9 - 184:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:185:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>185:1 - 185:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:185:29: macro expansion=ADC10MEM_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:184:9 <US>c:macro@ADC10MEM_<UE> <DS>ADC10MEM_<DE> Extent=<ES>185:29 - 185:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:186:9: macro definition=ADC10SA_ <US>c:macro@ADC10SA_<UE> <DS>ADC10SA_<DE> Extent=<ES>186:9 - 186:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:187:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>187:1 - 187:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:187:29: macro expansion=ADC10SA_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:186:9 <US>c:macro@ADC10SA_<UE> <DS>ADC10SA_<DE> Extent=<ES>187:29 - 187:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:190:9: macro definition=ADC10SC <US>c:macro@ADC10SC<UE> <DS>ADC10SC<DE> Extent=<ES>190:9 - 190:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:191:9: macro definition=ENC <US>c:macro@ENC<UE> <DS>ENC<DE> Extent=<ES>191:9 - 191:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:192:9: macro definition=ADC10IFG <US>c:macro@ADC10IFG<UE> <DS>ADC10IFG<DE> Extent=<ES>192:9 - 192:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:193:9: macro definition=ADC10IE <US>c:macro@ADC10IE<UE> <DS>ADC10IE<DE> Extent=<ES>193:9 - 193:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:194:9: macro definition=ADC10ON <US>c:macro@ADC10ON<UE> <DS>ADC10ON<DE> Extent=<ES>194:9 - 194:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:195:9: macro definition=REFON <US>c:macro@REFON<UE> <DS>REFON<DE> Extent=<ES>195:9 - 195:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:196:9: macro definition=REF2_5V <US>c:macro@REF2_5V<UE> <DS>REF2_5V<DE> Extent=<ES>196:9 - 196:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:197:9: macro definition=MSC <US>c:macro@MSC<UE> <DS>MSC<DE> Extent=<ES>197:9 - 197:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:198:9: macro definition=REFBURST <US>c:macro@REFBURST<UE> <DS>REFBURST<DE> Extent=<ES>198:9 - 198:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:199:9: macro definition=REFOUT <US>c:macro@REFOUT<UE> <DS>REFOUT<DE> Extent=<ES>199:9 - 199:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:200:9: macro definition=ADC10SR <US>c:macro@ADC10SR<UE> <DS>ADC10SR<DE> Extent=<ES>200:9 - 200:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:201:9: macro definition=ADC10SHT0 <US>c:macro@ADC10SHT0<UE> <DS>ADC10SHT0<DE> Extent=<ES>201:9 - 201:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:202:9: macro definition=ADC10SHT1 <US>c:macro@ADC10SHT1<UE> <DS>ADC10SHT1<DE> Extent=<ES>202:9 - 202:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:203:9: macro definition=SREF0 <US>c:macro@SREF0<UE> <DS>SREF0<DE> Extent=<ES>203:9 - 203:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:204:9: macro definition=SREF1 <US>c:macro@SREF1<UE> <DS>SREF1<DE> Extent=<ES>204:9 - 204:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:205:9: macro definition=SREF2 <US>c:macro@SREF2<UE> <DS>SREF2<DE> Extent=<ES>205:9 - 205:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:206:9: macro definition=ADC10SHT_0 <US>c:macro@ADC10SHT_0<UE> <DS>ADC10SHT_0<DE> Extent=<ES>206:9 - 206:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:207:9: macro definition=ADC10SHT_1 <US>c:macro@ADC10SHT_1<UE> <DS>ADC10SHT_1<DE> Extent=<ES>207:9 - 207:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:208:9: macro definition=ADC10SHT_2 <US>c:macro@ADC10SHT_2<UE> <DS>ADC10SHT_2<DE> Extent=<ES>208:9 - 208:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:209:9: macro definition=ADC10SHT_3 <US>c:macro@ADC10SHT_3<UE> <DS>ADC10SHT_3<DE> Extent=<ES>209:9 - 209:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:211:9: macro definition=SREF_0 <US>c:macro@SREF_0<UE> <DS>SREF_0<DE> Extent=<ES>211:9 - 211:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:212:9: macro definition=SREF_1 <US>c:macro@SREF_1<UE> <DS>SREF_1<DE> Extent=<ES>212:9 - 212:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:213:9: macro definition=SREF_2 <US>c:macro@SREF_2<UE> <DS>SREF_2<DE> Extent=<ES>213:9 - 213:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:214:9: macro definition=SREF_3 <US>c:macro@SREF_3<UE> <DS>SREF_3<DE> Extent=<ES>214:9 - 214:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:215:9: macro definition=SREF_4 <US>c:macro@SREF_4<UE> <DS>SREF_4<DE> Extent=<ES>215:9 - 215:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:216:9: macro definition=SREF_5 <US>c:macro@SREF_5<UE> <DS>SREF_5<DE> Extent=<ES>216:9 - 216:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:217:9: macro definition=SREF_6 <US>c:macro@SREF_6<UE> <DS>SREF_6<DE> Extent=<ES>217:9 - 217:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:218:9: macro definition=SREF_7 <US>c:macro@SREF_7<UE> <DS>SREF_7<DE> Extent=<ES>218:9 - 218:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:221:9: macro definition=ADC10BUSY <US>c:macro@ADC10BUSY<UE> <DS>ADC10BUSY<DE> Extent=<ES>221:9 - 221:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:222:9: macro definition=CONSEQ0 <US>c:macro@CONSEQ0<UE> <DS>CONSEQ0<DE> Extent=<ES>222:9 - 222:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:223:9: macro definition=CONSEQ1 <US>c:macro@CONSEQ1<UE> <DS>CONSEQ1<DE> Extent=<ES>223:9 - 223:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:224:9: macro definition=ADC10SSEL0 <US>c:macro@ADC10SSEL0<UE> <DS>ADC10SSEL0<DE> Extent=<ES>224:9 - 224:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:225:9: macro definition=ADC10SSEL1 <US>c:macro@ADC10SSEL1<UE> <DS>ADC10SSEL1<DE> Extent=<ES>225:9 - 225:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:226:9: macro definition=ADC10DIV0 <US>c:macro@ADC10DIV0<UE> <DS>ADC10DIV0<DE> Extent=<ES>226:9 - 226:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:227:9: macro definition=ADC10DIV1 <US>c:macro@ADC10DIV1<UE> <DS>ADC10DIV1<DE> Extent=<ES>227:9 - 227:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:228:9: macro definition=ADC10DIV2 <US>c:macro@ADC10DIV2<UE> <DS>ADC10DIV2<DE> Extent=<ES>228:9 - 228:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:229:9: macro definition=ISSH <US>c:macro@ISSH<UE> <DS>ISSH<DE> Extent=<ES>229:9 - 229:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:230:9: macro definition=ADC10DF <US>c:macro@ADC10DF<UE> <DS>ADC10DF<DE> Extent=<ES>230:9 - 230:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:231:9: macro definition=SHS0 <US>c:macro@SHS0<UE> <DS>SHS0<DE> Extent=<ES>231:9 - 231:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:232:9: macro definition=SHS1 <US>c:macro@SHS1<UE> <DS>SHS1<DE> Extent=<ES>232:9 - 232:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:233:9: macro definition=INCH0 <US>c:macro@INCH0<UE> <DS>INCH0<DE> Extent=<ES>233:9 - 233:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:234:9: macro definition=INCH1 <US>c:macro@INCH1<UE> <DS>INCH1<DE> Extent=<ES>234:9 - 234:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:235:9: macro definition=INCH2 <US>c:macro@INCH2<UE> <DS>INCH2<DE> Extent=<ES>235:9 - 235:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:236:9: macro definition=INCH3 <US>c:macro@INCH3<UE> <DS>INCH3<DE> Extent=<ES>236:9 - 236:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:238:9: macro definition=CONSEQ_0 <US>c:macro@CONSEQ_0<UE> <DS>CONSEQ_0<DE> Extent=<ES>238:9 - 238:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:239:9: macro definition=CONSEQ_1 <US>c:macro@CONSEQ_1<UE> <DS>CONSEQ_1<DE> Extent=<ES>239:9 - 239:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:240:9: macro definition=CONSEQ_2 <US>c:macro@CONSEQ_2<UE> <DS>CONSEQ_2<DE> Extent=<ES>240:9 - 240:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:241:9: macro definition=CONSEQ_3 <US>c:macro@CONSEQ_3<UE> <DS>CONSEQ_3<DE> Extent=<ES>241:9 - 241:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:243:9: macro definition=ADC10SSEL_0 <US>c:macro@ADC10SSEL_0<UE> <DS>ADC10SSEL_0<DE> Extent=<ES>243:9 - 243:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:244:9: macro definition=ADC10SSEL_1 <US>c:macro@ADC10SSEL_1<UE> <DS>ADC10SSEL_1<DE> Extent=<ES>244:9 - 244:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:245:9: macro definition=ADC10SSEL_2 <US>c:macro@ADC10SSEL_2<UE> <DS>ADC10SSEL_2<DE> Extent=<ES>245:9 - 245:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:246:9: macro definition=ADC10SSEL_3 <US>c:macro@ADC10SSEL_3<UE> <DS>ADC10SSEL_3<DE> Extent=<ES>246:9 - 246:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:248:9: macro definition=ADC10DIV_0 <US>c:macro@ADC10DIV_0<UE> <DS>ADC10DIV_0<DE> Extent=<ES>248:9 - 248:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:249:9: macro definition=ADC10DIV_1 <US>c:macro@ADC10DIV_1<UE> <DS>ADC10DIV_1<DE> Extent=<ES>249:9 - 249:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:250:9: macro definition=ADC10DIV_2 <US>c:macro@ADC10DIV_2<UE> <DS>ADC10DIV_2<DE> Extent=<ES>250:9 - 250:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:251:9: macro definition=ADC10DIV_3 <US>c:macro@ADC10DIV_3<UE> <DS>ADC10DIV_3<DE> Extent=<ES>251:9 - 251:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:252:9: macro definition=ADC10DIV_4 <US>c:macro@ADC10DIV_4<UE> <DS>ADC10DIV_4<DE> Extent=<ES>252:9 - 252:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:253:9: macro definition=ADC10DIV_5 <US>c:macro@ADC10DIV_5<UE> <DS>ADC10DIV_5<DE> Extent=<ES>253:9 - 253:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:254:9: macro definition=ADC10DIV_6 <US>c:macro@ADC10DIV_6<UE> <DS>ADC10DIV_6<DE> Extent=<ES>254:9 - 254:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:255:9: macro definition=ADC10DIV_7 <US>c:macro@ADC10DIV_7<UE> <DS>ADC10DIV_7<DE> Extent=<ES>255:9 - 255:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:257:9: macro definition=SHS_0 <US>c:macro@SHS_0<UE> <DS>SHS_0<DE> Extent=<ES>257:9 - 257:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:258:9: macro definition=SHS_1 <US>c:macro@SHS_1<UE> <DS>SHS_1<DE> Extent=<ES>258:9 - 258:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:259:9: macro definition=SHS_2 <US>c:macro@SHS_2<UE> <DS>SHS_2<DE> Extent=<ES>259:9 - 259:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:260:9: macro definition=SHS_3 <US>c:macro@SHS_3<UE> <DS>SHS_3<DE> Extent=<ES>260:9 - 260:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:262:9: macro definition=INCH_0 <US>c:macro@INCH_0<UE> <DS>INCH_0<DE> Extent=<ES>262:9 - 262:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:263:9: macro definition=INCH_1 <US>c:macro@INCH_1<UE> <DS>INCH_1<DE> Extent=<ES>263:9 - 263:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:264:9: macro definition=INCH_2 <US>c:macro@INCH_2<UE> <DS>INCH_2<DE> Extent=<ES>264:9 - 264:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:265:9: macro definition=INCH_3 <US>c:macro@INCH_3<UE> <DS>INCH_3<DE> Extent=<ES>265:9 - 265:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:266:9: macro definition=INCH_4 <US>c:macro@INCH_4<UE> <DS>INCH_4<DE> Extent=<ES>266:9 - 266:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:267:9: macro definition=INCH_5 <US>c:macro@INCH_5<UE> <DS>INCH_5<DE> Extent=<ES>267:9 - 267:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:268:9: macro definition=INCH_6 <US>c:macro@INCH_6<UE> <DS>INCH_6<DE> Extent=<ES>268:9 - 268:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:269:9: macro definition=INCH_7 <US>c:macro@INCH_7<UE> <DS>INCH_7<DE> Extent=<ES>269:9 - 269:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:270:9: macro definition=INCH_8 <US>c:macro@INCH_8<UE> <DS>INCH_8<DE> Extent=<ES>270:9 - 270:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:271:9: macro definition=INCH_9 <US>c:macro@INCH_9<UE> <DS>INCH_9<DE> Extent=<ES>271:9 - 271:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:272:9: macro definition=INCH_10 <US>c:macro@INCH_10<UE> <DS>INCH_10<DE> Extent=<ES>272:9 - 272:41<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:273:9: macro definition=INCH_11 <US>c:macro@INCH_11<UE> <DS>INCH_11<DE> Extent=<ES>273:9 - 273:41<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:274:9: macro definition=INCH_12 <US>c:macro@INCH_12<UE> <DS>INCH_12<DE> Extent=<ES>274:9 - 274:41<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:275:9: macro definition=INCH_13 <US>c:macro@INCH_13<UE> <DS>INCH_13<DE> Extent=<ES>275:9 - 275:41<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:276:9: macro definition=INCH_14 <US>c:macro@INCH_14<UE> <DS>INCH_14<DE> Extent=<ES>276:9 - 276:41<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:277:9: macro definition=INCH_15 <US>c:macro@INCH_15<UE> <DS>INCH_15<DE> Extent=<ES>277:9 - 277:41<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:280:9: macro definition=ADC10FETCH <US>c:macro@ADC10FETCH<UE> <DS>ADC10FETCH<DE> Extent=<ES>280:9 - 280:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:281:9: macro definition=ADC10B1 <US>c:macro@ADC10B1<UE> <DS>ADC10B1<DE> Extent=<ES>281:9 - 281:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:282:9: macro definition=ADC10CT <US>c:macro@ADC10CT<UE> <DS>ADC10CT<DE> Extent=<ES>282:9 - 282:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:283:9: macro definition=ADC10TB <US>c:macro@ADC10TB<UE> <DS>ADC10TB<DE> Extent=<ES>283:9 - 283:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:284:9: macro definition=ADC10DISABLE <US>c:macro@ADC10DISABLE<UE> <DS>ADC10DISABLE<DE> Extent=<ES>284:9 - 284:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:289:9: macro definition=__MSP430_HAS_BC2__ <US>c:macro@__MSP430_HAS_BC2__<UE> <DS>__MSP430_HAS_BC2__<DE> Extent=<ES>289:9 - 289:27<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:291:9: macro definition=DCOCTL_ <US>c:macro@DCOCTL_<UE> <DS>DCOCTL_<DE> Extent=<ES>291:9 - 291:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:292:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>292:1 - 292:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:292:29: macro expansion=DCOCTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:291:9 <US>c:macro@DCOCTL_<UE> <DS>DCOCTL_<DE> Extent=<ES>292:29 - 292:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:293:9: macro definition=BCSCTL1_ <US>c:macro@BCSCTL1_<UE> <DS>BCSCTL1_<DE> Extent=<ES>293:9 - 293:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:294:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>294:1 - 294:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:294:29: macro expansion=BCSCTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:293:9 <US>c:macro@BCSCTL1_<UE> <DS>BCSCTL1_<DE> Extent=<ES>294:29 - 294:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:295:9: macro definition=BCSCTL2_ <US>c:macro@BCSCTL2_<UE> <DS>BCSCTL2_<DE> Extent=<ES>295:9 - 295:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:296:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>296:1 - 296:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:296:29: macro expansion=BCSCTL2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:295:9 <US>c:macro@BCSCTL2_<UE> <DS>BCSCTL2_<DE> Extent=<ES>296:29 - 296:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:297:9: macro definition=BCSCTL3_ <US>c:macro@BCSCTL3_<UE> <DS>BCSCTL3_<DE> Extent=<ES>297:9 - 297:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:298:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>298:1 - 298:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:298:29: macro expansion=BCSCTL3_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:297:9 <US>c:macro@BCSCTL3_<UE> <DS>BCSCTL3_<DE> Extent=<ES>298:29 - 298:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:300:9: macro definition=MOD0 <US>c:macro@MOD0<UE> <DS>MOD0<DE> Extent=<ES>300:9 - 300:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:301:9: macro definition=MOD1 <US>c:macro@MOD1<UE> <DS>MOD1<DE> Extent=<ES>301:9 - 301:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:302:9: macro definition=MOD2 <US>c:macro@MOD2<UE> <DS>MOD2<DE> Extent=<ES>302:9 - 302:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:303:9: macro definition=MOD3 <US>c:macro@MOD3<UE> <DS>MOD3<DE> Extent=<ES>303:9 - 303:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:304:9: macro definition=MOD4 <US>c:macro@MOD4<UE> <DS>MOD4<DE> Extent=<ES>304:9 - 304:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:305:9: macro definition=DCO0 <US>c:macro@DCO0<UE> <DS>DCO0<DE> Extent=<ES>305:9 - 305:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:306:9: macro definition=DCO1 <US>c:macro@DCO1<UE> <DS>DCO1<DE> Extent=<ES>306:9 - 306:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:307:9: macro definition=DCO2 <US>c:macro@DCO2<UE> <DS>DCO2<DE> Extent=<ES>307:9 - 307:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:309:9: macro definition=RSEL0 <US>c:macro@RSEL0<UE> <DS>RSEL0<DE> Extent=<ES>309:9 - 309:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:310:9: macro definition=RSEL1 <US>c:macro@RSEL1<UE> <DS>RSEL1<DE> Extent=<ES>310:9 - 310:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:311:9: macro definition=RSEL2 <US>c:macro@RSEL2<UE> <DS>RSEL2<DE> Extent=<ES>311:9 - 311:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:312:9: macro definition=RSEL3 <US>c:macro@RSEL3<UE> <DS>RSEL3<DE> Extent=<ES>312:9 - 312:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:313:9: macro definition=DIVA0 <US>c:macro@DIVA0<UE> <DS>DIVA0<DE> Extent=<ES>313:9 - 313:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:314:9: macro definition=DIVA1 <US>c:macro@DIVA1<UE> <DS>DIVA1<DE> Extent=<ES>314:9 - 314:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:315:9: macro definition=XTS <US>c:macro@XTS<UE> <DS>XTS<DE> Extent=<ES>315:9 - 315:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:316:9: macro definition=XT2OFF <US>c:macro@XT2OFF<UE> <DS>XT2OFF<DE> Extent=<ES>316:9 - 316:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:318:9: macro definition=DIVA_0 <US>c:macro@DIVA_0<UE> <DS>DIVA_0<DE> Extent=<ES>318:9 - 318:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:319:9: macro definition=DIVA_1 <US>c:macro@DIVA_1<UE> <DS>DIVA_1<DE> Extent=<ES>319:9 - 319:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:320:9: macro definition=DIVA_2 <US>c:macro@DIVA_2<UE> <DS>DIVA_2<DE> Extent=<ES>320:9 - 320:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:321:9: macro definition=DIVA_3 <US>c:macro@DIVA_3<UE> <DS>DIVA_3<DE> Extent=<ES>321:9 - 321:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:323:9: macro definition=DCOR <US>c:macro@DCOR<UE> <DS>DCOR<DE> Extent=<ES>323:9 - 323:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:324:9: macro definition=DIVS0 <US>c:macro@DIVS0<UE> <DS>DIVS0<DE> Extent=<ES>324:9 - 324:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:325:9: macro definition=DIVS1 <US>c:macro@DIVS1<UE> <DS>DIVS1<DE> Extent=<ES>325:9 - 325:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:326:9: macro definition=SELS <US>c:macro@SELS<UE> <DS>SELS<DE> Extent=<ES>326:9 - 326:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:327:9: macro definition=DIVM0 <US>c:macro@DIVM0<UE> <DS>DIVM0<DE> Extent=<ES>327:9 - 327:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:328:9: macro definition=DIVM1 <US>c:macro@DIVM1<UE> <DS>DIVM1<DE> Extent=<ES>328:9 - 328:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:329:9: macro definition=SELM0 <US>c:macro@SELM0<UE> <DS>SELM0<DE> Extent=<ES>329:9 - 329:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:330:9: macro definition=SELM1 <US>c:macro@SELM1<UE> <DS>SELM1<DE> Extent=<ES>330:9 - 330:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:332:9: macro definition=DIVS_0 <US>c:macro@DIVS_0<UE> <DS>DIVS_0<DE> Extent=<ES>332:9 - 332:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:333:9: macro definition=DIVS_1 <US>c:macro@DIVS_1<UE> <DS>DIVS_1<DE> Extent=<ES>333:9 - 333:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:334:9: macro definition=DIVS_2 <US>c:macro@DIVS_2<UE> <DS>DIVS_2<DE> Extent=<ES>334:9 - 334:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:335:9: macro definition=DIVS_3 <US>c:macro@DIVS_3<UE> <DS>DIVS_3<DE> Extent=<ES>335:9 - 335:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:337:9: macro definition=DIVM_0 <US>c:macro@DIVM_0<UE> <DS>DIVM_0<DE> Extent=<ES>337:9 - 337:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:338:9: macro definition=DIVM_1 <US>c:macro@DIVM_1<UE> <DS>DIVM_1<DE> Extent=<ES>338:9 - 338:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:339:9: macro definition=DIVM_2 <US>c:macro@DIVM_2<UE> <DS>DIVM_2<DE> Extent=<ES>339:9 - 339:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:340:9: macro definition=DIVM_3 <US>c:macro@DIVM_3<UE> <DS>DIVM_3<DE> Extent=<ES>340:9 - 340:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:342:9: macro definition=SELM_0 <US>c:macro@SELM_0<UE> <DS>SELM_0<DE> Extent=<ES>342:9 - 342:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:343:9: macro definition=SELM_1 <US>c:macro@SELM_1<UE> <DS>SELM_1<DE> Extent=<ES>343:9 - 343:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:344:9: macro definition=SELM_2 <US>c:macro@SELM_2<UE> <DS>SELM_2<DE> Extent=<ES>344:9 - 344:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:345:9: macro definition=SELM_3 <US>c:macro@SELM_3<UE> <DS>SELM_3<DE> Extent=<ES>345:9 - 345:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:347:9: macro definition=LFXT1OF <US>c:macro@LFXT1OF<UE> <DS>LFXT1OF<DE> Extent=<ES>347:9 - 347:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:348:9: macro definition=XT2OF <US>c:macro@XT2OF<UE> <DS>XT2OF<DE> Extent=<ES>348:9 - 348:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:349:9: macro definition=XCAP0 <US>c:macro@XCAP0<UE> <DS>XCAP0<DE> Extent=<ES>349:9 - 349:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:350:9: macro definition=XCAP1 <US>c:macro@XCAP1<UE> <DS>XCAP1<DE> Extent=<ES>350:9 - 350:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:351:9: macro definition=LFXT1S0 <US>c:macro@LFXT1S0<UE> <DS>LFXT1S0<DE> Extent=<ES>351:9 - 351:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:352:9: macro definition=LFXT1S1 <US>c:macro@LFXT1S1<UE> <DS>LFXT1S1<DE> Extent=<ES>352:9 - 352:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:353:9: macro definition=XT2S0 <US>c:macro@XT2S0<UE> <DS>XT2S0<DE> Extent=<ES>353:9 - 353:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:354:9: macro definition=XT2S1 <US>c:macro@XT2S1<UE> <DS>XT2S1<DE> Extent=<ES>354:9 - 354:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:356:9: macro definition=XCAP_0 <US>c:macro@XCAP_0<UE> <DS>XCAP_0<DE> Extent=<ES>356:9 - 356:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:357:9: macro definition=XCAP_1 <US>c:macro@XCAP_1<UE> <DS>XCAP_1<DE> Extent=<ES>357:9 - 357:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:358:9: macro definition=XCAP_2 <US>c:macro@XCAP_2<UE> <DS>XCAP_2<DE> Extent=<ES>358:9 - 358:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:359:9: macro definition=XCAP_3 <US>c:macro@XCAP_3<UE> <DS>XCAP_3<DE> Extent=<ES>359:9 - 359:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:361:9: macro definition=LFXT1S_0 <US>c:macro@LFXT1S_0<UE> <DS>LFXT1S_0<DE> Extent=<ES>361:9 - 361:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:362:9: macro definition=LFXT1S_1 <US>c:macro@LFXT1S_1<UE> <DS>LFXT1S_1<DE> Extent=<ES>362:9 - 362:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:363:9: macro definition=LFXT1S_2 <US>c:macro@LFXT1S_2<UE> <DS>LFXT1S_2<DE> Extent=<ES>363:9 - 363:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:364:9: macro definition=LFXT1S_3 <US>c:macro@LFXT1S_3<UE> <DS>LFXT1S_3<DE> Extent=<ES>364:9 - 364:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:366:9: macro definition=XT2S_0 <US>c:macro@XT2S_0<UE> <DS>XT2S_0<DE> Extent=<ES>366:9 - 366:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:367:9: macro definition=XT2S_1 <US>c:macro@XT2S_1<UE> <DS>XT2S_1<DE> Extent=<ES>367:9 - 367:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:368:9: macro definition=XT2S_2 <US>c:macro@XT2S_2<UE> <DS>XT2S_2<DE> Extent=<ES>368:9 - 368:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:369:9: macro definition=XT2S_3 <US>c:macro@XT2S_3<UE> <DS>XT2S_3<DE> Extent=<ES>369:9 - 369:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:374:9: macro definition=__MSP430_HAS_FLASH2__ <US>c:macro@__MSP430_HAS_FLASH2__<UE> <DS>__MSP430_HAS_FLASH2__<DE> Extent=<ES>374:9 - 374:30<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:376:9: macro definition=FCTL1_ <US>c:macro@FCTL1_<UE> <DS>FCTL1_<DE> Extent=<ES>376:9 - 376:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:377:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>377:1 - 377:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:377:29: macro expansion=FCTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:376:9 <US>c:macro@FCTL1_<UE> <DS>FCTL1_<DE> Extent=<ES>377:29 - 377:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:378:9: macro definition=FCTL2_ <US>c:macro@FCTL2_<UE> <DS>FCTL2_<DE> Extent=<ES>378:9 - 378:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:379:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>379:1 - 379:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:379:29: macro expansion=FCTL2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:378:9 <US>c:macro@FCTL2_<UE> <DS>FCTL2_<DE> Extent=<ES>379:29 - 379:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:380:9: macro definition=FCTL3_ <US>c:macro@FCTL3_<UE> <DS>FCTL3_<DE> Extent=<ES>380:9 - 380:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:381:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>381:1 - 381:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:381:29: macro expansion=FCTL3_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:380:9 <US>c:macro@FCTL3_<UE> <DS>FCTL3_<DE> Extent=<ES>381:29 - 381:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:383:9: macro definition=FRKEY <US>c:macro@FRKEY<UE> <DS>FRKEY<DE> Extent=<ES>383:9 - 383:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9: macro definition=FWKEY <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>384:9 - 384:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:385:9: macro definition=FXKEY <US>c:macro@FXKEY<UE> <DS>FXKEY<DE> Extent=<ES>385:9 - 385:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:387:9: macro definition=ERASE <US>c:macro@ERASE<UE> <DS>ERASE<DE> Extent=<ES>387:9 - 387:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:388:9: macro definition=MERAS <US>c:macro@MERAS<UE> <DS>MERAS<DE> Extent=<ES>388:9 - 388:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:389:9: macro definition=EEI <US>c:macro@EEI<UE> <DS>EEI<DE> Extent=<ES>389:9 - 389:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:390:9: macro definition=EEIEX <US>c:macro@EEIEX<UE> <DS>EEIEX<DE> Extent=<ES>390:9 - 390:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:391:9: macro definition=WRT <US>c:macro@WRT<UE> <DS>WRT<DE> Extent=<ES>391:9 - 391:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:392:9: macro definition=BLKWRT <US>c:macro@BLKWRT<UE> <DS>BLKWRT<DE> Extent=<ES>392:9 - 392:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:393:9: macro definition=SEGWRT <US>c:macro@SEGWRT<UE> <DS>SEGWRT<DE> Extent=<ES>393:9 - 393:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:395:9: macro definition=FN0 <US>c:macro@FN0<UE> <DS>FN0<DE> Extent=<ES>395:9 - 395:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:396:9: macro definition=FN1 <US>c:macro@FN1<UE> <DS>FN1<DE> Extent=<ES>396:9 - 396:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:398:9: macro definition=FN2 <US>c:macro@FN2<UE> <DS>FN2<DE> Extent=<ES>398:9 - 398:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:401:9: macro definition=FN3 <US>c:macro@FN3<UE> <DS>FN3<DE> Extent=<ES>401:9 - 401:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:404:9: macro definition=FN4 <US>c:macro@FN4<UE> <DS>FN4<DE> Extent=<ES>404:9 - 404:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:406:9: macro definition=FN5 <US>c:macro@FN5<UE> <DS>FN5<DE> Extent=<ES>406:9 - 406:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:407:9: macro definition=FSSEL0 <US>c:macro@FSSEL0<UE> <DS>FSSEL0<DE> Extent=<ES>407:9 - 407:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:408:9: macro definition=FSSEL1 <US>c:macro@FSSEL1<UE> <DS>FSSEL1<DE> Extent=<ES>408:9 - 408:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:410:9: macro definition=FSSEL_0 <US>c:macro@FSSEL_0<UE> <DS>FSSEL_0<DE> Extent=<ES>410:9 - 410:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:411:9: macro definition=FSSEL_1 <US>c:macro@FSSEL_1<UE> <DS>FSSEL_1<DE> Extent=<ES>411:9 - 411:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:412:9: macro definition=FSSEL_2 <US>c:macro@FSSEL_2<UE> <DS>FSSEL_2<DE> Extent=<ES>412:9 - 412:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:413:9: macro definition=FSSEL_3 <US>c:macro@FSSEL_3<UE> <DS>FSSEL_3<DE> Extent=<ES>413:9 - 413:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:415:9: macro definition=BUSY <US>c:macro@BUSY<UE> <DS>BUSY<DE> Extent=<ES>415:9 - 415:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:416:9: macro definition=KEYV <US>c:macro@KEYV<UE> <DS>KEYV<DE> Extent=<ES>416:9 - 416:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:417:9: macro definition=ACCVIFG <US>c:macro@ACCVIFG<UE> <DS>ACCVIFG<DE> Extent=<ES>417:9 - 417:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:418:9: macro definition=WAIT <US>c:macro@WAIT<UE> <DS>WAIT<DE> Extent=<ES>418:9 - 418:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:419:9: macro definition=LOCK <US>c:macro@LOCK<UE> <DS>LOCK<DE> Extent=<ES>419:9 - 419:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:420:9: macro definition=EMEX <US>c:macro@EMEX<UE> <DS>EMEX<DE> Extent=<ES>420:9 - 420:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:421:9: macro definition=LOCKA <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>421:9 - 421:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:422:9: macro definition=FAIL <US>c:macro@FAIL<UE> <DS>FAIL<DE> Extent=<ES>422:9 - 422:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:427:9: macro definition=__MSP430_HAS_OA_2__ <US>c:macro@__MSP430_HAS_OA_2__<UE> <DS>__MSP430_HAS_OA_2__<DE> Extent=<ES>427:9 - 427:28<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:429:9: macro definition=OA0CTL0_ <US>c:macro@OA0CTL0_<UE> <DS>OA0CTL0_<DE> Extent=<ES>429:9 - 429:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:430:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>430:1 - 430:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:430:29: macro expansion=OA0CTL0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:429:9 <US>c:macro@OA0CTL0_<UE> <DS>OA0CTL0_<DE> Extent=<ES>430:29 - 430:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:431:9: macro definition=OA0CTL1_ <US>c:macro@OA0CTL1_<UE> <DS>OA0CTL1_<DE> Extent=<ES>431:9 - 431:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:432:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>432:1 - 432:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:432:29: macro expansion=OA0CTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:431:9 <US>c:macro@OA0CTL1_<UE> <DS>OA0CTL1_<DE> Extent=<ES>432:29 - 432:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:433:9: macro definition=OA1CTL0_ <US>c:macro@OA1CTL0_<UE> <DS>OA1CTL0_<DE> Extent=<ES>433:9 - 433:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:434:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>434:1 - 434:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:434:29: macro expansion=OA1CTL0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:433:9 <US>c:macro@OA1CTL0_<UE> <DS>OA1CTL0_<DE> Extent=<ES>434:29 - 434:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:435:9: macro definition=OA1CTL1_ <US>c:macro@OA1CTL1_<UE> <DS>OA1CTL1_<DE> Extent=<ES>435:9 - 435:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:436:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>436:1 - 436:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:436:29: macro expansion=OA1CTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:435:9 <US>c:macro@OA1CTL1_<UE> <DS>OA1CTL1_<DE> Extent=<ES>436:29 - 436:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:438:9: macro definition=OAADC0 <US>c:macro@OAADC0<UE> <DS>OAADC0<DE> Extent=<ES>438:9 - 438:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:439:9: macro definition=OAADC1 <US>c:macro@OAADC1<UE> <DS>OAADC1<DE> Extent=<ES>439:9 - 439:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:440:9: macro definition=OAPM0 <US>c:macro@OAPM0<UE> <DS>OAPM0<DE> Extent=<ES>440:9 - 440:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:441:9: macro definition=OAPM1 <US>c:macro@OAPM1<UE> <DS>OAPM1<DE> Extent=<ES>441:9 - 441:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:442:9: macro definition=OAP0 <US>c:macro@OAP0<UE> <DS>OAP0<DE> Extent=<ES>442:9 - 442:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:443:9: macro definition=OAP1 <US>c:macro@OAP1<UE> <DS>OAP1<DE> Extent=<ES>443:9 - 443:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:444:9: macro definition=OAN0 <US>c:macro@OAN0<UE> <DS>OAN0<DE> Extent=<ES>444:9 - 444:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:445:9: macro definition=OAN1 <US>c:macro@OAN1<UE> <DS>OAN1<DE> Extent=<ES>445:9 - 445:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:447:9: macro definition=OAPM_0 <US>c:macro@OAPM_0<UE> <DS>OAPM_0<DE> Extent=<ES>447:9 - 447:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:448:9: macro definition=OAPM_1 <US>c:macro@OAPM_1<UE> <DS>OAPM_1<DE> Extent=<ES>448:9 - 448:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:449:9: macro definition=OAPM_2 <US>c:macro@OAPM_2<UE> <DS>OAPM_2<DE> Extent=<ES>449:9 - 449:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:450:9: macro definition=OAPM_3 <US>c:macro@OAPM_3<UE> <DS>OAPM_3<DE> Extent=<ES>450:9 - 450:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:451:9: macro definition=OAP_0 <US>c:macro@OAP_0<UE> <DS>OAP_0<DE> Extent=<ES>451:9 - 451:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:452:9: macro definition=OAP_1 <US>c:macro@OAP_1<UE> <DS>OAP_1<DE> Extent=<ES>452:9 - 452:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:453:9: macro definition=OAP_2 <US>c:macro@OAP_2<UE> <DS>OAP_2<DE> Extent=<ES>453:9 - 453:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:454:9: macro definition=OAP_3 <US>c:macro@OAP_3<UE> <DS>OAP_3<DE> Extent=<ES>454:9 - 454:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:455:9: macro definition=OAN_0 <US>c:macro@OAN_0<UE> <DS>OAN_0<DE> Extent=<ES>455:9 - 455:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:456:9: macro definition=OAN_1 <US>c:macro@OAN_1<UE> <DS>OAN_1<DE> Extent=<ES>456:9 - 456:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:457:9: macro definition=OAN_2 <US>c:macro@OAN_2<UE> <DS>OAN_2<DE> Extent=<ES>457:9 - 457:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:458:9: macro definition=OAN_3 <US>c:macro@OAN_3<UE> <DS>OAN_3<DE> Extent=<ES>458:9 - 458:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:460:9: macro definition=OARRIP <US>c:macro@OARRIP<UE> <DS>OARRIP<DE> Extent=<ES>460:9 - 460:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:461:9: macro definition=OANEXT <US>c:macro@OANEXT<UE> <DS>OANEXT<DE> Extent=<ES>461:9 - 461:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:463:9: macro definition=OAFC0 <US>c:macro@OAFC0<UE> <DS>OAFC0<DE> Extent=<ES>463:9 - 463:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:464:9: macro definition=OAFC1 <US>c:macro@OAFC1<UE> <DS>OAFC1<DE> Extent=<ES>464:9 - 464:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:465:9: macro definition=OAFC2 <US>c:macro@OAFC2<UE> <DS>OAFC2<DE> Extent=<ES>465:9 - 465:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:466:9: macro definition=OAFBR0 <US>c:macro@OAFBR0<UE> <DS>OAFBR0<DE> Extent=<ES>466:9 - 466:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:467:9: macro definition=OAFBR1 <US>c:macro@OAFBR1<UE> <DS>OAFBR1<DE> Extent=<ES>467:9 - 467:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:468:9: macro definition=OAFBR2 <US>c:macro@OAFBR2<UE> <DS>OAFBR2<DE> Extent=<ES>468:9 - 468:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:470:9: macro definition=OAFC_0 <US>c:macro@OAFC_0<UE> <DS>OAFC_0<DE> Extent=<ES>470:9 - 470:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:471:9: macro definition=OAFC_1 <US>c:macro@OAFC_1<UE> <DS>OAFC_1<DE> Extent=<ES>471:9 - 471:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:472:9: macro definition=OAFC_2 <US>c:macro@OAFC_2<UE> <DS>OAFC_2<DE> Extent=<ES>472:9 - 472:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:473:9: macro definition=OAFC_3 <US>c:macro@OAFC_3<UE> <DS>OAFC_3<DE> Extent=<ES>473:9 - 473:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:474:9: macro definition=OAFC_4 <US>c:macro@OAFC_4<UE> <DS>OAFC_4<DE> Extent=<ES>474:9 - 474:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:475:9: macro definition=OAFC_5 <US>c:macro@OAFC_5<UE> <DS>OAFC_5<DE> Extent=<ES>475:9 - 475:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:476:9: macro definition=OAFC_6 <US>c:macro@OAFC_6<UE> <DS>OAFC_6<DE> Extent=<ES>476:9 - 476:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:477:9: macro definition=OAFC_7 <US>c:macro@OAFC_7<UE> <DS>OAFC_7<DE> Extent=<ES>477:9 - 477:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:478:9: macro definition=OAFBR_0 <US>c:macro@OAFBR_0<UE> <DS>OAFBR_0<DE> Extent=<ES>478:9 - 478:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:479:9: macro definition=OAFBR_1 <US>c:macro@OAFBR_1<UE> <DS>OAFBR_1<DE> Extent=<ES>479:9 - 479:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:480:9: macro definition=OAFBR_2 <US>c:macro@OAFBR_2<UE> <DS>OAFBR_2<DE> Extent=<ES>480:9 - 480:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:481:9: macro definition=OAFBR_3 <US>c:macro@OAFBR_3<UE> <DS>OAFBR_3<DE> Extent=<ES>481:9 - 481:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:482:9: macro definition=OAFBR_4 <US>c:macro@OAFBR_4<UE> <DS>OAFBR_4<DE> Extent=<ES>482:9 - 482:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:483:9: macro definition=OAFBR_5 <US>c:macro@OAFBR_5<UE> <DS>OAFBR_5<DE> Extent=<ES>483:9 - 483:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:484:9: macro definition=OAFBR_6 <US>c:macro@OAFBR_6<UE> <DS>OAFBR_6<DE> Extent=<ES>484:9 - 484:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:485:9: macro definition=OAFBR_7 <US>c:macro@OAFBR_7<UE> <DS>OAFBR_7<DE> Extent=<ES>485:9 - 485:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:490:9: macro definition=__MSP430_HAS_PORT1_R__ <US>c:macro@__MSP430_HAS_PORT1_R__<UE> <DS>__MSP430_HAS_PORT1_R__<DE> Extent=<ES>490:9 - 490:31<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:491:9: macro definition=__MSP430_HAS_PORT2_R__ <US>c:macro@__MSP430_HAS_PORT2_R__<UE> <DS>__MSP430_HAS_PORT2_R__<DE> Extent=<ES>491:9 - 491:31<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:493:9: macro definition=P1IN_ <US>c:macro@P1IN_<UE> <DS>P1IN_<DE> Extent=<ES>493:9 - 493:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:494:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>494:1 - 494:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:494:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>494:11 - 494:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:494:34: macro expansion=P1IN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:493:9 <US>c:macro@P1IN_<UE> <DS>P1IN_<DE> Extent=<ES>494:34 - 494:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:495:9: macro definition=P1OUT_ <US>c:macro@P1OUT_<UE> <DS>P1OUT_<DE> Extent=<ES>495:9 - 495:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:496:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>496:1 - 496:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:496:29: macro expansion=P1OUT_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:495:9 <US>c:macro@P1OUT_<UE> <DS>P1OUT_<DE> Extent=<ES>496:29 - 496:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:497:9: macro definition=P1DIR_ <US>c:macro@P1DIR_<UE> <DS>P1DIR_<DE> Extent=<ES>497:9 - 497:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:498:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>498:1 - 498:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:498:29: macro expansion=P1DIR_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:497:9 <US>c:macro@P1DIR_<UE> <DS>P1DIR_<DE> Extent=<ES>498:29 - 498:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:499:9: macro definition=P1IFG_ <US>c:macro@P1IFG_<UE> <DS>P1IFG_<DE> Extent=<ES>499:9 - 499:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:500:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>500:1 - 500:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:500:29: macro expansion=P1IFG_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:499:9 <US>c:macro@P1IFG_<UE> <DS>P1IFG_<DE> Extent=<ES>500:29 - 500:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:501:9: macro definition=P1IES_ <US>c:macro@P1IES_<UE> <DS>P1IES_<DE> Extent=<ES>501:9 - 501:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:502:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>502:1 - 502:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:502:29: macro expansion=P1IES_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:501:9 <US>c:macro@P1IES_<UE> <DS>P1IES_<DE> Extent=<ES>502:29 - 502:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:503:9: macro definition=P1IE_ <US>c:macro@P1IE_<UE> <DS>P1IE_<DE> Extent=<ES>503:9 - 503:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:504:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>504:1 - 504:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:504:29: macro expansion=P1IE_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:503:9 <US>c:macro@P1IE_<UE> <DS>P1IE_<DE> Extent=<ES>504:29 - 504:34<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:505:9: macro definition=P1SEL_ <US>c:macro@P1SEL_<UE> <DS>P1SEL_<DE> Extent=<ES>505:9 - 505:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:506:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>506:1 - 506:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:506:29: macro expansion=P1SEL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:505:9 <US>c:macro@P1SEL_<UE> <DS>P1SEL_<DE> Extent=<ES>506:29 - 506:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:507:9: macro definition=P1REN_ <US>c:macro@P1REN_<UE> <DS>P1REN_<DE> Extent=<ES>507:9 - 507:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:508:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>508:1 - 508:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:508:29: macro expansion=P1REN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:507:9 <US>c:macro@P1REN_<UE> <DS>P1REN_<DE> Extent=<ES>508:29 - 508:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:510:9: macro definition=P2IN_ <US>c:macro@P2IN_<UE> <DS>P2IN_<DE> Extent=<ES>510:9 - 510:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:511:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>511:1 - 511:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:511:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>511:11 - 511:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:511:34: macro expansion=P2IN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:510:9 <US>c:macro@P2IN_<UE> <DS>P2IN_<DE> Extent=<ES>511:34 - 511:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:512:9: macro definition=P2OUT_ <US>c:macro@P2OUT_<UE> <DS>P2OUT_<DE> Extent=<ES>512:9 - 512:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:513:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>513:1 - 513:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:513:29: macro expansion=P2OUT_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:512:9 <US>c:macro@P2OUT_<UE> <DS>P2OUT_<DE> Extent=<ES>513:29 - 513:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:514:9: macro definition=P2DIR_ <US>c:macro@P2DIR_<UE> <DS>P2DIR_<DE> Extent=<ES>514:9 - 514:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:515:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>515:1 - 515:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:515:29: macro expansion=P2DIR_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:514:9 <US>c:macro@P2DIR_<UE> <DS>P2DIR_<DE> Extent=<ES>515:29 - 515:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:516:9: macro definition=P2IFG_ <US>c:macro@P2IFG_<UE> <DS>P2IFG_<DE> Extent=<ES>516:9 - 516:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:517:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>517:1 - 517:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:517:29: macro expansion=P2IFG_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:516:9 <US>c:macro@P2IFG_<UE> <DS>P2IFG_<DE> Extent=<ES>517:29 - 517:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:518:9: macro definition=P2IES_ <US>c:macro@P2IES_<UE> <DS>P2IES_<DE> Extent=<ES>518:9 - 518:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:519:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>519:1 - 519:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:519:29: macro expansion=P2IES_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:518:9 <US>c:macro@P2IES_<UE> <DS>P2IES_<DE> Extent=<ES>519:29 - 519:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:520:9: macro definition=P2IE_ <US>c:macro@P2IE_<UE> <DS>P2IE_<DE> Extent=<ES>520:9 - 520:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:521:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>521:1 - 521:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:521:29: macro expansion=P2IE_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:520:9 <US>c:macro@P2IE_<UE> <DS>P2IE_<DE> Extent=<ES>521:29 - 521:34<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:522:9: macro definition=P2SEL_ <US>c:macro@P2SEL_<UE> <DS>P2SEL_<DE> Extent=<ES>522:9 - 522:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:523:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>523:1 - 523:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:523:29: macro expansion=P2SEL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:522:9 <US>c:macro@P2SEL_<UE> <DS>P2SEL_<DE> Extent=<ES>523:29 - 523:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:524:9: macro definition=P2REN_ <US>c:macro@P2REN_<UE> <DS>P2REN_<DE> Extent=<ES>524:9 - 524:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:525:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>525:1 - 525:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:525:29: macro expansion=P2REN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:524:9 <US>c:macro@P2REN_<UE> <DS>P2REN_<DE> Extent=<ES>525:29 - 525:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:530:9: macro definition=__MSP430_HAS_PORT3_R__ <US>c:macro@__MSP430_HAS_PORT3_R__<UE> <DS>__MSP430_HAS_PORT3_R__<DE> Extent=<ES>530:9 - 530:31<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:531:9: macro definition=__MSP430_HAS_PORT4_R__ <US>c:macro@__MSP430_HAS_PORT4_R__<UE> <DS>__MSP430_HAS_PORT4_R__<DE> Extent=<ES>531:9 - 531:31<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:533:9: macro definition=P3IN_ <US>c:macro@P3IN_<UE> <DS>P3IN_<DE> Extent=<ES>533:9 - 533:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:534:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>534:1 - 534:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:534:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>534:11 - 534:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:534:34: macro expansion=P3IN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:533:9 <US>c:macro@P3IN_<UE> <DS>P3IN_<DE> Extent=<ES>534:34 - 534:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:535:9: macro definition=P3OUT_ <US>c:macro@P3OUT_<UE> <DS>P3OUT_<DE> Extent=<ES>535:9 - 535:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:536:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>536:1 - 536:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:536:29: macro expansion=P3OUT_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:535:9 <US>c:macro@P3OUT_<UE> <DS>P3OUT_<DE> Extent=<ES>536:29 - 536:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:537:9: macro definition=P3DIR_ <US>c:macro@P3DIR_<UE> <DS>P3DIR_<DE> Extent=<ES>537:9 - 537:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:538:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>538:1 - 538:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:538:29: macro expansion=P3DIR_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:537:9 <US>c:macro@P3DIR_<UE> <DS>P3DIR_<DE> Extent=<ES>538:29 - 538:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:539:9: macro definition=P3SEL_ <US>c:macro@P3SEL_<UE> <DS>P3SEL_<DE> Extent=<ES>539:9 - 539:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:540:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>540:1 - 540:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:540:29: macro expansion=P3SEL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:539:9 <US>c:macro@P3SEL_<UE> <DS>P3SEL_<DE> Extent=<ES>540:29 - 540:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:541:9: macro definition=P3REN_ <US>c:macro@P3REN_<UE> <DS>P3REN_<DE> Extent=<ES>541:9 - 541:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:542:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>542:1 - 542:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:542:29: macro expansion=P3REN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:541:9 <US>c:macro@P3REN_<UE> <DS>P3REN_<DE> Extent=<ES>542:29 - 542:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:544:9: macro definition=P4IN_ <US>c:macro@P4IN_<UE> <DS>P4IN_<DE> Extent=<ES>544:9 - 544:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:545:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>545:1 - 545:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:545:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>545:11 - 545:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:545:34: macro expansion=P4IN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:544:9 <US>c:macro@P4IN_<UE> <DS>P4IN_<DE> Extent=<ES>545:34 - 545:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:546:9: macro definition=P4OUT_ <US>c:macro@P4OUT_<UE> <DS>P4OUT_<DE> Extent=<ES>546:9 - 546:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:547:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>547:1 - 547:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:547:29: macro expansion=P4OUT_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:546:9 <US>c:macro@P4OUT_<UE> <DS>P4OUT_<DE> Extent=<ES>547:29 - 547:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:548:9: macro definition=P4DIR_ <US>c:macro@P4DIR_<UE> <DS>P4DIR_<DE> Extent=<ES>548:9 - 548:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:549:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>549:1 - 549:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:549:29: macro expansion=P4DIR_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:548:9 <US>c:macro@P4DIR_<UE> <DS>P4DIR_<DE> Extent=<ES>549:29 - 549:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:550:9: macro definition=P4SEL_ <US>c:macro@P4SEL_<UE> <DS>P4SEL_<DE> Extent=<ES>550:9 - 550:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:551:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>551:1 - 551:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:551:29: macro expansion=P4SEL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:550:9 <US>c:macro@P4SEL_<UE> <DS>P4SEL_<DE> Extent=<ES>551:29 - 551:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:552:9: macro definition=P4REN_ <US>c:macro@P4REN_<UE> <DS>P4REN_<DE> Extent=<ES>552:9 - 552:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:553:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>553:1 - 553:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:553:29: macro expansion=P4REN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:552:9 <US>c:macro@P4REN_<UE> <DS>P4REN_<DE> Extent=<ES>553:29 - 553:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:558:9: macro definition=__MSP430_HAS_TA3__ <US>c:macro@__MSP430_HAS_TA3__<UE> <DS>__MSP430_HAS_TA3__<DE> Extent=<ES>558:9 - 558:27<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:560:9: macro definition=TAIV_ <US>c:macro@TAIV_<UE> <DS>TAIV_<DE> Extent=<ES>560:9 - 560:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:561:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>561:1 - 561:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:561:11: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>561:11 - 561:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:561:34: macro expansion=TAIV_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:560:9 <US>c:macro@TAIV_<UE> <DS>TAIV_<DE> Extent=<ES>561:34 - 561:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:562:9: macro definition=TACTL_ <US>c:macro@TACTL_<UE> <DS>TACTL_<DE> Extent=<ES>562:9 - 562:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:563:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>563:1 - 563:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:563:29: macro expansion=TACTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:562:9 <US>c:macro@TACTL_<UE> <DS>TACTL_<DE> Extent=<ES>563:29 - 563:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:564:9: macro definition=TACCTL0_ <US>c:macro@TACCTL0_<UE> <DS>TACCTL0_<DE> Extent=<ES>564:9 - 564:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:565:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>565:1 - 565:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:565:29: macro expansion=TACCTL0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:564:9 <US>c:macro@TACCTL0_<UE> <DS>TACCTL0_<DE> Extent=<ES>565:29 - 565:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:566:9: macro definition=TACCTL1_ <US>c:macro@TACCTL1_<UE> <DS>TACCTL1_<DE> Extent=<ES>566:9 - 566:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:567:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>567:1 - 567:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:567:29: macro expansion=TACCTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:566:9 <US>c:macro@TACCTL1_<UE> <DS>TACCTL1_<DE> Extent=<ES>567:29 - 567:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:568:9: macro definition=TACCTL2_ <US>c:macro@TACCTL2_<UE> <DS>TACCTL2_<DE> Extent=<ES>568:9 - 568:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:569:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>569:1 - 569:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:569:29: macro expansion=TACCTL2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:568:9 <US>c:macro@TACCTL2_<UE> <DS>TACCTL2_<DE> Extent=<ES>569:29 - 569:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:570:9: macro definition=TAR_ <US>c:macro@TAR_<UE> <DS>TAR_<DE> Extent=<ES>570:9 - 570:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:571:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>571:1 - 571:34<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:571:29: macro expansion=TAR_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:570:9 <US>c:macro@TAR_<UE> <DS>TAR_<DE> Extent=<ES>571:29 - 571:33<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:572:9: macro definition=TACCR0_ <US>c:macro@TACCR0_<UE> <DS>TACCR0_<DE> Extent=<ES>572:9 - 572:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:573:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>573:1 - 573:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:573:29: macro expansion=TACCR0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:572:9 <US>c:macro@TACCR0_<UE> <DS>TACCR0_<DE> Extent=<ES>573:29 - 573:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:574:9: macro definition=TACCR1_ <US>c:macro@TACCR1_<UE> <DS>TACCR1_<DE> Extent=<ES>574:9 - 574:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:575:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>575:1 - 575:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:575:29: macro expansion=TACCR1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:574:9 <US>c:macro@TACCR1_<UE> <DS>TACCR1_<DE> Extent=<ES>575:29 - 575:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:576:9: macro definition=TACCR2_ <US>c:macro@TACCR2_<UE> <DS>TACCR2_<DE> Extent=<ES>576:9 - 576:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:577:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>577:1 - 577:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:577:29: macro expansion=TACCR2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:576:9 <US>c:macro@TACCR2_<UE> <DS>TACCR2_<DE> Extent=<ES>577:29 - 577:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9: macro definition=CCTL0 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>580:9 - 580:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:581:9: macro definition=CCTL1 <US>c:macro@CCTL1<UE> <DS>CCTL1<DE> Extent=<ES>581:9 - 581:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:582:9: macro definition=CCTL2 <US>c:macro@CCTL2<UE> <DS>CCTL2<DE> Extent=<ES>582:9 - 582:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:583:9: macro definition=CCR0 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>583:9 - 583:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:584:9: macro definition=CCR1 <US>c:macro@CCR1<UE> <DS>CCR1<DE> Extent=<ES>584:9 - 584:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:585:9: macro definition=CCR2 <US>c:macro@CCR2<UE> <DS>CCR2<DE> Extent=<ES>585:9 - 585:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:586:9: macro definition=CCTL0_ <US>c:macro@CCTL0_<UE> <DS>CCTL0_<DE> Extent=<ES>586:9 - 586:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:587:9: macro definition=CCTL1_ <US>c:macro@CCTL1_<UE> <DS>CCTL1_<DE> Extent=<ES>587:9 - 587:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:588:9: macro definition=CCTL2_ <US>c:macro@CCTL2_<UE> <DS>CCTL2_<DE> Extent=<ES>588:9 - 588:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:589:9: macro definition=CCR0_ <US>c:macro@CCR0_<UE> <DS>CCR0_<DE> Extent=<ES>589:9 - 589:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:590:9: macro definition=CCR1_ <US>c:macro@CCR1_<UE> <DS>CCR1_<DE> Extent=<ES>590:9 - 590:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:591:9: macro definition=CCR2_ <US>c:macro@CCR2_<UE> <DS>CCR2_<DE> Extent=<ES>591:9 - 591:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:593:9: macro definition=TA0IV <US>c:macro@TA0IV<UE> <DS>TA0IV<DE> Extent=<ES>593:9 - 593:33<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:594:9: macro definition=TA0CTL <US>c:macro@TA0CTL<UE> <DS>TA0CTL<DE> Extent=<ES>594:9 - 594:34<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:595:9: macro definition=TA0CCTL0 <US>c:macro@TA0CCTL0<UE> <DS>TA0CCTL0<DE> Extent=<ES>595:9 - 595:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:596:9: macro definition=TA0CCTL1 <US>c:macro@TA0CCTL1<UE> <DS>TA0CCTL1<DE> Extent=<ES>596:9 - 596:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:597:9: macro definition=TA0CCTL2 <US>c:macro@TA0CCTL2<UE> <DS>TA0CCTL2<DE> Extent=<ES>597:9 - 597:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:598:9: macro definition=TA0R <US>c:macro@TA0R<UE> <DS>TA0R<DE> Extent=<ES>598:9 - 598:32<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:599:9: macro definition=TA0CCR0 <US>c:macro@TA0CCR0<UE> <DS>TA0CCR0<DE> Extent=<ES>599:9 - 599:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:600:9: macro definition=TA0CCR1 <US>c:macro@TA0CCR1<UE> <DS>TA0CCR1<DE> Extent=<ES>600:9 - 600:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:601:9: macro definition=TA0CCR2 <US>c:macro@TA0CCR2<UE> <DS>TA0CCR2<DE> Extent=<ES>601:9 - 601:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:602:9: macro definition=TA0IV_ <US>c:macro@TA0IV_<UE> <DS>TA0IV_<DE> Extent=<ES>602:9 - 602:34<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:603:9: macro definition=TA0CTL_ <US>c:macro@TA0CTL_<UE> <DS>TA0CTL_<DE> Extent=<ES>603:9 - 603:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:604:9: macro definition=TA0CCTL0_ <US>c:macro@TA0CCTL0_<UE> <DS>TA0CCTL0_<DE> Extent=<ES>604:9 - 604:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:605:9: macro definition=TA0CCTL1_ <US>c:macro@TA0CCTL1_<UE> <DS>TA0CCTL1_<DE> Extent=<ES>605:9 - 605:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:606:9: macro definition=TA0CCTL2_ <US>c:macro@TA0CCTL2_<UE> <DS>TA0CCTL2_<DE> Extent=<ES>606:9 - 606:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:607:9: macro definition=TA0R_ <US>c:macro@TA0R_<UE> <DS>TA0R_<DE> Extent=<ES>607:9 - 607:33<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:608:9: macro definition=TA0CCR0_ <US>c:macro@TA0CCR0_<UE> <DS>TA0CCR0_<DE> Extent=<ES>608:9 - 608:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:609:9: macro definition=TA0CCR1_ <US>c:macro@TA0CCR1_<UE> <DS>TA0CCR1_<DE> Extent=<ES>609:9 - 609:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:610:9: macro definition=TA0CCR2_ <US>c:macro@TA0CCR2_<UE> <DS>TA0CCR2_<DE> Extent=<ES>610:9 - 610:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:611:9: macro definition=TIMER0_A1_VECTOR <US>c:macro@TIMER0_A1_VECTOR<UE> <DS>TIMER0_A1_VECTOR<DE> Extent=<ES>611:9 - 611:43<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:612:9: macro definition=TIMER0_A0_VECTOR <US>c:macro@TIMER0_A0_VECTOR<UE> <DS>TIMER0_A0_VECTOR<DE> Extent=<ES>612:9 - 612:43<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:614:9: macro definition=TASSEL1 <US>c:macro@TASSEL1<UE> <DS>TASSEL1<DE> Extent=<ES>614:9 - 614:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:615:9: macro definition=TASSEL0 <US>c:macro@TASSEL0<UE> <DS>TASSEL0<DE> Extent=<ES>615:9 - 615:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:616:9: macro definition=ID1 <US>c:macro@ID1<UE> <DS>ID1<DE> Extent=<ES>616:9 - 616:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:617:9: macro definition=ID0 <US>c:macro@ID0<UE> <DS>ID0<DE> Extent=<ES>617:9 - 617:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:618:9: macro definition=MC1 <US>c:macro@MC1<UE> <DS>MC1<DE> Extent=<ES>618:9 - 618:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:619:9: macro definition=MC0 <US>c:macro@MC0<UE> <DS>MC0<DE> Extent=<ES>619:9 - 619:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:620:9: macro definition=TACLR <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>620:9 - 620:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:621:9: macro definition=TAIE <US>c:macro@TAIE<UE> <DS>TAIE<DE> Extent=<ES>621:9 - 621:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:622:9: macro definition=TAIFG <US>c:macro@TAIFG<UE> <DS>TAIFG<DE> Extent=<ES>622:9 - 622:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:624:9: macro definition=MC_0 <US>c:macro@MC_0<UE> <DS>MC_0<DE> Extent=<ES>624:9 - 624:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:625:9: macro definition=MC_1 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>625:9 - 625:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:626:9: macro definition=MC_2 <US>c:macro@MC_2<UE> <DS>MC_2<DE> Extent=<ES>626:9 - 626:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:627:9: macro definition=MC_3 <US>c:macro@MC_3<UE> <DS>MC_3<DE> Extent=<ES>627:9 - 627:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:628:9: macro definition=ID_0 <US>c:macro@ID_0<UE> <DS>ID_0<DE> Extent=<ES>628:9 - 628:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:629:9: macro definition=ID_1 <US>c:macro@ID_1<UE> <DS>ID_1<DE> Extent=<ES>629:9 - 629:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:630:9: macro definition=ID_2 <US>c:macro@ID_2<UE> <DS>ID_2<DE> Extent=<ES>630:9 - 630:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:631:9: macro definition=ID_3 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>631:9 - 631:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:632:9: macro definition=TASSEL_0 <US>c:macro@TASSEL_0<UE> <DS>TASSEL_0<DE> Extent=<ES>632:9 - 632:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:633:9: macro definition=TASSEL_1 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>633:9 - 633:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:634:9: macro definition=TASSEL_2 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>634:9 - 634:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:635:9: macro definition=TASSEL_3 <US>c:macro@TASSEL_3<UE> <DS>TASSEL_3<DE> Extent=<ES>635:9 - 635:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:637:9: macro definition=CM1 <US>c:macro@CM1<UE> <DS>CM1<DE> Extent=<ES>637:9 - 637:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:638:9: macro definition=CM0 <US>c:macro@CM0<UE> <DS>CM0<DE> Extent=<ES>638:9 - 638:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:639:9: macro definition=CCIS1 <US>c:macro@CCIS1<UE> <DS>CCIS1<DE> Extent=<ES>639:9 - 639:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:640:9: macro definition=CCIS0 <US>c:macro@CCIS0<UE> <DS>CCIS0<DE> Extent=<ES>640:9 - 640:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:641:9: macro definition=SCS <US>c:macro@SCS<UE> <DS>SCS<DE> Extent=<ES>641:9 - 641:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:642:9: macro definition=SCCI <US>c:macro@SCCI<UE> <DS>SCCI<DE> Extent=<ES>642:9 - 642:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:643:9: macro definition=CAP <US>c:macro@CAP<UE> <DS>CAP<DE> Extent=<ES>643:9 - 643:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:644:9: macro definition=OUTMOD2 <US>c:macro@OUTMOD2<UE> <DS>OUTMOD2<DE> Extent=<ES>644:9 - 644:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:645:9: macro definition=OUTMOD1 <US>c:macro@OUTMOD1<UE> <DS>OUTMOD1<DE> Extent=<ES>645:9 - 645:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:646:9: macro definition=OUTMOD0 <US>c:macro@OUTMOD0<UE> <DS>OUTMOD0<DE> Extent=<ES>646:9 - 646:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9: macro definition=CCIE <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>647:9 - 647:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:648:9: macro definition=CCI <US>c:macro@CCI<UE> <DS>CCI<DE> Extent=<ES>648:9 - 648:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:649:9: macro definition=OUT <US>c:macro@OUT<UE> <DS>OUT<DE> Extent=<ES>649:9 - 649:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:650:9: macro definition=COV <US>c:macro@COV<UE> <DS>COV<DE> Extent=<ES>650:9 - 650:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:651:9: macro definition=CCIFG <US>c:macro@CCIFG<UE> <DS>CCIFG<DE> Extent=<ES>651:9 - 651:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:653:9: macro definition=OUTMOD_0 <US>c:macro@OUTMOD_0<UE> <DS>OUTMOD_0<DE> Extent=<ES>653:9 - 653:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:654:9: macro definition=OUTMOD_1 <US>c:macro@OUTMOD_1<UE> <DS>OUTMOD_1<DE> Extent=<ES>654:9 - 654:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:655:9: macro definition=OUTMOD_2 <US>c:macro@OUTMOD_2<UE> <DS>OUTMOD_2<DE> Extent=<ES>655:9 - 655:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:656:9: macro definition=OUTMOD_3 <US>c:macro@OUTMOD_3<UE> <DS>OUTMOD_3<DE> Extent=<ES>656:9 - 656:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:657:9: macro definition=OUTMOD_4 <US>c:macro@OUTMOD_4<UE> <DS>OUTMOD_4<DE> Extent=<ES>657:9 - 657:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:658:9: macro definition=OUTMOD_5 <US>c:macro@OUTMOD_5<UE> <DS>OUTMOD_5<DE> Extent=<ES>658:9 - 658:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:659:9: macro definition=OUTMOD_6 <US>c:macro@OUTMOD_6<UE> <DS>OUTMOD_6<DE> Extent=<ES>659:9 - 659:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:660:9: macro definition=OUTMOD_7 <US>c:macro@OUTMOD_7<UE> <DS>OUTMOD_7<DE> Extent=<ES>660:9 - 660:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:661:9: macro definition=CCIS_0 <US>c:macro@CCIS_0<UE> <DS>CCIS_0<DE> Extent=<ES>661:9 - 661:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:662:9: macro definition=CCIS_1 <US>c:macro@CCIS_1<UE> <DS>CCIS_1<DE> Extent=<ES>662:9 - 662:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:663:9: macro definition=CCIS_2 <US>c:macro@CCIS_2<UE> <DS>CCIS_2<DE> Extent=<ES>663:9 - 663:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:664:9: macro definition=CCIS_3 <US>c:macro@CCIS_3<UE> <DS>CCIS_3<DE> Extent=<ES>664:9 - 664:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:665:9: macro definition=CM_0 <US>c:macro@CM_0<UE> <DS>CM_0<DE> Extent=<ES>665:9 - 665:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:666:9: macro definition=CM_1 <US>c:macro@CM_1<UE> <DS>CM_1<DE> Extent=<ES>666:9 - 666:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:667:9: macro definition=CM_2 <US>c:macro@CM_2<UE> <DS>CM_2<DE> Extent=<ES>667:9 - 667:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:668:9: macro definition=CM_3 <US>c:macro@CM_3<UE> <DS>CM_3<DE> Extent=<ES>668:9 - 668:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:671:9: macro definition=TAIV_NONE <US>c:macro@TAIV_NONE<UE> <DS>TAIV_NONE<DE> Extent=<ES>671:9 - 671:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:672:9: macro definition=TAIV_TACCR1 <US>c:macro@TAIV_TACCR1<UE> <DS>TAIV_TACCR1<DE> Extent=<ES>672:9 - 672:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:673:9: macro definition=TAIV_TACCR2 <US>c:macro@TAIV_TACCR2<UE> <DS>TAIV_TACCR2<DE> Extent=<ES>673:9 - 673:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:674:9: macro definition=TAIV_6 <US>c:macro@TAIV_6<UE> <DS>TAIV_6<DE> Extent=<ES>674:9 - 674:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:675:9: macro definition=TAIV_8 <US>c:macro@TAIV_8<UE> <DS>TAIV_8<DE> Extent=<ES>675:9 - 675:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:676:9: macro definition=TAIV_TAIFG <US>c:macro@TAIV_TAIFG<UE> <DS>TAIV_TAIFG<DE> Extent=<ES>676:9 - 676:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:681:9: macro definition=__MSP430_HAS_TB3__ <US>c:macro@__MSP430_HAS_TB3__<UE> <DS>__MSP430_HAS_TB3__<DE> Extent=<ES>681:9 - 681:27<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:683:9: macro definition=TBIV_ <US>c:macro@TBIV_<UE> <DS>TBIV_<DE> Extent=<ES>683:9 - 683:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:684:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>684:1 - 684:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:684:11: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>684:11 - 684:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:684:34: macro expansion=TBIV_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:683:9 <US>c:macro@TBIV_<UE> <DS>TBIV_<DE> Extent=<ES>684:34 - 684:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:685:9: macro definition=TBCTL_ <US>c:macro@TBCTL_<UE> <DS>TBCTL_<DE> Extent=<ES>685:9 - 685:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:686:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>686:1 - 686:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:686:29: macro expansion=TBCTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:685:9 <US>c:macro@TBCTL_<UE> <DS>TBCTL_<DE> Extent=<ES>686:29 - 686:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:687:9: macro definition=TBCCTL0_ <US>c:macro@TBCCTL0_<UE> <DS>TBCCTL0_<DE> Extent=<ES>687:9 - 687:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:688:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>688:1 - 688:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:688:29: macro expansion=TBCCTL0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:687:9 <US>c:macro@TBCCTL0_<UE> <DS>TBCCTL0_<DE> Extent=<ES>688:29 - 688:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:689:9: macro definition=TBCCTL1_ <US>c:macro@TBCCTL1_<UE> <DS>TBCCTL1_<DE> Extent=<ES>689:9 - 689:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:690:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>690:1 - 690:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:690:29: macro expansion=TBCCTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:689:9 <US>c:macro@TBCCTL1_<UE> <DS>TBCCTL1_<DE> Extent=<ES>690:29 - 690:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:691:9: macro definition=TBCCTL2_ <US>c:macro@TBCCTL2_<UE> <DS>TBCCTL2_<DE> Extent=<ES>691:9 - 691:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:692:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>692:1 - 692:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:692:29: macro expansion=TBCCTL2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:691:9 <US>c:macro@TBCCTL2_<UE> <DS>TBCCTL2_<DE> Extent=<ES>692:29 - 692:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:693:9: macro definition=TBR_ <US>c:macro@TBR_<UE> <DS>TBR_<DE> Extent=<ES>693:9 - 693:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:694:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>694:1 - 694:34<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:694:29: macro expansion=TBR_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:693:9 <US>c:macro@TBR_<UE> <DS>TBR_<DE> Extent=<ES>694:29 - 694:33<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:695:9: macro definition=TBCCR0_ <US>c:macro@TBCCR0_<UE> <DS>TBCCR0_<DE> Extent=<ES>695:9 - 695:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:696:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>696:1 - 696:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:696:29: macro expansion=TBCCR0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:695:9 <US>c:macro@TBCCR0_<UE> <DS>TBCCR0_<DE> Extent=<ES>696:29 - 696:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:697:9: macro definition=TBCCR1_ <US>c:macro@TBCCR1_<UE> <DS>TBCCR1_<DE> Extent=<ES>697:9 - 697:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:698:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>698:1 - 698:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:698:29: macro expansion=TBCCR1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:697:9 <US>c:macro@TBCCR1_<UE> <DS>TBCCR1_<DE> Extent=<ES>698:29 - 698:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:699:9: macro definition=TBCCR2_ <US>c:macro@TBCCR2_<UE> <DS>TBCCR2_<DE> Extent=<ES>699:9 - 699:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:700:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>700:1 - 700:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:700:29: macro expansion=TBCCR2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:699:9 <US>c:macro@TBCCR2_<UE> <DS>TBCCR2_<DE> Extent=<ES>700:29 - 700:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:703:9: macro definition=TB0IV <US>c:macro@TB0IV<UE> <DS>TB0IV<DE> Extent=<ES>703:9 - 703:33<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:704:9: macro definition=TB0CTL <US>c:macro@TB0CTL<UE> <DS>TB0CTL<DE> Extent=<ES>704:9 - 704:34<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:705:9: macro definition=TB0CCTL0 <US>c:macro@TB0CCTL0<UE> <DS>TB0CCTL0<DE> Extent=<ES>705:9 - 705:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:706:9: macro definition=TB0CCTL1 <US>c:macro@TB0CCTL1<UE> <DS>TB0CCTL1<DE> Extent=<ES>706:9 - 706:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:707:9: macro definition=TB0CCTL2 <US>c:macro@TB0CCTL2<UE> <DS>TB0CCTL2<DE> Extent=<ES>707:9 - 707:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:708:9: macro definition=TB0R <US>c:macro@TB0R<UE> <DS>TB0R<DE> Extent=<ES>708:9 - 708:32<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:709:9: macro definition=TB0CCR0 <US>c:macro@TB0CCR0<UE> <DS>TB0CCR0<DE> Extent=<ES>709:9 - 709:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:710:9: macro definition=TB0CCR1 <US>c:macro@TB0CCR1<UE> <DS>TB0CCR1<DE> Extent=<ES>710:9 - 710:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:711:9: macro definition=TB0CCR2 <US>c:macro@TB0CCR2<UE> <DS>TB0CCR2<DE> Extent=<ES>711:9 - 711:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:712:9: macro definition=TB0IV_ <US>c:macro@TB0IV_<UE> <DS>TB0IV_<DE> Extent=<ES>712:9 - 712:34<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:713:9: macro definition=TB0CTL_ <US>c:macro@TB0CTL_<UE> <DS>TB0CTL_<DE> Extent=<ES>713:9 - 713:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:714:9: macro definition=TB0CCTL0_ <US>c:macro@TB0CCTL0_<UE> <DS>TB0CCTL0_<DE> Extent=<ES>714:9 - 714:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:715:9: macro definition=TB0CCTL1_ <US>c:macro@TB0CCTL1_<UE> <DS>TB0CCTL1_<DE> Extent=<ES>715:9 - 715:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:716:9: macro definition=TB0CCTL2_ <US>c:macro@TB0CCTL2_<UE> <DS>TB0CCTL2_<DE> Extent=<ES>716:9 - 716:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:717:9: macro definition=TB0R_ <US>c:macro@TB0R_<UE> <DS>TB0R_<DE> Extent=<ES>717:9 - 717:33<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:718:9: macro definition=TB0CCR0_ <US>c:macro@TB0CCR0_<UE> <DS>TB0CCR0_<DE> Extent=<ES>718:9 - 718:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:719:9: macro definition=TB0CCR1_ <US>c:macro@TB0CCR1_<UE> <DS>TB0CCR1_<DE> Extent=<ES>719:9 - 719:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:720:9: macro definition=TB0CCR2_ <US>c:macro@TB0CCR2_<UE> <DS>TB0CCR2_<DE> Extent=<ES>720:9 - 720:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:722:9: macro definition=TBCLGRP1 <US>c:macro@TBCLGRP1<UE> <DS>TBCLGRP1<DE> Extent=<ES>722:9 - 722:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:723:9: macro definition=TBCLGRP0 <US>c:macro@TBCLGRP0<UE> <DS>TBCLGRP0<DE> Extent=<ES>723:9 - 723:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:724:9: macro definition=CNTL1 <US>c:macro@CNTL1<UE> <DS>CNTL1<DE> Extent=<ES>724:9 - 724:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:725:9: macro definition=CNTL0 <US>c:macro@CNTL0<UE> <DS>CNTL0<DE> Extent=<ES>725:9 - 725:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:726:9: macro definition=TBSSEL1 <US>c:macro@TBSSEL1<UE> <DS>TBSSEL1<DE> Extent=<ES>726:9 - 726:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:727:9: macro definition=TBSSEL0 <US>c:macro@TBSSEL0<UE> <DS>TBSSEL0<DE> Extent=<ES>727:9 - 727:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:728:9: macro definition=TBCLR <US>c:macro@TBCLR<UE> <DS>TBCLR<DE> Extent=<ES>728:9 - 728:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:729:9: macro definition=TBIE <US>c:macro@TBIE<UE> <DS>TBIE<DE> Extent=<ES>729:9 - 729:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:730:9: macro definition=TBIFG <US>c:macro@TBIFG<UE> <DS>TBIFG<DE> Extent=<ES>730:9 - 730:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:732:9: macro definition=SHR1 <US>c:macro@SHR1<UE> <DS>SHR1<DE> Extent=<ES>732:9 - 732:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:733:9: macro definition=SHR0 <US>c:macro@SHR0<UE> <DS>SHR0<DE> Extent=<ES>733:9 - 733:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:735:9: macro definition=TBSSEL_0 <US>c:macro@TBSSEL_0<UE> <DS>TBSSEL_0<DE> Extent=<ES>735:9 - 735:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:736:9: macro definition=TBSSEL_1 <US>c:macro@TBSSEL_1<UE> <DS>TBSSEL_1<DE> Extent=<ES>736:9 - 736:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:737:9: macro definition=TBSSEL_2 <US>c:macro@TBSSEL_2<UE> <DS>TBSSEL_2<DE> Extent=<ES>737:9 - 737:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:738:9: macro definition=TBSSEL_3 <US>c:macro@TBSSEL_3<UE> <DS>TBSSEL_3<DE> Extent=<ES>738:9 - 738:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:739:9: macro definition=CNTL_0 <US>c:macro@CNTL_0<UE> <DS>CNTL_0<DE> Extent=<ES>739:9 - 739:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:740:9: macro definition=CNTL_1 <US>c:macro@CNTL_1<UE> <DS>CNTL_1<DE> Extent=<ES>740:9 - 740:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:741:9: macro definition=CNTL_2 <US>c:macro@CNTL_2<UE> <DS>CNTL_2<DE> Extent=<ES>741:9 - 741:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:742:9: macro definition=CNTL_3 <US>c:macro@CNTL_3<UE> <DS>CNTL_3<DE> Extent=<ES>742:9 - 742:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:743:9: macro definition=SHR_0 <US>c:macro@SHR_0<UE> <DS>SHR_0<DE> Extent=<ES>743:9 - 743:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:744:9: macro definition=SHR_1 <US>c:macro@SHR_1<UE> <DS>SHR_1<DE> Extent=<ES>744:9 - 744:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:745:9: macro definition=SHR_2 <US>c:macro@SHR_2<UE> <DS>SHR_2<DE> Extent=<ES>745:9 - 745:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:746:9: macro definition=SHR_3 <US>c:macro@SHR_3<UE> <DS>SHR_3<DE> Extent=<ES>746:9 - 746:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:747:9: macro definition=TBCLGRP_0 <US>c:macro@TBCLGRP_0<UE> <DS>TBCLGRP_0<DE> Extent=<ES>747:9 - 747:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:748:9: macro definition=TBCLGRP_1 <US>c:macro@TBCLGRP_1<UE> <DS>TBCLGRP_1<DE> Extent=<ES>748:9 - 748:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:749:9: macro definition=TBCLGRP_2 <US>c:macro@TBCLGRP_2<UE> <DS>TBCLGRP_2<DE> Extent=<ES>749:9 - 749:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:750:9: macro definition=TBCLGRP_3 <US>c:macro@TBCLGRP_3<UE> <DS>TBCLGRP_3<DE> Extent=<ES>750:9 - 750:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:754:9: macro definition=CLLD1 <US>c:macro@CLLD1<UE> <DS>CLLD1<DE> Extent=<ES>754:9 - 754:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:755:9: macro definition=CLLD0 <US>c:macro@CLLD0<UE> <DS>CLLD0<DE> Extent=<ES>755:9 - 755:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:757:9: macro definition=SLSHR1 <US>c:macro@SLSHR1<UE> <DS>SLSHR1<DE> Extent=<ES>757:9 - 757:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:758:9: macro definition=SLSHR0 <US>c:macro@SLSHR0<UE> <DS>SLSHR0<DE> Extent=<ES>758:9 - 758:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:760:9: macro definition=SLSHR_0 <US>c:macro@SLSHR_0<UE> <DS>SLSHR_0<DE> Extent=<ES>760:9 - 760:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:761:9: macro definition=SLSHR_1 <US>c:macro@SLSHR_1<UE> <DS>SLSHR_1<DE> Extent=<ES>761:9 - 761:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:762:9: macro definition=SLSHR_2 <US>c:macro@SLSHR_2<UE> <DS>SLSHR_2<DE> Extent=<ES>762:9 - 762:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:763:9: macro definition=SLSHR_3 <US>c:macro@SLSHR_3<UE> <DS>SLSHR_3<DE> Extent=<ES>763:9 - 763:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:765:9: macro definition=CLLD_0 <US>c:macro@CLLD_0<UE> <DS>CLLD_0<DE> Extent=<ES>765:9 - 765:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:766:9: macro definition=CLLD_1 <US>c:macro@CLLD_1<UE> <DS>CLLD_1<DE> Extent=<ES>766:9 - 766:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:767:9: macro definition=CLLD_2 <US>c:macro@CLLD_2<UE> <DS>CLLD_2<DE> Extent=<ES>767:9 - 767:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:768:9: macro definition=CLLD_3 <US>c:macro@CLLD_3<UE> <DS>CLLD_3<DE> Extent=<ES>768:9 - 768:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:771:9: macro definition=TBIV_NONE <US>c:macro@TBIV_NONE<UE> <DS>TBIV_NONE<DE> Extent=<ES>771:9 - 771:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:772:9: macro definition=TBIV_TBCCR1 <US>c:macro@TBIV_TBCCR1<UE> <DS>TBIV_TBCCR1<DE> Extent=<ES>772:9 - 772:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:773:9: macro definition=TBIV_TBCCR2 <US>c:macro@TBIV_TBCCR2<UE> <DS>TBIV_TBCCR2<DE> Extent=<ES>773:9 - 773:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:774:9: macro definition=TBIV_3 <US>c:macro@TBIV_3<UE> <DS>TBIV_3<DE> Extent=<ES>774:9 - 774:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:775:9: macro definition=TBIV_4 <US>c:macro@TBIV_4<UE> <DS>TBIV_4<DE> Extent=<ES>775:9 - 775:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:776:9: macro definition=TBIV_5 <US>c:macro@TBIV_5<UE> <DS>TBIV_5<DE> Extent=<ES>776:9 - 776:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:777:9: macro definition=TBIV_6 <US>c:macro@TBIV_6<UE> <DS>TBIV_6<DE> Extent=<ES>777:9 - 777:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:778:9: macro definition=TBIV_TBIFG <US>c:macro@TBIV_TBIFG<UE> <DS>TBIV_TBIFG<DE> Extent=<ES>778:9 - 778:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:783:9: macro definition=__MSP430_HAS_USCI__ <US>c:macro@__MSP430_HAS_USCI__<UE> <DS>__MSP430_HAS_USCI__<DE> Extent=<ES>783:9 - 783:28<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:785:9: macro definition=UCA0CTL0_ <US>c:macro@UCA0CTL0_<UE> <DS>UCA0CTL0_<DE> Extent=<ES>785:9 - 785:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:786:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>786:1 - 786:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:786:29: macro expansion=UCA0CTL0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:785:9 <US>c:macro@UCA0CTL0_<UE> <DS>UCA0CTL0_<DE> Extent=<ES>786:29 - 786:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:787:9: macro definition=UCA0CTL1_ <US>c:macro@UCA0CTL1_<UE> <DS>UCA0CTL1_<DE> Extent=<ES>787:9 - 787:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:788:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>788:1 - 788:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:788:29: macro expansion=UCA0CTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:787:9 <US>c:macro@UCA0CTL1_<UE> <DS>UCA0CTL1_<DE> Extent=<ES>788:29 - 788:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:789:9: macro definition=UCA0BR0_ <US>c:macro@UCA0BR0_<UE> <DS>UCA0BR0_<DE> Extent=<ES>789:9 - 789:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:790:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>790:1 - 790:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:790:29: macro expansion=UCA0BR0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:789:9 <US>c:macro@UCA0BR0_<UE> <DS>UCA0BR0_<DE> Extent=<ES>790:29 - 790:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:791:9: macro definition=UCA0BR1_ <US>c:macro@UCA0BR1_<UE> <DS>UCA0BR1_<DE> Extent=<ES>791:9 - 791:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:792:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>792:1 - 792:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:792:29: macro expansion=UCA0BR1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:791:9 <US>c:macro@UCA0BR1_<UE> <DS>UCA0BR1_<DE> Extent=<ES>792:29 - 792:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:793:9: macro definition=UCA0MCTL_ <US>c:macro@UCA0MCTL_<UE> <DS>UCA0MCTL_<DE> Extent=<ES>793:9 - 793:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:794:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>794:1 - 794:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:794:29: macro expansion=UCA0MCTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:793:9 <US>c:macro@UCA0MCTL_<UE> <DS>UCA0MCTL_<DE> Extent=<ES>794:29 - 794:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:795:9: macro definition=UCA0STAT_ <US>c:macro@UCA0STAT_<UE> <DS>UCA0STAT_<DE> Extent=<ES>795:9 - 795:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:796:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>796:1 - 796:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:796:29: macro expansion=UCA0STAT_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:795:9 <US>c:macro@UCA0STAT_<UE> <DS>UCA0STAT_<DE> Extent=<ES>796:29 - 796:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:797:9: macro definition=UCA0RXBUF_ <US>c:macro@UCA0RXBUF_<UE> <DS>UCA0RXBUF_<DE> Extent=<ES>797:9 - 797:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:798:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>798:1 - 798:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:798:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>798:11 - 798:45<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:798:34: macro expansion=UCA0RXBUF_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:797:9 <US>c:macro@UCA0RXBUF_<UE> <DS>UCA0RXBUF_<DE> Extent=<ES>798:34 - 798:44<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:799:9: macro definition=UCA0TXBUF_ <US>c:macro@UCA0TXBUF_<UE> <DS>UCA0TXBUF_<DE> Extent=<ES>799:9 - 799:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:800:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>800:1 - 800:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:800:29: macro expansion=UCA0TXBUF_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:799:9 <US>c:macro@UCA0TXBUF_<UE> <DS>UCA0TXBUF_<DE> Extent=<ES>800:29 - 800:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:801:9: macro definition=UCA0ABCTL_ <US>c:macro@UCA0ABCTL_<UE> <DS>UCA0ABCTL_<DE> Extent=<ES>801:9 - 801:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:802:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>802:1 - 802:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:802:29: macro expansion=UCA0ABCTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:801:9 <US>c:macro@UCA0ABCTL_<UE> <DS>UCA0ABCTL_<DE> Extent=<ES>802:29 - 802:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:803:9: macro definition=UCA0IRTCTL_ <US>c:macro@UCA0IRTCTL_<UE> <DS>UCA0IRTCTL_<DE> Extent=<ES>803:9 - 803:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:804:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>804:1 - 804:41<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:804:29: macro expansion=UCA0IRTCTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:803:9 <US>c:macro@UCA0IRTCTL_<UE> <DS>UCA0IRTCTL_<DE> Extent=<ES>804:29 - 804:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:805:9: macro definition=UCA0IRRCTL_ <US>c:macro@UCA0IRRCTL_<UE> <DS>UCA0IRRCTL_<DE> Extent=<ES>805:9 - 805:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:806:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>806:1 - 806:41<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:806:29: macro expansion=UCA0IRRCTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:805:9 <US>c:macro@UCA0IRRCTL_<UE> <DS>UCA0IRRCTL_<DE> Extent=<ES>806:29 - 806:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:810:9: macro definition=UCB0CTL0_ <US>c:macro@UCB0CTL0_<UE> <DS>UCB0CTL0_<DE> Extent=<ES>810:9 - 810:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:811:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>811:1 - 811:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:811:29: macro expansion=UCB0CTL0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:810:9 <US>c:macro@UCB0CTL0_<UE> <DS>UCB0CTL0_<DE> Extent=<ES>811:29 - 811:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:812:9: macro definition=UCB0CTL1_ <US>c:macro@UCB0CTL1_<UE> <DS>UCB0CTL1_<DE> Extent=<ES>812:9 - 812:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:813:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>813:1 - 813:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:813:29: macro expansion=UCB0CTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:812:9 <US>c:macro@UCB0CTL1_<UE> <DS>UCB0CTL1_<DE> Extent=<ES>813:29 - 813:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:814:9: macro definition=UCB0BR0_ <US>c:macro@UCB0BR0_<UE> <DS>UCB0BR0_<DE> Extent=<ES>814:9 - 814:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:815:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>815:1 - 815:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:815:29: macro expansion=UCB0BR0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:814:9 <US>c:macro@UCB0BR0_<UE> <DS>UCB0BR0_<DE> Extent=<ES>815:29 - 815:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:816:9: macro definition=UCB0BR1_ <US>c:macro@UCB0BR1_<UE> <DS>UCB0BR1_<DE> Extent=<ES>816:9 - 816:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:817:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>817:1 - 817:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:817:29: macro expansion=UCB0BR1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:816:9 <US>c:macro@UCB0BR1_<UE> <DS>UCB0BR1_<DE> Extent=<ES>817:29 - 817:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:818:9: macro definition=UCB0I2CIE_ <US>c:macro@UCB0I2CIE_<UE> <DS>UCB0I2CIE_<DE> Extent=<ES>818:9 - 818:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:819:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>819:1 - 819:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:819:29: macro expansion=UCB0I2CIE_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:818:9 <US>c:macro@UCB0I2CIE_<UE> <DS>UCB0I2CIE_<DE> Extent=<ES>819:29 - 819:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:820:9: macro definition=UCB0STAT_ <US>c:macro@UCB0STAT_<UE> <DS>UCB0STAT_<DE> Extent=<ES>820:9 - 820:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:821:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>821:1 - 821:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:821:29: macro expansion=UCB0STAT_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:820:9 <US>c:macro@UCB0STAT_<UE> <DS>UCB0STAT_<DE> Extent=<ES>821:29 - 821:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:822:9: macro definition=UCB0RXBUF_ <US>c:macro@UCB0RXBUF_<UE> <DS>UCB0RXBUF_<DE> Extent=<ES>822:9 - 822:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:823:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>823:1 - 823:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:823:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>823:11 - 823:45<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:823:34: macro expansion=UCB0RXBUF_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:822:9 <US>c:macro@UCB0RXBUF_<UE> <DS>UCB0RXBUF_<DE> Extent=<ES>823:34 - 823:44<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:824:9: macro definition=UCB0TXBUF_ <US>c:macro@UCB0TXBUF_<UE> <DS>UCB0TXBUF_<DE> Extent=<ES>824:9 - 824:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:825:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>825:1 - 825:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:825:29: macro expansion=UCB0TXBUF_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:824:9 <US>c:macro@UCB0TXBUF_<UE> <DS>UCB0TXBUF_<DE> Extent=<ES>825:29 - 825:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:826:9: macro definition=UCB0I2COA_ <US>c:macro@UCB0I2COA_<UE> <DS>UCB0I2COA_<DE> Extent=<ES>826:9 - 826:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:827:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>827:1 - 827:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:827:29: macro expansion=UCB0I2COA_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:826:9 <US>c:macro@UCB0I2COA_<UE> <DS>UCB0I2COA_<DE> Extent=<ES>827:29 - 827:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:828:9: macro definition=UCB0I2CSA_ <US>c:macro@UCB0I2CSA_<UE> <DS>UCB0I2CSA_<DE> Extent=<ES>828:9 - 828:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:829:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>829:1 - 829:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:829:29: macro expansion=UCB0I2CSA_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:828:9 <US>c:macro@UCB0I2CSA_<UE> <DS>UCB0I2CSA_<DE> Extent=<ES>829:29 - 829:39<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:832:9: macro definition=UCPEN <US>c:macro@UCPEN<UE> <DS>UCPEN<DE> Extent=<ES>832:9 - 832:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:833:9: macro definition=UCPAR <US>c:macro@UCPAR<UE> <DS>UCPAR<DE> Extent=<ES>833:9 - 833:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:834:9: macro definition=UCMSB <US>c:macro@UCMSB<UE> <DS>UCMSB<DE> Extent=<ES>834:9 - 834:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:835:9: macro definition=UC7BIT <US>c:macro@UC7BIT<UE> <DS>UC7BIT<DE> Extent=<ES>835:9 - 835:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:836:9: macro definition=UCSPB <US>c:macro@UCSPB<UE> <DS>UCSPB<DE> Extent=<ES>836:9 - 836:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:837:9: macro definition=UCMODE1 <US>c:macro@UCMODE1<UE> <DS>UCMODE1<DE> Extent=<ES>837:9 - 837:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:838:9: macro definition=UCMODE0 <US>c:macro@UCMODE0<UE> <DS>UCMODE0<DE> Extent=<ES>838:9 - 838:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:839:9: macro definition=UCSYNC <US>c:macro@UCSYNC<UE> <DS>UCSYNC<DE> Extent=<ES>839:9 - 839:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:842:9: macro definition=UCCKPH <US>c:macro@UCCKPH<UE> <DS>UCCKPH<DE> Extent=<ES>842:9 - 842:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:843:9: macro definition=UCCKPL <US>c:macro@UCCKPL<UE> <DS>UCCKPL<DE> Extent=<ES>843:9 - 843:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:844:9: macro definition=UCMST <US>c:macro@UCMST<UE> <DS>UCMST<DE> Extent=<ES>844:9 - 844:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:847:9: macro definition=UCA10 <US>c:macro@UCA10<UE> <DS>UCA10<DE> Extent=<ES>847:9 - 847:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:848:9: macro definition=UCSLA10 <US>c:macro@UCSLA10<UE> <DS>UCSLA10<DE> Extent=<ES>848:9 - 848:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:849:9: macro definition=UCMM <US>c:macro@UCMM<UE> <DS>UCMM<DE> Extent=<ES>849:9 - 849:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:851:9: macro definition=UCMODE_0 <US>c:macro@UCMODE_0<UE> <DS>UCMODE_0<DE> Extent=<ES>851:9 - 851:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:852:9: macro definition=UCMODE_1 <US>c:macro@UCMODE_1<UE> <DS>UCMODE_1<DE> Extent=<ES>852:9 - 852:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:853:9: macro definition=UCMODE_2 <US>c:macro@UCMODE_2<UE> <DS>UCMODE_2<DE> Extent=<ES>853:9 - 853:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:854:9: macro definition=UCMODE_3 <US>c:macro@UCMODE_3<UE> <DS>UCMODE_3<DE> Extent=<ES>854:9 - 854:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:857:9: macro definition=UCSSEL1 <US>c:macro@UCSSEL1<UE> <DS>UCSSEL1<DE> Extent=<ES>857:9 - 857:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:858:9: macro definition=UCSSEL0 <US>c:macro@UCSSEL0<UE> <DS>UCSSEL0<DE> Extent=<ES>858:9 - 858:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:859:9: macro definition=UCRXEIE <US>c:macro@UCRXEIE<UE> <DS>UCRXEIE<DE> Extent=<ES>859:9 - 859:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:860:9: macro definition=UCBRKIE <US>c:macro@UCBRKIE<UE> <DS>UCBRKIE<DE> Extent=<ES>860:9 - 860:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:861:9: macro definition=UCDORM <US>c:macro@UCDORM<UE> <DS>UCDORM<DE> Extent=<ES>861:9 - 861:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:862:9: macro definition=UCTXADDR <US>c:macro@UCTXADDR<UE> <DS>UCTXADDR<DE> Extent=<ES>862:9 - 862:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:863:9: macro definition=UCTXBRK <US>c:macro@UCTXBRK<UE> <DS>UCTXBRK<DE> Extent=<ES>863:9 - 863:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:864:9: macro definition=UCSWRST <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>864:9 - 864:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:875:9: macro definition=UCTR <US>c:macro@UCTR<UE> <DS>UCTR<DE> Extent=<ES>875:9 - 875:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:876:9: macro definition=UCTXNACK <US>c:macro@UCTXNACK<UE> <DS>UCTXNACK<DE> Extent=<ES>876:9 - 876:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:877:9: macro definition=UCTXSTP <US>c:macro@UCTXSTP<UE> <DS>UCTXSTP<DE> Extent=<ES>877:9 - 877:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:878:9: macro definition=UCTXSTT <US>c:macro@UCTXSTT<UE> <DS>UCTXSTT<DE> Extent=<ES>878:9 - 878:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:879:9: macro definition=UCSSEL_0 <US>c:macro@UCSSEL_0<UE> <DS>UCSSEL_0<DE> Extent=<ES>879:9 - 879:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:880:9: macro definition=UCSSEL_1 <US>c:macro@UCSSEL_1<UE> <DS>UCSSEL_1<DE> Extent=<ES>880:9 - 880:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:881:9: macro definition=UCSSEL_2 <US>c:macro@UCSSEL_2<UE> <DS>UCSSEL_2<DE> Extent=<ES>881:9 - 881:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:882:9: macro definition=UCSSEL_3 <US>c:macro@UCSSEL_3<UE> <DS>UCSSEL_3<DE> Extent=<ES>882:9 - 882:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:884:9: macro definition=UCBRF3 <US>c:macro@UCBRF3<UE> <DS>UCBRF3<DE> Extent=<ES>884:9 - 884:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:885:9: macro definition=UCBRF2 <US>c:macro@UCBRF2<UE> <DS>UCBRF2<DE> Extent=<ES>885:9 - 885:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:886:9: macro definition=UCBRF1 <US>c:macro@UCBRF1<UE> <DS>UCBRF1<DE> Extent=<ES>886:9 - 886:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:887:9: macro definition=UCBRF0 <US>c:macro@UCBRF0<UE> <DS>UCBRF0<DE> Extent=<ES>887:9 - 887:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:888:9: macro definition=UCBRS2 <US>c:macro@UCBRS2<UE> <DS>UCBRS2<DE> Extent=<ES>888:9 - 888:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:889:9: macro definition=UCBRS1 <US>c:macro@UCBRS1<UE> <DS>UCBRS1<DE> Extent=<ES>889:9 - 889:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:890:9: macro definition=UCBRS0 <US>c:macro@UCBRS0<UE> <DS>UCBRS0<DE> Extent=<ES>890:9 - 890:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:891:9: macro definition=UCOS16 <US>c:macro@UCOS16<UE> <DS>UCOS16<DE> Extent=<ES>891:9 - 891:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:893:9: macro definition=UCBRF_0 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>893:9 - 893:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:894:9: macro definition=UCBRF_1 <US>c:macro@UCBRF_1<UE> <DS>UCBRF_1<DE> Extent=<ES>894:9 - 894:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:895:9: macro definition=UCBRF_2 <US>c:macro@UCBRF_2<UE> <DS>UCBRF_2<DE> Extent=<ES>895:9 - 895:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:896:9: macro definition=UCBRF_3 <US>c:macro@UCBRF_3<UE> <DS>UCBRF_3<DE> Extent=<ES>896:9 - 896:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:897:9: macro definition=UCBRF_4 <US>c:macro@UCBRF_4<UE> <DS>UCBRF_4<DE> Extent=<ES>897:9 - 897:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:898:9: macro definition=UCBRF_5 <US>c:macro@UCBRF_5<UE> <DS>UCBRF_5<DE> Extent=<ES>898:9 - 898:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:899:9: macro definition=UCBRF_6 <US>c:macro@UCBRF_6<UE> <DS>UCBRF_6<DE> Extent=<ES>899:9 - 899:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:900:9: macro definition=UCBRF_7 <US>c:macro@UCBRF_7<UE> <DS>UCBRF_7<DE> Extent=<ES>900:9 - 900:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:901:9: macro definition=UCBRF_8 <US>c:macro@UCBRF_8<UE> <DS>UCBRF_8<DE> Extent=<ES>901:9 - 901:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:902:9: macro definition=UCBRF_9 <US>c:macro@UCBRF_9<UE> <DS>UCBRF_9<DE> Extent=<ES>902:9 - 902:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:903:9: macro definition=UCBRF_10 <US>c:macro@UCBRF_10<UE> <DS>UCBRF_10<DE> Extent=<ES>903:9 - 903:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:904:9: macro definition=UCBRF_11 <US>c:macro@UCBRF_11<UE> <DS>UCBRF_11<DE> Extent=<ES>904:9 - 904:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:905:9: macro definition=UCBRF_12 <US>c:macro@UCBRF_12<UE> <DS>UCBRF_12<DE> Extent=<ES>905:9 - 905:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:906:9: macro definition=UCBRF_13 <US>c:macro@UCBRF_13<UE> <DS>UCBRF_13<DE> Extent=<ES>906:9 - 906:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:907:9: macro definition=UCBRF_14 <US>c:macro@UCBRF_14<UE> <DS>UCBRF_14<DE> Extent=<ES>907:9 - 907:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:908:9: macro definition=UCBRF_15 <US>c:macro@UCBRF_15<UE> <DS>UCBRF_15<DE> Extent=<ES>908:9 - 908:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:910:9: macro definition=UCBRS_0 <US>c:macro@UCBRS_0<UE> <DS>UCBRS_0<DE> Extent=<ES>910:9 - 910:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:911:9: macro definition=UCBRS_1 <US>c:macro@UCBRS_1<UE> <DS>UCBRS_1<DE> Extent=<ES>911:9 - 911:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:912:9: macro definition=UCBRS_2 <US>c:macro@UCBRS_2<UE> <DS>UCBRS_2<DE> Extent=<ES>912:9 - 912:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:913:9: macro definition=UCBRS_3 <US>c:macro@UCBRS_3<UE> <DS>UCBRS_3<DE> Extent=<ES>913:9 - 913:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:914:9: macro definition=UCBRS_4 <US>c:macro@UCBRS_4<UE> <DS>UCBRS_4<DE> Extent=<ES>914:9 - 914:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:915:9: macro definition=UCBRS_5 <US>c:macro@UCBRS_5<UE> <DS>UCBRS_5<DE> Extent=<ES>915:9 - 915:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:916:9: macro definition=UCBRS_6 <US>c:macro@UCBRS_6<UE> <DS>UCBRS_6<DE> Extent=<ES>916:9 - 916:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:917:9: macro definition=UCBRS_7 <US>c:macro@UCBRS_7<UE> <DS>UCBRS_7<DE> Extent=<ES>917:9 - 917:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:919:9: macro definition=UCLISTEN <US>c:macro@UCLISTEN<UE> <DS>UCLISTEN<DE> Extent=<ES>919:9 - 919:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:920:9: macro definition=UCFE <US>c:macro@UCFE<UE> <DS>UCFE<DE> Extent=<ES>920:9 - 920:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:921:9: macro definition=UCOE <US>c:macro@UCOE<UE> <DS>UCOE<DE> Extent=<ES>921:9 - 921:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:922:9: macro definition=UCPE <US>c:macro@UCPE<UE> <DS>UCPE<DE> Extent=<ES>922:9 - 922:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:923:9: macro definition=UCBRK <US>c:macro@UCBRK<UE> <DS>UCBRK<DE> Extent=<ES>923:9 - 923:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:924:9: macro definition=UCRXERR <US>c:macro@UCRXERR<UE> <DS>UCRXERR<DE> Extent=<ES>924:9 - 924:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:925:9: macro definition=UCADDR <US>c:macro@UCADDR<UE> <DS>UCADDR<DE> Extent=<ES>925:9 - 925:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:926:9: macro definition=UCBUSY <US>c:macro@UCBUSY<UE> <DS>UCBUSY<DE> Extent=<ES>926:9 - 926:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:927:9: macro definition=UCIDLE <US>c:macro@UCIDLE<UE> <DS>UCIDLE<DE> Extent=<ES>927:9 - 927:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:933:9: macro definition=UCNACKIE <US>c:macro@UCNACKIE<UE> <DS>UCNACKIE<DE> Extent=<ES>933:9 - 933:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:934:9: macro definition=UCSTPIE <US>c:macro@UCSTPIE<UE> <DS>UCSTPIE<DE> Extent=<ES>934:9 - 934:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:935:9: macro definition=UCSTTIE <US>c:macro@UCSTTIE<UE> <DS>UCSTTIE<DE> Extent=<ES>935:9 - 935:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:936:9: macro definition=UCALIE <US>c:macro@UCALIE<UE> <DS>UCALIE<DE> Extent=<ES>936:9 - 936:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:938:9: macro definition=UCSCLLOW <US>c:macro@UCSCLLOW<UE> <DS>UCSCLLOW<DE> Extent=<ES>938:9 - 938:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:939:9: macro definition=UCGC <US>c:macro@UCGC<UE> <DS>UCGC<DE> Extent=<ES>939:9 - 939:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:940:9: macro definition=UCBBUSY <US>c:macro@UCBBUSY<UE> <DS>UCBBUSY<DE> Extent=<ES>940:9 - 940:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:941:9: macro definition=UCNACKIFG <US>c:macro@UCNACKIFG<UE> <DS>UCNACKIFG<DE> Extent=<ES>941:9 - 941:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:942:9: macro definition=UCSTPIFG <US>c:macro@UCSTPIFG<UE> <DS>UCSTPIFG<DE> Extent=<ES>942:9 - 942:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:943:9: macro definition=UCSTTIFG <US>c:macro@UCSTTIFG<UE> <DS>UCSTTIFG<DE> Extent=<ES>943:9 - 943:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:944:9: macro definition=UCALIFG <US>c:macro@UCALIFG<UE> <DS>UCALIFG<DE> Extent=<ES>944:9 - 944:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:946:9: macro definition=UCIRTXPL5 <US>c:macro@UCIRTXPL5<UE> <DS>UCIRTXPL5<DE> Extent=<ES>946:9 - 946:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:947:9: macro definition=UCIRTXPL4 <US>c:macro@UCIRTXPL4<UE> <DS>UCIRTXPL4<DE> Extent=<ES>947:9 - 947:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:948:9: macro definition=UCIRTXPL3 <US>c:macro@UCIRTXPL3<UE> <DS>UCIRTXPL3<DE> Extent=<ES>948:9 - 948:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:949:9: macro definition=UCIRTXPL2 <US>c:macro@UCIRTXPL2<UE> <DS>UCIRTXPL2<DE> Extent=<ES>949:9 - 949:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:950:9: macro definition=UCIRTXPL1 <US>c:macro@UCIRTXPL1<UE> <DS>UCIRTXPL1<DE> Extent=<ES>950:9 - 950:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:951:9: macro definition=UCIRTXPL0 <US>c:macro@UCIRTXPL0<UE> <DS>UCIRTXPL0<DE> Extent=<ES>951:9 - 951:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:952:9: macro definition=UCIRTXCLK <US>c:macro@UCIRTXCLK<UE> <DS>UCIRTXCLK<DE> Extent=<ES>952:9 - 952:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:953:9: macro definition=UCIREN <US>c:macro@UCIREN<UE> <DS>UCIREN<DE> Extent=<ES>953:9 - 953:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:955:9: macro definition=UCIRRXFL5 <US>c:macro@UCIRRXFL5<UE> <DS>UCIRRXFL5<DE> Extent=<ES>955:9 - 955:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:956:9: macro definition=UCIRRXFL4 <US>c:macro@UCIRRXFL4<UE> <DS>UCIRRXFL4<DE> Extent=<ES>956:9 - 956:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:957:9: macro definition=UCIRRXFL3 <US>c:macro@UCIRRXFL3<UE> <DS>UCIRRXFL3<DE> Extent=<ES>957:9 - 957:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:958:9: macro definition=UCIRRXFL2 <US>c:macro@UCIRRXFL2<UE> <DS>UCIRRXFL2<DE> Extent=<ES>958:9 - 958:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:959:9: macro definition=UCIRRXFL1 <US>c:macro@UCIRRXFL1<UE> <DS>UCIRRXFL1<DE> Extent=<ES>959:9 - 959:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:960:9: macro definition=UCIRRXFL0 <US>c:macro@UCIRRXFL0<UE> <DS>UCIRRXFL0<DE> Extent=<ES>960:9 - 960:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:961:9: macro definition=UCIRRXPL <US>c:macro@UCIRRXPL<UE> <DS>UCIRRXPL<DE> Extent=<ES>961:9 - 961:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:962:9: macro definition=UCIRRXFE <US>c:macro@UCIRRXFE<UE> <DS>UCIRRXFE<DE> Extent=<ES>962:9 - 962:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:966:9: macro definition=UCDELIM1 <US>c:macro@UCDELIM1<UE> <DS>UCDELIM1<DE> Extent=<ES>966:9 - 966:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:967:9: macro definition=UCDELIM0 <US>c:macro@UCDELIM0<UE> <DS>UCDELIM0<DE> Extent=<ES>967:9 - 967:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:968:9: macro definition=UCSTOE <US>c:macro@UCSTOE<UE> <DS>UCSTOE<DE> Extent=<ES>968:9 - 968:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:969:9: macro definition=UCBTOE <US>c:macro@UCBTOE<UE> <DS>UCBTOE<DE> Extent=<ES>969:9 - 969:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:971:9: macro definition=UCABDEN <US>c:macro@UCABDEN<UE> <DS>UCABDEN<DE> Extent=<ES>971:9 - 971:35<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:973:9: macro definition=UCGCEN <US>c:macro@UCGCEN<UE> <DS>UCGCEN<DE> Extent=<ES>973:9 - 973:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:974:9: macro definition=UCOA9 <US>c:macro@UCOA9<UE> <DS>UCOA9<DE> Extent=<ES>974:9 - 974:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:975:9: macro definition=UCOA8 <US>c:macro@UCOA8<UE> <DS>UCOA8<DE> Extent=<ES>975:9 - 975:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:976:9: macro definition=UCOA7 <US>c:macro@UCOA7<UE> <DS>UCOA7<DE> Extent=<ES>976:9 - 976:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:977:9: macro definition=UCOA6 <US>c:macro@UCOA6<UE> <DS>UCOA6<DE> Extent=<ES>977:9 - 977:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:978:9: macro definition=UCOA5 <US>c:macro@UCOA5<UE> <DS>UCOA5<DE> Extent=<ES>978:9 - 978:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:979:9: macro definition=UCOA4 <US>c:macro@UCOA4<UE> <DS>UCOA4<DE> Extent=<ES>979:9 - 979:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:980:9: macro definition=UCOA3 <US>c:macro@UCOA3<UE> <DS>UCOA3<DE> Extent=<ES>980:9 - 980:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:981:9: macro definition=UCOA2 <US>c:macro@UCOA2<UE> <DS>UCOA2<DE> Extent=<ES>981:9 - 981:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:982:9: macro definition=UCOA1 <US>c:macro@UCOA1<UE> <DS>UCOA1<DE> Extent=<ES>982:9 - 982:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:983:9: macro definition=UCOA0 <US>c:macro@UCOA0<UE> <DS>UCOA0<DE> Extent=<ES>983:9 - 983:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:985:9: macro definition=UCSA9 <US>c:macro@UCSA9<UE> <DS>UCSA9<DE> Extent=<ES>985:9 - 985:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:986:9: macro definition=UCSA8 <US>c:macro@UCSA8<UE> <DS>UCSA8<DE> Extent=<ES>986:9 - 986:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:987:9: macro definition=UCSA7 <US>c:macro@UCSA7<UE> <DS>UCSA7<DE> Extent=<ES>987:9 - 987:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:988:9: macro definition=UCSA6 <US>c:macro@UCSA6<UE> <DS>UCSA6<DE> Extent=<ES>988:9 - 988:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:989:9: macro definition=UCSA5 <US>c:macro@UCSA5<UE> <DS>UCSA5<DE> Extent=<ES>989:9 - 989:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:990:9: macro definition=UCSA4 <US>c:macro@UCSA4<UE> <DS>UCSA4<DE> Extent=<ES>990:9 - 990:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:991:9: macro definition=UCSA3 <US>c:macro@UCSA3<UE> <DS>UCSA3<DE> Extent=<ES>991:9 - 991:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:992:9: macro definition=UCSA2 <US>c:macro@UCSA2<UE> <DS>UCSA2<DE> Extent=<ES>992:9 - 992:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:993:9: macro definition=UCSA1 <US>c:macro@UCSA1<UE> <DS>UCSA1<DE> Extent=<ES>993:9 - 993:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:994:9: macro definition=UCSA0 <US>c:macro@UCSA0<UE> <DS>UCSA0<DE> Extent=<ES>994:9 - 994:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:999:9: macro definition=__MSP430_HAS_WDT__ <US>c:macro@__MSP430_HAS_WDT__<UE> <DS>__MSP430_HAS_WDT__<DE> Extent=<ES>999:9 - 999:27<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1001:9: macro definition=WDTCTL_ <US>c:macro@WDTCTL_<UE> <DS>WDTCTL_<DE> Extent=<ES>1001:9 - 1001:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1002:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:42:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>1002:1 - 1002:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1002:29: macro expansion=WDTCTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1001:9 <US>c:macro@WDTCTL_<UE> <DS>WDTCTL_<DE> Extent=<ES>1002:29 - 1002:36<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1004:9: macro definition=WDTIS0 <US>c:macro@WDTIS0<UE> <DS>WDTIS0<DE> Extent=<ES>1004:9 - 1004:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1005:9: macro definition=WDTIS1 <US>c:macro@WDTIS1<UE> <DS>WDTIS1<DE> Extent=<ES>1005:9 - 1005:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1006:9: macro definition=WDTSSEL <US>c:macro@WDTSSEL<UE> <DS>WDTSSEL<DE> Extent=<ES>1006:9 - 1006:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1007:9: macro definition=WDTCNTCL <US>c:macro@WDTCNTCL<UE> <DS>WDTCNTCL<DE> Extent=<ES>1007:9 - 1007:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1008:9: macro definition=WDTTMSEL <US>c:macro@WDTTMSEL<UE> <DS>WDTTMSEL<DE> Extent=<ES>1008:9 - 1008:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1009:9: macro definition=WDTNMI <US>c:macro@WDTNMI<UE> <DS>WDTNMI<DE> Extent=<ES>1009:9 - 1009:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1010:9: macro definition=WDTNMIES <US>c:macro@WDTNMIES<UE> <DS>WDTNMIES<DE> Extent=<ES>1010:9 - 1010:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1011:9: macro definition=WDTHOLD <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>1011:9 - 1011:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1013:9: macro definition=WDTPW <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>1013:9 - 1013:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1017:9: macro definition=WDT_MDLY_32 <US>c:macro@WDT_MDLY_32<UE> <DS>WDT_MDLY_32<DE> Extent=<ES>1017:9 - 1017:54<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1018:9: macro definition=WDT_MDLY_8 <US>c:macro@WDT_MDLY_8<UE> <DS>WDT_MDLY_8<DE> Extent=<ES>1018:9 - 1018:61<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1019:9: macro definition=WDT_MDLY_0_5 <US>c:macro@WDT_MDLY_0_5<UE> <DS>WDT_MDLY_0_5<DE> Extent=<ES>1019:9 - 1019:61<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1020:9: macro definition=WDT_MDLY_0_064 <US>c:macro@WDT_MDLY_0_064<UE> <DS>WDT_MDLY_0_064<DE> Extent=<ES>1020:9 - 1020:68<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1022:9: macro definition=WDT_ADLY_1000 <US>c:macro@WDT_ADLY_1000<UE> <DS>WDT_ADLY_1000<DE> Extent=<ES>1022:9 - 1022:62<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1023:9: macro definition=WDT_ADLY_250 <US>c:macro@WDT_ADLY_250<UE> <DS>WDT_ADLY_250<DE> Extent=<ES>1023:9 - 1023:69<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1024:9: macro definition=WDT_ADLY_16 <US>c:macro@WDT_ADLY_16<UE> <DS>WDT_ADLY_16<DE> Extent=<ES>1024:9 - 1024:69<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1025:9: macro definition=WDT_ADLY_1_9 <US>c:macro@WDT_ADLY_1_9<UE> <DS>WDT_ADLY_1_9<DE> Extent=<ES>1025:9 - 1025:76<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1028:9: macro definition=WDT_MRST_32 <US>c:macro@WDT_MRST_32<UE> <DS>WDT_MRST_32<DE> Extent=<ES>1028:9 - 1028:45<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1029:9: macro definition=WDT_MRST_8 <US>c:macro@WDT_MRST_8<UE> <DS>WDT_MRST_8<DE> Extent=<ES>1029:9 - 1029:52<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1030:9: macro definition=WDT_MRST_0_5 <US>c:macro@WDT_MRST_0_5<UE> <DS>WDT_MRST_0_5<DE> Extent=<ES>1030:9 - 1030:52<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1031:9: macro definition=WDT_MRST_0_064 <US>c:macro@WDT_MRST_0_064<UE> <DS>WDT_MRST_0_064<DE> Extent=<ES>1031:9 - 1031:59<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1033:9: macro definition=WDT_ARST_1000 <US>c:macro@WDT_ARST_1000<UE> <DS>WDT_ARST_1000<DE> Extent=<ES>1033:9 - 1033:53<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1034:9: macro definition=WDT_ARST_250 <US>c:macro@WDT_ARST_250<UE> <DS>WDT_ARST_250<DE> Extent=<ES>1034:9 - 1034:60<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1035:9: macro definition=WDT_ARST_16 <US>c:macro@WDT_ARST_16<UE> <DS>WDT_ARST_16<DE> Extent=<ES>1035:9 - 1035:60<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1036:9: macro definition=WDT_ARST_1_9 <US>c:macro@WDT_ARST_1_9<UE> <DS>WDT_ARST_1_9<DE> Extent=<ES>1036:9 - 1036:67<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1049:9: macro definition=CALDCO_16MHZ_ <US>c:macro@CALDCO_16MHZ_<UE> <DS>CALDCO_16MHZ_<DE> Extent=<ES>1049:9 - 1049:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1050:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>1050:1 - 1050:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1050:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>1050:11 - 1050:50<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1050:36: macro expansion=CALDCO_16MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1049:9 <US>c:macro@CALDCO_16MHZ_<UE> <DS>CALDCO_16MHZ_<DE> Extent=<ES>1050:36 - 1050:49<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1051:9: macro definition=CALBC1_16MHZ_ <US>c:macro@CALBC1_16MHZ_<UE> <DS>CALBC1_16MHZ_<DE> Extent=<ES>1051:9 - 1051:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1052:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>1052:1 - 1052:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1052:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>1052:11 - 1052:50<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1052:36: macro expansion=CALBC1_16MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1051:9 <US>c:macro@CALBC1_16MHZ_<UE> <DS>CALBC1_16MHZ_<DE> Extent=<ES>1052:36 - 1052:49<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1053:9: macro definition=CALDCO_12MHZ_ <US>c:macro@CALDCO_12MHZ_<UE> <DS>CALDCO_12MHZ_<DE> Extent=<ES>1053:9 - 1053:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1054:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>1054:1 - 1054:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1054:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>1054:11 - 1054:50<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1054:36: macro expansion=CALDCO_12MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1053:9 <US>c:macro@CALDCO_12MHZ_<UE> <DS>CALDCO_12MHZ_<DE> Extent=<ES>1054:36 - 1054:49<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1055:9: macro definition=CALBC1_12MHZ_ <US>c:macro@CALBC1_12MHZ_<UE> <DS>CALBC1_12MHZ_<DE> Extent=<ES>1055:9 - 1055:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1056:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>1056:1 - 1056:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1056:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>1056:11 - 1056:50<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1056:36: macro expansion=CALBC1_12MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1055:9 <US>c:macro@CALBC1_12MHZ_<UE> <DS>CALBC1_12MHZ_<DE> Extent=<ES>1056:36 - 1056:49<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1057:9: macro definition=CALDCO_8MHZ_ <US>c:macro@CALDCO_8MHZ_<UE> <DS>CALDCO_8MHZ_<DE> Extent=<ES>1057:9 - 1057:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1058:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>1058:1 - 1058:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1058:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>1058:11 - 1058:49<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1058:36: macro expansion=CALDCO_8MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1057:9 <US>c:macro@CALDCO_8MHZ_<UE> <DS>CALDCO_8MHZ_<DE> Extent=<ES>1058:36 - 1058:48<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1059:9: macro definition=CALBC1_8MHZ_ <US>c:macro@CALBC1_8MHZ_<UE> <DS>CALBC1_8MHZ_<DE> Extent=<ES>1059:9 - 1059:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1060:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>1060:1 - 1060:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1060:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>1060:11 - 1060:49<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1060:36: macro expansion=CALBC1_8MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1059:9 <US>c:macro@CALBC1_8MHZ_<UE> <DS>CALBC1_8MHZ_<DE> Extent=<ES>1060:36 - 1060:48<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1061:9: macro definition=CALDCO_1MHZ_ <US>c:macro@CALDCO_1MHZ_<UE> <DS>CALDCO_1MHZ_<DE> Extent=<ES>1061:9 - 1061:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1062:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>1062:1 - 1062:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1062:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>1062:11 - 1062:49<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1062:36: macro expansion=CALDCO_1MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1061:9 <US>c:macro@CALDCO_1MHZ_<UE> <DS>CALDCO_1MHZ_<DE> Extent=<ES>1062:36 - 1062:48<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1063:9: macro definition=CALBC1_1MHZ_ <US>c:macro@CALBC1_1MHZ_<UE> <DS>CALBC1_1MHZ_<DE> Extent=<ES>1063:9 - 1063:40<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1064:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:58:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>1064:1 - 1064:10<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1064:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:41:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>1064:11 - 1064:49<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1064:36: macro expansion=CALBC1_1MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1063:9 <US>c:macro@CALBC1_1MHZ_<UE> <DS>CALBC1_1MHZ_<DE> Extent=<ES>1064:36 - 1064:48<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1072:9: macro definition=PORT1_VECTOR <US>c:macro@PORT1_VECTOR<UE> <DS>PORT1_VECTOR<DE> Extent=<ES>1072:9 - 1072:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1073:9: macro definition=PORT2_VECTOR <US>c:macro@PORT2_VECTOR<UE> <DS>PORT2_VECTOR<DE> Extent=<ES>1073:9 - 1073:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1074:9: macro definition=ADC10_VECTOR <US>c:macro@ADC10_VECTOR<UE> <DS>ADC10_VECTOR<DE> Extent=<ES>1074:9 - 1074:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1075:9: macro definition=USCIAB0TX_VECTOR <US>c:macro@USCIAB0TX_VECTOR<UE> <DS>USCIAB0TX_VECTOR<DE> Extent=<ES>1075:9 - 1075:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1076:9: macro definition=USCIAB0RX_VECTOR <US>c:macro@USCIAB0RX_VECTOR<UE> <DS>USCIAB0RX_VECTOR<DE> Extent=<ES>1076:9 - 1076:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1077:9: macro definition=TIMERA1_VECTOR <US>c:macro@TIMERA1_VECTOR<UE> <DS>TIMERA1_VECTOR<DE> Extent=<ES>1077:9 - 1077:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1078:9: macro definition=TIMERA0_VECTOR <US>c:macro@TIMERA0_VECTOR<UE> <DS>TIMERA0_VECTOR<DE> Extent=<ES>1078:9 - 1078:37<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1079:9: macro definition=WDT_VECTOR <US>c:macro@WDT_VECTOR<UE> <DS>WDT_VECTOR<DE> Extent=<ES>1079:9 - 1079:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1080:9: macro definition=TIMERB1_VECTOR <US>c:macro@TIMERB1_VECTOR<UE> <DS>TIMERB1_VECTOR<DE> Extent=<ES>1080:9 - 1080:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1081:9: macro definition=TIMERB0_VECTOR <US>c:macro@TIMERB0_VECTOR<UE> <DS>TIMERB0_VECTOR<DE> Extent=<ES>1081:9 - 1081:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1082:9: macro definition=NMI_VECTOR <US>c:macro@NMI_VECTOR<UE> <DS>NMI_VECTOR<DE> Extent=<ES>1082:9 - 1082:38<EE>
-<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1083:9: macro definition=RESET_VECTOR <US>c:macro@RESET_VECTOR<UE> <DS>RESET_VECTOR<DE> Extent=<ES>1083:9 - 1083:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:2:1: inclusion directive=stdbool.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h<IE>  [multi-include guarded] Extent=<ES>2:1 - 2:11<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9: macro definition=DEFC <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>37:9 - 37:77<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9: macro definition=DEFW <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>38:9 - 38:78<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:39:9: macro definition=DEFXC <US>c:macro@DEFXC<UE> <DS>DEFXC<DE> Extent=<ES>39:9 - 39:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:40:9: macro definition=DEFXW <US>c:macro@DEFXW<UE> <DS>DEFXW<DE> Extent=<ES>40:9 - 40:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9: macro definition=READ_ONLY <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>54:9 - 54:24<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:61:9: macro definition=BIT0 <US>c:macro@BIT0<UE> <DS>BIT0<DE> Extent=<ES>61:9 - 61:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:62:9: macro definition=BIT1 <US>c:macro@BIT1<UE> <DS>BIT1<DE> Extent=<ES>62:9 - 62:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:63:9: macro definition=BIT2 <US>c:macro@BIT2<UE> <DS>BIT2<DE> Extent=<ES>63:9 - 63:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:64:9: macro definition=BIT3 <US>c:macro@BIT3<UE> <DS>BIT3<DE> Extent=<ES>64:9 - 64:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:65:9: macro definition=BIT4 <US>c:macro@BIT4<UE> <DS>BIT4<DE> Extent=<ES>65:9 - 65:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:66:9: macro definition=BIT5 <US>c:macro@BIT5<UE> <DS>BIT5<DE> Extent=<ES>66:9 - 66:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:67:9: macro definition=BIT6 <US>c:macro@BIT6<UE> <DS>BIT6<DE> Extent=<ES>67:9 - 67:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:68:9: macro definition=BIT7 <US>c:macro@BIT7<UE> <DS>BIT7<DE> Extent=<ES>68:9 - 68:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:69:9: macro definition=BIT8 <US>c:macro@BIT8<UE> <DS>BIT8<DE> Extent=<ES>69:9 - 69:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:70:9: macro definition=BIT9 <US>c:macro@BIT9<UE> <DS>BIT9<DE> Extent=<ES>70:9 - 70:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:71:9: macro definition=BITA <US>c:macro@BITA<UE> <DS>BITA<DE> Extent=<ES>71:9 - 71:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:72:9: macro definition=BITB <US>c:macro@BITB<UE> <DS>BITB<DE> Extent=<ES>72:9 - 72:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:73:9: macro definition=BITC <US>c:macro@BITC<UE> <DS>BITC<DE> Extent=<ES>73:9 - 73:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:74:9: macro definition=BITD <US>c:macro@BITD<UE> <DS>BITD<DE> Extent=<ES>74:9 - 74:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:75:9: macro definition=BITE <US>c:macro@BITE<UE> <DS>BITE<DE> Extent=<ES>75:9 - 75:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:76:9: macro definition=BITF <US>c:macro@BITF<UE> <DS>BITF<DE> Extent=<ES>76:9 - 76:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:82:9: macro definition=C <US>c:macro@C<UE> <DS>C<DE> Extent=<ES>82:9 - 82:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:83:9: macro definition=Z <US>c:macro@Z<UE> <DS>Z<DE> Extent=<ES>83:9 - 83:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:84:9: macro definition=N <US>c:macro@N<UE> <DS>N<DE> Extent=<ES>84:9 - 84:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:85:9: macro definition=V <US>c:macro@V<UE> <DS>V<DE> Extent=<ES>85:9 - 85:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:86:9: macro definition=GIE <US>c:macro@GIE<UE> <DS>GIE<DE> Extent=<ES>86:9 - 86:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:87:9: macro definition=CPUOFF <US>c:macro@CPUOFF<UE> <DS>CPUOFF<DE> Extent=<ES>87:9 - 87:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:88:9: macro definition=OSCOFF <US>c:macro@OSCOFF<UE> <DS>OSCOFF<DE> Extent=<ES>88:9 - 88:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:89:9: macro definition=SCG0 <US>c:macro@SCG0<UE> <DS>SCG0<DE> Extent=<ES>89:9 - 89:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:90:9: macro definition=SCG1 <US>c:macro@SCG1<UE> <DS>SCG1<DE> Extent=<ES>90:9 - 90:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:103:9: macro definition=LPM0_bits <US>c:macro@LPM0_bits<UE> <DS>LPM0_bits<DE> Extent=<ES>103:9 - 103:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:104:9: macro definition=LPM1_bits <US>c:macro@LPM1_bits<UE> <DS>LPM1_bits<DE> Extent=<ES>104:9 - 104:42<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:105:9: macro definition=LPM2_bits <US>c:macro@LPM2_bits<UE> <DS>LPM2_bits<DE> Extent=<ES>105:9 - 105:42<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:106:9: macro definition=LPM3_bits <US>c:macro@LPM3_bits<UE> <DS>LPM3_bits<DE> Extent=<ES>106:9 - 106:47<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:107:9: macro definition=LPM4_bits <US>c:macro@LPM4_bits<UE> <DS>LPM4_bits<DE> Extent=<ES>107:9 - 107:54<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:109:1: inclusion directive=in430.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h<IE>  [multi-include guarded] Extent=<ES>109:1 - 109:19<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:111:9: macro definition=LPM0 <US>c:macro@LPM0<UE> <DS>LPM0<DE> Extent=<ES>111:9 - 111:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:112:9: macro definition=LPM0_EXIT <US>c:macro@LPM0_EXIT<UE> <DS>LPM0_EXIT<DE> Extent=<ES>112:9 - 112:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:113:9: macro definition=LPM1 <US>c:macro@LPM1<UE> <DS>LPM1<DE> Extent=<ES>113:9 - 113:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:114:9: macro definition=LPM1_EXIT <US>c:macro@LPM1_EXIT<UE> <DS>LPM1_EXIT<DE> Extent=<ES>114:9 - 114:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:115:9: macro definition=LPM2 <US>c:macro@LPM2<UE> <DS>LPM2<DE> Extent=<ES>115:9 - 115:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:116:9: macro definition=LPM2_EXIT <US>c:macro@LPM2_EXIT<UE> <DS>LPM2_EXIT<DE> Extent=<ES>116:9 - 116:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:117:9: macro definition=LPM3 <US>c:macro@LPM3<UE> <DS>LPM3<DE> Extent=<ES>117:9 - 117:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:118:9: macro definition=LPM3_EXIT <US>c:macro@LPM3_EXIT<UE> <DS>LPM3_EXIT<DE> Extent=<ES>118:9 - 118:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:119:9: macro definition=LPM4 <US>c:macro@LPM4<UE> <DS>LPM4<DE> Extent=<ES>119:9 - 119:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:120:9: macro definition=LPM4_EXIT <US>c:macro@LPM4_EXIT<UE> <DS>LPM4_EXIT<DE> Extent=<ES>120:9 - 120:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:131:9: macro definition=IE1_ <US>c:macro@IE1_<UE> <DS>IE1_<DE> Extent=<ES>131:9 - 131:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:132:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>132:1 - 132:34<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:132:29: macro expansion=IE1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:131:9 <US>c:macro@IE1_<UE> <DS>IE1_<DE> Extent=<ES>132:29 - 132:33<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:133:9: macro definition=WDTIE <US>c:macro@WDTIE<UE> <DS>WDTIE<DE> Extent=<ES>133:9 - 133:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:134:9: macro definition=OFIE <US>c:macro@OFIE<UE> <DS>OFIE<DE> Extent=<ES>134:9 - 134:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:135:9: macro definition=NMIIE <US>c:macro@NMIIE<UE> <DS>NMIIE<DE> Extent=<ES>135:9 - 135:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:136:9: macro definition=ACCVIE <US>c:macro@ACCVIE<UE> <DS>ACCVIE<DE> Extent=<ES>136:9 - 136:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:138:9: macro definition=IFG1_ <US>c:macro@IFG1_<UE> <DS>IFG1_<DE> Extent=<ES>138:9 - 138:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:139:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>139:1 - 139:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:139:29: macro expansion=IFG1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:138:9 <US>c:macro@IFG1_<UE> <DS>IFG1_<DE> Extent=<ES>139:29 - 139:34<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:140:9: macro definition=WDTIFG <US>c:macro@WDTIFG<UE> <DS>WDTIFG<DE> Extent=<ES>140:9 - 140:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:141:9: macro definition=OFIFG <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>141:9 - 141:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:142:9: macro definition=PORIFG <US>c:macro@PORIFG<UE> <DS>PORIFG<DE> Extent=<ES>142:9 - 142:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:143:9: macro definition=RSTIFG <US>c:macro@RSTIFG<UE> <DS>RSTIFG<DE> Extent=<ES>143:9 - 143:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:144:9: macro definition=NMIIFG <US>c:macro@NMIIFG<UE> <DS>NMIIFG<DE> Extent=<ES>144:9 - 144:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:146:9: macro definition=IE2_ <US>c:macro@IE2_<UE> <DS>IE2_<DE> Extent=<ES>146:9 - 146:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:147:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>147:1 - 147:34<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:147:29: macro expansion=IE2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:146:9 <US>c:macro@IE2_<UE> <DS>IE2_<DE> Extent=<ES>147:29 - 147:33<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:148:9: macro definition=UC0IE <US>c:macro@UC0IE<UE> <DS>UC0IE<DE> Extent=<ES>148:9 - 148:32<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:149:9: macro definition=UCA0RXIE <US>c:macro@UCA0RXIE<UE> <DS>UCA0RXIE<DE> Extent=<ES>149:9 - 149:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:150:9: macro definition=UCA0TXIE <US>c:macro@UCA0TXIE<UE> <DS>UCA0TXIE<DE> Extent=<ES>150:9 - 150:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:151:9: macro definition=UCB0RXIE <US>c:macro@UCB0RXIE<UE> <DS>UCB0RXIE<DE> Extent=<ES>151:9 - 151:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:152:9: macro definition=UCB0TXIE <US>c:macro@UCB0TXIE<UE> <DS>UCB0TXIE<DE> Extent=<ES>152:9 - 152:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:154:9: macro definition=IFG2_ <US>c:macro@IFG2_<UE> <DS>IFG2_<DE> Extent=<ES>154:9 - 154:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:155:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>155:1 - 155:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:155:29: macro expansion=IFG2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:154:9 <US>c:macro@IFG2_<UE> <DS>IFG2_<DE> Extent=<ES>155:29 - 155:34<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:156:9: macro definition=UC0IFG <US>c:macro@UC0IFG<UE> <DS>UC0IFG<DE> Extent=<ES>156:9 - 156:33<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:157:9: macro definition=UCA0RXIFG <US>c:macro@UCA0RXIFG<UE> <DS>UCA0RXIFG<DE> Extent=<ES>157:9 - 157:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:158:9: macro definition=UCA0TXIFG <US>c:macro@UCA0TXIFG<UE> <DS>UCA0TXIFG<DE> Extent=<ES>158:9 - 158:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:159:9: macro definition=UCB0RXIFG <US>c:macro@UCB0RXIFG<UE> <DS>UCB0RXIFG<DE> Extent=<ES>159:9 - 159:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:160:9: macro definition=UCB0TXIFG <US>c:macro@UCB0TXIFG<UE> <DS>UCB0TXIFG<DE> Extent=<ES>160:9 - 160:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:165:9: macro definition=__MSP430_HAS_ADC10__ <US>c:macro@__MSP430_HAS_ADC10__<UE> <DS>__MSP430_HAS_ADC10__<DE> Extent=<ES>165:9 - 165:29<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:167:9: macro definition=ADC10DTC0_ <US>c:macro@ADC10DTC0_<UE> <DS>ADC10DTC0_<DE> Extent=<ES>167:9 - 167:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:168:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>168:1 - 168:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:168:29: macro expansion=ADC10DTC0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:167:9 <US>c:macro@ADC10DTC0_<UE> <DS>ADC10DTC0_<DE> Extent=<ES>168:29 - 168:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:169:9: macro definition=ADC10DTC1_ <US>c:macro@ADC10DTC1_<UE> <DS>ADC10DTC1_<DE> Extent=<ES>169:9 - 169:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:170:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>170:1 - 170:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:170:29: macro expansion=ADC10DTC1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:169:9 <US>c:macro@ADC10DTC1_<UE> <DS>ADC10DTC1_<DE> Extent=<ES>170:29 - 170:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:171:9: macro definition=ADC10AE0_ <US>c:macro@ADC10AE0_<UE> <DS>ADC10AE0_<DE> Extent=<ES>171:9 - 171:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:172:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>172:1 - 172:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:172:29: macro expansion=ADC10AE0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:171:9 <US>c:macro@ADC10AE0_<UE> <DS>ADC10AE0_<DE> Extent=<ES>172:29 - 172:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:173:9: macro definition=ADC10AE1_ <US>c:macro@ADC10AE1_<UE> <DS>ADC10AE1_<DE> Extent=<ES>173:9 - 173:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:174:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>174:1 - 174:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:174:29: macro expansion=ADC10AE1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:173:9 <US>c:macro@ADC10AE1_<UE> <DS>ADC10AE1_<DE> Extent=<ES>174:29 - 174:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:176:9: macro definition=ADC10CTL0_ <US>c:macro@ADC10CTL0_<UE> <DS>ADC10CTL0_<DE> Extent=<ES>176:9 - 176:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:177:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>177:1 - 177:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:177:29: macro expansion=ADC10CTL0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:176:9 <US>c:macro@ADC10CTL0_<UE> <DS>ADC10CTL0_<DE> Extent=<ES>177:29 - 177:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:178:9: macro definition=ADC10CTL1_ <US>c:macro@ADC10CTL1_<UE> <DS>ADC10CTL1_<DE> Extent=<ES>178:9 - 178:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:179:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>179:1 - 179:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:179:29: macro expansion=ADC10CTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:178:9 <US>c:macro@ADC10CTL1_<UE> <DS>ADC10CTL1_<DE> Extent=<ES>179:29 - 179:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:180:9: macro definition=ADC10MEM_ <US>c:macro@ADC10MEM_<UE> <DS>ADC10MEM_<DE> Extent=<ES>180:9 - 180:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:181:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>181:1 - 181:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:181:29: macro expansion=ADC10MEM_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:180:9 <US>c:macro@ADC10MEM_<UE> <DS>ADC10MEM_<DE> Extent=<ES>181:29 - 181:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:182:9: macro definition=ADC10SA_ <US>c:macro@ADC10SA_<UE> <DS>ADC10SA_<DE> Extent=<ES>182:9 - 182:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:183:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>183:1 - 183:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:183:29: macro expansion=ADC10SA_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:182:9 <US>c:macro@ADC10SA_<UE> <DS>ADC10SA_<DE> Extent=<ES>183:29 - 183:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:186:9: macro definition=ADC10SC <US>c:macro@ADC10SC<UE> <DS>ADC10SC<DE> Extent=<ES>186:9 - 186:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:187:9: macro definition=ENC <US>c:macro@ENC<UE> <DS>ENC<DE> Extent=<ES>187:9 - 187:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:188:9: macro definition=ADC10IFG <US>c:macro@ADC10IFG<UE> <DS>ADC10IFG<DE> Extent=<ES>188:9 - 188:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:189:9: macro definition=ADC10IE <US>c:macro@ADC10IE<UE> <DS>ADC10IE<DE> Extent=<ES>189:9 - 189:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:190:9: macro definition=ADC10ON <US>c:macro@ADC10ON<UE> <DS>ADC10ON<DE> Extent=<ES>190:9 - 190:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:191:9: macro definition=REFON <US>c:macro@REFON<UE> <DS>REFON<DE> Extent=<ES>191:9 - 191:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:192:9: macro definition=REF2_5V <US>c:macro@REF2_5V<UE> <DS>REF2_5V<DE> Extent=<ES>192:9 - 192:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:193:9: macro definition=MSC <US>c:macro@MSC<UE> <DS>MSC<DE> Extent=<ES>193:9 - 193:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:194:9: macro definition=REFBURST <US>c:macro@REFBURST<UE> <DS>REFBURST<DE> Extent=<ES>194:9 - 194:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:195:9: macro definition=REFOUT <US>c:macro@REFOUT<UE> <DS>REFOUT<DE> Extent=<ES>195:9 - 195:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:196:9: macro definition=ADC10SR <US>c:macro@ADC10SR<UE> <DS>ADC10SR<DE> Extent=<ES>196:9 - 196:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:197:9: macro definition=ADC10SHT0 <US>c:macro@ADC10SHT0<UE> <DS>ADC10SHT0<DE> Extent=<ES>197:9 - 197:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:198:9: macro definition=ADC10SHT1 <US>c:macro@ADC10SHT1<UE> <DS>ADC10SHT1<DE> Extent=<ES>198:9 - 198:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:199:9: macro definition=SREF0 <US>c:macro@SREF0<UE> <DS>SREF0<DE> Extent=<ES>199:9 - 199:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:200:9: macro definition=SREF1 <US>c:macro@SREF1<UE> <DS>SREF1<DE> Extent=<ES>200:9 - 200:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:201:9: macro definition=SREF2 <US>c:macro@SREF2<UE> <DS>SREF2<DE> Extent=<ES>201:9 - 201:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:202:9: macro definition=ADC10SHT_0 <US>c:macro@ADC10SHT_0<UE> <DS>ADC10SHT_0<DE> Extent=<ES>202:9 - 202:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:203:9: macro definition=ADC10SHT_1 <US>c:macro@ADC10SHT_1<UE> <DS>ADC10SHT_1<DE> Extent=<ES>203:9 - 203:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:204:9: macro definition=ADC10SHT_2 <US>c:macro@ADC10SHT_2<UE> <DS>ADC10SHT_2<DE> Extent=<ES>204:9 - 204:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:205:9: macro definition=ADC10SHT_3 <US>c:macro@ADC10SHT_3<UE> <DS>ADC10SHT_3<DE> Extent=<ES>205:9 - 205:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:207:9: macro definition=SREF_0 <US>c:macro@SREF_0<UE> <DS>SREF_0<DE> Extent=<ES>207:9 - 207:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:208:9: macro definition=SREF_1 <US>c:macro@SREF_1<UE> <DS>SREF_1<DE> Extent=<ES>208:9 - 208:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:209:9: macro definition=SREF_2 <US>c:macro@SREF_2<UE> <DS>SREF_2<DE> Extent=<ES>209:9 - 209:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:210:9: macro definition=SREF_3 <US>c:macro@SREF_3<UE> <DS>SREF_3<DE> Extent=<ES>210:9 - 210:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:211:9: macro definition=SREF_4 <US>c:macro@SREF_4<UE> <DS>SREF_4<DE> Extent=<ES>211:9 - 211:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:212:9: macro definition=SREF_5 <US>c:macro@SREF_5<UE> <DS>SREF_5<DE> Extent=<ES>212:9 - 212:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:213:9: macro definition=SREF_6 <US>c:macro@SREF_6<UE> <DS>SREF_6<DE> Extent=<ES>213:9 - 213:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:214:9: macro definition=SREF_7 <US>c:macro@SREF_7<UE> <DS>SREF_7<DE> Extent=<ES>214:9 - 214:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:217:9: macro definition=ADC10BUSY <US>c:macro@ADC10BUSY<UE> <DS>ADC10BUSY<DE> Extent=<ES>217:9 - 217:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:218:9: macro definition=CONSEQ0 <US>c:macro@CONSEQ0<UE> <DS>CONSEQ0<DE> Extent=<ES>218:9 - 218:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:219:9: macro definition=CONSEQ1 <US>c:macro@CONSEQ1<UE> <DS>CONSEQ1<DE> Extent=<ES>219:9 - 219:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:220:9: macro definition=ADC10SSEL0 <US>c:macro@ADC10SSEL0<UE> <DS>ADC10SSEL0<DE> Extent=<ES>220:9 - 220:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:221:9: macro definition=ADC10SSEL1 <US>c:macro@ADC10SSEL1<UE> <DS>ADC10SSEL1<DE> Extent=<ES>221:9 - 221:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:222:9: macro definition=ADC10DIV0 <US>c:macro@ADC10DIV0<UE> <DS>ADC10DIV0<DE> Extent=<ES>222:9 - 222:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:223:9: macro definition=ADC10DIV1 <US>c:macro@ADC10DIV1<UE> <DS>ADC10DIV1<DE> Extent=<ES>223:9 - 223:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:224:9: macro definition=ADC10DIV2 <US>c:macro@ADC10DIV2<UE> <DS>ADC10DIV2<DE> Extent=<ES>224:9 - 224:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:225:9: macro definition=ISSH <US>c:macro@ISSH<UE> <DS>ISSH<DE> Extent=<ES>225:9 - 225:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:226:9: macro definition=ADC10DF <US>c:macro@ADC10DF<UE> <DS>ADC10DF<DE> Extent=<ES>226:9 - 226:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:227:9: macro definition=SHS0 <US>c:macro@SHS0<UE> <DS>SHS0<DE> Extent=<ES>227:9 - 227:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:228:9: macro definition=SHS1 <US>c:macro@SHS1<UE> <DS>SHS1<DE> Extent=<ES>228:9 - 228:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:229:9: macro definition=INCH0 <US>c:macro@INCH0<UE> <DS>INCH0<DE> Extent=<ES>229:9 - 229:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:230:9: macro definition=INCH1 <US>c:macro@INCH1<UE> <DS>INCH1<DE> Extent=<ES>230:9 - 230:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:231:9: macro definition=INCH2 <US>c:macro@INCH2<UE> <DS>INCH2<DE> Extent=<ES>231:9 - 231:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:232:9: macro definition=INCH3 <US>c:macro@INCH3<UE> <DS>INCH3<DE> Extent=<ES>232:9 - 232:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:234:9: macro definition=CONSEQ_0 <US>c:macro@CONSEQ_0<UE> <DS>CONSEQ_0<DE> Extent=<ES>234:9 - 234:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:235:9: macro definition=CONSEQ_1 <US>c:macro@CONSEQ_1<UE> <DS>CONSEQ_1<DE> Extent=<ES>235:9 - 235:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:236:9: macro definition=CONSEQ_2 <US>c:macro@CONSEQ_2<UE> <DS>CONSEQ_2<DE> Extent=<ES>236:9 - 236:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:237:9: macro definition=CONSEQ_3 <US>c:macro@CONSEQ_3<UE> <DS>CONSEQ_3<DE> Extent=<ES>237:9 - 237:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:239:9: macro definition=ADC10SSEL_0 <US>c:macro@ADC10SSEL_0<UE> <DS>ADC10SSEL_0<DE> Extent=<ES>239:9 - 239:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:240:9: macro definition=ADC10SSEL_1 <US>c:macro@ADC10SSEL_1<UE> <DS>ADC10SSEL_1<DE> Extent=<ES>240:9 - 240:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:241:9: macro definition=ADC10SSEL_2 <US>c:macro@ADC10SSEL_2<UE> <DS>ADC10SSEL_2<DE> Extent=<ES>241:9 - 241:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:242:9: macro definition=ADC10SSEL_3 <US>c:macro@ADC10SSEL_3<UE> <DS>ADC10SSEL_3<DE> Extent=<ES>242:9 - 242:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:244:9: macro definition=ADC10DIV_0 <US>c:macro@ADC10DIV_0<UE> <DS>ADC10DIV_0<DE> Extent=<ES>244:9 - 244:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:245:9: macro definition=ADC10DIV_1 <US>c:macro@ADC10DIV_1<UE> <DS>ADC10DIV_1<DE> Extent=<ES>245:9 - 245:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:246:9: macro definition=ADC10DIV_2 <US>c:macro@ADC10DIV_2<UE> <DS>ADC10DIV_2<DE> Extent=<ES>246:9 - 246:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:247:9: macro definition=ADC10DIV_3 <US>c:macro@ADC10DIV_3<UE> <DS>ADC10DIV_3<DE> Extent=<ES>247:9 - 247:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:248:9: macro definition=ADC10DIV_4 <US>c:macro@ADC10DIV_4<UE> <DS>ADC10DIV_4<DE> Extent=<ES>248:9 - 248:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:249:9: macro definition=ADC10DIV_5 <US>c:macro@ADC10DIV_5<UE> <DS>ADC10DIV_5<DE> Extent=<ES>249:9 - 249:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:250:9: macro definition=ADC10DIV_6 <US>c:macro@ADC10DIV_6<UE> <DS>ADC10DIV_6<DE> Extent=<ES>250:9 - 250:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:251:9: macro definition=ADC10DIV_7 <US>c:macro@ADC10DIV_7<UE> <DS>ADC10DIV_7<DE> Extent=<ES>251:9 - 251:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:253:9: macro definition=SHS_0 <US>c:macro@SHS_0<UE> <DS>SHS_0<DE> Extent=<ES>253:9 - 253:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:254:9: macro definition=SHS_1 <US>c:macro@SHS_1<UE> <DS>SHS_1<DE> Extent=<ES>254:9 - 254:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:255:9: macro definition=SHS_2 <US>c:macro@SHS_2<UE> <DS>SHS_2<DE> Extent=<ES>255:9 - 255:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:256:9: macro definition=SHS_3 <US>c:macro@SHS_3<UE> <DS>SHS_3<DE> Extent=<ES>256:9 - 256:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:258:9: macro definition=INCH_0 <US>c:macro@INCH_0<UE> <DS>INCH_0<DE> Extent=<ES>258:9 - 258:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:259:9: macro definition=INCH_1 <US>c:macro@INCH_1<UE> <DS>INCH_1<DE> Extent=<ES>259:9 - 259:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:260:9: macro definition=INCH_2 <US>c:macro@INCH_2<UE> <DS>INCH_2<DE> Extent=<ES>260:9 - 260:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:261:9: macro definition=INCH_3 <US>c:macro@INCH_3<UE> <DS>INCH_3<DE> Extent=<ES>261:9 - 261:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:262:9: macro definition=INCH_4 <US>c:macro@INCH_4<UE> <DS>INCH_4<DE> Extent=<ES>262:9 - 262:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:263:9: macro definition=INCH_5 <US>c:macro@INCH_5<UE> <DS>INCH_5<DE> Extent=<ES>263:9 - 263:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:264:9: macro definition=INCH_6 <US>c:macro@INCH_6<UE> <DS>INCH_6<DE> Extent=<ES>264:9 - 264:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:265:9: macro definition=INCH_7 <US>c:macro@INCH_7<UE> <DS>INCH_7<DE> Extent=<ES>265:9 - 265:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:266:9: macro definition=INCH_8 <US>c:macro@INCH_8<UE> <DS>INCH_8<DE> Extent=<ES>266:9 - 266:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:267:9: macro definition=INCH_9 <US>c:macro@INCH_9<UE> <DS>INCH_9<DE> Extent=<ES>267:9 - 267:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:268:9: macro definition=INCH_10 <US>c:macro@INCH_10<UE> <DS>INCH_10<DE> Extent=<ES>268:9 - 268:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:269:9: macro definition=INCH_11 <US>c:macro@INCH_11<UE> <DS>INCH_11<DE> Extent=<ES>269:9 - 269:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:270:9: macro definition=INCH_12 <US>c:macro@INCH_12<UE> <DS>INCH_12<DE> Extent=<ES>270:9 - 270:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:271:9: macro definition=INCH_13 <US>c:macro@INCH_13<UE> <DS>INCH_13<DE> Extent=<ES>271:9 - 271:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:272:9: macro definition=INCH_14 <US>c:macro@INCH_14<UE> <DS>INCH_14<DE> Extent=<ES>272:9 - 272:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:273:9: macro definition=INCH_15 <US>c:macro@INCH_15<UE> <DS>INCH_15<DE> Extent=<ES>273:9 - 273:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:276:9: macro definition=ADC10FETCH <US>c:macro@ADC10FETCH<UE> <DS>ADC10FETCH<DE> Extent=<ES>276:9 - 276:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:277:9: macro definition=ADC10B1 <US>c:macro@ADC10B1<UE> <DS>ADC10B1<DE> Extent=<ES>277:9 - 277:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:278:9: macro definition=ADC10CT <US>c:macro@ADC10CT<UE> <DS>ADC10CT<DE> Extent=<ES>278:9 - 278:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:279:9: macro definition=ADC10TB <US>c:macro@ADC10TB<UE> <DS>ADC10TB<DE> Extent=<ES>279:9 - 279:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:280:9: macro definition=ADC10DISABLE <US>c:macro@ADC10DISABLE<UE> <DS>ADC10DISABLE<DE> Extent=<ES>280:9 - 280:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:285:9: macro definition=__MSP430_HAS_BC2__ <US>c:macro@__MSP430_HAS_BC2__<UE> <DS>__MSP430_HAS_BC2__<DE> Extent=<ES>285:9 - 285:27<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:287:9: macro definition=DCOCTL_ <US>c:macro@DCOCTL_<UE> <DS>DCOCTL_<DE> Extent=<ES>287:9 - 287:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:288:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>288:1 - 288:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:288:29: macro expansion=DCOCTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:287:9 <US>c:macro@DCOCTL_<UE> <DS>DCOCTL_<DE> Extent=<ES>288:29 - 288:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:289:9: macro definition=BCSCTL1_ <US>c:macro@BCSCTL1_<UE> <DS>BCSCTL1_<DE> Extent=<ES>289:9 - 289:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:290:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>290:1 - 290:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:290:29: macro expansion=BCSCTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:289:9 <US>c:macro@BCSCTL1_<UE> <DS>BCSCTL1_<DE> Extent=<ES>290:29 - 290:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:291:9: macro definition=BCSCTL2_ <US>c:macro@BCSCTL2_<UE> <DS>BCSCTL2_<DE> Extent=<ES>291:9 - 291:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:292:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>292:1 - 292:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:292:29: macro expansion=BCSCTL2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:291:9 <US>c:macro@BCSCTL2_<UE> <DS>BCSCTL2_<DE> Extent=<ES>292:29 - 292:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:293:9: macro definition=BCSCTL3_ <US>c:macro@BCSCTL3_<UE> <DS>BCSCTL3_<DE> Extent=<ES>293:9 - 293:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:294:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>294:1 - 294:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:294:29: macro expansion=BCSCTL3_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:293:9 <US>c:macro@BCSCTL3_<UE> <DS>BCSCTL3_<DE> Extent=<ES>294:29 - 294:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:296:9: macro definition=MOD0 <US>c:macro@MOD0<UE> <DS>MOD0<DE> Extent=<ES>296:9 - 296:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:297:9: macro definition=MOD1 <US>c:macro@MOD1<UE> <DS>MOD1<DE> Extent=<ES>297:9 - 297:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:298:9: macro definition=MOD2 <US>c:macro@MOD2<UE> <DS>MOD2<DE> Extent=<ES>298:9 - 298:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:299:9: macro definition=MOD3 <US>c:macro@MOD3<UE> <DS>MOD3<DE> Extent=<ES>299:9 - 299:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:300:9: macro definition=MOD4 <US>c:macro@MOD4<UE> <DS>MOD4<DE> Extent=<ES>300:9 - 300:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:301:9: macro definition=DCO0 <US>c:macro@DCO0<UE> <DS>DCO0<DE> Extent=<ES>301:9 - 301:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:302:9: macro definition=DCO1 <US>c:macro@DCO1<UE> <DS>DCO1<DE> Extent=<ES>302:9 - 302:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:303:9: macro definition=DCO2 <US>c:macro@DCO2<UE> <DS>DCO2<DE> Extent=<ES>303:9 - 303:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:305:9: macro definition=RSEL0 <US>c:macro@RSEL0<UE> <DS>RSEL0<DE> Extent=<ES>305:9 - 305:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:306:9: macro definition=RSEL1 <US>c:macro@RSEL1<UE> <DS>RSEL1<DE> Extent=<ES>306:9 - 306:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:307:9: macro definition=RSEL2 <US>c:macro@RSEL2<UE> <DS>RSEL2<DE> Extent=<ES>307:9 - 307:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:308:9: macro definition=RSEL3 <US>c:macro@RSEL3<UE> <DS>RSEL3<DE> Extent=<ES>308:9 - 308:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:309:9: macro definition=DIVA0 <US>c:macro@DIVA0<UE> <DS>DIVA0<DE> Extent=<ES>309:9 - 309:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:310:9: macro definition=DIVA1 <US>c:macro@DIVA1<UE> <DS>DIVA1<DE> Extent=<ES>310:9 - 310:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:311:9: macro definition=XTS <US>c:macro@XTS<UE> <DS>XTS<DE> Extent=<ES>311:9 - 311:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:312:9: macro definition=XT2OFF <US>c:macro@XT2OFF<UE> <DS>XT2OFF<DE> Extent=<ES>312:9 - 312:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:314:9: macro definition=DIVA_0 <US>c:macro@DIVA_0<UE> <DS>DIVA_0<DE> Extent=<ES>314:9 - 314:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:315:9: macro definition=DIVA_1 <US>c:macro@DIVA_1<UE> <DS>DIVA_1<DE> Extent=<ES>315:9 - 315:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:316:9: macro definition=DIVA_2 <US>c:macro@DIVA_2<UE> <DS>DIVA_2<DE> Extent=<ES>316:9 - 316:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:317:9: macro definition=DIVA_3 <US>c:macro@DIVA_3<UE> <DS>DIVA_3<DE> Extent=<ES>317:9 - 317:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:319:9: macro definition=DCOR <US>c:macro@DCOR<UE> <DS>DCOR<DE> Extent=<ES>319:9 - 319:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:320:9: macro definition=DIVS0 <US>c:macro@DIVS0<UE> <DS>DIVS0<DE> Extent=<ES>320:9 - 320:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:321:9: macro definition=DIVS1 <US>c:macro@DIVS1<UE> <DS>DIVS1<DE> Extent=<ES>321:9 - 321:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:322:9: macro definition=SELS <US>c:macro@SELS<UE> <DS>SELS<DE> Extent=<ES>322:9 - 322:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:323:9: macro definition=DIVM0 <US>c:macro@DIVM0<UE> <DS>DIVM0<DE> Extent=<ES>323:9 - 323:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:324:9: macro definition=DIVM1 <US>c:macro@DIVM1<UE> <DS>DIVM1<DE> Extent=<ES>324:9 - 324:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:325:9: macro definition=SELM0 <US>c:macro@SELM0<UE> <DS>SELM0<DE> Extent=<ES>325:9 - 325:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:326:9: macro definition=SELM1 <US>c:macro@SELM1<UE> <DS>SELM1<DE> Extent=<ES>326:9 - 326:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:328:9: macro definition=DIVS_0 <US>c:macro@DIVS_0<UE> <DS>DIVS_0<DE> Extent=<ES>328:9 - 328:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:329:9: macro definition=DIVS_1 <US>c:macro@DIVS_1<UE> <DS>DIVS_1<DE> Extent=<ES>329:9 - 329:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:330:9: macro definition=DIVS_2 <US>c:macro@DIVS_2<UE> <DS>DIVS_2<DE> Extent=<ES>330:9 - 330:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:331:9: macro definition=DIVS_3 <US>c:macro@DIVS_3<UE> <DS>DIVS_3<DE> Extent=<ES>331:9 - 331:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:333:9: macro definition=DIVM_0 <US>c:macro@DIVM_0<UE> <DS>DIVM_0<DE> Extent=<ES>333:9 - 333:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:334:9: macro definition=DIVM_1 <US>c:macro@DIVM_1<UE> <DS>DIVM_1<DE> Extent=<ES>334:9 - 334:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:335:9: macro definition=DIVM_2 <US>c:macro@DIVM_2<UE> <DS>DIVM_2<DE> Extent=<ES>335:9 - 335:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:336:9: macro definition=DIVM_3 <US>c:macro@DIVM_3<UE> <DS>DIVM_3<DE> Extent=<ES>336:9 - 336:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:338:9: macro definition=SELM_0 <US>c:macro@SELM_0<UE> <DS>SELM_0<DE> Extent=<ES>338:9 - 338:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:339:9: macro definition=SELM_1 <US>c:macro@SELM_1<UE> <DS>SELM_1<DE> Extent=<ES>339:9 - 339:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:340:9: macro definition=SELM_2 <US>c:macro@SELM_2<UE> <DS>SELM_2<DE> Extent=<ES>340:9 - 340:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:341:9: macro definition=SELM_3 <US>c:macro@SELM_3<UE> <DS>SELM_3<DE> Extent=<ES>341:9 - 341:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:343:9: macro definition=LFXT1OF <US>c:macro@LFXT1OF<UE> <DS>LFXT1OF<DE> Extent=<ES>343:9 - 343:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:344:9: macro definition=XT2OF <US>c:macro@XT2OF<UE> <DS>XT2OF<DE> Extent=<ES>344:9 - 344:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:345:9: macro definition=XCAP0 <US>c:macro@XCAP0<UE> <DS>XCAP0<DE> Extent=<ES>345:9 - 345:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:346:9: macro definition=XCAP1 <US>c:macro@XCAP1<UE> <DS>XCAP1<DE> Extent=<ES>346:9 - 346:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:347:9: macro definition=LFXT1S0 <US>c:macro@LFXT1S0<UE> <DS>LFXT1S0<DE> Extent=<ES>347:9 - 347:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:348:9: macro definition=LFXT1S1 <US>c:macro@LFXT1S1<UE> <DS>LFXT1S1<DE> Extent=<ES>348:9 - 348:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:349:9: macro definition=XT2S0 <US>c:macro@XT2S0<UE> <DS>XT2S0<DE> Extent=<ES>349:9 - 349:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:350:9: macro definition=XT2S1 <US>c:macro@XT2S1<UE> <DS>XT2S1<DE> Extent=<ES>350:9 - 350:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:352:9: macro definition=XCAP_0 <US>c:macro@XCAP_0<UE> <DS>XCAP_0<DE> Extent=<ES>352:9 - 352:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:353:9: macro definition=XCAP_1 <US>c:macro@XCAP_1<UE> <DS>XCAP_1<DE> Extent=<ES>353:9 - 353:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:354:9: macro definition=XCAP_2 <US>c:macro@XCAP_2<UE> <DS>XCAP_2<DE> Extent=<ES>354:9 - 354:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:355:9: macro definition=XCAP_3 <US>c:macro@XCAP_3<UE> <DS>XCAP_3<DE> Extent=<ES>355:9 - 355:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:357:9: macro definition=LFXT1S_0 <US>c:macro@LFXT1S_0<UE> <DS>LFXT1S_0<DE> Extent=<ES>357:9 - 357:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:358:9: macro definition=LFXT1S_1 <US>c:macro@LFXT1S_1<UE> <DS>LFXT1S_1<DE> Extent=<ES>358:9 - 358:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:359:9: macro definition=LFXT1S_2 <US>c:macro@LFXT1S_2<UE> <DS>LFXT1S_2<DE> Extent=<ES>359:9 - 359:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:360:9: macro definition=LFXT1S_3 <US>c:macro@LFXT1S_3<UE> <DS>LFXT1S_3<DE> Extent=<ES>360:9 - 360:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:362:9: macro definition=XT2S_0 <US>c:macro@XT2S_0<UE> <DS>XT2S_0<DE> Extent=<ES>362:9 - 362:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:363:9: macro definition=XT2S_1 <US>c:macro@XT2S_1<UE> <DS>XT2S_1<DE> Extent=<ES>363:9 - 363:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:364:9: macro definition=XT2S_2 <US>c:macro@XT2S_2<UE> <DS>XT2S_2<DE> Extent=<ES>364:9 - 364:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:365:9: macro definition=XT2S_3 <US>c:macro@XT2S_3<UE> <DS>XT2S_3<DE> Extent=<ES>365:9 - 365:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:370:9: macro definition=__MSP430_HAS_CAPLUS__ <US>c:macro@__MSP430_HAS_CAPLUS__<UE> <DS>__MSP430_HAS_CAPLUS__<DE> Extent=<ES>370:9 - 370:30<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:372:9: macro definition=CACTL1_ <US>c:macro@CACTL1_<UE> <DS>CACTL1_<DE> Extent=<ES>372:9 - 372:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:373:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>373:1 - 373:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:373:29: macro expansion=CACTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:372:9 <US>c:macro@CACTL1_<UE> <DS>CACTL1_<DE> Extent=<ES>373:29 - 373:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:374:9: macro definition=CACTL2_ <US>c:macro@CACTL2_<UE> <DS>CACTL2_<DE> Extent=<ES>374:9 - 374:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:375:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>375:1 - 375:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:375:29: macro expansion=CACTL2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:374:9 <US>c:macro@CACTL2_<UE> <DS>CACTL2_<DE> Extent=<ES>375:29 - 375:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:376:9: macro definition=CAPD_ <US>c:macro@CAPD_<UE> <DS>CAPD_<DE> Extent=<ES>376:9 - 376:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:377:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>377:1 - 377:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:377:29: macro expansion=CAPD_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:376:9 <US>c:macro@CAPD_<UE> <DS>CAPD_<DE> Extent=<ES>377:29 - 377:34<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:379:9: macro definition=CAIFG <US>c:macro@CAIFG<UE> <DS>CAIFG<DE> Extent=<ES>379:9 - 379:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:380:9: macro definition=CAIE <US>c:macro@CAIE<UE> <DS>CAIE<DE> Extent=<ES>380:9 - 380:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:381:9: macro definition=CAIES <US>c:macro@CAIES<UE> <DS>CAIES<DE> Extent=<ES>381:9 - 381:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:382:9: macro definition=CAON <US>c:macro@CAON<UE> <DS>CAON<DE> Extent=<ES>382:9 - 382:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:383:9: macro definition=CAREF0 <US>c:macro@CAREF0<UE> <DS>CAREF0<DE> Extent=<ES>383:9 - 383:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:384:9: macro definition=CAREF1 <US>c:macro@CAREF1<UE> <DS>CAREF1<DE> Extent=<ES>384:9 - 384:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:385:9: macro definition=CARSEL <US>c:macro@CARSEL<UE> <DS>CARSEL<DE> Extent=<ES>385:9 - 385:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:386:9: macro definition=CAEX <US>c:macro@CAEX<UE> <DS>CAEX<DE> Extent=<ES>386:9 - 386:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:388:9: macro definition=CAREF_0 <US>c:macro@CAREF_0<UE> <DS>CAREF_0<DE> Extent=<ES>388:9 - 388:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:389:9: macro definition=CAREF_1 <US>c:macro@CAREF_1<UE> <DS>CAREF_1<DE> Extent=<ES>389:9 - 389:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:390:9: macro definition=CAREF_2 <US>c:macro@CAREF_2<UE> <DS>CAREF_2<DE> Extent=<ES>390:9 - 390:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:391:9: macro definition=CAREF_3 <US>c:macro@CAREF_3<UE> <DS>CAREF_3<DE> Extent=<ES>391:9 - 391:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:393:9: macro definition=CAOUT <US>c:macro@CAOUT<UE> <DS>CAOUT<DE> Extent=<ES>393:9 - 393:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:394:9: macro definition=CAF <US>c:macro@CAF<UE> <DS>CAF<DE> Extent=<ES>394:9 - 394:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:395:9: macro definition=P2CA0 <US>c:macro@P2CA0<UE> <DS>P2CA0<DE> Extent=<ES>395:9 - 395:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:396:9: macro definition=P2CA1 <US>c:macro@P2CA1<UE> <DS>P2CA1<DE> Extent=<ES>396:9 - 396:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:397:9: macro definition=P2CA2 <US>c:macro@P2CA2<UE> <DS>P2CA2<DE> Extent=<ES>397:9 - 397:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:398:9: macro definition=P2CA3 <US>c:macro@P2CA3<UE> <DS>P2CA3<DE> Extent=<ES>398:9 - 398:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:399:9: macro definition=P2CA4 <US>c:macro@P2CA4<UE> <DS>P2CA4<DE> Extent=<ES>399:9 - 399:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:400:9: macro definition=CASHORT <US>c:macro@CASHORT<UE> <DS>CASHORT<DE> Extent=<ES>400:9 - 400:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:402:9: macro definition=CAPD0 <US>c:macro@CAPD0<UE> <DS>CAPD0<DE> Extent=<ES>402:9 - 402:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:403:9: macro definition=CAPD1 <US>c:macro@CAPD1<UE> <DS>CAPD1<DE> Extent=<ES>403:9 - 403:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:404:9: macro definition=CAPD2 <US>c:macro@CAPD2<UE> <DS>CAPD2<DE> Extent=<ES>404:9 - 404:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:405:9: macro definition=CAPD3 <US>c:macro@CAPD3<UE> <DS>CAPD3<DE> Extent=<ES>405:9 - 405:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:406:9: macro definition=CAPD4 <US>c:macro@CAPD4<UE> <DS>CAPD4<DE> Extent=<ES>406:9 - 406:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:407:9: macro definition=CAPD5 <US>c:macro@CAPD5<UE> <DS>CAPD5<DE> Extent=<ES>407:9 - 407:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:408:9: macro definition=CAPD6 <US>c:macro@CAPD6<UE> <DS>CAPD6<DE> Extent=<ES>408:9 - 408:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:409:9: macro definition=CAPD7 <US>c:macro@CAPD7<UE> <DS>CAPD7<DE> Extent=<ES>409:9 - 409:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:414:9: macro definition=__MSP430_HAS_FLASH2__ <US>c:macro@__MSP430_HAS_FLASH2__<UE> <DS>__MSP430_HAS_FLASH2__<DE> Extent=<ES>414:9 - 414:30<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:416:9: macro definition=FCTL1_ <US>c:macro@FCTL1_<UE> <DS>FCTL1_<DE> Extent=<ES>416:9 - 416:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:417:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>417:1 - 417:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:417:29: macro expansion=FCTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:416:9 <US>c:macro@FCTL1_<UE> <DS>FCTL1_<DE> Extent=<ES>417:29 - 417:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:418:9: macro definition=FCTL2_ <US>c:macro@FCTL2_<UE> <DS>FCTL2_<DE> Extent=<ES>418:9 - 418:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:419:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>419:1 - 419:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:419:29: macro expansion=FCTL2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:418:9 <US>c:macro@FCTL2_<UE> <DS>FCTL2_<DE> Extent=<ES>419:29 - 419:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:420:9: macro definition=FCTL3_ <US>c:macro@FCTL3_<UE> <DS>FCTL3_<DE> Extent=<ES>420:9 - 420:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:421:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>421:1 - 421:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:421:29: macro expansion=FCTL3_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:420:9 <US>c:macro@FCTL3_<UE> <DS>FCTL3_<DE> Extent=<ES>421:29 - 421:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:423:9: macro definition=FRKEY <US>c:macro@FRKEY<UE> <DS>FRKEY<DE> Extent=<ES>423:9 - 423:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:424:9: macro definition=FWKEY <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>424:9 - 424:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:425:9: macro definition=FXKEY <US>c:macro@FXKEY<UE> <DS>FXKEY<DE> Extent=<ES>425:9 - 425:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:427:9: macro definition=ERASE <US>c:macro@ERASE<UE> <DS>ERASE<DE> Extent=<ES>427:9 - 427:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:428:9: macro definition=MERAS <US>c:macro@MERAS<UE> <DS>MERAS<DE> Extent=<ES>428:9 - 428:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:429:9: macro definition=EEI <US>c:macro@EEI<UE> <DS>EEI<DE> Extent=<ES>429:9 - 429:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:430:9: macro definition=EEIEX <US>c:macro@EEIEX<UE> <DS>EEIEX<DE> Extent=<ES>430:9 - 430:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:431:9: macro definition=WRT <US>c:macro@WRT<UE> <DS>WRT<DE> Extent=<ES>431:9 - 431:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:432:9: macro definition=BLKWRT <US>c:macro@BLKWRT<UE> <DS>BLKWRT<DE> Extent=<ES>432:9 - 432:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:433:9: macro definition=SEGWRT <US>c:macro@SEGWRT<UE> <DS>SEGWRT<DE> Extent=<ES>433:9 - 433:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:435:9: macro definition=FN0 <US>c:macro@FN0<UE> <DS>FN0<DE> Extent=<ES>435:9 - 435:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:436:9: macro definition=FN1 <US>c:macro@FN1<UE> <DS>FN1<DE> Extent=<ES>436:9 - 436:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:438:9: macro definition=FN2 <US>c:macro@FN2<UE> <DS>FN2<DE> Extent=<ES>438:9 - 438:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:441:9: macro definition=FN3 <US>c:macro@FN3<UE> <DS>FN3<DE> Extent=<ES>441:9 - 441:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:444:9: macro definition=FN4 <US>c:macro@FN4<UE> <DS>FN4<DE> Extent=<ES>444:9 - 444:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:446:9: macro definition=FN5 <US>c:macro@FN5<UE> <DS>FN5<DE> Extent=<ES>446:9 - 446:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:447:9: macro definition=FSSEL0 <US>c:macro@FSSEL0<UE> <DS>FSSEL0<DE> Extent=<ES>447:9 - 447:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:448:9: macro definition=FSSEL1 <US>c:macro@FSSEL1<UE> <DS>FSSEL1<DE> Extent=<ES>448:9 - 448:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:450:9: macro definition=FSSEL_0 <US>c:macro@FSSEL_0<UE> <DS>FSSEL_0<DE> Extent=<ES>450:9 - 450:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:451:9: macro definition=FSSEL_1 <US>c:macro@FSSEL_1<UE> <DS>FSSEL_1<DE> Extent=<ES>451:9 - 451:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:452:9: macro definition=FSSEL_2 <US>c:macro@FSSEL_2<UE> <DS>FSSEL_2<DE> Extent=<ES>452:9 - 452:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:453:9: macro definition=FSSEL_3 <US>c:macro@FSSEL_3<UE> <DS>FSSEL_3<DE> Extent=<ES>453:9 - 453:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:455:9: macro definition=BUSY <US>c:macro@BUSY<UE> <DS>BUSY<DE> Extent=<ES>455:9 - 455:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:456:9: macro definition=KEYV <US>c:macro@KEYV<UE> <DS>KEYV<DE> Extent=<ES>456:9 - 456:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:457:9: macro definition=ACCVIFG <US>c:macro@ACCVIFG<UE> <DS>ACCVIFG<DE> Extent=<ES>457:9 - 457:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:458:9: macro definition=WAIT <US>c:macro@WAIT<UE> <DS>WAIT<DE> Extent=<ES>458:9 - 458:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:459:9: macro definition=LOCK <US>c:macro@LOCK<UE> <DS>LOCK<DE> Extent=<ES>459:9 - 459:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:460:9: macro definition=EMEX <US>c:macro@EMEX<UE> <DS>EMEX<DE> Extent=<ES>460:9 - 460:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:461:9: macro definition=LOCKA <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>461:9 - 461:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:462:9: macro definition=FAIL <US>c:macro@FAIL<UE> <DS>FAIL<DE> Extent=<ES>462:9 - 462:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:467:9: macro definition=__MSP430_HAS_PORT1_R__ <US>c:macro@__MSP430_HAS_PORT1_R__<UE> <DS>__MSP430_HAS_PORT1_R__<DE> Extent=<ES>467:9 - 467:31<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:468:9: macro definition=__MSP430_HAS_PORT2_R__ <US>c:macro@__MSP430_HAS_PORT2_R__<UE> <DS>__MSP430_HAS_PORT2_R__<DE> Extent=<ES>468:9 - 468:31<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:470:9: macro definition=P1IN_ <US>c:macro@P1IN_<UE> <DS>P1IN_<DE> Extent=<ES>470:9 - 470:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:471:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>471:1 - 471:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:471:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>471:11 - 471:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:471:34: macro expansion=P1IN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:470:9 <US>c:macro@P1IN_<UE> <DS>P1IN_<DE> Extent=<ES>471:34 - 471:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:472:9: macro definition=P1OUT_ <US>c:macro@P1OUT_<UE> <DS>P1OUT_<DE> Extent=<ES>472:9 - 472:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:473:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>473:1 - 473:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:473:29: macro expansion=P1OUT_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:472:9 <US>c:macro@P1OUT_<UE> <DS>P1OUT_<DE> Extent=<ES>473:29 - 473:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:474:9: macro definition=P1DIR_ <US>c:macro@P1DIR_<UE> <DS>P1DIR_<DE> Extent=<ES>474:9 - 474:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:475:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>475:1 - 475:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:475:29: macro expansion=P1DIR_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:474:9 <US>c:macro@P1DIR_<UE> <DS>P1DIR_<DE> Extent=<ES>475:29 - 475:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:476:9: macro definition=P1IFG_ <US>c:macro@P1IFG_<UE> <DS>P1IFG_<DE> Extent=<ES>476:9 - 476:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:477:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>477:1 - 477:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:477:29: macro expansion=P1IFG_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:476:9 <US>c:macro@P1IFG_<UE> <DS>P1IFG_<DE> Extent=<ES>477:29 - 477:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:478:9: macro definition=P1IES_ <US>c:macro@P1IES_<UE> <DS>P1IES_<DE> Extent=<ES>478:9 - 478:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:479:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>479:1 - 479:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:479:29: macro expansion=P1IES_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:478:9 <US>c:macro@P1IES_<UE> <DS>P1IES_<DE> Extent=<ES>479:29 - 479:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:480:9: macro definition=P1IE_ <US>c:macro@P1IE_<UE> <DS>P1IE_<DE> Extent=<ES>480:9 - 480:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:481:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>481:1 - 481:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:481:29: macro expansion=P1IE_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:480:9 <US>c:macro@P1IE_<UE> <DS>P1IE_<DE> Extent=<ES>481:29 - 481:34<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:482:9: macro definition=P1SEL_ <US>c:macro@P1SEL_<UE> <DS>P1SEL_<DE> Extent=<ES>482:9 - 482:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:483:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>483:1 - 483:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:483:29: macro expansion=P1SEL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:482:9 <US>c:macro@P1SEL_<UE> <DS>P1SEL_<DE> Extent=<ES>483:29 - 483:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:484:9: macro definition=P1SEL2_ <US>c:macro@P1SEL2_<UE> <DS>P1SEL2_<DE> Extent=<ES>484:9 - 484:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:485:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>485:1 - 485:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:485:29: macro expansion=P1SEL2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:484:9 <US>c:macro@P1SEL2_<UE> <DS>P1SEL2_<DE> Extent=<ES>485:29 - 485:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:486:9: macro definition=P1REN_ <US>c:macro@P1REN_<UE> <DS>P1REN_<DE> Extent=<ES>486:9 - 486:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:487:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>487:1 - 487:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:487:29: macro expansion=P1REN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:486:9 <US>c:macro@P1REN_<UE> <DS>P1REN_<DE> Extent=<ES>487:29 - 487:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:489:9: macro definition=P2IN_ <US>c:macro@P2IN_<UE> <DS>P2IN_<DE> Extent=<ES>489:9 - 489:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:490:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>490:1 - 490:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:490:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>490:11 - 490:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:490:34: macro expansion=P2IN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:489:9 <US>c:macro@P2IN_<UE> <DS>P2IN_<DE> Extent=<ES>490:34 - 490:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:491:9: macro definition=P2OUT_ <US>c:macro@P2OUT_<UE> <DS>P2OUT_<DE> Extent=<ES>491:9 - 491:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:492:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>492:1 - 492:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:492:29: macro expansion=P2OUT_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:491:9 <US>c:macro@P2OUT_<UE> <DS>P2OUT_<DE> Extent=<ES>492:29 - 492:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:493:9: macro definition=P2DIR_ <US>c:macro@P2DIR_<UE> <DS>P2DIR_<DE> Extent=<ES>493:9 - 493:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:494:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>494:1 - 494:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:494:29: macro expansion=P2DIR_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:493:9 <US>c:macro@P2DIR_<UE> <DS>P2DIR_<DE> Extent=<ES>494:29 - 494:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:495:9: macro definition=P2IFG_ <US>c:macro@P2IFG_<UE> <DS>P2IFG_<DE> Extent=<ES>495:9 - 495:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:496:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>496:1 - 496:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:496:29: macro expansion=P2IFG_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:495:9 <US>c:macro@P2IFG_<UE> <DS>P2IFG_<DE> Extent=<ES>496:29 - 496:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:497:9: macro definition=P2IES_ <US>c:macro@P2IES_<UE> <DS>P2IES_<DE> Extent=<ES>497:9 - 497:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:498:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>498:1 - 498:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:498:29: macro expansion=P2IES_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:497:9 <US>c:macro@P2IES_<UE> <DS>P2IES_<DE> Extent=<ES>498:29 - 498:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:499:9: macro definition=P2IE_ <US>c:macro@P2IE_<UE> <DS>P2IE_<DE> Extent=<ES>499:9 - 499:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:500:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>500:1 - 500:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:500:29: macro expansion=P2IE_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:499:9 <US>c:macro@P2IE_<UE> <DS>P2IE_<DE> Extent=<ES>500:29 - 500:34<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:501:9: macro definition=P2SEL_ <US>c:macro@P2SEL_<UE> <DS>P2SEL_<DE> Extent=<ES>501:9 - 501:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:502:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>502:1 - 502:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:502:29: macro expansion=P2SEL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:501:9 <US>c:macro@P2SEL_<UE> <DS>P2SEL_<DE> Extent=<ES>502:29 - 502:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:503:9: macro definition=P2SEL2_ <US>c:macro@P2SEL2_<UE> <DS>P2SEL2_<DE> Extent=<ES>503:9 - 503:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:504:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>504:1 - 504:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:504:29: macro expansion=P2SEL2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:503:9 <US>c:macro@P2SEL2_<UE> <DS>P2SEL2_<DE> Extent=<ES>504:29 - 504:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:505:9: macro definition=P2REN_ <US>c:macro@P2REN_<UE> <DS>P2REN_<DE> Extent=<ES>505:9 - 505:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:506:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>506:1 - 506:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:506:29: macro expansion=P2REN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:505:9 <US>c:macro@P2REN_<UE> <DS>P2REN_<DE> Extent=<ES>506:29 - 506:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:511:9: macro definition=__MSP430_HAS_PORT3_R__ <US>c:macro@__MSP430_HAS_PORT3_R__<UE> <DS>__MSP430_HAS_PORT3_R__<DE> Extent=<ES>511:9 - 511:31<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:513:9: macro definition=P3IN_ <US>c:macro@P3IN_<UE> <DS>P3IN_<DE> Extent=<ES>513:9 - 513:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:514:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>514:1 - 514:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:514:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>514:11 - 514:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:514:34: macro expansion=P3IN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:513:9 <US>c:macro@P3IN_<UE> <DS>P3IN_<DE> Extent=<ES>514:34 - 514:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:515:9: macro definition=P3OUT_ <US>c:macro@P3OUT_<UE> <DS>P3OUT_<DE> Extent=<ES>515:9 - 515:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:516:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>516:1 - 516:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:516:29: macro expansion=P3OUT_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:515:9 <US>c:macro@P3OUT_<UE> <DS>P3OUT_<DE> Extent=<ES>516:29 - 516:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:517:9: macro definition=P3DIR_ <US>c:macro@P3DIR_<UE> <DS>P3DIR_<DE> Extent=<ES>517:9 - 517:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:518:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>518:1 - 518:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:518:29: macro expansion=P3DIR_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:517:9 <US>c:macro@P3DIR_<UE> <DS>P3DIR_<DE> Extent=<ES>518:29 - 518:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:519:9: macro definition=P3SEL_ <US>c:macro@P3SEL_<UE> <DS>P3SEL_<DE> Extent=<ES>519:9 - 519:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:520:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>520:1 - 520:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:520:29: macro expansion=P3SEL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:519:9 <US>c:macro@P3SEL_<UE> <DS>P3SEL_<DE> Extent=<ES>520:29 - 520:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:521:9: macro definition=P3REN_ <US>c:macro@P3REN_<UE> <DS>P3REN_<DE> Extent=<ES>521:9 - 521:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:522:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>522:1 - 522:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:522:29: macro expansion=P3REN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:521:9 <US>c:macro@P3REN_<UE> <DS>P3REN_<DE> Extent=<ES>522:29 - 522:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:527:9: macro definition=__MSP430_HAS_TA3__ <US>c:macro@__MSP430_HAS_TA3__<UE> <DS>__MSP430_HAS_TA3__<DE> Extent=<ES>527:9 - 527:27<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:529:9: macro definition=TA0IV_ <US>c:macro@TA0IV_<UE> <DS>TA0IV_<DE> Extent=<ES>529:9 - 529:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:530:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>530:1 - 530:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:530:11: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>530:11 - 530:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:530:34: macro expansion=TA0IV_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:529:9 <US>c:macro@TA0IV_<UE> <DS>TA0IV_<DE> Extent=<ES>530:34 - 530:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:531:9: macro definition=TA0CTL_ <US>c:macro@TA0CTL_<UE> <DS>TA0CTL_<DE> Extent=<ES>531:9 - 531:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:532:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>532:1 - 532:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:532:29: macro expansion=TA0CTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:531:9 <US>c:macro@TA0CTL_<UE> <DS>TA0CTL_<DE> Extent=<ES>532:29 - 532:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:533:9: macro definition=TA0CCTL0_ <US>c:macro@TA0CCTL0_<UE> <DS>TA0CCTL0_<DE> Extent=<ES>533:9 - 533:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:534:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>534:1 - 534:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:534:29: macro expansion=TA0CCTL0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:533:9 <US>c:macro@TA0CCTL0_<UE> <DS>TA0CCTL0_<DE> Extent=<ES>534:29 - 534:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:535:9: macro definition=TA0CCTL1_ <US>c:macro@TA0CCTL1_<UE> <DS>TA0CCTL1_<DE> Extent=<ES>535:9 - 535:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:536:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>536:1 - 536:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:536:29: macro expansion=TA0CCTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:535:9 <US>c:macro@TA0CCTL1_<UE> <DS>TA0CCTL1_<DE> Extent=<ES>536:29 - 536:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:537:9: macro definition=TA0CCTL2_ <US>c:macro@TA0CCTL2_<UE> <DS>TA0CCTL2_<DE> Extent=<ES>537:9 - 537:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:538:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>538:1 - 538:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:538:29: macro expansion=TA0CCTL2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:537:9 <US>c:macro@TA0CCTL2_<UE> <DS>TA0CCTL2_<DE> Extent=<ES>538:29 - 538:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:539:9: macro definition=TA0R_ <US>c:macro@TA0R_<UE> <DS>TA0R_<DE> Extent=<ES>539:9 - 539:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:540:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>540:1 - 540:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:540:29: macro expansion=TA0R_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:539:9 <US>c:macro@TA0R_<UE> <DS>TA0R_<DE> Extent=<ES>540:29 - 540:34<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:541:9: macro definition=TA0CCR0_ <US>c:macro@TA0CCR0_<UE> <DS>TA0CCR0_<DE> Extent=<ES>541:9 - 541:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:542:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>542:1 - 542:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:542:29: macro expansion=TA0CCR0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:541:9 <US>c:macro@TA0CCR0_<UE> <DS>TA0CCR0_<DE> Extent=<ES>542:29 - 542:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:543:9: macro definition=TA0CCR1_ <US>c:macro@TA0CCR1_<UE> <DS>TA0CCR1_<DE> Extent=<ES>543:9 - 543:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:544:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>544:1 - 544:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:544:29: macro expansion=TA0CCR1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:543:9 <US>c:macro@TA0CCR1_<UE> <DS>TA0CCR1_<DE> Extent=<ES>544:29 - 544:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:545:9: macro definition=TA0CCR2_ <US>c:macro@TA0CCR2_<UE> <DS>TA0CCR2_<DE> Extent=<ES>545:9 - 545:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:546:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>546:1 - 546:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:546:29: macro expansion=TA0CCR2_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:545:9 <US>c:macro@TA0CCR2_<UE> <DS>TA0CCR2_<DE> Extent=<ES>546:29 - 546:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:549:9: macro definition=TAIV <US>c:macro@TAIV<UE> <DS>TAIV<DE> Extent=<ES>549:9 - 549:34<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:550:9: macro definition=TACTL <US>c:macro@TACTL<UE> <DS>TACTL<DE> Extent=<ES>550:9 - 550:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:551:9: macro definition=TACCTL0 <US>c:macro@TACCTL0<UE> <DS>TACCTL0<DE> Extent=<ES>551:9 - 551:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:552:9: macro definition=TACCTL1 <US>c:macro@TACCTL1<UE> <DS>TACCTL1<DE> Extent=<ES>552:9 - 552:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:553:9: macro definition=TACCTL2 <US>c:macro@TACCTL2<UE> <DS>TACCTL2<DE> Extent=<ES>553:9 - 553:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:554:9: macro definition=TAR <US>c:macro@TAR<UE> <DS>TAR<DE> Extent=<ES>554:9 - 554:33<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:555:9: macro definition=TACCR0 <US>c:macro@TACCR0<UE> <DS>TACCR0<DE> Extent=<ES>555:9 - 555:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:556:9: macro definition=TACCR1 <US>c:macro@TACCR1<UE> <DS>TACCR1<DE> Extent=<ES>556:9 - 556:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:557:9: macro definition=TACCR2 <US>c:macro@TACCR2<UE> <DS>TACCR2<DE> Extent=<ES>557:9 - 557:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:558:9: macro definition=TAIV_ <US>c:macro@TAIV_<UE> <DS>TAIV_<DE> Extent=<ES>558:9 - 558:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:559:9: macro definition=TACTL_ <US>c:macro@TACTL_<UE> <DS>TACTL_<DE> Extent=<ES>559:9 - 559:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:560:9: macro definition=TACCTL0_ <US>c:macro@TACCTL0_<UE> <DS>TACCTL0_<DE> Extent=<ES>560:9 - 560:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:561:9: macro definition=TACCTL1_ <US>c:macro@TACCTL1_<UE> <DS>TACCTL1_<DE> Extent=<ES>561:9 - 561:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:562:9: macro definition=TACCTL2_ <US>c:macro@TACCTL2_<UE> <DS>TACCTL2_<DE> Extent=<ES>562:9 - 562:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:563:9: macro definition=TAR_ <US>c:macro@TAR_<UE> <DS>TAR_<DE> Extent=<ES>563:9 - 563:34<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:564:9: macro definition=TACCR0_ <US>c:macro@TACCR0_<UE> <DS>TACCR0_<DE> Extent=<ES>564:9 - 564:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:565:9: macro definition=TACCR1_ <US>c:macro@TACCR1_<UE> <DS>TACCR1_<DE> Extent=<ES>565:9 - 565:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:566:9: macro definition=TACCR2_ <US>c:macro@TACCR2_<UE> <DS>TACCR2_<DE> Extent=<ES>566:9 - 566:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:569:9: macro definition=CCTL0 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>569:9 - 569:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:570:9: macro definition=CCTL1 <US>c:macro@CCTL1<UE> <DS>CCTL1<DE> Extent=<ES>570:9 - 570:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:571:9: macro definition=CCTL2 <US>c:macro@CCTL2<UE> <DS>CCTL2<DE> Extent=<ES>571:9 - 571:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:572:9: macro definition=CCR0 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>572:9 - 572:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:573:9: macro definition=CCR1 <US>c:macro@CCR1<UE> <DS>CCR1<DE> Extent=<ES>573:9 - 573:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:574:9: macro definition=CCR2 <US>c:macro@CCR2<UE> <DS>CCR2<DE> Extent=<ES>574:9 - 574:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:575:9: macro definition=CCTL0_ <US>c:macro@CCTL0_<UE> <DS>CCTL0_<DE> Extent=<ES>575:9 - 575:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:576:9: macro definition=CCTL1_ <US>c:macro@CCTL1_<UE> <DS>CCTL1_<DE> Extent=<ES>576:9 - 576:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:577:9: macro definition=CCTL2_ <US>c:macro@CCTL2_<UE> <DS>CCTL2_<DE> Extent=<ES>577:9 - 577:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:578:9: macro definition=CCR0_ <US>c:macro@CCR0_<UE> <DS>CCR0_<DE> Extent=<ES>578:9 - 578:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:579:9: macro definition=CCR1_ <US>c:macro@CCR1_<UE> <DS>CCR1_<DE> Extent=<ES>579:9 - 579:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:580:9: macro definition=CCR2_ <US>c:macro@CCR2_<UE> <DS>CCR2_<DE> Extent=<ES>580:9 - 580:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:582:9: macro definition=TASSEL1 <US>c:macro@TASSEL1<UE> <DS>TASSEL1<DE> Extent=<ES>582:9 - 582:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:583:9: macro definition=TASSEL0 <US>c:macro@TASSEL0<UE> <DS>TASSEL0<DE> Extent=<ES>583:9 - 583:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:584:9: macro definition=ID1 <US>c:macro@ID1<UE> <DS>ID1<DE> Extent=<ES>584:9 - 584:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:585:9: macro definition=ID0 <US>c:macro@ID0<UE> <DS>ID0<DE> Extent=<ES>585:9 - 585:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:586:9: macro definition=MC1 <US>c:macro@MC1<UE> <DS>MC1<DE> Extent=<ES>586:9 - 586:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:587:9: macro definition=MC0 <US>c:macro@MC0<UE> <DS>MC0<DE> Extent=<ES>587:9 - 587:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:588:9: macro definition=TACLR <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>588:9 - 588:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:589:9: macro definition=TAIE <US>c:macro@TAIE<UE> <DS>TAIE<DE> Extent=<ES>589:9 - 589:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:590:9: macro definition=TAIFG <US>c:macro@TAIFG<UE> <DS>TAIFG<DE> Extent=<ES>590:9 - 590:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:592:9: macro definition=MC_0 <US>c:macro@MC_0<UE> <DS>MC_0<DE> Extent=<ES>592:9 - 592:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:593:9: macro definition=MC_1 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>593:9 - 593:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:594:9: macro definition=MC_2 <US>c:macro@MC_2<UE> <DS>MC_2<DE> Extent=<ES>594:9 - 594:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:595:9: macro definition=MC_3 <US>c:macro@MC_3<UE> <DS>MC_3<DE> Extent=<ES>595:9 - 595:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:596:9: macro definition=ID_0 <US>c:macro@ID_0<UE> <DS>ID_0<DE> Extent=<ES>596:9 - 596:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:597:9: macro definition=ID_1 <US>c:macro@ID_1<UE> <DS>ID_1<DE> Extent=<ES>597:9 - 597:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:598:9: macro definition=ID_2 <US>c:macro@ID_2<UE> <DS>ID_2<DE> Extent=<ES>598:9 - 598:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:599:9: macro definition=ID_3 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>599:9 - 599:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:600:9: macro definition=TASSEL_0 <US>c:macro@TASSEL_0<UE> <DS>TASSEL_0<DE> Extent=<ES>600:9 - 600:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:601:9: macro definition=TASSEL_1 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>601:9 - 601:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:602:9: macro definition=TASSEL_2 <US>c:macro@TASSEL_2<UE> <DS>TASSEL_2<DE> Extent=<ES>602:9 - 602:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:603:9: macro definition=TASSEL_3 <US>c:macro@TASSEL_3<UE> <DS>TASSEL_3<DE> Extent=<ES>603:9 - 603:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:605:9: macro definition=CM1 <US>c:macro@CM1<UE> <DS>CM1<DE> Extent=<ES>605:9 - 605:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:606:9: macro definition=CM0 <US>c:macro@CM0<UE> <DS>CM0<DE> Extent=<ES>606:9 - 606:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:607:9: macro definition=CCIS1 <US>c:macro@CCIS1<UE> <DS>CCIS1<DE> Extent=<ES>607:9 - 607:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:608:9: macro definition=CCIS0 <US>c:macro@CCIS0<UE> <DS>CCIS0<DE> Extent=<ES>608:9 - 608:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:609:9: macro definition=SCS <US>c:macro@SCS<UE> <DS>SCS<DE> Extent=<ES>609:9 - 609:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:610:9: macro definition=SCCI <US>c:macro@SCCI<UE> <DS>SCCI<DE> Extent=<ES>610:9 - 610:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:611:9: macro definition=CAP <US>c:macro@CAP<UE> <DS>CAP<DE> Extent=<ES>611:9 - 611:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:612:9: macro definition=OUTMOD2 <US>c:macro@OUTMOD2<UE> <DS>OUTMOD2<DE> Extent=<ES>612:9 - 612:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:613:9: macro definition=OUTMOD1 <US>c:macro@OUTMOD1<UE> <DS>OUTMOD1<DE> Extent=<ES>613:9 - 613:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:614:9: macro definition=OUTMOD0 <US>c:macro@OUTMOD0<UE> <DS>OUTMOD0<DE> Extent=<ES>614:9 - 614:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:615:9: macro definition=CCIE <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>615:9 - 615:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:616:9: macro definition=CCI <US>c:macro@CCI<UE> <DS>CCI<DE> Extent=<ES>616:9 - 616:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:617:9: macro definition=OUT <US>c:macro@OUT<UE> <DS>OUT<DE> Extent=<ES>617:9 - 617:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:618:9: macro definition=COV <US>c:macro@COV<UE> <DS>COV<DE> Extent=<ES>618:9 - 618:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:619:9: macro definition=CCIFG <US>c:macro@CCIFG<UE> <DS>CCIFG<DE> Extent=<ES>619:9 - 619:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:621:9: macro definition=OUTMOD_0 <US>c:macro@OUTMOD_0<UE> <DS>OUTMOD_0<DE> Extent=<ES>621:9 - 621:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:622:9: macro definition=OUTMOD_1 <US>c:macro@OUTMOD_1<UE> <DS>OUTMOD_1<DE> Extent=<ES>622:9 - 622:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:623:9: macro definition=OUTMOD_2 <US>c:macro@OUTMOD_2<UE> <DS>OUTMOD_2<DE> Extent=<ES>623:9 - 623:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:624:9: macro definition=OUTMOD_3 <US>c:macro@OUTMOD_3<UE> <DS>OUTMOD_3<DE> Extent=<ES>624:9 - 624:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:625:9: macro definition=OUTMOD_4 <US>c:macro@OUTMOD_4<UE> <DS>OUTMOD_4<DE> Extent=<ES>625:9 - 625:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:626:9: macro definition=OUTMOD_5 <US>c:macro@OUTMOD_5<UE> <DS>OUTMOD_5<DE> Extent=<ES>626:9 - 626:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:627:9: macro definition=OUTMOD_6 <US>c:macro@OUTMOD_6<UE> <DS>OUTMOD_6<DE> Extent=<ES>627:9 - 627:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:628:9: macro definition=OUTMOD_7 <US>c:macro@OUTMOD_7<UE> <DS>OUTMOD_7<DE> Extent=<ES>628:9 - 628:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:629:9: macro definition=CCIS_0 <US>c:macro@CCIS_0<UE> <DS>CCIS_0<DE> Extent=<ES>629:9 - 629:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:630:9: macro definition=CCIS_1 <US>c:macro@CCIS_1<UE> <DS>CCIS_1<DE> Extent=<ES>630:9 - 630:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:631:9: macro definition=CCIS_2 <US>c:macro@CCIS_2<UE> <DS>CCIS_2<DE> Extent=<ES>631:9 - 631:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:632:9: macro definition=CCIS_3 <US>c:macro@CCIS_3<UE> <DS>CCIS_3<DE> Extent=<ES>632:9 - 632:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:633:9: macro definition=CM_0 <US>c:macro@CM_0<UE> <DS>CM_0<DE> Extent=<ES>633:9 - 633:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:634:9: macro definition=CM_1 <US>c:macro@CM_1<UE> <DS>CM_1<DE> Extent=<ES>634:9 - 634:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:635:9: macro definition=CM_2 <US>c:macro@CM_2<UE> <DS>CM_2<DE> Extent=<ES>635:9 - 635:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:636:9: macro definition=CM_3 <US>c:macro@CM_3<UE> <DS>CM_3<DE> Extent=<ES>636:9 - 636:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:639:9: macro definition=TA0IV_NONE <US>c:macro@TA0IV_NONE<UE> <DS>TA0IV_NONE<DE> Extent=<ES>639:9 - 639:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:640:9: macro definition=TA0IV_TACCR1 <US>c:macro@TA0IV_TACCR1<UE> <DS>TA0IV_TACCR1<DE> Extent=<ES>640:9 - 640:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:641:9: macro definition=TA0IV_TACCR2 <US>c:macro@TA0IV_TACCR2<UE> <DS>TA0IV_TACCR2<DE> Extent=<ES>641:9 - 641:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:642:9: macro definition=TA0IV_6 <US>c:macro@TA0IV_6<UE> <DS>TA0IV_6<DE> Extent=<ES>642:9 - 642:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:643:9: macro definition=TA0IV_8 <US>c:macro@TA0IV_8<UE> <DS>TA0IV_8<DE> Extent=<ES>643:9 - 643:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:644:9: macro definition=TA0IV_TAIFG <US>c:macro@TA0IV_TAIFG<UE> <DS>TA0IV_TAIFG<DE> Extent=<ES>644:9 - 644:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:649:9: macro definition=__MSP430_HAS_T1A2__ <US>c:macro@__MSP430_HAS_T1A2__<UE> <DS>__MSP430_HAS_T1A2__<DE> Extent=<ES>649:9 - 649:28<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:651:9: macro definition=TA1IV_ <US>c:macro@TA1IV_<UE> <DS>TA1IV_<DE> Extent=<ES>651:9 - 651:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:652:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>652:1 - 652:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:652:11: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>652:11 - 652:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:652:34: macro expansion=TA1IV_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:651:9 <US>c:macro@TA1IV_<UE> <DS>TA1IV_<DE> Extent=<ES>652:34 - 652:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:653:9: macro definition=TA1CTL_ <US>c:macro@TA1CTL_<UE> <DS>TA1CTL_<DE> Extent=<ES>653:9 - 653:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:654:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>654:1 - 654:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:654:29: macro expansion=TA1CTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:653:9 <US>c:macro@TA1CTL_<UE> <DS>TA1CTL_<DE> Extent=<ES>654:29 - 654:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:655:9: macro definition=TA1CCTL0_ <US>c:macro@TA1CCTL0_<UE> <DS>TA1CCTL0_<DE> Extent=<ES>655:9 - 655:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:656:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>656:1 - 656:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:656:29: macro expansion=TA1CCTL0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:655:9 <US>c:macro@TA1CCTL0_<UE> <DS>TA1CCTL0_<DE> Extent=<ES>656:29 - 656:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:657:9: macro definition=TA1CCTL1_ <US>c:macro@TA1CCTL1_<UE> <DS>TA1CCTL1_<DE> Extent=<ES>657:9 - 657:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:658:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>658:1 - 658:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:658:29: macro expansion=TA1CCTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:657:9 <US>c:macro@TA1CCTL1_<UE> <DS>TA1CCTL1_<DE> Extent=<ES>658:29 - 658:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:659:9: macro definition=TA1R_ <US>c:macro@TA1R_<UE> <DS>TA1R_<DE> Extent=<ES>659:9 - 659:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:660:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>660:1 - 660:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:660:29: macro expansion=TA1R_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:659:9 <US>c:macro@TA1R_<UE> <DS>TA1R_<DE> Extent=<ES>660:29 - 660:34<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:661:9: macro definition=TA1CCR0_ <US>c:macro@TA1CCR0_<UE> <DS>TA1CCR0_<DE> Extent=<ES>661:9 - 661:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:662:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>662:1 - 662:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:662:29: macro expansion=TA1CCR0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:661:9 <US>c:macro@TA1CCR0_<UE> <DS>TA1CCR0_<DE> Extent=<ES>662:29 - 662:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:663:9: macro definition=TA1CCR1_ <US>c:macro@TA1CCR1_<UE> <DS>TA1CCR1_<DE> Extent=<ES>663:9 - 663:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:664:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>664:1 - 664:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:664:29: macro expansion=TA1CCR1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:663:9 <US>c:macro@TA1CCR1_<UE> <DS>TA1CCR1_<DE> Extent=<ES>664:29 - 664:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:669:9: macro definition=TA1IV_NONE <US>c:macro@TA1IV_NONE<UE> <DS>TA1IV_NONE<DE> Extent=<ES>669:9 - 669:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:670:9: macro definition=TA1IV_TACCR1 <US>c:macro@TA1IV_TACCR1<UE> <DS>TA1IV_TACCR1<DE> Extent=<ES>670:9 - 670:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:671:9: macro definition=TA1IV_4 <US>c:macro@TA1IV_4<UE> <DS>TA1IV_4<DE> Extent=<ES>671:9 - 671:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:672:9: macro definition=TA1IV_6 <US>c:macro@TA1IV_6<UE> <DS>TA1IV_6<DE> Extent=<ES>672:9 - 672:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:673:9: macro definition=TA1IV_8 <US>c:macro@TA1IV_8<UE> <DS>TA1IV_8<DE> Extent=<ES>673:9 - 673:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:674:9: macro definition=TA1IV_TAIFG <US>c:macro@TA1IV_TAIFG<UE> <DS>TA1IV_TAIFG<DE> Extent=<ES>674:9 - 674:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:679:9: macro definition=__MSP430_HAS_USCI__ <US>c:macro@__MSP430_HAS_USCI__<UE> <DS>__MSP430_HAS_USCI__<DE> Extent=<ES>679:9 - 679:28<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:681:9: macro definition=UCA0CTL0_ <US>c:macro@UCA0CTL0_<UE> <DS>UCA0CTL0_<DE> Extent=<ES>681:9 - 681:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:682:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>682:1 - 682:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:682:29: macro expansion=UCA0CTL0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:681:9 <US>c:macro@UCA0CTL0_<UE> <DS>UCA0CTL0_<DE> Extent=<ES>682:29 - 682:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:683:9: macro definition=UCA0CTL1_ <US>c:macro@UCA0CTL1_<UE> <DS>UCA0CTL1_<DE> Extent=<ES>683:9 - 683:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:684:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>684:1 - 684:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:684:29: macro expansion=UCA0CTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:683:9 <US>c:macro@UCA0CTL1_<UE> <DS>UCA0CTL1_<DE> Extent=<ES>684:29 - 684:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:685:9: macro definition=UCA0BR0_ <US>c:macro@UCA0BR0_<UE> <DS>UCA0BR0_<DE> Extent=<ES>685:9 - 685:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:686:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>686:1 - 686:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:686:29: macro expansion=UCA0BR0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:685:9 <US>c:macro@UCA0BR0_<UE> <DS>UCA0BR0_<DE> Extent=<ES>686:29 - 686:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:687:9: macro definition=UCA0BR1_ <US>c:macro@UCA0BR1_<UE> <DS>UCA0BR1_<DE> Extent=<ES>687:9 - 687:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:688:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>688:1 - 688:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:688:29: macro expansion=UCA0BR1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:687:9 <US>c:macro@UCA0BR1_<UE> <DS>UCA0BR1_<DE> Extent=<ES>688:29 - 688:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:689:9: macro definition=UCA0MCTL_ <US>c:macro@UCA0MCTL_<UE> <DS>UCA0MCTL_<DE> Extent=<ES>689:9 - 689:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:690:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>690:1 - 690:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:690:29: macro expansion=UCA0MCTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:689:9 <US>c:macro@UCA0MCTL_<UE> <DS>UCA0MCTL_<DE> Extent=<ES>690:29 - 690:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:691:9: macro definition=UCA0STAT_ <US>c:macro@UCA0STAT_<UE> <DS>UCA0STAT_<DE> Extent=<ES>691:9 - 691:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:692:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>692:1 - 692:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:692:29: macro expansion=UCA0STAT_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:691:9 <US>c:macro@UCA0STAT_<UE> <DS>UCA0STAT_<DE> Extent=<ES>692:29 - 692:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:693:9: macro definition=UCA0RXBUF_ <US>c:macro@UCA0RXBUF_<UE> <DS>UCA0RXBUF_<DE> Extent=<ES>693:9 - 693:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:694:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>694:1 - 694:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:694:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>694:11 - 694:45<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:694:34: macro expansion=UCA0RXBUF_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:693:9 <US>c:macro@UCA0RXBUF_<UE> <DS>UCA0RXBUF_<DE> Extent=<ES>694:34 - 694:44<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:695:9: macro definition=UCA0TXBUF_ <US>c:macro@UCA0TXBUF_<UE> <DS>UCA0TXBUF_<DE> Extent=<ES>695:9 - 695:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:696:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>696:1 - 696:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:696:29: macro expansion=UCA0TXBUF_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:695:9 <US>c:macro@UCA0TXBUF_<UE> <DS>UCA0TXBUF_<DE> Extent=<ES>696:29 - 696:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:697:9: macro definition=UCA0ABCTL_ <US>c:macro@UCA0ABCTL_<UE> <DS>UCA0ABCTL_<DE> Extent=<ES>697:9 - 697:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:698:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>698:1 - 698:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:698:29: macro expansion=UCA0ABCTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:697:9 <US>c:macro@UCA0ABCTL_<UE> <DS>UCA0ABCTL_<DE> Extent=<ES>698:29 - 698:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:699:9: macro definition=UCA0IRTCTL_ <US>c:macro@UCA0IRTCTL_<UE> <DS>UCA0IRTCTL_<DE> Extent=<ES>699:9 - 699:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:700:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>700:1 - 700:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:700:29: macro expansion=UCA0IRTCTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:699:9 <US>c:macro@UCA0IRTCTL_<UE> <DS>UCA0IRTCTL_<DE> Extent=<ES>700:29 - 700:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:701:9: macro definition=UCA0IRRCTL_ <US>c:macro@UCA0IRRCTL_<UE> <DS>UCA0IRRCTL_<DE> Extent=<ES>701:9 - 701:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:702:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>702:1 - 702:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:702:29: macro expansion=UCA0IRRCTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:701:9 <US>c:macro@UCA0IRRCTL_<UE> <DS>UCA0IRRCTL_<DE> Extent=<ES>702:29 - 702:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:706:9: macro definition=UCB0CTL0_ <US>c:macro@UCB0CTL0_<UE> <DS>UCB0CTL0_<DE> Extent=<ES>706:9 - 706:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:707:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>707:1 - 707:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:707:29: macro expansion=UCB0CTL0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:706:9 <US>c:macro@UCB0CTL0_<UE> <DS>UCB0CTL0_<DE> Extent=<ES>707:29 - 707:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:708:9: macro definition=UCB0CTL1_ <US>c:macro@UCB0CTL1_<UE> <DS>UCB0CTL1_<DE> Extent=<ES>708:9 - 708:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:709:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>709:1 - 709:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:709:29: macro expansion=UCB0CTL1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:708:9 <US>c:macro@UCB0CTL1_<UE> <DS>UCB0CTL1_<DE> Extent=<ES>709:29 - 709:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:710:9: macro definition=UCB0BR0_ <US>c:macro@UCB0BR0_<UE> <DS>UCB0BR0_<DE> Extent=<ES>710:9 - 710:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:711:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>711:1 - 711:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:711:29: macro expansion=UCB0BR0_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:710:9 <US>c:macro@UCB0BR0_<UE> <DS>UCB0BR0_<DE> Extent=<ES>711:29 - 711:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:712:9: macro definition=UCB0BR1_ <US>c:macro@UCB0BR1_<UE> <DS>UCB0BR1_<DE> Extent=<ES>712:9 - 712:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:713:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>713:1 - 713:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:713:29: macro expansion=UCB0BR1_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:712:9 <US>c:macro@UCB0BR1_<UE> <DS>UCB0BR1_<DE> Extent=<ES>713:29 - 713:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:714:9: macro definition=UCB0I2CIE_ <US>c:macro@UCB0I2CIE_<UE> <DS>UCB0I2CIE_<DE> Extent=<ES>714:9 - 714:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:715:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>715:1 - 715:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:715:29: macro expansion=UCB0I2CIE_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:714:9 <US>c:macro@UCB0I2CIE_<UE> <DS>UCB0I2CIE_<DE> Extent=<ES>715:29 - 715:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:716:9: macro definition=UCB0STAT_ <US>c:macro@UCB0STAT_<UE> <DS>UCB0STAT_<DE> Extent=<ES>716:9 - 716:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:717:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>717:1 - 717:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:717:29: macro expansion=UCB0STAT_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:716:9 <US>c:macro@UCB0STAT_<UE> <DS>UCB0STAT_<DE> Extent=<ES>717:29 - 717:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:718:9: macro definition=UCB0RXBUF_ <US>c:macro@UCB0RXBUF_<UE> <DS>UCB0RXBUF_<DE> Extent=<ES>718:9 - 718:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:719:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>719:1 - 719:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:719:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>719:11 - 719:45<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:719:34: macro expansion=UCB0RXBUF_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:718:9 <US>c:macro@UCB0RXBUF_<UE> <DS>UCB0RXBUF_<DE> Extent=<ES>719:34 - 719:44<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:720:9: macro definition=UCB0TXBUF_ <US>c:macro@UCB0TXBUF_<UE> <DS>UCB0TXBUF_<DE> Extent=<ES>720:9 - 720:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:721:1: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>721:1 - 721:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:721:29: macro expansion=UCB0TXBUF_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:720:9 <US>c:macro@UCB0TXBUF_<UE> <DS>UCB0TXBUF_<DE> Extent=<ES>721:29 - 721:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:722:9: macro definition=UCB0I2COA_ <US>c:macro@UCB0I2COA_<UE> <DS>UCB0I2COA_<DE> Extent=<ES>722:9 - 722:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:723:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>723:1 - 723:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:723:29: macro expansion=UCB0I2COA_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:722:9 <US>c:macro@UCB0I2COA_<UE> <DS>UCB0I2COA_<DE> Extent=<ES>723:29 - 723:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:724:9: macro definition=UCB0I2CSA_ <US>c:macro@UCB0I2CSA_<UE> <DS>UCB0I2CSA_<DE> Extent=<ES>724:9 - 724:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:725:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>725:1 - 725:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:725:29: macro expansion=UCB0I2CSA_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:724:9 <US>c:macro@UCB0I2CSA_<UE> <DS>UCB0I2CSA_<DE> Extent=<ES>725:29 - 725:39<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:728:9: macro definition=UCPEN <US>c:macro@UCPEN<UE> <DS>UCPEN<DE> Extent=<ES>728:9 - 728:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:729:9: macro definition=UCPAR <US>c:macro@UCPAR<UE> <DS>UCPAR<DE> Extent=<ES>729:9 - 729:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:730:9: macro definition=UCMSB <US>c:macro@UCMSB<UE> <DS>UCMSB<DE> Extent=<ES>730:9 - 730:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:731:9: macro definition=UC7BIT <US>c:macro@UC7BIT<UE> <DS>UC7BIT<DE> Extent=<ES>731:9 - 731:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:732:9: macro definition=UCSPB <US>c:macro@UCSPB<UE> <DS>UCSPB<DE> Extent=<ES>732:9 - 732:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:733:9: macro definition=UCMODE1 <US>c:macro@UCMODE1<UE> <DS>UCMODE1<DE> Extent=<ES>733:9 - 733:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:734:9: macro definition=UCMODE0 <US>c:macro@UCMODE0<UE> <DS>UCMODE0<DE> Extent=<ES>734:9 - 734:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:735:9: macro definition=UCSYNC <US>c:macro@UCSYNC<UE> <DS>UCSYNC<DE> Extent=<ES>735:9 - 735:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:738:9: macro definition=UCCKPH <US>c:macro@UCCKPH<UE> <DS>UCCKPH<DE> Extent=<ES>738:9 - 738:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:739:9: macro definition=UCCKPL <US>c:macro@UCCKPL<UE> <DS>UCCKPL<DE> Extent=<ES>739:9 - 739:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:740:9: macro definition=UCMST <US>c:macro@UCMST<UE> <DS>UCMST<DE> Extent=<ES>740:9 - 740:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:743:9: macro definition=UCA10 <US>c:macro@UCA10<UE> <DS>UCA10<DE> Extent=<ES>743:9 - 743:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:744:9: macro definition=UCSLA10 <US>c:macro@UCSLA10<UE> <DS>UCSLA10<DE> Extent=<ES>744:9 - 744:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:745:9: macro definition=UCMM <US>c:macro@UCMM<UE> <DS>UCMM<DE> Extent=<ES>745:9 - 745:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:747:9: macro definition=UCMODE_0 <US>c:macro@UCMODE_0<UE> <DS>UCMODE_0<DE> Extent=<ES>747:9 - 747:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:748:9: macro definition=UCMODE_1 <US>c:macro@UCMODE_1<UE> <DS>UCMODE_1<DE> Extent=<ES>748:9 - 748:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:749:9: macro definition=UCMODE_2 <US>c:macro@UCMODE_2<UE> <DS>UCMODE_2<DE> Extent=<ES>749:9 - 749:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:750:9: macro definition=UCMODE_3 <US>c:macro@UCMODE_3<UE> <DS>UCMODE_3<DE> Extent=<ES>750:9 - 750:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:753:9: macro definition=UCSSEL1 <US>c:macro@UCSSEL1<UE> <DS>UCSSEL1<DE> Extent=<ES>753:9 - 753:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:754:9: macro definition=UCSSEL0 <US>c:macro@UCSSEL0<UE> <DS>UCSSEL0<DE> Extent=<ES>754:9 - 754:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:755:9: macro definition=UCRXEIE <US>c:macro@UCRXEIE<UE> <DS>UCRXEIE<DE> Extent=<ES>755:9 - 755:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:756:9: macro definition=UCBRKIE <US>c:macro@UCBRKIE<UE> <DS>UCBRKIE<DE> Extent=<ES>756:9 - 756:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:757:9: macro definition=UCDORM <US>c:macro@UCDORM<UE> <DS>UCDORM<DE> Extent=<ES>757:9 - 757:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:758:9: macro definition=UCTXADDR <US>c:macro@UCTXADDR<UE> <DS>UCTXADDR<DE> Extent=<ES>758:9 - 758:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:759:9: macro definition=UCTXBRK <US>c:macro@UCTXBRK<UE> <DS>UCTXBRK<DE> Extent=<ES>759:9 - 759:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:760:9: macro definition=UCSWRST <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>760:9 - 760:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:771:9: macro definition=UCTR <US>c:macro@UCTR<UE> <DS>UCTR<DE> Extent=<ES>771:9 - 771:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:772:9: macro definition=UCTXNACK <US>c:macro@UCTXNACK<UE> <DS>UCTXNACK<DE> Extent=<ES>772:9 - 772:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:773:9: macro definition=UCTXSTP <US>c:macro@UCTXSTP<UE> <DS>UCTXSTP<DE> Extent=<ES>773:9 - 773:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:774:9: macro definition=UCTXSTT <US>c:macro@UCTXSTT<UE> <DS>UCTXSTT<DE> Extent=<ES>774:9 - 774:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:775:9: macro definition=UCSSEL_0 <US>c:macro@UCSSEL_0<UE> <DS>UCSSEL_0<DE> Extent=<ES>775:9 - 775:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:776:9: macro definition=UCSSEL_1 <US>c:macro@UCSSEL_1<UE> <DS>UCSSEL_1<DE> Extent=<ES>776:9 - 776:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:777:9: macro definition=UCSSEL_2 <US>c:macro@UCSSEL_2<UE> <DS>UCSSEL_2<DE> Extent=<ES>777:9 - 777:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:778:9: macro definition=UCSSEL_3 <US>c:macro@UCSSEL_3<UE> <DS>UCSSEL_3<DE> Extent=<ES>778:9 - 778:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:780:9: macro definition=UCBRF3 <US>c:macro@UCBRF3<UE> <DS>UCBRF3<DE> Extent=<ES>780:9 - 780:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:781:9: macro definition=UCBRF2 <US>c:macro@UCBRF2<UE> <DS>UCBRF2<DE> Extent=<ES>781:9 - 781:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:782:9: macro definition=UCBRF1 <US>c:macro@UCBRF1<UE> <DS>UCBRF1<DE> Extent=<ES>782:9 - 782:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:783:9: macro definition=UCBRF0 <US>c:macro@UCBRF0<UE> <DS>UCBRF0<DE> Extent=<ES>783:9 - 783:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:784:9: macro definition=UCBRS2 <US>c:macro@UCBRS2<UE> <DS>UCBRS2<DE> Extent=<ES>784:9 - 784:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:785:9: macro definition=UCBRS1 <US>c:macro@UCBRS1<UE> <DS>UCBRS1<DE> Extent=<ES>785:9 - 785:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:786:9: macro definition=UCBRS0 <US>c:macro@UCBRS0<UE> <DS>UCBRS0<DE> Extent=<ES>786:9 - 786:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:787:9: macro definition=UCOS16 <US>c:macro@UCOS16<UE> <DS>UCOS16<DE> Extent=<ES>787:9 - 787:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:789:9: macro definition=UCBRF_0 <US>c:macro@UCBRF_0<UE> <DS>UCBRF_0<DE> Extent=<ES>789:9 - 789:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:790:9: macro definition=UCBRF_1 <US>c:macro@UCBRF_1<UE> <DS>UCBRF_1<DE> Extent=<ES>790:9 - 790:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:791:9: macro definition=UCBRF_2 <US>c:macro@UCBRF_2<UE> <DS>UCBRF_2<DE> Extent=<ES>791:9 - 791:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:792:9: macro definition=UCBRF_3 <US>c:macro@UCBRF_3<UE> <DS>UCBRF_3<DE> Extent=<ES>792:9 - 792:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:793:9: macro definition=UCBRF_4 <US>c:macro@UCBRF_4<UE> <DS>UCBRF_4<DE> Extent=<ES>793:9 - 793:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:794:9: macro definition=UCBRF_5 <US>c:macro@UCBRF_5<UE> <DS>UCBRF_5<DE> Extent=<ES>794:9 - 794:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:795:9: macro definition=UCBRF_6 <US>c:macro@UCBRF_6<UE> <DS>UCBRF_6<DE> Extent=<ES>795:9 - 795:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:796:9: macro definition=UCBRF_7 <US>c:macro@UCBRF_7<UE> <DS>UCBRF_7<DE> Extent=<ES>796:9 - 796:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:797:9: macro definition=UCBRF_8 <US>c:macro@UCBRF_8<UE> <DS>UCBRF_8<DE> Extent=<ES>797:9 - 797:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:798:9: macro definition=UCBRF_9 <US>c:macro@UCBRF_9<UE> <DS>UCBRF_9<DE> Extent=<ES>798:9 - 798:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:799:9: macro definition=UCBRF_10 <US>c:macro@UCBRF_10<UE> <DS>UCBRF_10<DE> Extent=<ES>799:9 - 799:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:800:9: macro definition=UCBRF_11 <US>c:macro@UCBRF_11<UE> <DS>UCBRF_11<DE> Extent=<ES>800:9 - 800:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:801:9: macro definition=UCBRF_12 <US>c:macro@UCBRF_12<UE> <DS>UCBRF_12<DE> Extent=<ES>801:9 - 801:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:802:9: macro definition=UCBRF_13 <US>c:macro@UCBRF_13<UE> <DS>UCBRF_13<DE> Extent=<ES>802:9 - 802:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:803:9: macro definition=UCBRF_14 <US>c:macro@UCBRF_14<UE> <DS>UCBRF_14<DE> Extent=<ES>803:9 - 803:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:804:9: macro definition=UCBRF_15 <US>c:macro@UCBRF_15<UE> <DS>UCBRF_15<DE> Extent=<ES>804:9 - 804:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:806:9: macro definition=UCBRS_0 <US>c:macro@UCBRS_0<UE> <DS>UCBRS_0<DE> Extent=<ES>806:9 - 806:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:807:9: macro definition=UCBRS_1 <US>c:macro@UCBRS_1<UE> <DS>UCBRS_1<DE> Extent=<ES>807:9 - 807:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:808:9: macro definition=UCBRS_2 <US>c:macro@UCBRS_2<UE> <DS>UCBRS_2<DE> Extent=<ES>808:9 - 808:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:809:9: macro definition=UCBRS_3 <US>c:macro@UCBRS_3<UE> <DS>UCBRS_3<DE> Extent=<ES>809:9 - 809:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:810:9: macro definition=UCBRS_4 <US>c:macro@UCBRS_4<UE> <DS>UCBRS_4<DE> Extent=<ES>810:9 - 810:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:811:9: macro definition=UCBRS_5 <US>c:macro@UCBRS_5<UE> <DS>UCBRS_5<DE> Extent=<ES>811:9 - 811:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:812:9: macro definition=UCBRS_6 <US>c:macro@UCBRS_6<UE> <DS>UCBRS_6<DE> Extent=<ES>812:9 - 812:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:813:9: macro definition=UCBRS_7 <US>c:macro@UCBRS_7<UE> <DS>UCBRS_7<DE> Extent=<ES>813:9 - 813:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:815:9: macro definition=UCLISTEN <US>c:macro@UCLISTEN<UE> <DS>UCLISTEN<DE> Extent=<ES>815:9 - 815:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:816:9: macro definition=UCFE <US>c:macro@UCFE<UE> <DS>UCFE<DE> Extent=<ES>816:9 - 816:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:817:9: macro definition=UCOE <US>c:macro@UCOE<UE> <DS>UCOE<DE> Extent=<ES>817:9 - 817:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:818:9: macro definition=UCPE <US>c:macro@UCPE<UE> <DS>UCPE<DE> Extent=<ES>818:9 - 818:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:819:9: macro definition=UCBRK <US>c:macro@UCBRK<UE> <DS>UCBRK<DE> Extent=<ES>819:9 - 819:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:820:9: macro definition=UCRXERR <US>c:macro@UCRXERR<UE> <DS>UCRXERR<DE> Extent=<ES>820:9 - 820:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:821:9: macro definition=UCADDR <US>c:macro@UCADDR<UE> <DS>UCADDR<DE> Extent=<ES>821:9 - 821:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:822:9: macro definition=UCBUSY <US>c:macro@UCBUSY<UE> <DS>UCBUSY<DE> Extent=<ES>822:9 - 822:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:823:9: macro definition=UCIDLE <US>c:macro@UCIDLE<UE> <DS>UCIDLE<DE> Extent=<ES>823:9 - 823:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:829:9: macro definition=UCNACKIE <US>c:macro@UCNACKIE<UE> <DS>UCNACKIE<DE> Extent=<ES>829:9 - 829:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:830:9: macro definition=UCSTPIE <US>c:macro@UCSTPIE<UE> <DS>UCSTPIE<DE> Extent=<ES>830:9 - 830:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:831:9: macro definition=UCSTTIE <US>c:macro@UCSTTIE<UE> <DS>UCSTTIE<DE> Extent=<ES>831:9 - 831:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:832:9: macro definition=UCALIE <US>c:macro@UCALIE<UE> <DS>UCALIE<DE> Extent=<ES>832:9 - 832:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:834:9: macro definition=UCSCLLOW <US>c:macro@UCSCLLOW<UE> <DS>UCSCLLOW<DE> Extent=<ES>834:9 - 834:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:835:9: macro definition=UCGC <US>c:macro@UCGC<UE> <DS>UCGC<DE> Extent=<ES>835:9 - 835:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:836:9: macro definition=UCBBUSY <US>c:macro@UCBBUSY<UE> <DS>UCBBUSY<DE> Extent=<ES>836:9 - 836:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:837:9: macro definition=UCNACKIFG <US>c:macro@UCNACKIFG<UE> <DS>UCNACKIFG<DE> Extent=<ES>837:9 - 837:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:838:9: macro definition=UCSTPIFG <US>c:macro@UCSTPIFG<UE> <DS>UCSTPIFG<DE> Extent=<ES>838:9 - 838:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:839:9: macro definition=UCSTTIFG <US>c:macro@UCSTTIFG<UE> <DS>UCSTTIFG<DE> Extent=<ES>839:9 - 839:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:840:9: macro definition=UCALIFG <US>c:macro@UCALIFG<UE> <DS>UCALIFG<DE> Extent=<ES>840:9 - 840:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:842:9: macro definition=UCIRTXPL5 <US>c:macro@UCIRTXPL5<UE> <DS>UCIRTXPL5<DE> Extent=<ES>842:9 - 842:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:843:9: macro definition=UCIRTXPL4 <US>c:macro@UCIRTXPL4<UE> <DS>UCIRTXPL4<DE> Extent=<ES>843:9 - 843:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:844:9: macro definition=UCIRTXPL3 <US>c:macro@UCIRTXPL3<UE> <DS>UCIRTXPL3<DE> Extent=<ES>844:9 - 844:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:845:9: macro definition=UCIRTXPL2 <US>c:macro@UCIRTXPL2<UE> <DS>UCIRTXPL2<DE> Extent=<ES>845:9 - 845:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:846:9: macro definition=UCIRTXPL1 <US>c:macro@UCIRTXPL1<UE> <DS>UCIRTXPL1<DE> Extent=<ES>846:9 - 846:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:847:9: macro definition=UCIRTXPL0 <US>c:macro@UCIRTXPL0<UE> <DS>UCIRTXPL0<DE> Extent=<ES>847:9 - 847:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:848:9: macro definition=UCIRTXCLK <US>c:macro@UCIRTXCLK<UE> <DS>UCIRTXCLK<DE> Extent=<ES>848:9 - 848:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:849:9: macro definition=UCIREN <US>c:macro@UCIREN<UE> <DS>UCIREN<DE> Extent=<ES>849:9 - 849:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:851:9: macro definition=UCIRRXFL5 <US>c:macro@UCIRRXFL5<UE> <DS>UCIRRXFL5<DE> Extent=<ES>851:9 - 851:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:852:9: macro definition=UCIRRXFL4 <US>c:macro@UCIRRXFL4<UE> <DS>UCIRRXFL4<DE> Extent=<ES>852:9 - 852:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:853:9: macro definition=UCIRRXFL3 <US>c:macro@UCIRRXFL3<UE> <DS>UCIRRXFL3<DE> Extent=<ES>853:9 - 853:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:854:9: macro definition=UCIRRXFL2 <US>c:macro@UCIRRXFL2<UE> <DS>UCIRRXFL2<DE> Extent=<ES>854:9 - 854:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:855:9: macro definition=UCIRRXFL1 <US>c:macro@UCIRRXFL1<UE> <DS>UCIRRXFL1<DE> Extent=<ES>855:9 - 855:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:856:9: macro definition=UCIRRXFL0 <US>c:macro@UCIRRXFL0<UE> <DS>UCIRRXFL0<DE> Extent=<ES>856:9 - 856:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:857:9: macro definition=UCIRRXPL <US>c:macro@UCIRRXPL<UE> <DS>UCIRRXPL<DE> Extent=<ES>857:9 - 857:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:858:9: macro definition=UCIRRXFE <US>c:macro@UCIRRXFE<UE> <DS>UCIRRXFE<DE> Extent=<ES>858:9 - 858:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:862:9: macro definition=UCDELIM1 <US>c:macro@UCDELIM1<UE> <DS>UCDELIM1<DE> Extent=<ES>862:9 - 862:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:863:9: macro definition=UCDELIM0 <US>c:macro@UCDELIM0<UE> <DS>UCDELIM0<DE> Extent=<ES>863:9 - 863:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:864:9: macro definition=UCSTOE <US>c:macro@UCSTOE<UE> <DS>UCSTOE<DE> Extent=<ES>864:9 - 864:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:865:9: macro definition=UCBTOE <US>c:macro@UCBTOE<UE> <DS>UCBTOE<DE> Extent=<ES>865:9 - 865:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:867:9: macro definition=UCABDEN <US>c:macro@UCABDEN<UE> <DS>UCABDEN<DE> Extent=<ES>867:9 - 867:35<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:869:9: macro definition=UCGCEN <US>c:macro@UCGCEN<UE> <DS>UCGCEN<DE> Extent=<ES>869:9 - 869:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:870:9: macro definition=UCOA9 <US>c:macro@UCOA9<UE> <DS>UCOA9<DE> Extent=<ES>870:9 - 870:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:871:9: macro definition=UCOA8 <US>c:macro@UCOA8<UE> <DS>UCOA8<DE> Extent=<ES>871:9 - 871:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:872:9: macro definition=UCOA7 <US>c:macro@UCOA7<UE> <DS>UCOA7<DE> Extent=<ES>872:9 - 872:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:873:9: macro definition=UCOA6 <US>c:macro@UCOA6<UE> <DS>UCOA6<DE> Extent=<ES>873:9 - 873:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:874:9: macro definition=UCOA5 <US>c:macro@UCOA5<UE> <DS>UCOA5<DE> Extent=<ES>874:9 - 874:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:875:9: macro definition=UCOA4 <US>c:macro@UCOA4<UE> <DS>UCOA4<DE> Extent=<ES>875:9 - 875:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:876:9: macro definition=UCOA3 <US>c:macro@UCOA3<UE> <DS>UCOA3<DE> Extent=<ES>876:9 - 876:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:877:9: macro definition=UCOA2 <US>c:macro@UCOA2<UE> <DS>UCOA2<DE> Extent=<ES>877:9 - 877:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:878:9: macro definition=UCOA1 <US>c:macro@UCOA1<UE> <DS>UCOA1<DE> Extent=<ES>878:9 - 878:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:879:9: macro definition=UCOA0 <US>c:macro@UCOA0<UE> <DS>UCOA0<DE> Extent=<ES>879:9 - 879:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:881:9: macro definition=UCSA9 <US>c:macro@UCSA9<UE> <DS>UCSA9<DE> Extent=<ES>881:9 - 881:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:882:9: macro definition=UCSA8 <US>c:macro@UCSA8<UE> <DS>UCSA8<DE> Extent=<ES>882:9 - 882:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:883:9: macro definition=UCSA7 <US>c:macro@UCSA7<UE> <DS>UCSA7<DE> Extent=<ES>883:9 - 883:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:884:9: macro definition=UCSA6 <US>c:macro@UCSA6<UE> <DS>UCSA6<DE> Extent=<ES>884:9 - 884:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:885:9: macro definition=UCSA5 <US>c:macro@UCSA5<UE> <DS>UCSA5<DE> Extent=<ES>885:9 - 885:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:886:9: macro definition=UCSA4 <US>c:macro@UCSA4<UE> <DS>UCSA4<DE> Extent=<ES>886:9 - 886:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:887:9: macro definition=UCSA3 <US>c:macro@UCSA3<UE> <DS>UCSA3<DE> Extent=<ES>887:9 - 887:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:888:9: macro definition=UCSA2 <US>c:macro@UCSA2<UE> <DS>UCSA2<DE> Extent=<ES>888:9 - 888:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:889:9: macro definition=UCSA1 <US>c:macro@UCSA1<UE> <DS>UCSA1<DE> Extent=<ES>889:9 - 889:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:890:9: macro definition=UCSA0 <US>c:macro@UCSA0<UE> <DS>UCSA0<DE> Extent=<ES>890:9 - 890:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:895:9: macro definition=__MSP430_HAS_WDT__ <US>c:macro@__MSP430_HAS_WDT__<UE> <DS>__MSP430_HAS_WDT__<DE> Extent=<ES>895:9 - 895:27<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:897:9: macro definition=WDTCTL_ <US>c:macro@WDTCTL_<UE> <DS>WDTCTL_<DE> Extent=<ES>897:9 - 897:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:898:1: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>898:1 - 898:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:898:29: macro expansion=WDTCTL_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:897:9 <US>c:macro@WDTCTL_<UE> <DS>WDTCTL_<DE> Extent=<ES>898:29 - 898:36<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:900:9: macro definition=WDTIS0 <US>c:macro@WDTIS0<UE> <DS>WDTIS0<DE> Extent=<ES>900:9 - 900:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:901:9: macro definition=WDTIS1 <US>c:macro@WDTIS1<UE> <DS>WDTIS1<DE> Extent=<ES>901:9 - 901:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:902:9: macro definition=WDTSSEL <US>c:macro@WDTSSEL<UE> <DS>WDTSSEL<DE> Extent=<ES>902:9 - 902:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:903:9: macro definition=WDTCNTCL <US>c:macro@WDTCNTCL<UE> <DS>WDTCNTCL<DE> Extent=<ES>903:9 - 903:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:904:9: macro definition=WDTTMSEL <US>c:macro@WDTTMSEL<UE> <DS>WDTTMSEL<DE> Extent=<ES>904:9 - 904:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:905:9: macro definition=WDTNMI <US>c:macro@WDTNMI<UE> <DS>WDTNMI<DE> Extent=<ES>905:9 - 905:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:906:9: macro definition=WDTNMIES <US>c:macro@WDTNMIES<UE> <DS>WDTNMIES<DE> Extent=<ES>906:9 - 906:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:907:9: macro definition=WDTHOLD <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>907:9 - 907:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:909:9: macro definition=WDTPW <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>909:9 - 909:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:913:9: macro definition=WDT_MDLY_32 <US>c:macro@WDT_MDLY_32<UE> <DS>WDT_MDLY_32<DE> Extent=<ES>913:9 - 913:54<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:914:9: macro definition=WDT_MDLY_8 <US>c:macro@WDT_MDLY_8<UE> <DS>WDT_MDLY_8<DE> Extent=<ES>914:9 - 914:61<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:915:9: macro definition=WDT_MDLY_0_5 <US>c:macro@WDT_MDLY_0_5<UE> <DS>WDT_MDLY_0_5<DE> Extent=<ES>915:9 - 915:61<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:916:9: macro definition=WDT_MDLY_0_064 <US>c:macro@WDT_MDLY_0_064<UE> <DS>WDT_MDLY_0_064<DE> Extent=<ES>916:9 - 916:68<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:918:9: macro definition=WDT_ADLY_1000 <US>c:macro@WDT_ADLY_1000<UE> <DS>WDT_ADLY_1000<DE> Extent=<ES>918:9 - 918:62<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:919:9: macro definition=WDT_ADLY_250 <US>c:macro@WDT_ADLY_250<UE> <DS>WDT_ADLY_250<DE> Extent=<ES>919:9 - 919:69<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:920:9: macro definition=WDT_ADLY_16 <US>c:macro@WDT_ADLY_16<UE> <DS>WDT_ADLY_16<DE> Extent=<ES>920:9 - 920:69<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:921:9: macro definition=WDT_ADLY_1_9 <US>c:macro@WDT_ADLY_1_9<UE> <DS>WDT_ADLY_1_9<DE> Extent=<ES>921:9 - 921:76<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:924:9: macro definition=WDT_MRST_32 <US>c:macro@WDT_MRST_32<UE> <DS>WDT_MRST_32<DE> Extent=<ES>924:9 - 924:45<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:925:9: macro definition=WDT_MRST_8 <US>c:macro@WDT_MRST_8<UE> <DS>WDT_MRST_8<DE> Extent=<ES>925:9 - 925:52<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:926:9: macro definition=WDT_MRST_0_5 <US>c:macro@WDT_MRST_0_5<UE> <DS>WDT_MRST_0_5<DE> Extent=<ES>926:9 - 926:52<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:927:9: macro definition=WDT_MRST_0_064 <US>c:macro@WDT_MRST_0_064<UE> <DS>WDT_MRST_0_064<DE> Extent=<ES>927:9 - 927:59<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:929:9: macro definition=WDT_ARST_1000 <US>c:macro@WDT_ARST_1000<UE> <DS>WDT_ARST_1000<DE> Extent=<ES>929:9 - 929:53<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:930:9: macro definition=WDT_ARST_250 <US>c:macro@WDT_ARST_250<UE> <DS>WDT_ARST_250<DE> Extent=<ES>930:9 - 930:60<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:931:9: macro definition=WDT_ARST_16 <US>c:macro@WDT_ARST_16<UE> <DS>WDT_ARST_16<DE> Extent=<ES>931:9 - 931:60<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:932:9: macro definition=WDT_ARST_1_9 <US>c:macro@WDT_ARST_1_9<UE> <DS>WDT_ARST_1_9<DE> Extent=<ES>932:9 - 932:67<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:944:9: macro definition=TAG_DCO_30 <US>c:macro@TAG_DCO_30<UE> <DS>TAG_DCO_30<DE> Extent=<ES>944:9 - 944:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:945:9: macro definition=TAG_ADC10_1 <US>c:macro@TAG_ADC10_1<UE> <DS>TAG_ADC10_1<DE> Extent=<ES>945:9 - 945:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:946:9: macro definition=TAG_EMPTY <US>c:macro@TAG_EMPTY<UE> <DS>TAG_EMPTY<DE> Extent=<ES>946:9 - 946:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:949:9: macro definition=TLV_CHECKSUM_ <US>c:macro@TLV_CHECKSUM_<UE> <DS>TLV_CHECKSUM_<DE> Extent=<ES>949:9 - 949:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:950:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>950:1 - 950:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:950:11: macro expansion=DEFW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:38:9 <US>c:macro@DEFW<UE> <DS>DEFW<DE> Extent=<ES>950:11 - 950:51<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:950:37: macro expansion=TLV_CHECKSUM_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:949:9 <US>c:macro@TLV_CHECKSUM_<UE> <DS>TLV_CHECKSUM_<DE> Extent=<ES>950:37 - 950:50<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:951:9: macro definition=TLV_DCO_30_TAG_ <US>c:macro@TLV_DCO_30_TAG_<UE> <DS>TLV_DCO_30_TAG_<DE> Extent=<ES>951:9 - 951:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:952:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>952:1 - 952:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:952:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>952:11 - 952:53<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:952:37: macro expansion=TLV_DCO_30_TAG_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:951:9 <US>c:macro@TLV_DCO_30_TAG_<UE> <DS>TLV_DCO_30_TAG_<DE> Extent=<ES>952:37 - 952:52<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:953:9: macro definition=TLV_DCO_30_LEN_ <US>c:macro@TLV_DCO_30_LEN_<UE> <DS>TLV_DCO_30_LEN_<DE> Extent=<ES>953:9 - 953:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:954:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>954:1 - 954:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:954:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>954:11 - 954:53<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:954:37: macro expansion=TLV_DCO_30_LEN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:953:9 <US>c:macro@TLV_DCO_30_LEN_<UE> <DS>TLV_DCO_30_LEN_<DE> Extent=<ES>954:37 - 954:52<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:955:9: macro definition=TLV_ADC10_1_TAG_ <US>c:macro@TLV_ADC10_1_TAG_<UE> <DS>TLV_ADC10_1_TAG_<DE> Extent=<ES>955:9 - 955:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:956:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>956:1 - 956:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:956:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>956:11 - 956:54<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:956:37: macro expansion=TLV_ADC10_1_TAG_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:955:9 <US>c:macro@TLV_ADC10_1_TAG_<UE> <DS>TLV_ADC10_1_TAG_<DE> Extent=<ES>956:37 - 956:53<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:957:9: macro definition=TLV_ADC10_1_LEN_ <US>c:macro@TLV_ADC10_1_LEN_<UE> <DS>TLV_ADC10_1_LEN_<DE> Extent=<ES>957:9 - 957:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:958:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>958:1 - 958:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:958:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>958:11 - 958:54<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:958:37: macro expansion=TLV_ADC10_1_LEN_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:957:9 <US>c:macro@TLV_ADC10_1_LEN_<UE> <DS>TLV_ADC10_1_LEN_<DE> Extent=<ES>958:37 - 958:53<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:961:9: macro definition=CAL_ADC_25T85 <US>c:macro@CAL_ADC_25T85<UE> <DS>CAL_ADC_25T85<DE> Extent=<ES>961:9 - 961:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:962:9: macro definition=CAL_ADC_25T30 <US>c:macro@CAL_ADC_25T30<UE> <DS>CAL_ADC_25T30<DE> Extent=<ES>962:9 - 962:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:963:9: macro definition=CAL_ADC_25VREF_FACTOR <US>c:macro@CAL_ADC_25VREF_FACTOR<UE> <DS>CAL_ADC_25VREF_FACTOR<DE> Extent=<ES>963:9 - 963:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:964:9: macro definition=CAL_ADC_15T85 <US>c:macro@CAL_ADC_15T85<UE> <DS>CAL_ADC_15T85<DE> Extent=<ES>964:9 - 964:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:965:9: macro definition=CAL_ADC_15T30 <US>c:macro@CAL_ADC_15T30<UE> <DS>CAL_ADC_15T30<DE> Extent=<ES>965:9 - 965:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:966:9: macro definition=CAL_ADC_15VREF_FACTOR <US>c:macro@CAL_ADC_15VREF_FACTOR<UE> <DS>CAL_ADC_15VREF_FACTOR<DE> Extent=<ES>966:9 - 966:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:967:9: macro definition=CAL_ADC_OFFSET <US>c:macro@CAL_ADC_OFFSET<UE> <DS>CAL_ADC_OFFSET<DE> Extent=<ES>967:9 - 967:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:968:9: macro definition=CAL_ADC_GAIN_FACTOR <US>c:macro@CAL_ADC_GAIN_FACTOR<UE> <DS>CAL_ADC_GAIN_FACTOR<DE> Extent=<ES>968:9 - 968:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:970:9: macro definition=CAL_DCO_16MHZ <US>c:macro@CAL_DCO_16MHZ<UE> <DS>CAL_DCO_16MHZ<DE> Extent=<ES>970:9 - 970:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:971:9: macro definition=CAL_BC1_16MHZ <US>c:macro@CAL_BC1_16MHZ<UE> <DS>CAL_BC1_16MHZ<DE> Extent=<ES>971:9 - 971:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:972:9: macro definition=CAL_DCO_12MHZ <US>c:macro@CAL_DCO_12MHZ<UE> <DS>CAL_DCO_12MHZ<DE> Extent=<ES>972:9 - 972:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:973:9: macro definition=CAL_BC1_12MHZ <US>c:macro@CAL_BC1_12MHZ<UE> <DS>CAL_BC1_12MHZ<DE> Extent=<ES>973:9 - 973:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:974:9: macro definition=CAL_DCO_8MHZ <US>c:macro@CAL_DCO_8MHZ<UE> <DS>CAL_DCO_8MHZ<DE> Extent=<ES>974:9 - 974:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:975:9: macro definition=CAL_BC1_8MHZ <US>c:macro@CAL_BC1_8MHZ<UE> <DS>CAL_BC1_8MHZ<DE> Extent=<ES>975:9 - 975:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:976:9: macro definition=CAL_DCO_1MHZ <US>c:macro@CAL_DCO_1MHZ<UE> <DS>CAL_DCO_1MHZ<DE> Extent=<ES>976:9 - 976:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:977:9: macro definition=CAL_BC1_1MHZ <US>c:macro@CAL_BC1_1MHZ<UE> <DS>CAL_BC1_1MHZ<DE> Extent=<ES>977:9 - 977:41<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:986:9: macro definition=CALDCO_16MHZ_ <US>c:macro@CALDCO_16MHZ_<UE> <DS>CALDCO_16MHZ_<DE> Extent=<ES>986:9 - 986:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:987:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>987:1 - 987:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:987:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>987:11 - 987:50<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:987:36: macro expansion=CALDCO_16MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:986:9 <US>c:macro@CALDCO_16MHZ_<UE> <DS>CALDCO_16MHZ_<DE> Extent=<ES>987:36 - 987:49<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:988:9: macro definition=CALBC1_16MHZ_ <US>c:macro@CALBC1_16MHZ_<UE> <DS>CALBC1_16MHZ_<DE> Extent=<ES>988:9 - 988:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:989:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>989:1 - 989:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:989:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>989:11 - 989:50<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:989:36: macro expansion=CALBC1_16MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:988:9 <US>c:macro@CALBC1_16MHZ_<UE> <DS>CALBC1_16MHZ_<DE> Extent=<ES>989:36 - 989:49<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:990:9: macro definition=CALDCO_12MHZ_ <US>c:macro@CALDCO_12MHZ_<UE> <DS>CALDCO_12MHZ_<DE> Extent=<ES>990:9 - 990:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:991:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>991:1 - 991:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:991:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>991:11 - 991:50<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:991:36: macro expansion=CALDCO_12MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:990:9 <US>c:macro@CALDCO_12MHZ_<UE> <DS>CALDCO_12MHZ_<DE> Extent=<ES>991:36 - 991:49<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:992:9: macro definition=CALBC1_12MHZ_ <US>c:macro@CALBC1_12MHZ_<UE> <DS>CALBC1_12MHZ_<DE> Extent=<ES>992:9 - 992:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:993:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>993:1 - 993:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:993:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>993:11 - 993:50<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:993:36: macro expansion=CALBC1_12MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:992:9 <US>c:macro@CALBC1_12MHZ_<UE> <DS>CALBC1_12MHZ_<DE> Extent=<ES>993:36 - 993:49<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:994:9: macro definition=CALDCO_8MHZ_ <US>c:macro@CALDCO_8MHZ_<UE> <DS>CALDCO_8MHZ_<DE> Extent=<ES>994:9 - 994:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:995:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>995:1 - 995:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:995:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>995:11 - 995:49<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:995:36: macro expansion=CALDCO_8MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:994:9 <US>c:macro@CALDCO_8MHZ_<UE> <DS>CALDCO_8MHZ_<DE> Extent=<ES>995:36 - 995:48<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:996:9: macro definition=CALBC1_8MHZ_ <US>c:macro@CALBC1_8MHZ_<UE> <DS>CALBC1_8MHZ_<DE> Extent=<ES>996:9 - 996:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:997:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>997:1 - 997:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:997:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>997:11 - 997:49<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:997:36: macro expansion=CALBC1_8MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:996:9 <US>c:macro@CALBC1_8MHZ_<UE> <DS>CALBC1_8MHZ_<DE> Extent=<ES>997:36 - 997:48<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:998:9: macro definition=CALDCO_1MHZ_ <US>c:macro@CALDCO_1MHZ_<UE> <DS>CALDCO_1MHZ_<DE> Extent=<ES>998:9 - 998:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:999:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>999:1 - 999:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:999:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>999:11 - 999:49<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:999:36: macro expansion=CALDCO_1MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:998:9 <US>c:macro@CALDCO_1MHZ_<UE> <DS>CALDCO_1MHZ_<DE> Extent=<ES>999:36 - 999:48<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1000:9: macro definition=CALBC1_1MHZ_ <US>c:macro@CALBC1_1MHZ_<UE> <DS>CALBC1_1MHZ_<DE> Extent=<ES>1000:9 - 1000:40<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1001:1: macro expansion=READ_ONLY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:54:9 <US>c:macro@READ_ONLY<UE> <DS>READ_ONLY<DE> Extent=<ES>1001:1 - 1001:10<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1001:11: macro expansion=DEFC|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:37:9 <US>c:macro@DEFC<UE> <DS>DEFC<DE> Extent=<ES>1001:11 - 1001:49<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1001:36: macro expansion=CALBC1_1MHZ_|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1000:9 <US>c:macro@CALBC1_1MHZ_<UE> <DS>CALBC1_1MHZ_<DE> Extent=<ES>1001:36 - 1001:48<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1009:9: macro definition=PORT1_VECTOR <US>c:macro@PORT1_VECTOR<UE> <DS>PORT1_VECTOR<DE> Extent=<ES>1009:9 - 1009:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1010:9: macro definition=PORT2_VECTOR <US>c:macro@PORT2_VECTOR<UE> <DS>PORT2_VECTOR<DE> Extent=<ES>1010:9 - 1010:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1011:9: macro definition=ADC10_VECTOR <US>c:macro@ADC10_VECTOR<UE> <DS>ADC10_VECTOR<DE> Extent=<ES>1011:9 - 1011:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1012:9: macro definition=USCIAB0TX_VECTOR <US>c:macro@USCIAB0TX_VECTOR<UE> <DS>USCIAB0TX_VECTOR<DE> Extent=<ES>1012:9 - 1012:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1013:9: macro definition=USCIAB0RX_VECTOR <US>c:macro@USCIAB0RX_VECTOR<UE> <DS>USCIAB0RX_VECTOR<DE> Extent=<ES>1013:9 - 1013:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1014:9: macro definition=TIMER0_A1_VECTOR <US>c:macro@TIMER0_A1_VECTOR<UE> <DS>TIMER0_A1_VECTOR<DE> Extent=<ES>1014:9 - 1014:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1015:9: macro definition=TIMER0_A0_VECTOR <US>c:macro@TIMER0_A0_VECTOR<UE> <DS>TIMER0_A0_VECTOR<DE> Extent=<ES>1015:9 - 1015:37<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1016:9: macro definition=WDT_VECTOR <US>c:macro@WDT_VECTOR<UE> <DS>WDT_VECTOR<DE> Extent=<ES>1016:9 - 1016:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1017:9: macro definition=COMPARATORA_VECTOR <US>c:macro@COMPARATORA_VECTOR<UE> <DS>COMPARATORA_VECTOR<DE> Extent=<ES>1017:9 - 1017:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1018:9: macro definition=TIMER1_A1_VECTOR <US>c:macro@TIMER1_A1_VECTOR<UE> <DS>TIMER1_A1_VECTOR<DE> Extent=<ES>1018:9 - 1018:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1019:9: macro definition=TIMER1_A0_VECTOR <US>c:macro@TIMER1_A0_VECTOR<UE> <DS>TIMER1_A0_VECTOR<DE> Extent=<ES>1019:9 - 1019:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1020:9: macro definition=NMI_VECTOR <US>c:macro@NMI_VECTOR<UE> <DS>NMI_VECTOR<DE> Extent=<ES>1020:9 - 1020:38<EE>
+<L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:1021:9: macro definition=RESET_VECTOR <US>c:macro@RESET_VECTOR<UE> <DS>RESET_VECTOR<DE> Extent=<ES>1021:9 - 1021:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:7:1: inclusion directive=stdbool.h <US><UE> <DS><DE> <IS>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h<IE>  [multi-include guarded] Extent=<ES>7:1 - 7:11<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:7:9: macro definition=_STDBOOL <US>c:macro@_STDBOOL<UE> <DS>_STDBOOL<DE> Extent=<ES>7:9 - 7:17<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:20:9: macro definition=bool <US>c:macro@bool<UE> <DS>bool<DE> Extent=<ES>20:9 - 20:19<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:21:9: macro definition=true <US>c:macro@true<UE> <DS>true<DE> Extent=<ES>21:9 - 21:15<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:22:9: macro definition=false <US>c:macro@false<UE> <DS>false<DE> Extent=<ES>22:9 - 22:16<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:26:9: macro definition=__bool_true_false_are_defined <US>c:macro@__bool_true_false_are_defined<UE> <DS>__bool_true_false_are_defined<DE> Extent=<ES>26:9 - 26:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:5:9: macro definition=DBG0 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>5:9 - 5:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:6:9: macro definition=DBG1 <US>c:macro@DBG1<UE> <DS>DBG1<DE> Extent=<ES>6:9 - 6:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:7:9: macro definition=DBG2 <US>c:macro@DBG2<UE> <DS>DBG2<DE> Extent=<ES>7:9 - 7:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:8:9: macro definition=SENVCC <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>8:9 - 8:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:9:9: macro definition=SENSEIN <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>9:9 - 9:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:10:9: macro definition=PCCOMM <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>10:9 - 10:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:11:9: macro definition=XIN <US>c:macro@XIN<UE> <DS>XIN<DE> Extent=<ES>11:9 - 11:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:12:9: macro definition=XOUT <US>c:macro@XOUT<UE> <DS>XOUT<DE> Extent=<ES>12:9 - 12:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:13:9: macro definition=UARTRX <US>c:macro@UARTRX<UE> <DS>UARTRX<DE> Extent=<ES>13:9 - 13:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:14:9: macro definition=UARTTX <US>c:macro@UARTTX<UE> <DS>UARTTX<DE> Extent=<ES>14:9 - 14:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:15:9: macro definition=LED0 <US>c:macro@LED0<UE> <DS>LED0<DE> Extent=<ES>15:9 - 15:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:18:9: macro definition=IDLEMODE <US>c:macro@IDLEMODE<UE> <DS>IDLEMODE<DE> Extent=<ES>18:9 - 18:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:19:9: macro definition=UARTWAITMODE <US>c:macro@UARTWAITMODE<UE> <DS>UARTWAITMODE<DE> Extent=<ES>19:9 - 19:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:20:9: macro definition=UARTMODE <US>c:macro@UARTMODE<UE> <DS>UARTMODE<DE> Extent=<ES>20:9 - 20:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:21:9: macro definition=UARTDONEMODE <US>c:macro@UARTDONEMODE<UE> <DS>UARTDONEMODE<DE> Extent=<ES>21:9 - 21:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:22:9: macro definition=SENSEMODE <US>c:macro@SENSEMODE<UE> <DS>SENSEMODE<DE> Extent=<ES>22:9 - 22:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:25:9: macro definition=MAT_OPEN <US>c:macro@MAT_OPEN<UE> <DS>MAT_OPEN<DE> Extent=<ES>25:9 - 25:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:26:9: macro definition=MAT_CLOSED <US>c:macro@MAT_CLOSED<UE> <DS>MAT_CLOSED<DE> Extent=<ES>26:9 - 26:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:27:9: macro definition=MAT_UNDEF <US>c:macro@MAT_UNDEF<UE> <DS>MAT_UNDEF<DE> Extent=<ES>27:9 - 27:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:28:9: macro definition=MAT_STATE_SHIFT <US>c:macro@MAT_STATE_SHIFT<UE> <DS>MAT_STATE_SHIFT<DE> Extent=<ES>28:9 - 28:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:31:9: macro definition=ACK_VALUE <US>c:macro@ACK_VALUE<UE> <DS>ACK_VALUE<DE> Extent=<ES>31:9 - 31:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:35:9: macro definition=SENSEMODE_TIMER_PERIOD <US>c:macro@SENSEMODE_TIMER_PERIOD<UE> <DS>SENSEMODE_TIMER_PERIOD<DE> Extent=<ES>35:9 - 35:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:36:9: macro definition=UARTWAITMODE_TIMER_PERIOD <US>c:macro@UARTWAITMODE_TIMER_PERIOD<UE> <DS>UARTWAITMODE_TIMER_PERIOD<DE> Extent=<ES>36:9 - 36:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:37:9: macro definition=UARTMODE_TIMER_PERIOD <US>c:macro@UARTMODE_TIMER_PERIOD<UE> <DS>UARTMODE_TIMER_PERIOD<DE> Extent=<ES>37:9 - 37:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:38:9: macro definition=UARTDONEMODE_TIMER_PERIOD <US>c:macro@UARTDONEMODE_TIMER_PERIOD<UE> <DS>UARTDONEMODE_TIMER_PERIOD<DE> Extent=<ES>38:9 - 38:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:40:9: macro definition=UARTWAIT_PCCOMM_HIGH_CNT <US>c:macro@UARTWAIT_PCCOMM_HIGH_CNT<UE> <DS>UARTWAIT_PCCOMM_HIGH_CNT<DE> Extent=<ES>40:9 - 40:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:41:9: macro definition=UART_PCCOMM_LOW_CNT <US>c:macro@UART_PCCOMM_LOW_CNT<UE> <DS>UART_PCCOMM_LOW_CNT<DE> Extent=<ES>41:9 - 41:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:42:9: macro definition=UARTDONE_PCCOMM_LOW_CNT <US>c:macro@UARTDONE_PCCOMM_LOW_CNT<UE> <DS>UARTDONE_PCCOMM_LOW_CNT<DE> Extent=<ES>42:9 - 42:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:45:9: macro definition=TIMESTAMP_BYTES <US>c:macro@TIMESTAMP_BYTES<UE> <DS>TIMESTAMP_BYTES<DE> Extent=<ES>45:9 - 45:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:46:9: macro definition=TIMESTAMP_MASK <US>c:macro@TIMESTAMP_MASK<UE> <DS>TIMESTAMP_MASK<DE> Extent=<ES>46:9 - 46:43<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:47:9: macro definition=TIMESTAMP_BUFF_SIZE <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>47:9 - 47:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:48:9: macro definition=TIMESTAMP_STOR_SIZE <US>c:macro@TIMESTAMP_STOR_SIZE<UE> <DS>TIMESTAMP_STOR_SIZE<DE> Extent=<ES>48:9 - 48:36<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:51:9: macro definition=PCCOMMIntrOn <US>c:macro@PCCOMMIntrOn<UE> <DS>PCCOMMIntrOn<DE> Extent=<ES>51:9 - 51:72<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:52:9: macro definition=PCCOMMIntrOff <US>c:macro@PCCOMMIntrOff<UE> <DS>PCCOMMIntrOff<DE> Extent=<ES>52:9 - 52:75<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:53:9: macro definition=getNumTimestamps <US>c:macro@getNumTimestamps<UE> <DS>getNumTimestamps<DE> Extent=<ES>53:9 - 53:98<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:56:9: macro definition=ONE_DELAY <US>c:macro@ONE_DELAY<UE> <DS>ONE_DELAY<DE> Extent=<ES>56:9 - 56:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:60:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>60:1 - 60:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:61:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>61:1 - 61:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:62:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>62:1 - 62:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:87:38: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:47:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>87:38 - 87:57<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:38: macro expansion=TIMESTAMP_STOR_SIZE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:48:9 <US>c:macro@TIMESTAMP_STOR_SIZE<UE> <DS>TIMESTAMP_STOR_SIZE<DE> Extent=<ES>90:38 - 90:57<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:8: macro expansion=bool|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:20:9 <US>c:macro@bool<UE> <DS>bool<DE> Extent=<ES>98:8 - 98:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:103:12: macro expansion=WDTPW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1013:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>103:12 - 103:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:103:20: macro expansion=WDTHOLD|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:1011:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>103:20 - 103:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:133:11: macro expansion=DBG0|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:5:9 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>133:11 - 133:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:133:18: macro expansion=DBG1|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:6:9 <US>c:macro@DBG1<UE> <DS>DBG1<DE> Extent=<ES>133:18 - 133:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:133:25: macro expansion=DBG2|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:7:9 <US>c:macro@DBG2<UE> <DS>DBG2<DE> Extent=<ES>133:25 - 133:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:134:11: macro expansion=SENVCC|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:8:9 <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>134:11 - 134:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:142:29: macro expansion=DBG0|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:5:9 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>142:29 - 142:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:142:36: macro expansion=DBG1|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:6:9 <US>c:macro@DBG1<UE> <DS>DBG1<DE> Extent=<ES>142:36 - 142:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:143:29: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:10:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>143:29 - 143:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:143:38: macro expansion=SENSEIN|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:9:9 <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>143:38 - 143:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:143:48: macro expansion=SENVCC|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:8:9 <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>143:48 - 143:54<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:143:57: macro expansion=XIN|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:11:9 <US>c:macro@XIN<UE> <DS>XIN<DE> Extent=<ES>143:57 - 143:60<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:143:63: macro expansion=XOUT|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:12:9 <US>c:macro@XOUT<UE> <DS>XOUT<DE> Extent=<ES>143:63 - 143:67<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:144:29: macro expansion=UARTTX|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:14:9 <US>c:macro@UARTTX<UE> <DS>UARTTX<DE> Extent=<ES>144:29 - 144:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:144:38: macro expansion=UARTRX|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:13:9 <US>c:macro@UARTRX<UE> <DS>UARTRX<DE> Extent=<ES>144:38 - 144:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:147:12: macro expansion=XIN|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:11:9 <US>c:macro@XIN<UE> <DS>XIN<DE> Extent=<ES>147:12 - 147:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:147:18: macro expansion=XOUT|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:12:9 <US>c:macro@XOUT<UE> <DS>XOUT<DE> Extent=<ES>147:18 - 147:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:148:12: macro expansion=UARTTX|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:14:9 <US>c:macro@UARTTX<UE> <DS>UARTTX<DE> Extent=<ES>148:12 - 148:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:148:21: macro expansion=UARTRX|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:13:9 <US>c:macro@UARTRX<UE> <DS>UARTRX<DE> Extent=<ES>148:21 - 148:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:151:14: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:10:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>151:14 - 151:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:164:13: macro expansion=XT2OFF|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:316:9 <US>c:macro@XT2OFF<UE> <DS>XT2OFF<DE> Extent=<ES>164:13 - 164:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:165:13: macro expansion=SELS|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:326:9 <US>c:macro@SELS<UE> <DS>SELS<DE> Extent=<ES>165:13 - 165:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:166:13: macro expansion=LFXT1S_0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:361:9 <US>c:macro@LFXT1S_0<UE> <DS>LFXT1S_0<DE> Extent=<ES>166:13 - 166:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:166:24: macro expansion=XCAP_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:357:9 <US>c:macro@XCAP_1<UE> <DS>XCAP_1<DE> Extent=<ES>166:24 - 166:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:171:18: macro expansion=XT2OF|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:348:9 <US>c:macro@XT2OF<UE> <DS>XT2OF<DE> Extent=<ES>171:18 - 171:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:171:26: macro expansion=LFXT1OF|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:347:9 <US>c:macro@LFXT1OF<UE> <DS>LFXT1OF<DE> Extent=<ES>171:26 - 171:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:172:14: macro expansion=OFIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:145:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>172:14 - 172:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:174:19: macro expansion=OFIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:145:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>174:19 - 174:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:177:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>177:11 - 177:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:177:19: macro expansion=FSSEL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:407:9 <US>c:macro@FSSEL0<UE> <DS>FSSEL0<DE> Extent=<ES>177:19 - 177:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:177:28: macro expansion=FN1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:396:9 <US>c:macro@FN1<UE> <DS>FN1<DE> Extent=<ES>177:28 - 177:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:186:10: macro expansion=true|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:21:9 <US>c:macro@true<UE> <DS>true<DE> Extent=<ES>186:10 - 186:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:187:19: macro expansion=IDLEMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:18:9 <US>c:macro@IDLEMODE<UE> <DS>IDLEMODE<DE> Extent=<ES>187:19 - 187:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: macro expansion=__low_power_mode_4|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:190:9 <US>c:macro@__low_power_mode_4<UE> <DS>__low_power_mode_4<DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: macro expansion=__low_power_mode_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:184:9 <US>c:macro@__low_power_mode_3<UE> <DS>__low_power_mode_3<DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>196:1 - 196:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:198:15: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:10:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>198:15 - 198:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:199:5: macro expansion=PCCOMMIntrOff|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:52:9 <US>c:macro@PCCOMMIntrOff<UE> <DS>PCCOMMIntrOff<DE> Extent=<ES>199:5 - 199:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:201:5: macro expansion=__low_power_mode_off_on_exit|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:197:9 <US>c:macro@__low_power_mode_off_on_exit<UE> <DS>__low_power_mode_off_on_exit<DE> Extent=<ES>201:5 - 201:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:206:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>206:1 - 206:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:210:8: macro expansion=UARTWAITMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:19:9 <US>c:macro@UARTWAITMODE<UE> <DS>UARTWAITMODE<DE> Extent=<ES>210:8 - 210:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:212:16: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:10:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>212:16 - 212:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:213:32: macro expansion=UARTWAIT_PCCOMM_HIGH_CNT|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:40:9 <US>c:macro@UARTWAIT_PCCOMM_HIGH_CNT<UE> <DS>UARTWAIT_PCCOMM_HIGH_CNT<DE> Extent=<ES>213:32 - 213:56<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:221:8: macro expansion=UARTMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:20:9 <US>c:macro@UARTMODE<UE> <DS>UARTMODE<DE> Extent=<ES>221:8 - 221:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:223:18: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:10:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>223:18 - 223:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:224:32: macro expansion=UART_PCCOMM_LOW_CNT|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:41:9 <US>c:macro@UART_PCCOMM_LOW_CNT<UE> <DS>UART_PCCOMM_LOW_CNT<DE> Extent=<ES>224:32 - 224:51<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:233:8: macro expansion=UARTDONEMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:21:9 <US>c:macro@UARTDONEMODE<UE> <DS>UARTDONEMODE<DE> Extent=<ES>233:8 - 233:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:238:18: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:10:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>238:18 - 238:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:239:32: macro expansion=UARTDONE_PCCOMM_LOW_CNT|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:42:9 <US>c:macro@UARTDONE_PCCOMM_LOW_CNT<UE> <DS>UARTDONE_PCCOMM_LOW_CNT<DE> Extent=<ES>239:32 - 239:55<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:242:9: macro expansion=__low_power_mode_off_on_exit|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:197:9 <US>c:macro@__low_power_mode_off_on_exit<UE> <DS>__low_power_mode_off_on_exit<DE> Extent=<ES>242:9 - 242:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:248:8: macro expansion=SENSEMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:22:9 <US>c:macro@SENSEMODE<UE> <DS>SENSEMODE<DE> Extent=<ES>248:8 - 248:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:252:14: macro expansion=SENVCC|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:8:9 <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>252:14 - 252:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:253:25: macro expansion=MAT_OPEN|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:25:9 <US>c:macro@MAT_OPEN<UE> <DS>MAT_OPEN<DE> Extent=<ES>253:25 - 253:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:253:45: macro expansion=SENSEIN|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:9:9 <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>253:45 - 253:52<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:254:19: macro expansion=MAT_OPEN|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:25:9 <US>c:macro@MAT_OPEN<UE> <DS>MAT_OPEN<DE> Extent=<ES>254:19 - 254:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:255:31: macro expansion=MAT_CLOSED|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:26:9 <US>c:macro@MAT_CLOSED<UE> <DS>MAT_CLOSED<DE> Extent=<ES>255:31 - 255:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:255:54: macro expansion=SENSEIN|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:9:9 <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>255:54 - 255:61<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:256:19: macro expansion=MAT_CLOSED|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:26:9 <US>c:macro@MAT_CLOSED<UE> <DS>MAT_CLOSED<DE> Extent=<ES>256:19 - 256:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:258:15: macro expansion=SENVCC|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:8:9 <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>258:15 - 258:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:267:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>267:1 - 267:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:275:26: macro expansion=TIMESTAMP_BYTES|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:45:9 <US>c:macro@TIMESTAMP_BYTES<UE> <DS>TIMESTAMP_BYTES<DE> Extent=<ES>275:26 - 275:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:278:26: macro expansion=false|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:22:9 <US>c:macro@false<UE> <DS>false<DE> Extent=<ES>278:26 - 278:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:287:26: macro expansion=true|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:21:9 <US>c:macro@true<UE> <DS>true<DE> Extent=<ES>287:26 - 287:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:288:20: macro expansion=ACK_VALUE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:31:9 <US>c:macro@ACK_VALUE<UE> <DS>ACK_VALUE<DE> Extent=<ES>288:20 - 288:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:301:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>301:7 - 301:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:303:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>303:7 - 303:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:303:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>303:15 - 303:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:304:20: macro expansion=ACK_VALUE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:31:9 <US>c:macro@ACK_VALUE<UE> <DS>ACK_VALUE<DE> Extent=<ES>304:20 - 304:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:309:17: macro expansion=getNumTimestamps|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:53:9 <US>c:macro@getNumTimestamps<UE> <DS>getNumTimestamps<DE> Extent=<ES>309:17 - 309:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:315:26: macro expansion=getNumTimestamps|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:53:9 <US>c:macro@getNumTimestamps<UE> <DS>getNumTimestamps<DE> Extent=<ES>315:26 - 315:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:331:3: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>331:3 - 331:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:334:18: macro expansion=UARTWAITMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:19:9 <US>c:macro@UARTWAITMODE<UE> <DS>UARTWAITMODE<DE> Extent=<ES>334:18 - 334:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:335:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:583:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>335:7 - 335:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:335:14: macro expansion=UARTWAITMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:36:9 <US>c:macro@UARTWAITMODE_TIMER_PERIOD<UE> <DS>UARTWAITMODE_TIMER_PERIOD<DE> Extent=<ES>335:14 - 335:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:336:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>336:7 - 336:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:336:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>336:15 - 336:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:337:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:633:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>337:15 - 337:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:337:26: macro expansion=ID_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:631:9 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>337:26 - 337:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:337:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:620:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>337:33 - 337:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:25: macro expansion=UARTMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:20:9 <US>c:macro@UARTMODE<UE> <DS>UARTMODE<DE> Extent=<ES>338:25 - 338:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:339:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:583:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>339:7 - 339:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:339:14: macro expansion=UARTMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:37:9 <US>c:macro@UARTMODE_TIMER_PERIOD<UE> <DS>UARTMODE_TIMER_PERIOD<DE> Extent=<ES>339:14 - 339:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:340:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>340:7 - 340:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:340:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>340:15 - 340:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:341:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:633:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>341:15 - 341:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:341:26: macro expansion=ID_0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:628:9 <US>c:macro@ID_0<UE> <DS>ID_0<DE> Extent=<ES>341:26 - 341:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:341:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:620:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>341:33 - 341:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:25: macro expansion=UARTDONEMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:21:9 <US>c:macro@UARTDONEMODE<UE> <DS>UARTDONEMODE<DE> Extent=<ES>342:25 - 342:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:343:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:583:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>343:7 - 343:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:343:14: macro expansion=UARTDONEMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:38:9 <US>c:macro@UARTDONEMODE_TIMER_PERIOD<UE> <DS>UARTDONEMODE_TIMER_PERIOD<DE> Extent=<ES>343:14 - 343:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:344:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>344:7 - 344:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:344:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>344:15 - 344:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:345:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:633:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>345:15 - 345:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:345:26: macro expansion=ID_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:631:9 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>345:26 - 345:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:345:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:620:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>345:33 - 345:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:347:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:583:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>347:7 - 347:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:347:14: macro expansion=SENSEMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:35:9 <US>c:macro@SENSEMODE_TIMER_PERIOD<UE> <DS>SENSEMODE_TIMER_PERIOD<DE> Extent=<ES>347:14 - 347:36<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:348:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>348:7 - 348:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:348:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:647:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>348:15 - 348:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:349:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:633:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>349:15 - 349:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:349:26: macro expansion=ID_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:631:9 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>349:26 - 349:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:349:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:620:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>349:33 - 349:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:351:12: macro expansion=MC_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:625:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>351:12 - 351:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:356:11: macro expansion=UARTWAITMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:19:9 <US>c:macro@UARTWAITMODE<UE> <DS>UARTWAITMODE<DE> Extent=<ES>356:11 - 356:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:364:11: macro expansion=UARTMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:20:9 <US>c:macro@UARTMODE<UE> <DS>UARTMODE<DE> Extent=<ES>364:11 - 364:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:365:23: macro expansion=false|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:22:9 <US>c:macro@false<UE> <DS>false<DE> Extent=<ES>365:23 - 365:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:368:4: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>368:4 - 368:9<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:370:13: macro expansion=LED0|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:15:9 <US>c:macro@LED0<UE> <DS>LED0<DE> Extent=<ES>370:13 - 370:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:375:12: macro expansion=UARTDONEMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:21:9 <US>c:macro@UARTDONEMODE<UE> <DS>UARTDONEMODE<DE> Extent=<ES>375:12 - 375:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:378:15: macro expansion=LED0|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:15:9 <US>c:macro@LED0<UE> <DS>LED0<DE> Extent=<ES>378:15 - 378:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:385:13: macro expansion=IDLEMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:18:9 <US>c:macro@IDLEMODE<UE> <DS>IDLEMODE<DE> Extent=<ES>385:13 - 385:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:386:6: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:580:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>386:6 - 386:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:388:6: macro expansion=PCCOMMIntrOn|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:51:9 <US>c:macro@PCCOMMIntrOn<UE> <DS>PCCOMMIntrOn<DE> Extent=<ES>388:6 - 388:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:390:13: macro expansion=SENSEMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:22:9 <US>c:macro@SENSEMODE<UE> <DS>SENSEMODE<DE> Extent=<ES>390:13 - 390:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:391:21: macro expansion=MAT_UNDEF|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:27:9 <US>c:macro@MAT_UNDEF<UE> <DS>MAT_UNDEF<DE> Extent=<ES>391:21 - 391:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:392:6: macro expansion=PCCOMMIntrOn|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:51:9 <US>c:macro@PCCOMMIntrOn<UE> <DS>PCCOMMIntrOn<DE> Extent=<ES>392:6 - 392:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:418:17: macro expansion=UCA0TXIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:162:9 <US>c:macro@UCA0TXIFG<UE> <DS>UCA0TXIFG<DE> Extent=<ES>418:17 - 418:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:425:15: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:864:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>425:15 - 425:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:426:15: macro expansion=UCSSEL_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:881:9 <US>c:macro@UCSSEL_2<UE> <DS>UCSSEL_2<DE> Extent=<ES>426:15 - 426:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:429:14: macro expansion=UCBRS0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:890:9 <US>c:macro@UCBRS0<UE> <DS>UCBRS0<DE> Extent=<ES>429:14 - 429:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:429:23: macro expansion=UCBRS1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:889:9 <US>c:macro@UCBRS1<UE> <DS>UCBRS1<DE> Extent=<ES>429:23 - 429:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:430:16: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:864:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>430:16 - 430:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:431:10: macro expansion=UCA0RXIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:153:9 <US>c:macro@UCA0RXIE<UE> <DS>UCA0RXIE<DE> Extent=<ES>431:10 - 431:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:437:14: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:864:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>437:14 - 437:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:443:27: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:47:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>443:27 - 443:46<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:444:23: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:47:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>444:23 - 444:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:444:47: macro expansion=TIMESTAMP_STOR_SIZE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:48:9 <US>c:macro@TIMESTAMP_STOR_SIZE<UE> <DS>TIMESTAMP_STOR_SIZE<DE> Extent=<ES>444:47 - 444:66<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:448:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>448:13 - 448:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:448:21: macro expansion=WRT|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:391:9 <US>c:macro@WRT<UE> <DS>WRT<DE> Extent=<ES>448:21 - 448:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:449:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>449:13 - 449:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:449:21: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:421:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>449:21 - 449:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:21: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:47:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>451:21 - 451:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:454:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>454:13 - 454:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:455:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>455:13 - 455:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:455:21: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:421:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>455:21 - 455:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:455:29: macro expansion=LOCK|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:419:9 <US>c:macro@LOCK<UE> <DS>LOCK<DE> Extent=<ES>455:29 - 455:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:461:25: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:47:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>461:25 - 461:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:72: macro expansion=MAT_STATE_SHIFT|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:28:9 <US>c:macro@MAT_STATE_SHIFT<UE> <DS>MAT_STATE_SHIFT<DE> Extent=<ES>463:72 - 463:87<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:107: macro expansion=TIMESTAMP_MASK|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:46:9 <US>c:macro@TIMESTAMP_MASK<UE> <DS>TIMESTAMP_MASK<DE> Extent=<ES>463:107 - 463:121<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:475:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>475:11 - 475:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:475:19: macro expansion=ERASE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:387:9 <US>c:macro@ERASE<UE> <DS>ERASE<DE> Extent=<ES>475:19 - 475:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:476:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>476:11 - 476:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:476:19: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:421:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>476:19 - 476:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:478:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>478:11 - 478:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:479:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:384:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>479:11 - 479:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:479:19: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:421:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>479:19 - 479:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:479:27: macro expansion=LOCK|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2274.h:419:9 <US>c:macro@LOCK<UE> <DS>LOCK<DE> Extent=<ES>479:27 - 479:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:10:9: macro definition=DBG0 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>10:9 - 10:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:11:9: macro definition=DBG1 <US>c:macro@DBG1<UE> <DS>DBG1<DE> Extent=<ES>11:9 - 11:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:12:9: macro definition=DBG2 <US>c:macro@DBG2<UE> <DS>DBG2<DE> Extent=<ES>12:9 - 12:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:13:9: macro definition=SENVCC <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>13:9 - 13:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:14:9: macro definition=SENSEIN <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>14:9 - 14:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:15:9: macro definition=PCCOMM <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>15:9 - 15:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:16:9: macro definition=XIN <US>c:macro@XIN<UE> <DS>XIN<DE> Extent=<ES>16:9 - 16:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:17:9: macro definition=XOUT <US>c:macro@XOUT<UE> <DS>XOUT<DE> Extent=<ES>17:9 - 17:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:18:9: macro definition=UARTRX <US>c:macro@UARTRX<UE> <DS>UARTRX<DE> Extent=<ES>18:9 - 18:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:19:9: macro definition=UARTTX <US>c:macro@UARTTX<UE> <DS>UARTTX<DE> Extent=<ES>19:9 - 19:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:20:9: macro definition=LED0 <US>c:macro@LED0<UE> <DS>LED0<DE> Extent=<ES>20:9 - 20:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:23:9: macro definition=IDLEMODE <US>c:macro@IDLEMODE<UE> <DS>IDLEMODE<DE> Extent=<ES>23:9 - 23:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:24:9: macro definition=UARTWAITMODE <US>c:macro@UARTWAITMODE<UE> <DS>UARTWAITMODE<DE> Extent=<ES>24:9 - 24:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:25:9: macro definition=UARTMODE <US>c:macro@UARTMODE<UE> <DS>UARTMODE<DE> Extent=<ES>25:9 - 25:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:26:9: macro definition=UARTDONEMODE <US>c:macro@UARTDONEMODE<UE> <DS>UARTDONEMODE<DE> Extent=<ES>26:9 - 26:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:27:9: macro definition=SENSEMODE <US>c:macro@SENSEMODE<UE> <DS>SENSEMODE<DE> Extent=<ES>27:9 - 27:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:30:9: macro definition=MAT_OPEN <US>c:macro@MAT_OPEN<UE> <DS>MAT_OPEN<DE> Extent=<ES>30:9 - 30:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:31:9: macro definition=MAT_CLOSED <US>c:macro@MAT_CLOSED<UE> <DS>MAT_CLOSED<DE> Extent=<ES>31:9 - 31:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:32:9: macro definition=MAT_UNDEF <US>c:macro@MAT_UNDEF<UE> <DS>MAT_UNDEF<DE> Extent=<ES>32:9 - 32:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:33:9: macro definition=MAT_STATE_SHIFT <US>c:macro@MAT_STATE_SHIFT<UE> <DS>MAT_STATE_SHIFT<DE> Extent=<ES>33:9 - 33:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:36:9: macro definition=ACK_VALUE <US>c:macro@ACK_VALUE<UE> <DS>ACK_VALUE<DE> Extent=<ES>36:9 - 36:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:40:9: macro definition=SENSEMODE_TIMER_PERIOD <US>c:macro@SENSEMODE_TIMER_PERIOD<UE> <DS>SENSEMODE_TIMER_PERIOD<DE> Extent=<ES>40:9 - 40:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:41:9: macro definition=UARTWAITMODE_TIMER_PERIOD <US>c:macro@UARTWAITMODE_TIMER_PERIOD<UE> <DS>UARTWAITMODE_TIMER_PERIOD<DE> Extent=<ES>41:9 - 41:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:42:9: macro definition=UARTMODE_TIMER_PERIOD <US>c:macro@UARTMODE_TIMER_PERIOD<UE> <DS>UARTMODE_TIMER_PERIOD<DE> Extent=<ES>42:9 - 42:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:43:9: macro definition=UARTDONEMODE_TIMER_PERIOD <US>c:macro@UARTDONEMODE_TIMER_PERIOD<UE> <DS>UARTDONEMODE_TIMER_PERIOD<DE> Extent=<ES>43:9 - 43:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:45:9: macro definition=UARTWAIT_PCCOMM_HIGH_CNT <US>c:macro@UARTWAIT_PCCOMM_HIGH_CNT<UE> <DS>UARTWAIT_PCCOMM_HIGH_CNT<DE> Extent=<ES>45:9 - 45:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:46:9: macro definition=UART_PCCOMM_LOW_CNT <US>c:macro@UART_PCCOMM_LOW_CNT<UE> <DS>UART_PCCOMM_LOW_CNT<DE> Extent=<ES>46:9 - 46:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:47:9: macro definition=UARTDONE_PCCOMM_LOW_CNT <US>c:macro@UARTDONE_PCCOMM_LOW_CNT<UE> <DS>UARTDONE_PCCOMM_LOW_CNT<DE> Extent=<ES>47:9 - 47:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:50:9: macro definition=TIMESTAMP_BYTES <US>c:macro@TIMESTAMP_BYTES<UE> <DS>TIMESTAMP_BYTES<DE> Extent=<ES>50:9 - 50:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:51:9: macro definition=TIMESTAMP_MASK <US>c:macro@TIMESTAMP_MASK<UE> <DS>TIMESTAMP_MASK<DE> Extent=<ES>51:9 - 51:43<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:52:9: macro definition=TIMESTAMP_BUFF_SIZE <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>52:9 - 52:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:53:9: macro definition=TIMESTAMP_STOR_SIZE <US>c:macro@TIMESTAMP_STOR_SIZE<UE> <DS>TIMESTAMP_STOR_SIZE<DE> Extent=<ES>53:9 - 53:36<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:56:9: macro definition=PCCOMMIntrOn <US>c:macro@PCCOMMIntrOn<UE> <DS>PCCOMMIntrOn<DE> Extent=<ES>56:9 - 56:72<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:57:9: macro definition=PCCOMMIntrOff <US>c:macro@PCCOMMIntrOff<UE> <DS>PCCOMMIntrOff<DE> Extent=<ES>57:9 - 57:75<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:58:9: macro definition=getNumTimestamps <US>c:macro@getNumTimestamps<UE> <DS>getNumTimestamps<DE> Extent=<ES>58:9 - 58:98<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:61:9: macro definition=ONE_DELAY <US>c:macro@ONE_DELAY<UE> <DS>ONE_DELAY<DE> Extent=<ES>61:9 - 61:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:65:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>65:1 - 65:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:66:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>66:1 - 66:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:67:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>67:1 - 67:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:92:38: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:52:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>92:38 - 92:57<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:95:38: macro expansion=TIMESTAMP_STOR_SIZE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:53:9 <US>c:macro@TIMESTAMP_STOR_SIZE<UE> <DS>TIMESTAMP_STOR_SIZE<DE> Extent=<ES>95:38 - 95:57<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:103:8: macro expansion=bool|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:20:9 <US>c:macro@bool<UE> <DS>bool<DE> Extent=<ES>103:8 - 103:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:108:12: macro expansion=WDTPW|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:909:9 <US>c:macro@WDTPW<UE> <DS>WDTPW<DE> Extent=<ES>108:12 - 108:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:108:20: macro expansion=WDTHOLD|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:907:9 <US>c:macro@WDTHOLD<UE> <DS>WDTHOLD<DE> Extent=<ES>108:20 - 108:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:138:11: macro expansion=DBG0|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:10:9 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>138:11 - 138:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:138:18: macro expansion=DBG1|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:11:9 <US>c:macro@DBG1<UE> <DS>DBG1<DE> Extent=<ES>138:18 - 138:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:138:25: macro expansion=DBG2|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:12:9 <US>c:macro@DBG2<UE> <DS>DBG2<DE> Extent=<ES>138:25 - 138:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:139:11: macro expansion=SENVCC|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:13:9 <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>139:11 - 139:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:140:11: macro expansion=LED0|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:20:9 <US>c:macro@LED0<UE> <DS>LED0<DE> Extent=<ES>140:11 - 140:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:148:29: macro expansion=DBG0|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:10:9 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>148:29 - 148:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:148:36: macro expansion=DBG1|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:11:9 <US>c:macro@DBG1<UE> <DS>DBG1<DE> Extent=<ES>148:36 - 148:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:148:43: macro expansion=DBG2|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:12:9 <US>c:macro@DBG2<UE> <DS>DBG2<DE> Extent=<ES>148:43 - 148:47<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:149:29: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:15:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>149:29 - 149:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:149:38: macro expansion=SENSEIN|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:14:9 <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>149:38 - 149:45<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:149:48: macro expansion=SENVCC|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:13:9 <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>149:48 - 149:54<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:149:57: macro expansion=XIN|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:16:9 <US>c:macro@XIN<UE> <DS>XIN<DE> Extent=<ES>149:57 - 149:60<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:149:63: macro expansion=XOUT|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:17:9 <US>c:macro@XOUT<UE> <DS>XOUT<DE> Extent=<ES>149:63 - 149:67<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:150:29: macro expansion=UARTTX|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:19:9 <US>c:macro@UARTTX<UE> <DS>UARTTX<DE> Extent=<ES>150:29 - 150:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:150:38: macro expansion=UARTRX|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:18:9 <US>c:macro@UARTRX<UE> <DS>UARTRX<DE> Extent=<ES>150:38 - 150:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:150:47: macro expansion=LED0|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:20:9 <US>c:macro@LED0<UE> <DS>LED0<DE> Extent=<ES>150:47 - 150:51<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:153:12: macro expansion=XIN|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:16:9 <US>c:macro@XIN<UE> <DS>XIN<DE> Extent=<ES>153:12 - 153:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:153:18: macro expansion=XOUT|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:17:9 <US>c:macro@XOUT<UE> <DS>XOUT<DE> Extent=<ES>153:18 - 153:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:154:12: macro expansion=UARTTX|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:19:9 <US>c:macro@UARTTX<UE> <DS>UARTTX<DE> Extent=<ES>154:12 - 154:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:154:21: macro expansion=UARTRX|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:18:9 <US>c:macro@UARTRX<UE> <DS>UARTRX<DE> Extent=<ES>154:21 - 154:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:157:14: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:15:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>157:14 - 157:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:170:13: macro expansion=XT2OFF|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:312:9 <US>c:macro@XT2OFF<UE> <DS>XT2OFF<DE> Extent=<ES>170:13 - 170:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:172:13: macro expansion=LFXT1S_0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:357:9 <US>c:macro@LFXT1S_0<UE> <DS>LFXT1S_0<DE> Extent=<ES>172:13 - 172:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:172:24: macro expansion=XCAP_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:353:9 <US>c:macro@XCAP_1<UE> <DS>XCAP_1<DE> Extent=<ES>172:24 - 172:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:177:18: macro expansion=XT2OF|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:344:9 <US>c:macro@XT2OF<UE> <DS>XT2OF<DE> Extent=<ES>177:18 - 177:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:177:26: macro expansion=LFXT1OF|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:343:9 <US>c:macro@LFXT1OF<UE> <DS>LFXT1OF<DE> Extent=<ES>177:26 - 177:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:178:14: macro expansion=OFIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:141:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>178:14 - 178:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:180:19: macro expansion=OFIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:141:9 <US>c:macro@OFIFG<UE> <DS>OFIFG<DE> Extent=<ES>180:19 - 180:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:183:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:424:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>183:11 - 183:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:183:19: macro expansion=FSSEL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:447:9 <US>c:macro@FSSEL0<UE> <DS>FSSEL0<DE> Extent=<ES>183:19 - 183:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:183:28: macro expansion=FN1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:436:9 <US>c:macro@FN1<UE> <DS>FN1<DE> Extent=<ES>183:28 - 183:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:192:10: macro expansion=true|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:21:9 <US>c:macro@true<UE> <DS>true<DE> Extent=<ES>192:10 - 192:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:193:19: macro expansion=IDLEMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:23:9 <US>c:macro@IDLEMODE<UE> <DS>IDLEMODE<DE> Extent=<ES>193:19 - 193:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: macro expansion=__low_power_mode_4|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:190:9 <US>c:macro@__low_power_mode_4<UE> <DS>__low_power_mode_4<DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: macro expansion=__low_power_mode_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:184:9 <US>c:macro@__low_power_mode_3<UE> <DS>__low_power_mode_3<DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:202:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>202:1 - 202:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:204:15: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:15:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>204:15 - 204:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:205:5: macro expansion=PCCOMMIntrOff|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:57:9 <US>c:macro@PCCOMMIntrOff<UE> <DS>PCCOMMIntrOff<DE> Extent=<ES>205:5 - 205:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:207:5: macro expansion=__low_power_mode_off_on_exit|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:197:9 <US>c:macro@__low_power_mode_off_on_exit<UE> <DS>__low_power_mode_off_on_exit<DE> Extent=<ES>207:5 - 207:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:212:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>212:1 - 212:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:216:8: macro expansion=UARTWAITMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:24:9 <US>c:macro@UARTWAITMODE<UE> <DS>UARTWAITMODE<DE> Extent=<ES>216:8 - 216:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:217:16: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:15:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>217:16 - 217:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:218:32: macro expansion=UARTWAIT_PCCOMM_HIGH_CNT|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:45:9 <US>c:macro@UARTWAIT_PCCOMM_HIGH_CNT<UE> <DS>UARTWAIT_PCCOMM_HIGH_CNT<DE> Extent=<ES>218:32 - 218:56<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:226:8: macro expansion=UARTMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:25:9 <US>c:macro@UARTMODE<UE> <DS>UARTMODE<DE> Extent=<ES>226:8 - 226:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:227:17: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:15:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>227:17 - 227:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:228:32: macro expansion=UART_PCCOMM_LOW_CNT|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:46:9 <US>c:macro@UART_PCCOMM_LOW_CNT<UE> <DS>UART_PCCOMM_LOW_CNT<DE> Extent=<ES>228:32 - 228:51<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:237:8: macro expansion=UARTDONEMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:26:9 <US>c:macro@UARTDONEMODE<UE> <DS>UARTDONEMODE<DE> Extent=<ES>237:8 - 237:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:241:18: macro expansion=PCCOMM|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:15:9 <US>c:macro@PCCOMM<UE> <DS>PCCOMM<DE> Extent=<ES>241:18 - 241:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:242:32: macro expansion=UARTDONE_PCCOMM_LOW_CNT|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:47:9 <US>c:macro@UARTDONE_PCCOMM_LOW_CNT<UE> <DS>UARTDONE_PCCOMM_LOW_CNT<DE> Extent=<ES>242:32 - 242:55<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:245:9: macro expansion=__low_power_mode_off_on_exit|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:197:9 <US>c:macro@__low_power_mode_off_on_exit<UE> <DS>__low_power_mode_off_on_exit<DE> Extent=<ES>245:9 - 245:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:251:8: macro expansion=SENSEMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:27:9 <US>c:macro@SENSEMODE<UE> <DS>SENSEMODE<DE> Extent=<ES>251:8 - 251:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:252:14: macro expansion=SENVCC|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:13:9 <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>252:14 - 252:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:259:25: macro expansion=MAT_OPEN|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:30:9 <US>c:macro@MAT_OPEN<UE> <DS>MAT_OPEN<DE> Extent=<ES>259:25 - 259:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:259:45: macro expansion=SENSEIN|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:14:9 <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>259:45 - 259:52<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:260:15: macro expansion=DBG0|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:10:9 <US>c:macro@DBG0<UE> <DS>DBG0<DE> Extent=<ES>260:15 - 260:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:261:19: macro expansion=MAT_OPEN|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:30:9 <US>c:macro@MAT_OPEN<UE> <DS>MAT_OPEN<DE> Extent=<ES>261:19 - 261:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:262:31: macro expansion=MAT_CLOSED|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:31:9 <US>c:macro@MAT_CLOSED<UE> <DS>MAT_CLOSED<DE> Extent=<ES>262:31 - 262:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:262:54: macro expansion=SENSEIN|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:14:9 <US>c:macro@SENSEIN<UE> <DS>SENSEIN<DE> Extent=<ES>262:54 - 262:61<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:263:15: macro expansion=DBG1|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:11:9 <US>c:macro@DBG1<UE> <DS>DBG1<DE> Extent=<ES>263:15 - 263:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:264:19: macro expansion=MAT_CLOSED|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:31:9 <US>c:macro@MAT_CLOSED<UE> <DS>MAT_CLOSED<DE> Extent=<ES>264:19 - 264:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:266:15: macro expansion=SENVCC|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:13:9 <US>c:macro@SENVCC<UE> <DS>SENVCC<DE> Extent=<ES>266:15 - 266:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:275:1: macro expansion=__interrupt|<invalid loc>:49:9 <US>c:macro@__interrupt<UE> <DS>__interrupt<DE> Extent=<ES>275:1 - 275:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:283:26: macro expansion=TIMESTAMP_BYTES|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:50:9 <US>c:macro@TIMESTAMP_BYTES<UE> <DS>TIMESTAMP_BYTES<DE> Extent=<ES>283:26 - 283:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:286:26: macro expansion=false|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:22:9 <US>c:macro@false<UE> <DS>false<DE> Extent=<ES>286:26 - 286:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:295:26: macro expansion=true|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:21:9 <US>c:macro@true<UE> <DS>true<DE> Extent=<ES>295:26 - 295:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:296:20: macro expansion=ACK_VALUE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:36:9 <US>c:macro@ACK_VALUE<UE> <DS>ACK_VALUE<DE> Extent=<ES>296:20 - 296:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:309:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:569:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>309:7 - 309:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:311:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:569:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>311:7 - 311:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:311:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:615:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>311:15 - 311:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:312:20: macro expansion=ACK_VALUE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:36:9 <US>c:macro@ACK_VALUE<UE> <DS>ACK_VALUE<DE> Extent=<ES>312:20 - 312:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:317:17: macro expansion=getNumTimestamps|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:58:9 <US>c:macro@getNumTimestamps<UE> <DS>getNumTimestamps<DE> Extent=<ES>317:17 - 317:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:323:26: macro expansion=getNumTimestamps|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:58:9 <US>c:macro@getNumTimestamps<UE> <DS>getNumTimestamps<DE> Extent=<ES>323:26 - 323:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:339:3: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:569:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>339:3 - 339:8<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:340:3: macro expansion=TACTL|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:550:9 <US>c:macro@TACTL<UE> <DS>TACTL<DE> Extent=<ES>340:3 - 340:8<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:18: macro expansion=UARTWAITMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:24:9 <US>c:macro@UARTWAITMODE<UE> <DS>UARTWAITMODE<DE> Extent=<ES>342:18 - 342:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:343:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:572:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>343:7 - 343:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:343:14: macro expansion=UARTWAITMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:41:9 <US>c:macro@UARTWAITMODE_TIMER_PERIOD<UE> <DS>UARTWAITMODE_TIMER_PERIOD<DE> Extent=<ES>343:14 - 343:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:344:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:569:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>344:7 - 344:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:344:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:615:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>344:15 - 344:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:345:7: macro expansion=TACTL|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:550:9 <US>c:macro@TACTL<UE> <DS>TACTL<DE> Extent=<ES>345:7 - 345:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:345:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:601:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>345:15 - 345:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:345:26: macro expansion=ID_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:599:9 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>345:26 - 345:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:345:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:588:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>345:33 - 345:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:346:25: macro expansion=UARTMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:25:9 <US>c:macro@UARTMODE<UE> <DS>UARTMODE<DE> Extent=<ES>346:25 - 346:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:347:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:572:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>347:7 - 347:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:347:14: macro expansion=UARTMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:42:9 <US>c:macro@UARTMODE_TIMER_PERIOD<UE> <DS>UARTMODE_TIMER_PERIOD<DE> Extent=<ES>347:14 - 347:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:348:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:569:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>348:7 - 348:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:348:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:615:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>348:15 - 348:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:349:7: macro expansion=TACTL|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:550:9 <US>c:macro@TACTL<UE> <DS>TACTL<DE> Extent=<ES>349:7 - 349:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:349:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:601:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>349:15 - 349:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:349:26: macro expansion=ID_0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:596:9 <US>c:macro@ID_0<UE> <DS>ID_0<DE> Extent=<ES>349:26 - 349:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:349:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:588:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>349:33 - 349:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:350:25: macro expansion=UARTDONEMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:26:9 <US>c:macro@UARTDONEMODE<UE> <DS>UARTDONEMODE<DE> Extent=<ES>350:25 - 350:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:351:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:572:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>351:7 - 351:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:351:14: macro expansion=UARTDONEMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:43:9 <US>c:macro@UARTDONEMODE_TIMER_PERIOD<UE> <DS>UARTDONEMODE_TIMER_PERIOD<DE> Extent=<ES>351:14 - 351:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:352:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:569:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>352:7 - 352:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:352:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:615:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>352:15 - 352:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:353:7: macro expansion=TACTL|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:550:9 <US>c:macro@TACTL<UE> <DS>TACTL<DE> Extent=<ES>353:7 - 353:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:353:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:601:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>353:15 - 353:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:353:26: macro expansion=ID_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:599:9 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>353:26 - 353:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:353:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:588:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>353:33 - 353:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:355:7: macro expansion=CCR0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:572:9 <US>c:macro@CCR0<UE> <DS>CCR0<DE> Extent=<ES>355:7 - 355:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:355:14: macro expansion=SENSEMODE_TIMER_PERIOD|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:40:9 <US>c:macro@SENSEMODE_TIMER_PERIOD<UE> <DS>SENSEMODE_TIMER_PERIOD<DE> Extent=<ES>355:14 - 355:36<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:356:7: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:569:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>356:7 - 356:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:356:15: macro expansion=CCIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:615:9 <US>c:macro@CCIE<UE> <DS>CCIE<DE> Extent=<ES>356:15 - 356:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:357:7: macro expansion=TACTL|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:550:9 <US>c:macro@TACTL<UE> <DS>TACTL<DE> Extent=<ES>357:7 - 357:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:357:15: macro expansion=TASSEL_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:601:9 <US>c:macro@TASSEL_1<UE> <DS>TASSEL_1<DE> Extent=<ES>357:15 - 357:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:357:26: macro expansion=ID_3|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:599:9 <US>c:macro@ID_3<UE> <DS>ID_3<DE> Extent=<ES>357:26 - 357:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:357:33: macro expansion=TACLR|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:588:9 <US>c:macro@TACLR<UE> <DS>TACLR<DE> Extent=<ES>357:33 - 357:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:359:3: macro expansion=TACTL|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:550:9 <US>c:macro@TACTL<UE> <DS>TACTL<DE> Extent=<ES>359:3 - 359:8<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:359:12: macro expansion=MC_1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:593:9 <US>c:macro@MC_1<UE> <DS>MC_1<DE> Extent=<ES>359:12 - 359:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:364:11: macro expansion=UARTWAITMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:24:9 <US>c:macro@UARTWAITMODE<UE> <DS>UARTWAITMODE<DE> Extent=<ES>364:11 - 364:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:372:11: macro expansion=UARTMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:25:9 <US>c:macro@UARTMODE<UE> <DS>UARTMODE<DE> Extent=<ES>372:11 - 372:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:373:23: macro expansion=false|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\dlib\c\stdbool.h:22:9 <US>c:macro@false<UE> <DS>false<DE> Extent=<ES>373:23 - 373:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:376:13: macro expansion=LED0|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:20:9 <US>c:macro@LED0<UE> <DS>LED0<DE> Extent=<ES>376:13 - 376:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:382:10: macro expansion=UARTDONEMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:26:9 <US>c:macro@UARTDONEMODE<UE> <DS>UARTDONEMODE<DE> Extent=<ES>382:10 - 382:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:385:13: macro expansion=LED0|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:20:9 <US>c:macro@LED0<UE> <DS>LED0<DE> Extent=<ES>385:13 - 385:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:392:13: macro expansion=IDLEMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:23:9 <US>c:macro@IDLEMODE<UE> <DS>IDLEMODE<DE> Extent=<ES>392:13 - 392:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:393:21: macro expansion=MAT_UNDEF|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:32:9 <US>c:macro@MAT_UNDEF<UE> <DS>MAT_UNDEF<DE> Extent=<ES>393:21 - 393:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:394:6: macro expansion=CCTL0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:569:9 <US>c:macro@CCTL0<UE> <DS>CCTL0<DE> Extent=<ES>394:6 - 394:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:395:6: macro expansion=TACTL|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:550:9 <US>c:macro@TACTL<UE> <DS>TACTL<DE> Extent=<ES>395:6 - 395:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:396:6: macro expansion=PCCOMMIntrOn|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:56:9 <US>c:macro@PCCOMMIntrOn<UE> <DS>PCCOMMIntrOn<DE> Extent=<ES>396:6 - 396:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:398:13: macro expansion=SENSEMODE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:27:9 <US>c:macro@SENSEMODE<UE> <DS>SENSEMODE<DE> Extent=<ES>398:13 - 398:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:399:6: macro expansion=PCCOMMIntrOn|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:56:9 <US>c:macro@PCCOMMIntrOn<UE> <DS>PCCOMMIntrOn<DE> Extent=<ES>399:6 - 399:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:425:17: macro expansion=UCA0TXIFG|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:158:9 <US>c:macro@UCA0TXIFG<UE> <DS>UCA0TXIFG<DE> Extent=<ES>425:17 - 425:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:432:15: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:760:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>432:15 - 432:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:433:15: macro expansion=UCSSEL_2|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:777:9 <US>c:macro@UCSSEL_2<UE> <DS>UCSSEL_2<DE> Extent=<ES>433:15 - 433:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:436:14: macro expansion=UCBRS0|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:786:9 <US>c:macro@UCBRS0<UE> <DS>UCBRS0<DE> Extent=<ES>436:14 - 436:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:437:16: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:760:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>437:16 - 437:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:438:10: macro expansion=UCA0RXIE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:149:9 <US>c:macro@UCA0RXIE<UE> <DS>UCA0RXIE<DE> Extent=<ES>438:10 - 438:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:444:14: macro expansion=UCSWRST|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:760:9 <US>c:macro@UCSWRST<UE> <DS>UCSWRST<DE> Extent=<ES>444:14 - 444:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:27: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:52:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>450:27 - 450:46<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:23: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:52:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>451:23 - 451:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:47: macro expansion=TIMESTAMP_STOR_SIZE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:53:9 <US>c:macro@TIMESTAMP_STOR_SIZE<UE> <DS>TIMESTAMP_STOR_SIZE<DE> Extent=<ES>451:47 - 451:66<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:455:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:424:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>455:13 - 455:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:455:21: macro expansion=WRT|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:431:9 <US>c:macro@WRT<UE> <DS>WRT<DE> Extent=<ES>455:21 - 455:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:456:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:424:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>456:13 - 456:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:456:21: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:461:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>456:21 - 456:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:458:21: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:52:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>458:21 - 458:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:461:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:424:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>461:13 - 461:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:462:13: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:424:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>462:13 - 462:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:462:21: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:461:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>462:21 - 462:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:462:29: macro expansion=LOCK|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:459:9 <US>c:macro@LOCK<UE> <DS>LOCK<DE> Extent=<ES>462:29 - 462:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:468:25: macro expansion=TIMESTAMP_BUFF_SIZE|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:52:9 <US>c:macro@TIMESTAMP_BUFF_SIZE<UE> <DS>TIMESTAMP_BUFF_SIZE<DE> Extent=<ES>468:25 - 468:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:72: macro expansion=MAT_STATE_SHIFT|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:33:9 <US>c:macro@MAT_STATE_SHIFT<UE> <DS>MAT_STATE_SHIFT<DE> Extent=<ES>470:72 - 470:87<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:107: macro expansion=TIMESTAMP_MASK|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:51:9 <US>c:macro@TIMESTAMP_MASK<UE> <DS>TIMESTAMP_MASK<DE> Extent=<ES>470:107 - 470:121<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:482:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:424:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>482:11 - 482:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:482:19: macro expansion=ERASE|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:427:9 <US>c:macro@ERASE<UE> <DS>ERASE<DE> Extent=<ES>482:19 - 482:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:424:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>483:11 - 483:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:19: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:461:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>483:19 - 483:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:485:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:424:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>485:11 - 485:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:11: macro expansion=FWKEY|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:424:9 <US>c:macro@FWKEY<UE> <DS>FWKEY<DE> Extent=<ES>486:11 - 486:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:19: macro expansion=LOCKA|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:461:9 <US>c:macro@LOCKA<UE> <DS>LOCKA<DE> Extent=<ES>486:19 - 486:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:27: macro expansion=LOCK|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\msp430f2132.h:459:9 <US>c:macro@LOCK<UE> <DS>LOCK<DE> Extent=<ES>486:27 - 486:31<EE>
 <L><invalid loc>:2:15: TypedefDecl=__builtin_va_list|<invalid loc>:2:15 (Definition) <US><UE> <DS>char *<DE> Extent=<ES>2:1 - 2:32<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:27:24: TypedefDecl=__istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:27:24 (Definition) <US>c:intrinsics.h@516@T@__istate_t<UE> <DS>unsigned short<DE> Extent=<ES>27:1 - 27:34<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:30:20: TypedefDecl=istate_t|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:30:20 (Definition) <US>c:intrinsics.h@573@T@istate_t<UE> <DS>__istate_t<DE> Extent=<ES>30:1 - 30:28<EE>
@@ -1591,527 +1543,538 @@
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:67:56: ParmDecl=|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:67:56 (Definition) <US><UE> <DS>unsigned short<DE> Extent=<ES>67:42 - 67:57<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:71:30: FunctionDecl=_BIS_NMI_IE1|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:71:30 (Declaration) <US>c:@F@_BIS_NMI_IE1<UE> <DS>unsigned short _BIS_NMI_IE1(unsigned short)<DE> Extent=<ES>71:15 - 71:58<EE>
 <L>C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:71:57: ParmDecl=|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\in430.h:71:57 (Definition) <US><UE> <DS>unsigned short<DE> Extent=<ES>71:43 - 71:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:60:18: FunctionDecl=P2_ISR|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:18 (Declaration) <US>c:@F@P2_ISR<UE> <DS>void P2_ISR(void)<DE> Extent=<ES>60:13 - 60:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:61:18: FunctionDecl=TA_ISR|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:206:18 (Declaration) <US>c:@F@TA_ISR<UE> <DS>void TA_ISR(void)<DE> Extent=<ES>61:13 - 61:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:62:18: FunctionDecl=USCI0RX_ISR|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:267:18 (Declaration) <US>c:@F@USCI0RX_ISR<UE> <DS>void USCI0RX_ISR(void)<DE> Extent=<ES>62:13 - 62:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:65:6: FunctionDecl=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:6 (Declaration) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>65:1 - 65:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:65:32: ParmDecl=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:65:32 (Definition) <US>c:main.c@3418@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>65:18 - 65:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:68:6: FunctionDecl=uartWaitModeStart|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:355:6 (Declaration) <US>c:@F@uartWaitModeStart<UE> <DS>void uartWaitModeStart(void)<DE> Extent=<ES>68:1 - 68:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:69:6: FunctionDecl=uartModeStart|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:363:6 (Declaration) <US>c:@F@uartModeStart<UE> <DS>void uartModeStart(void)<DE> Extent=<ES>69:1 - 69:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:70:6: FunctionDecl=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:374:6 (Declaration) <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>70:1 - 70:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:71:6: FunctionDecl=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:383:6 (Declaration) <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>71:1 - 71:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:72:6: FunctionDecl=send16bit|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:398:6 (Declaration) <US>c:@F@send16bit<UE> <DS>void send16bit(unsigned short)<DE> Extent=<ES>72:1 - 72:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:72:31: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:72:31 (Definition) <US>c:main.c@3598@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>72:16 - 72:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:73:6: FunctionDecl=send32bit|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:6 (Declaration) <US>c:@F@send32bit<UE> <DS>void send32bit(unsigned long)<DE> Extent=<ES>73:1 - 73:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:73:30: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:73:30 (Definition) <US>c:main.c@3635@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>73:16 - 73:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:74:6: FunctionDecl=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:6 (Declaration) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>74:1 - 74:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:74:24: ParmDecl=charToTransmit|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:74:24 (Definition) <US>c:main.c@3674@F@transmitChar@charToTransmit<UE> <DS>char<DE> Extent=<ES>74:19 - 74:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:75:6: FunctionDecl=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6 (Declaration) <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>75:1 - 75:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:76:6: FunctionDecl=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:435:6 (Declaration) <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>76:1 - 76:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:79:6: FunctionDecl=recordEvent|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:441:6 (Declaration) <US>c:@F@recordEvent<UE> <DS>void recordEvent(unsigned char)<DE> Extent=<ES>79:1 - 79:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:79:32: ParmDecl=matState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:79:32 (Definition) <US>c:main.c@3807@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>79:18 - 79:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:80:6: FunctionDecl=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:469:6 (Declaration) <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>80:1 - 80:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:81:15: FunctionDecl=getTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:15 (Declaration) <US>c:@F@getTimestamp<UE> <DS>unsigned long getTimestamp(unsigned short)<DE> Extent=<ES>81:1 - 81:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:81:43: ParmDecl=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:81:43 (Definition) <US>c:main.c@3889@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>81:28 - 81:57<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22: VarDecl=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22 (Declaration) <US>c:main.c@3971@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>85:1 - 85:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:22: VarDecl=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:22 (Declaration) <US>c:main.c@4082@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>86:1 - 86:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:87:22: VarDecl=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:87:22 (Declaration) <US>c:main.c@4164@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>87:1 - 87:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:87:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>87:38 - 87:57<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22: VarDecl=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 (Declaration) <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>88:1 - 88:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:21: VarDecl=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:21 (Declaration) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>90:1 - 90:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>90:38 - 90:57<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31: VarDecl=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 (Declaration) <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>93:1 - 93:35<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:94:22: VarDecl=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:94:22 (Declaration) <US>c:main.c@4589@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>94:1 - 94:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:95:22: VarDecl=prevMatState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:95:22 (Declaration) <US>c:main.c@4676@prevMatState<UE> <DS>prevMatState<DE> Extent=<ES>95:1 - 95:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:13: VarDecl=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:13 (Declaration) <US>c:main.c@4774@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>98:1 - 98:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:101:6: FunctionDecl=main|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:101:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>101:1 - 193:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:101:17: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>101:17 - 193:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:104:3: CallExpr=__disable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>104:3 - 104:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:104:3: UnexposedExpr=__disable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>104:3 - 104:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:104:3: DeclRefExpr=__disable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 (Reference) <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>104:3 - 104:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:180:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>180:3 - 180:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:180:3: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22 (Reference) <US>c:main.c@3971@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>180:3 - 180:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:180:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>180:18 - 180:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:180:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>180:18 - 180:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:181:3: CallExpr=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:469:6 <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>181:3 - 181:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:181:3: UnexposedExpr=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:469:6 <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>181:3 - 181:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:181:3: DeclRefExpr=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:469:6 (Reference) <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>181:3 - 181:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:182:3: CallExpr=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:383:6 <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>182:3 - 182:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:182:3: UnexposedExpr=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:383:6 <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>182:3 - 182:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:182:3: DeclRefExpr=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:383:6 (Reference) <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>182:3 - 182:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:184:3: CallExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>184:3 - 184:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:184:3: UnexposedExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>184:3 - 184:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:184:3: DeclRefExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>184:3 - 184:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:186:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>186:3 - 192:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:186:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>186:10 - 186:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:186:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>186:16 - 192:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:187:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>187:7 - 191:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:187:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>187:11 - 187:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:187:11: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>187:11 - 187:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:187:11: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>187:11 - 187:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:187:11: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 (Reference) <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>187:11 - 187:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:187:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>187:19 - 187:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:187:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>187:29 - 189:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: CallExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: UnexposedExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: DeclRefExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>188:11 - 188:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:189:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>189:14 - 191:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: CallExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: UnexposedExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: DeclRefExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>190:11 - 190:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:18: FunctionDecl=P2_ISR|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:18 (Definition) <US>c:@F@P2_ISR<UE> <DS>void P2_ISR(void)<DE> Extent=<ES>196:13 - 203:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:197:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>197:1 - 203:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:206:18: FunctionDecl=TA_ISR|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:206:18 (Definition) <US>c:@F@TA_ISR<UE> <DS>void TA_ISR(void)<DE> Extent=<ES>206:13 - 261:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:206:31: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>206:31 - 261:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:208:3: SwitchStmt= <US><UE> <DS><DE> Extent=<ES>208:3 - 260:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:208:10: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>208:10 - 208:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:208:10: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>208:10 - 208:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:208:10: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 (Reference) <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>208:10 - 208:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:209:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>209:3 - 260:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:210:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:210:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>210:8 - 210:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:65:18: FunctionDecl=P2_ISR|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:202:18 (Declaration) <US>c:@F@P2_ISR<UE> <DS>void P2_ISR(void)<DE> Extent=<ES>65:13 - 65:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:66:18: FunctionDecl=TA_ISR|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:212:18 (Declaration) <US>c:@F@TA_ISR<UE> <DS>void TA_ISR(void)<DE> Extent=<ES>66:13 - 66:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:67:18: FunctionDecl=USCI0RX_ISR|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:275:18 (Declaration) <US>c:@F@USCI0RX_ISR<UE> <DS>void USCI0RX_ISR(void)<DE> Extent=<ES>67:13 - 67:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:70:6: FunctionDecl=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6 (Declaration) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>70:1 - 70:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:70:32: ParmDecl=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:70:32 (Definition) <US>c:main.c@3468@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>70:18 - 70:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:73:6: FunctionDecl=uartWaitModeStart|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:363:6 (Declaration) <US>c:@F@uartWaitModeStart<UE> <DS>void uartWaitModeStart(void)<DE> Extent=<ES>73:1 - 73:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:74:6: FunctionDecl=uartModeStart|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:371:6 (Declaration) <US>c:@F@uartModeStart<UE> <DS>void uartModeStart(void)<DE> Extent=<ES>74:1 - 74:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:75:6: FunctionDecl=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:381:6 (Declaration) <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>75:1 - 75:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:76:6: FunctionDecl=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:390:6 (Declaration) <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>76:1 - 76:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:77:6: FunctionDecl=send16bit|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:405:6 (Declaration) <US>c:@F@send16bit<UE> <DS>void send16bit(unsigned short)<DE> Extent=<ES>77:1 - 77:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:77:31: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:77:31 (Definition) <US>c:main.c@3648@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>77:16 - 77:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:78:6: FunctionDecl=send32bit|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:414:6 (Declaration) <US>c:@F@send32bit<UE> <DS>void send32bit(unsigned long)<DE> Extent=<ES>78:1 - 78:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:78:30: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:78:30 (Definition) <US>c:main.c@3685@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>78:16 - 78:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:79:6: FunctionDecl=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6 (Declaration) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>79:1 - 79:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:79:24: ParmDecl=charToTransmit|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:79:24 (Definition) <US>c:main.c@3724@F@transmitChar@charToTransmit<UE> <DS>char<DE> Extent=<ES>79:19 - 79:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:80:6: FunctionDecl=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:430:6 (Declaration) <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>80:1 - 80:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:81:6: FunctionDecl=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:442:6 (Declaration) <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>81:1 - 81:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:84:6: FunctionDecl=recordEvent|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:448:6 (Declaration) <US>c:@F@recordEvent<UE> <DS>void recordEvent(unsigned char)<DE> Extent=<ES>84:1 - 84:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:84:32: ParmDecl=matState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:84:32 (Definition) <US>c:main.c@3857@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>84:18 - 84:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:6: FunctionDecl=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:476:6 (Declaration) <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>85:1 - 85:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:15: FunctionDecl=getTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:15 (Declaration) <US>c:@F@getTimestamp<UE> <DS>unsigned long getTimestamp(unsigned short)<DE> Extent=<ES>86:1 - 86:58<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:43: ParmDecl=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:43 (Definition) <US>c:main.c@3939@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>86:28 - 86:57<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22: VarDecl=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22 (Declaration) <US>c:main.c@4021@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>90:1 - 90:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:91:22: VarDecl=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:91:22 (Declaration) <US>c:main.c@4132@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>91:1 - 91:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:92:22: VarDecl=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:92:22 (Declaration) <US>c:main.c@4214@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>92:1 - 92:58<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:92:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>92:38 - 92:57<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22: VarDecl=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 (Declaration) <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>93:1 - 93:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:95:21: VarDecl=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:95:21 (Declaration) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>95:1 - 95:58<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:95:38: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>95:38 - 95:57<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31: VarDecl=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 (Declaration) <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>98:1 - 98:35<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:99:22: VarDecl=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:99:22 (Declaration) <US>c:main.c@4639@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>99:1 - 99:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:100:22: VarDecl=prevMatState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:100:22 (Declaration) <US>c:main.c@4726@prevMatState<UE> <DS>prevMatState<DE> Extent=<ES>100:1 - 100:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:103:13: VarDecl=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:103:13 (Declaration) <US>c:main.c@4824@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>103:1 - 103:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:106:6: FunctionDecl=main|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:106:6 (Definition) <US>c:@F@main<UE> <DS>void main(void)<DE> Extent=<ES>106:1 - 199:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:106:17: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>106:17 - 199:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:109:3: CallExpr=__disable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>109:3 - 109:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:109:3: UnexposedExpr=__disable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>109:3 - 109:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:109:3: DeclRefExpr=__disable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:39:20 (Reference) <US>c:@F@__disable_interrupt<UE> <DS>void __disable_interrupt(void)<DE> Extent=<ES>109:3 - 109:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:186:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>186:3 - 186:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:186:3: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22 (Reference) <US>c:main.c@4021@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>186:3 - 186:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:186:18: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>186:18 - 186:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:186:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>186:18 - 186:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:187:3: CallExpr=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:476:6 <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>187:3 - 187:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:187:3: UnexposedExpr=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:476:6 <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>187:3 - 187:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:187:3: DeclRefExpr=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:476:6 (Reference) <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>187:3 - 187:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:3: CallExpr=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:390:6 <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>188:3 - 188:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:3: UnexposedExpr=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:390:6 <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>188:3 - 188:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:188:3: DeclRefExpr=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:390:6 (Reference) <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>188:3 - 188:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:3: CallExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>190:3 - 190:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:3: UnexposedExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>190:3 - 190:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:190:3: DeclRefExpr=__enable_interrupt|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:38:20 (Reference) <US>c:@F@__enable_interrupt<UE> <DS>void __enable_interrupt(void)<DE> Extent=<ES>190:3 - 190:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:192:3: WhileStmt= <US><UE> <DS><DE> Extent=<ES>192:3 - 198:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:192:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>192:10 - 192:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:192:16: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>192:16 - 198:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:193:7: IfStmt= <US><UE> <DS><DE> Extent=<ES>193:7 - 197:8<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:193:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>193:11 - 193:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:193:11: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>193:11 - 193:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:193:11: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>193:11 - 193:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:193:11: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 (Reference) <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>193:11 - 193:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:193:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>193:19 - 193:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:193:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>193:29 - 195:8<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: CallExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: UnexposedExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: DeclRefExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:194:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>194:11 - 194:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:195:14: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>195:14 - 197:8<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: CallExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: UnexposedExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: DeclRefExpr=__bis_SR_register|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:51:30 (Reference) <US>c:@F@__bis_SR_register<UE> <DS>void __bis_SR_register(unsigned short)<DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: ParenExpr= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:196:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>196:11 - 196:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:202:18: FunctionDecl=P2_ISR|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:202:18 (Definition) <US>c:@F@P2_ISR<UE> <DS>void P2_ISR(void)<DE> Extent=<ES>202:13 - 209:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:203:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>203:1 - 209:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:212:18: FunctionDecl=TA_ISR|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:212:18 (Definition) <US>c:@F@TA_ISR<UE> <DS>void TA_ISR(void)<DE> Extent=<ES>212:13 - 269:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:212:31: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>212:31 - 269:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:214:3: SwitchStmt= <US><UE> <DS><DE> Extent=<ES>214:3 - 268:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:214:10: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>214:10 - 214:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:214:10: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>214:10 - 214:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:214:10: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 (Reference) <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>214:10 - 214:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:215:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>215:3 - 268:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:216:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:216:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>216:8 - 216:20<EE>
 <L><invalid loc>:0:0: NullStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:220:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>220:5 - 220:10<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:221:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:221:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>221:8 - 221:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:225:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>225:5 - 225:10<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:226:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:226:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>226:8 - 226:16<EE>
 <L><invalid loc>:0:0: NullStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:232:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>232:5 - 232:10<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:233:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>233:3 - 237:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:233:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>233:8 - 233:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:235:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>235:5 - 237:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:235:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>235:9 - 235:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:235:9: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22 <US>c:main.c@3971@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>235:9 - 235:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:235:9: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22 (Reference) <US>c:main.c@3971@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>235:9 - 235:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:235:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>235:25 - 235:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:235:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>235:25 - 235:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:235:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>235:28 - 237:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:236:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>236:7 - 236:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:236:7: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22 (Reference) <US>c:main.c@3971@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>236:7 - 236:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:236:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>236:23 - 236:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:236:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>236:23 - 236:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:247:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>247:5 - 247:10<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:248:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>248:3 - 251:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:248:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>248:8 - 248:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:249:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>249:5 - 251:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:249:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>249:9 - 249:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:249:9: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22 <US>c:main.c@3971@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>249:9 - 249:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:249:9: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22 (Reference) <US>c:main.c@3971@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>249:9 - 249:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:249:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>249:25 - 249:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:249:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>249:25 - 249:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:249:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>249:28 - 251:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:250:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>250:7 - 250:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:250:7: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22 (Reference) <US>c:main.c@3971@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>250:7 - 250:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:250:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>250:23 - 250:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:250:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>250:23 - 250:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:259:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>259:5 - 259:10<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:267:18: FunctionDecl=USCI0RX_ISR|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:267:18 (Definition) <US>c:@F@USCI0RX_ISR<UE> <DS>void USCI0RX_ISR(void)<DE> Extent=<ES>267:13 - 325:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:268:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>268:1 - 325:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:269:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>269:3 - 269:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:269:25: VarDecl=sendingIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:269:25 (Definition) <US>c:main.c@10269@F@USCI0RX_ISR@sendingIndex<UE> <DS>sendingIndex<DE> Extent=<ES>269:3 - 269:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:269:40: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>269:40 - 269:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:269:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>269:40 - 269:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:270:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>270:3 - 270:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:270:24: VarDecl=rcvTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:270:24 (Definition) <US>c:main.c@10312@F@USCI0RX_ISR@rcvTimestamp<UE> <DS>rcvTimestamp<DE> Extent=<ES>270:3 - 270:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:270:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>270:39 - 270:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:270:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>270:39 - 270:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:272:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>272:3 - 324:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:272:6: UnexposedExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:13 <US>c:main.c@4774@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>272:6 - 272:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:272:6: DeclRefExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:13 (Reference) <US>c:main.c@4774@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>272:6 - 272:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:272:24: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>272:24 - 281:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:275:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>275:5 - 280:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:275:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>275:8 - 275:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:275:8: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>275:8 - 275:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:275:8: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>275:8 - 275:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:275:10: DeclRefExpr=sendingIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:269:25 (Reference) <US>c:main.c@10269@F@USCI0RX_ISR@sendingIndex<UE> <DS>sendingIndex<DE> Extent=<ES>275:10 - 275:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:275:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>275:26 - 275:41<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:276:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>276:5 - 280:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:277:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>277:7 - 277:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:277:7: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22 (Reference) <US>c:main.c@3971@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>277:7 - 277:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:277:22: UnexposedExpr=rcvTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:270:24 <US>c:main.c@10312@F@USCI0RX_ISR@rcvTimestamp<UE> <DS>rcvTimestamp<DE> Extent=<ES>277:22 - 277:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:277:22: DeclRefExpr=rcvTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:270:24 (Reference) <US>c:main.c@10312@F@USCI0RX_ISR@rcvTimestamp<UE> <DS>rcvTimestamp<DE> Extent=<ES>277:22 - 277:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:278:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>278:7 - 278:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:278:7: DeclRefExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:13 (Reference) <US>c:main.c@4774@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>278:7 - 278:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:278:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>278:26 - 278:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:278:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>278:26 - 278:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:279:7: CallExpr=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:374:6 <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>279:7 - 279:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:279:7: UnexposedExpr=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:374:6 <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>279:7 - 279:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:279:7: DeclRefExpr=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:374:6 (Reference) <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>279:7 - 279:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:281:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>281:10 - 324:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:6: FunctionDecl=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:6 (Definition) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>330:1 - 352:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:32: ParmDecl=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:32 (Definition) <US>c:main.c@12167@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>330:18 - 330:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:41: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>330:41 - 352:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:334:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>334:3 - 350:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:334:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>334:7 - 334:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:334:7: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:32 <US>c:main.c@12167@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>334:7 - 334:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:334:7: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:32 <US>c:main.c@12167@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>334:7 - 334:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:334:7: DeclRefExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:32 (Reference) <US>c:main.c@12167@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>334:7 - 334:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:334:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>334:18 - 334:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:334:32: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>334:32 - 338:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>338:10 - 350:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>338:14 - 338:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:32 <US>c:main.c@12167@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>338:14 - 338:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:32 <US>c:main.c@12167@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>338:14 - 338:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:14: DeclRefExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:32 (Reference) <US>c:main.c@12167@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>338:14 - 338:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>338:25 - 338:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>338:35 - 342:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>342:10 - 350:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>342:14 - 342:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:32 <US>c:main.c@12167@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>342:14 - 342:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:32 <US>c:main.c@12167@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>342:14 - 342:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:14: DeclRefExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:32 (Reference) <US>c:main.c@12167@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>342:14 - 342:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>342:25 - 342:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:39: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>342:39 - 346:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:346:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>346:10 - 350:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:355:6: FunctionDecl=uartWaitModeStart|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:355:6 (Definition) <US>c:@F@uartWaitModeStart<UE> <DS>void uartWaitModeStart(void)<DE> Extent=<ES>355:1 - 360:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:355:30: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>355:30 - 360:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:356:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>356:4 - 356:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:356:4: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 (Reference) <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>356:4 - 356:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:356:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>356:11 - 356:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:356:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>356:11 - 356:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:357:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>357:4 - 357:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:357:4: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22 (Reference) <US>c:main.c@3971@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>357:4 - 357:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:357:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>357:19 - 357:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:357:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>357:19 - 357:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:358:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>358:4 - 358:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:358:4: DeclRefExpr=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:94:22 (Reference) <US>c:main.c@4589@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>358:4 - 358:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:358:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>358:22 - 358:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:358:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>358:22 - 358:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:359:4: CallExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>359:4 - 359:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:359:4: UnexposedExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>359:4 - 359:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:359:4: DeclRefExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:6 (Reference) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>359:4 - 359:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:359:16: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>359:16 - 359:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:359:16: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 (Reference) <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>359:16 - 359:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:363:6: FunctionDecl=uartModeStart|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:363:6 (Definition) <US>c:@F@uartModeStart<UE> <DS>void uartModeStart(void)<DE> Extent=<ES>363:1 - 371:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:363:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>363:26 - 371:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:364:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>364:4 - 364:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:364:4: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 (Reference) <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>364:4 - 364:8<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:364:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>364:11 - 364:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:364:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>364:11 - 364:19<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:365:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>365:4 - 365:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:365:4: DeclRefExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:13 (Reference) <US>c:main.c@4774@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>365:4 - 365:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:365:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>365:23 - 365:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:365:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>365:23 - 365:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:236:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>236:5 - 236:10<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:237:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>237:3 - 240:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:237:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>237:8 - 237:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:238:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>238:5 - 240:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:238:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>238:9 - 238:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:238:9: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22 <US>c:main.c@4021@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>238:9 - 238:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:238:9: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22 (Reference) <US>c:main.c@4021@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>238:9 - 238:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:238:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>238:25 - 238:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:238:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>238:25 - 238:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:238:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>238:28 - 240:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:239:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>239:7 - 239:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:239:7: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22 (Reference) <US>c:main.c@4021@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>239:7 - 239:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:239:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>239:23 - 239:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:239:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>239:23 - 239:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:250:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>250:5 - 250:10<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:251:3: CaseStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:251:8: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>251:8 - 251:17<EE>
+<L><invalid loc>:0:0: NullStmt= <US><UE> <DS><DE> Extent=<ES>0:0 - 0:0<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:253:5: CallExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>253:5 - 253:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:253:5: UnexposedExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:81:20 <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>253:5 - 253:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:253:5: DeclRefExpr=__delay_cycles|C:\Program Files\IAR Systems\Embedded Workbench 6.4\430\inc\intrinsics.h:81:20 (Reference) <US>c:@F@__delay_cycles<UE> <DS>void __delay_cycles(unsigned long)<DE> Extent=<ES>253:5 - 253:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:253:20: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>253:20 - 253:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:253:20: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>253:20 - 253:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:255:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>255:5 - 257:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:255:9: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>255:9 - 255:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:255:9: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22 <US>c:main.c@4021@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>255:9 - 255:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:255:9: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22 (Reference) <US>c:main.c@4021@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>255:9 - 255:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:255:25: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>255:25 - 255:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:255:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>255:25 - 255:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:255:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>255:28 - 257:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:256:7: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>256:7 - 256:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:256:7: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22 (Reference) <US>c:main.c@4021@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>256:7 - 256:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:256:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>256:23 - 256:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:256:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>256:23 - 256:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:267:5: BreakStmt= <US><UE> <DS><DE> Extent=<ES>267:5 - 267:10<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:275:18: FunctionDecl=USCI0RX_ISR|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:275:18 (Definition) <US>c:@F@USCI0RX_ISR<UE> <DS>void USCI0RX_ISR(void)<DE> Extent=<ES>275:13 - 333:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:276:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>276:1 - 333:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:277:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>277:3 - 277:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:277:25: VarDecl=sendingIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:277:25 (Definition) <US>c:main.c@10477@F@USCI0RX_ISR@sendingIndex<UE> <DS>sendingIndex<DE> Extent=<ES>277:3 - 277:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:277:40: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>277:40 - 277:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:277:40: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>277:40 - 277:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:278:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>278:3 - 278:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:278:24: VarDecl=rcvTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:278:24 (Definition) <US>c:main.c@10520@F@USCI0RX_ISR@rcvTimestamp<UE> <DS>rcvTimestamp<DE> Extent=<ES>278:3 - 278:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:278:39: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>278:39 - 278:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:278:39: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>278:39 - 278:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:280:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>280:3 - 332:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:280:6: UnexposedExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:103:13 <US>c:main.c@4824@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>280:6 - 280:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:280:6: DeclRefExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:103:13 (Reference) <US>c:main.c@4824@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>280:6 - 280:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:280:24: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>280:24 - 289:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:283:5: IfStmt= <US><UE> <DS><DE> Extent=<ES>283:5 - 288:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:283:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>283:8 - 283:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:283:8: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>283:8 - 283:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:283:8: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>283:8 - 283:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:283:10: DeclRefExpr=sendingIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:277:25 (Reference) <US>c:main.c@10477@F@USCI0RX_ISR@sendingIndex<UE> <DS>sendingIndex<DE> Extent=<ES>283:10 - 283:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:283:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>283:26 - 283:41<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:284:5: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>284:5 - 288:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:285:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>285:7 - 285:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:285:7: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22 (Reference) <US>c:main.c@4021@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>285:7 - 285:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:285:22: UnexposedExpr=rcvTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:278:24 <US>c:main.c@10520@F@USCI0RX_ISR@rcvTimestamp<UE> <DS>rcvTimestamp<DE> Extent=<ES>285:22 - 285:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:285:22: DeclRefExpr=rcvTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:278:24 (Reference) <US>c:main.c@10520@F@USCI0RX_ISR@rcvTimestamp<UE> <DS>rcvTimestamp<DE> Extent=<ES>285:22 - 285:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:286:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>286:7 - 286:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:286:7: DeclRefExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:103:13 (Reference) <US>c:main.c@4824@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>286:7 - 286:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:286:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>286:26 - 286:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:286:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>286:26 - 286:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:287:7: CallExpr=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:381:6 <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>287:7 - 287:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:287:7: UnexposedExpr=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:381:6 <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>287:7 - 287:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:287:7: DeclRefExpr=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:381:6 (Reference) <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>287:7 - 287:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:289:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>289:10 - 332:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6: FunctionDecl=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6 (Definition) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>338:1 - 360:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:32: ParmDecl=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:32 (Definition) <US>c:main.c@12375@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>338:18 - 338:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:41: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>338:41 - 360:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>342:3 - 358:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>342:7 - 342:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:7: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:32 <US>c:main.c@12375@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>342:7 - 342:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:7: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:32 <US>c:main.c@12375@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>342:7 - 342:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:7: DeclRefExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:32 (Reference) <US>c:main.c@12375@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>342:7 - 342:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:18: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>342:18 - 342:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:342:32: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>342:32 - 346:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:346:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>346:10 - 358:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:346:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>346:14 - 346:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:346:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:32 <US>c:main.c@12375@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>346:14 - 346:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:346:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:32 <US>c:main.c@12375@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>346:14 - 346:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:346:14: DeclRefExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:32 (Reference) <US>c:main.c@12375@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>346:14 - 346:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:346:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>346:25 - 346:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:346:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>346:35 - 350:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:350:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>350:10 - 358:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:350:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>350:14 - 350:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:350:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:32 <US>c:main.c@12375@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>350:14 - 350:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:350:14: UnexposedExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:32 <US>c:main.c@12375@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>350:14 - 350:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:350:14: DeclRefExpr=op_mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:32 (Reference) <US>c:main.c@12375@F@timerASetup@op_mode<UE> <DS>unsigned char<DE> Extent=<ES>350:14 - 350:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:350:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>350:25 - 350:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:350:39: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>350:39 - 354:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:354:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>354:10 - 358:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:363:6: FunctionDecl=uartWaitModeStart|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:363:6 (Definition) <US>c:@F@uartWaitModeStart<UE> <DS>void uartWaitModeStart(void)<DE> Extent=<ES>363:1 - 368:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:363:30: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>363:30 - 368:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:364:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>364:4 - 364:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:364:4: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 (Reference) <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>364:4 - 364:8<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:364:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>364:11 - 364:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:364:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>364:11 - 364:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:365:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>365:4 - 365:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:365:4: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22 (Reference) <US>c:main.c@4021@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>365:4 - 365:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:365:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>365:19 - 365:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:365:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>365:19 - 365:20<EE>
 <L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:366:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>366:4 - 366:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:366:4: DeclRefExpr=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:94:22 (Reference) <US>c:main.c@4589@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>366:4 - 366:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:366:4: DeclRefExpr=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:99:22 (Reference) <US>c:main.c@4639@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>366:4 - 366:19<EE>
 <L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:366:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>366:22 - 366:23<EE>
 <L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:366:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>366:22 - 366:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:367:4: CallExpr=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6 <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>367:4 - 367:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:367:4: UnexposedExpr=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6 <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>367:4 - 367:13<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:367:4: DeclRefExpr=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6 (Reference) <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>367:4 - 367:13<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:374:6: FunctionDecl=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:374:6 (Definition) <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>374:1 - 380:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:374:25: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>374:25 - 380:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:375:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>375:5 - 375:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:375:5: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 (Reference) <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>375:5 - 375:9<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:375:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>375:12 - 375:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:375:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>375:12 - 375:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:376:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>376:5 - 376:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:376:5: DeclRefExpr=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:94:22 (Reference) <US>c:main.c@4589@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>376:5 - 376:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:376:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>376:23 - 376:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:376:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>376:23 - 376:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:377:5: CallExpr=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:435:6 <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>377:5 - 377:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:377:5: UnexposedExpr=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:435:6 <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>377:5 - 377:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:377:5: DeclRefExpr=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:435:6 (Reference) <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>377:5 - 377:14<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:379:5: CallExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>379:5 - 379:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:379:5: UnexposedExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>379:5 - 379:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:379:5: DeclRefExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:6 (Reference) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>379:5 - 379:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:379:17: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>379:17 - 379:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:379:17: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 (Reference) <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>379:17 - 379:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:383:6: FunctionDecl=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:383:6 (Definition) <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>383:1 - 395:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:383:31: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>383:31 - 395:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:384:4: IfStmt= <US><UE> <DS><DE> Extent=<ES>384:4 - 394:5<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:384:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>384:8 - 384:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:384:8: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22 <US>c:main.c@3971@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>384:8 - 384:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:384:8: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22 (Reference) <US>c:main.c@3971@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>384:8 - 384:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:384:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>384:24 - 384:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:384:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>384:24 - 384:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:384:27: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>384:27 - 389:5<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:385:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>385:6 - 385:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:385:6: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 (Reference) <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>385:6 - 385:10<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:385:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>385:13 - 385:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:385:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>385:13 - 385:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:388:6: DoStmt= <US><UE> <DS><DE> Extent=<ES>388:6 - 388:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:388:6: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>388:6 - 388:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:388:6: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>388:6 - 388:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:389:11: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>389:11 - 394:5<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:390:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>390:6 - 390:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:390:6: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 (Reference) <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>390:6 - 390:10<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:390:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>390:13 - 390:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:390:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>390:13 - 390:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:391:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>391:6 - 391:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:391:6: DeclRefExpr=prevMatState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:95:22 (Reference) <US>c:main.c@4676@prevMatState<UE> <DS>prevMatState<DE> Extent=<ES>391:6 - 391:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:391:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>391:21 - 391:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:391:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>391:21 - 391:30<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:392:6: DoStmt= <US><UE> <DS><DE> Extent=<ES>392:6 - 392:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:392:6: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>392:6 - 392:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:392:6: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>392:6 - 392:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:393:6: CallExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>393:6 - 393:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:393:6: UnexposedExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>393:6 - 393:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:393:6: DeclRefExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:330:6 (Reference) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>393:6 - 393:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:393:18: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>393:18 - 393:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:393:18: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:31 (Reference) <US>c:main.c@4530@mode<UE> <DS>mode<DE> Extent=<ES>393:18 - 393:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:398:6: FunctionDecl=send16bit|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:398:6 (Definition) <US>c:@F@send16bit<UE> <DS>void send16bit(unsigned short)<DE> Extent=<ES>398:1 - 404:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:398:31: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:398:31 (Definition) <US>c:main.c@14627@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>398:16 - 398:34<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:398:36: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>398:36 - 404:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:399:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>399:5 - 399:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:399:19: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:399:19 (Definition) <US>c:main.c@14654@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>399:5 - 399:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>400:5 - 403:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>400:10 - 400:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:399:19 (Reference) <US>c:main.c@14654@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>400:10 - 400:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>400:14 - 400:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>400:14 - 400:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>400:17 - 400:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:399:19 <US>c:main.c@14654@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>400:17 - 400:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:399:19 <US>c:main.c@14654@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>400:17 - 400:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:399:19 (Reference) <US>c:main.c@14654@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>400:17 - 400:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>400:21 - 400:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:24: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>400:24 - 400:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:24: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:399:19 (Reference) <US>c:main.c@14654@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>400:24 - 400:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>400:29 - 403:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:401:9: CallExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>401:9 - 401:32<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:401:9: UnexposedExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>401:9 - 401:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:401:9: DeclRefExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:6 (Reference) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>401:9 - 401:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:401:22: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>401:22 - 401:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:401:28: UnexposedExpr=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:398:31 <US>c:main.c@14627@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>401:28 - 401:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:401:28: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:398:31 (Reference) <US>c:main.c@14627@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>401:28 - 401:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:402:9: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>402:9 - 402:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:402:9: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:398:31 (Reference) <US>c:main.c@14627@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>402:9 - 402:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:402:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>402:17 - 402:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:6: FunctionDecl=send32bit|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:6 (Definition) <US>c:@F@send32bit<UE> <DS>void send32bit(unsigned long)<DE> Extent=<ES>407:1 - 413:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:30: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:30 (Definition) <US>c:main.c@14908@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>407:16 - 407:33<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>407:35 - 413:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:408:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>408:5 - 408:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:408:19: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:408:19 (Definition) <US>c:main.c@14934@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>408:5 - 408:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>409:5 - 412:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>409:10 - 409:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:408:19 (Reference) <US>c:main.c@14934@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>409:10 - 409:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>409:14 - 409:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>409:14 - 409:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>409:17 - 409:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:408:19 <US>c:main.c@14934@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>409:17 - 409:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:408:19 <US>c:main.c@14934@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>409:17 - 409:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:408:19 (Reference) <US>c:main.c@14934@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>409:17 - 409:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>409:21 - 409:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:24: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>409:24 - 409:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:24: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:408:19 (Reference) <US>c:main.c@14934@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>409:24 - 409:25<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>409:29 - 412:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:410:9: CallExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>410:9 - 410:32<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:410:9: UnexposedExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>410:9 - 410:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:410:9: DeclRefExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:6 (Reference) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>410:9 - 410:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:410:22: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>410:22 - 410:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:410:28: UnexposedExpr=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:30 <US>c:main.c@14908@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>410:28 - 410:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:410:28: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:30 (Reference) <US>c:main.c@14908@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>410:28 - 410:31<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:411:9: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>411:9 - 411:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:411:9: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:30 (Reference) <US>c:main.c@14908@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>411:9 - 411:12<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:411:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>411:17 - 411:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:6: FunctionDecl=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:6 (Definition) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>416:1 - 420:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:24: ParmDecl=charToTransmit|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:24 (Definition) <US>c:main.c@15197@F@transmitChar@charToTransmit<UE> <DS>char<DE> Extent=<ES>416:19 - 416:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:417:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>417:1 - 420:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6: FunctionDecl=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6 (Definition) <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>423:1 - 432:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:424:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>424:1 - 432:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:435:6: FunctionDecl=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:435:6 (Definition) <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>435:1 - 438:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:436:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>436:1 - 438:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:441:6: FunctionDecl=recordEvent|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:441:6 (Definition) <US>c:@F@recordEvent<UE> <DS>void recordEvent(unsigned char)<DE> Extent=<ES>441:1 - 466:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:441:32: ParmDecl=matState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:441:32 (Definition) <US>c:main.c@15944@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>441:18 - 441:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:441:42: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>441:42 - 466:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:443:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>443:3 - 458:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:443:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>443:7 - 444:67<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:443:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>443:7 - 443:47<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:443:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>443:8 - 443:46<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:443:8: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:22 <US>c:main.c@4082@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>443:8 - 443:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:443:8: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:22 <US>c:main.c@4082@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>443:8 - 443:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:443:8: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:22 (Reference) <US>c:main.c@4082@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>443:8 - 443:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:443:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>443:27 - 443:46<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:444:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>444:5 - 444:67<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:444:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>444:6 - 444:66<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:444:6: ParenExpr= <US><UE> <DS><DE> Extent=<ES>444:6 - 444:43<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:444:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>444:7 - 444:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:444:7: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>444:7 - 444:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:444:7: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>444:7 - 444:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:444:7: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 (Reference) <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>444:7 - 444:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:444:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>444:23 - 444:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:444:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>444:47 - 444:66<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:445:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>445:3 - 458:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:447:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>447:5 - 447:77<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:447:21: VarDecl=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:447:21 (Definition) <US>c:main.c@16239@F@recordEvent@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>447:5 - 447:76<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:447:43: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>447:43 - 447:76<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:447:60: UnexposedExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:21 <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>447:60 - 447:76<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:447:60: DeclRefExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:21 (Reference) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>447:60 - 447:76<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>450:5 - 450:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:19: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:19 (Definition) <US>c:main.c@16467@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>450:5 - 450:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>451:5 - 453:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>451:10 - 451:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:19 (Reference) <US>c:main.c@16467@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>451:10 - 451:11<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>451:14 - 451:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>451:14 - 451:15<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>451:17 - 451:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:19 <US>c:main.c@16467@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>451:17 - 451:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:19 <US>c:main.c@16467@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>451:17 - 451:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:19 (Reference) <US>c:main.c@16467@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>451:17 - 451:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>451:21 - 451:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:42: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>451:42 - 451:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:42: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:19 (Reference) <US>c:main.c@16467@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>451:42 - 451:43<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:47: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>451:47 - 453:6<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:452:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>452:7 - 452:64<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:452:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>452:7 - 452:43<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:452:7: UnexposedExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:447:21 <US>c:main.c@16239@F@recordEvent@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>452:7 - 452:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:452:7: DeclRefExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:447:21 (Reference) <US>c:main.c@16239@F@recordEvent@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>452:7 - 452:26<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:452:27: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>452:27 - 452:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:452:27: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 (Reference) <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>452:27 - 452:40<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:452:46: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>452:46 - 452:64<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:452:46: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>452:46 - 452:64<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:452:46: UnexposedExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:87:22 <US>c:main.c@4164@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>452:46 - 452:61<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:452:46: DeclRefExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:87:22 (Reference) <US>c:main.c@4164@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>452:46 - 452:61<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:452:62: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:19 <US>c:main.c@16467@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>452:62 - 452:63<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:452:62: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:19 (Reference) <US>c:main.c@16467@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>452:62 - 452:63<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:457:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>457:5 - 457:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:457:5: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:22 (Reference) <US>c:main.c@4082@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>457:5 - 457:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:457:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>457:23 - 457:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:457:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>457:23 - 457:24<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:461:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>461:3 - 465:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:461:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>461:7 - 461:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:461:7: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:22 <US>c:main.c@4082@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>461:7 - 461:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:461:7: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:22 <US>c:main.c@4082@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>461:7 - 461:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:461:7: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:22 (Reference) <US>c:main.c@4082@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>461:7 - 461:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:461:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>461:25 - 461:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:461:46: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>461:46 - 465:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>463:5 - 463:122<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>463:5 - 463:39<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:5: UnexposedExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:87:22 <US>c:main.c@4164@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>463:5 - 463:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:5: DeclRefExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:87:22 (Reference) <US>c:main.c@4164@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>463:5 - 463:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:21: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>463:21 - 463:38<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:21: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:22 (Reference) <US>c:main.c@4082@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>463:21 - 463:36<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:42: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>463:42 - 463:122<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:42: ParenExpr= <US><UE> <DS><DE> Extent=<ES>463:42 - 463:88<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:43: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>463:43 - 463:87<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:43: ParenExpr= <US><UE> <DS><DE> Extent=<ES>463:43 - 463:68<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:44: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>463:44 - 463:67<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:59: UnexposedExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:441:32 <US>c:main.c@15944@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>463:59 - 463:67<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:59: DeclRefExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:441:32 (Reference) <US>c:main.c@15944@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>463:59 - 463:67<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:72: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>463:72 - 463:87<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:91: ParenExpr= <US><UE> <DS><DE> Extent=<ES>463:91 - 463:122<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:92: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>463:92 - 463:121<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:92: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22 <US>c:main.c@3971@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>463:92 - 463:104<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:92: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:85:22 (Reference) <US>c:main.c@3971@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>463:92 - 463:104<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:107: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>463:107 - 463:121<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:463:107: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>463:107 - 463:121<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:464:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>464:5 - 464:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:464:5: DeclRefExpr=prevMatState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:95:22 (Reference) <US>c:main.c@4676@prevMatState<UE> <DS>prevMatState<DE> Extent=<ES>464:5 - 464:17<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:464:20: UnexposedExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:441:32 <US>c:main.c@15944@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>464:20 - 464:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:464:20: DeclRefExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:441:32 (Reference) <US>c:main.c@15944@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>464:20 - 464:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:469:6: FunctionDecl=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:469:6 (Definition) <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>469:1 - 480:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:469:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>469:28 - 480:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>470:3 - 470:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:3: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:22 (Reference) <US>c:main.c@4082@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>470:3 - 470:18<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>470:21 - 470:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>470:21 - 470:22<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:471:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>471:3 - 471:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:471:3: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 (Reference) <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>471:3 - 471:16<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:471:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>471:19 - 471:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:471:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>471:19 - 471:20<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:474:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>474:3 - 474:75<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:474:19: VarDecl=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:474:19 (Definition) <US>c:main.c@17327@F@clearTimestamps@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>474:3 - 474:74<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:474:41: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>474:41 - 474:74<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:474:58: UnexposedExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:21 <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>474:58 - 474:74<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:474:58: DeclRefExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:21 (Reference) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>474:58 - 474:74<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:477:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>477:3 - 477:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:477:3: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>477:3 - 477:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:477:4: UnexposedExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:474:19 <US>c:main.c@17327@F@clearTimestamps@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>477:4 - 477:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:477:4: DeclRefExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:474:19 (Reference) <US>c:main.c@17327@F@clearTimestamps@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>477:4 - 477:23<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:477:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>477:26 - 477:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:477:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>477:26 - 477:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:15: FunctionDecl=getTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:15 (Definition) <US>c:@F@getTimestamp<UE> <DS>unsigned long getTimestamp(unsigned short)<DE> Extent=<ES>483:1 - 491:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:43: ParmDecl=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:43 (Definition) <US>c:main.c@17817@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>483:28 - 483:57<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:59: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>483:59 - 491:2<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>484:3 - 490:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>484:7 - 484:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:7: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:43 <US>c:main.c@17817@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>484:7 - 484:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:7: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:43 <US>c:main.c@17817@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>484:7 - 484:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:7: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:43 (Reference) <US>c:main.c@17817@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>484:7 - 484:21<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:24: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>484:24 - 484:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:24: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>484:24 - 484:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:24: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 (Reference) <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>484:24 - 484:37<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:39: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>484:39 - 486:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:485:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>485:5 - 485:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:485:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>485:12 - 485:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:485:12: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>485:12 - 485:44<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:485:12: UnexposedExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:21 <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>485:12 - 485:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:485:12: DeclRefExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:21 (Reference) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>485:12 - 485:28<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:485:29: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:43 <US>c:main.c@17817@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>485:29 - 485:43<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:485:29: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:43 (Reference) <US>c:main.c@17817@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>485:29 - 485:43<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>486:10 - 490:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>486:14 - 486:64<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>486:14 - 486:46<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>486:15 - 486:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:15: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:43 <US>c:main.c@17817@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>486:15 - 486:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:15: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:43 <US>c:main.c@17817@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>486:15 - 486:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:15: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:43 (Reference) <US>c:main.c@17817@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>486:15 - 486:29<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:32: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>486:32 - 486:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:32: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>486:32 - 486:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:32: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 (Reference) <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>486:32 - 486:45<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:49: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:22 <US>c:main.c@4082@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>486:49 - 486:64<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:49: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:22 <US>c:main.c@4082@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>486:49 - 486:64<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:49: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:86:22 (Reference) <US>c:main.c@4082@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>486:49 - 486:64<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:486:66: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>486:66 - 488:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:487:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>487:5 - 487:59<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:487:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>487:12 - 487:59<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:487:12: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>487:12 - 487:59<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:487:12: UnexposedExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:87:22 <US>c:main.c@4164@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>487:12 - 487:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:487:12: DeclRefExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:87:22 (Reference) <US>c:main.c@4164@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>487:12 - 487:27<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:487:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>487:28 - 487:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:487:28: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:43 <US>c:main.c@17817@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>487:28 - 487:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:487:28: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:43 <US>c:main.c@17817@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>487:28 - 487:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:487:28: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:483:43 (Reference) <US>c:main.c@17817@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>487:28 - 487:42<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:487:45: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>487:45 - 487:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:487:45: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>487:45 - 487:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:487:45: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:88:22 (Reference) <US>c:main.c@4270@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>487:45 - 487:58<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:488:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>488:10 - 490:4<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:489:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>489:5 - 489:13<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:489:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>489:12 - 489:13<EE>
-<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:489:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>489:12 - 489:13<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:367:4: CallExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>367:4 - 367:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:367:4: UnexposedExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>367:4 - 367:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:367:4: DeclRefExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6 (Reference) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>367:4 - 367:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:367:16: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>367:16 - 367:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:367:16: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 (Reference) <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>367:16 - 367:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:371:6: FunctionDecl=uartModeStart|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:371:6 (Definition) <US>c:@F@uartModeStart<UE> <DS>void uartModeStart(void)<DE> Extent=<ES>371:1 - 378:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:371:26: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>371:26 - 378:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:372:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>372:4 - 372:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:372:4: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 (Reference) <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>372:4 - 372:8<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:372:11: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>372:11 - 372:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:372:11: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>372:11 - 372:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:373:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>373:4 - 373:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:373:4: DeclRefExpr=recvingTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:103:13 (Reference) <US>c:main.c@4824@recvingTimestamp<UE> <DS>recvingTimestamp<DE> Extent=<ES>373:4 - 373:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:373:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>373:23 - 373:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:373:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>373:23 - 373:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:374:4: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>374:4 - 374:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:374:4: DeclRefExpr=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:99:22 (Reference) <US>c:main.c@4639@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>374:4 - 374:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:374:22: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>374:22 - 374:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:374:22: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>374:22 - 374:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:375:4: CallExpr=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:430:6 <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>375:4 - 375:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:375:4: UnexposedExpr=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:430:6 <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>375:4 - 375:13<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:375:4: DeclRefExpr=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:430:6 (Reference) <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>375:4 - 375:13<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:377:4: CallExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>377:4 - 377:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:377:4: UnexposedExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>377:4 - 377:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:377:4: DeclRefExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6 (Reference) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>377:4 - 377:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:377:16: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>377:16 - 377:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:377:16: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 (Reference) <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>377:16 - 377:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:381:6: FunctionDecl=uartModeStop|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:381:6 (Definition) <US>c:@F@uartModeStop<UE> <DS>void uartModeStop(void)<DE> Extent=<ES>381:1 - 387:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:381:25: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>381:25 - 387:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:382:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>382:3 - 382:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:382:3: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 (Reference) <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>382:3 - 382:7<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:382:10: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>382:10 - 382:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:382:10: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>382:10 - 382:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:383:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>383:3 - 383:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:383:3: DeclRefExpr=pcCommStableCnt|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:99:22 (Reference) <US>c:main.c@4639@pcCommStableCnt<UE> <DS>pcCommStableCnt<DE> Extent=<ES>383:3 - 383:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:383:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>383:21 - 383:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:383:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>383:21 - 383:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:384:3: CallExpr=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:442:6 <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>384:3 - 384:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:384:3: UnexposedExpr=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:442:6 <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>384:3 - 384:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:384:3: DeclRefExpr=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:442:6 (Reference) <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>384:3 - 384:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:386:3: CallExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>386:3 - 386:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:386:3: UnexposedExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>386:3 - 386:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:386:3: DeclRefExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6 (Reference) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>386:3 - 386:14<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:386:15: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>386:15 - 386:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:386:15: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 (Reference) <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>386:15 - 386:19<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:390:6: FunctionDecl=startIdleSenseMode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:390:6 (Definition) <US>c:@F@startIdleSenseMode<UE> <DS>void startIdleSenseMode(void)<DE> Extent=<ES>390:1 - 402:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:390:31: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>390:31 - 402:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:391:4: IfStmt= <US><UE> <DS><DE> Extent=<ES>391:4 - 401:5<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:391:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>391:8 - 391:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:391:8: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22 <US>c:main.c@4021@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>391:8 - 391:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:391:8: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22 (Reference) <US>c:main.c@4021@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>391:8 - 391:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:391:24: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>391:24 - 391:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:391:24: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>391:24 - 391:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:391:27: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>391:27 - 397:5<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:392:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>392:6 - 392:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:392:6: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 (Reference) <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>392:6 - 392:10<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:392:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>392:13 - 392:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:392:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>392:13 - 392:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:393:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>393:6 - 393:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:393:6: DeclRefExpr=prevMatState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:100:22 (Reference) <US>c:main.c@4726@prevMatState<UE> <DS>prevMatState<DE> Extent=<ES>393:6 - 393:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:393:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>393:21 - 393:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:393:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>393:21 - 393:30<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:396:6: DoStmt= <US><UE> <DS><DE> Extent=<ES>396:6 - 396:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:396:6: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>396:6 - 396:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:396:6: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>396:6 - 396:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:397:11: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>397:11 - 401:5<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:398:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>398:6 - 398:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:398:6: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 (Reference) <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>398:6 - 398:10<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:398:13: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>398:13 - 398:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:398:13: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>398:13 - 398:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:399:6: DoStmt= <US><UE> <DS><DE> Extent=<ES>399:6 - 399:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:399:6: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>399:6 - 399:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:399:6: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>399:6 - 399:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:6: CallExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>400:6 - 400:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:6: UnexposedExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6 <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>400:6 - 400:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:6: DeclRefExpr=timerASetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:338:6 (Reference) <US>c:@F@timerASetup<UE> <DS>void timerASetup(unsigned char)<DE> Extent=<ES>400:6 - 400:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:18: UnexposedExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>400:18 - 400:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:400:18: DeclRefExpr=mode|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:98:31 (Reference) <US>c:main.c@4580@mode<UE> <DS>mode<DE> Extent=<ES>400:18 - 400:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:405:6: FunctionDecl=send16bit|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:405:6 (Definition) <US>c:@F@send16bit<UE> <DS>void send16bit(unsigned short)<DE> Extent=<ES>405:1 - 411:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:405:31: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:405:31 (Definition) <US>c:main.c@14742@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>405:16 - 405:34<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:405:36: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>405:36 - 411:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:406:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>406:5 - 406:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:406:19: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:406:19 (Definition) <US>c:main.c@14769@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>406:5 - 406:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>407:5 - 410:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>407:10 - 407:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:406:19 (Reference) <US>c:main.c@14769@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>407:10 - 407:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>407:14 - 407:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>407:14 - 407:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>407:17 - 407:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:406:19 <US>c:main.c@14769@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>407:17 - 407:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:406:19 <US>c:main.c@14769@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>407:17 - 407:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:406:19 (Reference) <US>c:main.c@14769@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>407:17 - 407:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>407:21 - 407:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:24: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>407:24 - 407:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:24: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:406:19 (Reference) <US>c:main.c@14769@F@send16bit@i<UE> <DS>i<DE> Extent=<ES>407:24 - 407:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:407:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>407:29 - 410:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:408:9: CallExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>408:9 - 408:32<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:408:9: UnexposedExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>408:9 - 408:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:408:9: DeclRefExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6 (Reference) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>408:9 - 408:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:408:22: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>408:22 - 408:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:408:28: UnexposedExpr=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:405:31 <US>c:main.c@14742@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>408:28 - 408:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:408:28: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:405:31 (Reference) <US>c:main.c@14742@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>408:28 - 408:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:9: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>409:9 - 409:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:9: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:405:31 (Reference) <US>c:main.c@14742@F@send16bit@val<UE> <DS>unsigned short<DE> Extent=<ES>409:9 - 409:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:409:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>409:17 - 409:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:414:6: FunctionDecl=send32bit|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:414:6 (Definition) <US>c:@F@send32bit<UE> <DS>void send32bit(unsigned long)<DE> Extent=<ES>414:1 - 420:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:414:30: ParmDecl=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:414:30 (Definition) <US>c:main.c@15023@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>414:16 - 414:33<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:414:35: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>414:35 - 420:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:415:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>415:5 - 415:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:415:19: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:415:19 (Definition) <US>c:main.c@15049@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>415:5 - 415:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>416:5 - 419:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>416:10 - 416:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:415:19 (Reference) <US>c:main.c@15049@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>416:10 - 416:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>416:14 - 416:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>416:14 - 416:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>416:17 - 416:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:415:19 <US>c:main.c@15049@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>416:17 - 416:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:415:19 <US>c:main.c@15049@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>416:17 - 416:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:415:19 (Reference) <US>c:main.c@15049@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>416:17 - 416:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>416:21 - 416:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:24: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>416:24 - 416:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:24: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:415:19 (Reference) <US>c:main.c@15049@F@send32bit@i<UE> <DS>i<DE> Extent=<ES>416:24 - 416:25<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:416:29: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>416:29 - 419:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:417:9: CallExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>417:9 - 417:32<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:417:9: UnexposedExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6 <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>417:9 - 417:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:417:9: DeclRefExpr=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6 (Reference) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>417:9 - 417:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:417:22: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>417:22 - 417:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:417:28: UnexposedExpr=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:414:30 <US>c:main.c@15023@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>417:28 - 417:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:417:28: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:414:30 (Reference) <US>c:main.c@15023@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>417:28 - 417:31<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:418:9: CompoundAssignOperator= <US><UE> <DS><DE> Extent=<ES>418:9 - 418:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:418:9: DeclRefExpr=val|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:414:30 (Reference) <US>c:main.c@15023@F@send32bit@val<UE> <DS>unsigned long<DE> Extent=<ES>418:9 - 418:12<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:418:17: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>418:17 - 418:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6: FunctionDecl=transmitChar|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:6 (Definition) <US>c:@F@transmitChar<UE> <DS>void transmitChar(char)<DE> Extent=<ES>423:1 - 427:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:24: ParmDecl=charToTransmit|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:423:24 (Definition) <US>c:main.c@15312@F@transmitChar@charToTransmit<UE> <DS>char<DE> Extent=<ES>423:19 - 423:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:424:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>424:1 - 427:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:430:6: FunctionDecl=UARTSetup|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:430:6 (Definition) <US>c:@F@UARTSetup<UE> <DS>void UARTSetup(void)<DE> Extent=<ES>430:1 - 439:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:431:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>431:1 - 439:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:442:6: FunctionDecl=UARTSleep|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:442:6 (Definition) <US>c:@F@UARTSleep<UE> <DS>void UARTSleep(void)<DE> Extent=<ES>442:1 - 445:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:443:1: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>443:1 - 445:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:448:6: FunctionDecl=recordEvent|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:448:6 (Definition) <US>c:@F@recordEvent<UE> <DS>void recordEvent(unsigned char)<DE> Extent=<ES>448:1 - 473:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:448:32: ParmDecl=matState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:448:32 (Definition) <US>c:main.c@16063@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>448:18 - 448:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:448:42: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>448:42 - 473:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>450:3 - 465:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>450:7 - 451:67<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:7: ParenExpr= <US><UE> <DS><DE> Extent=<ES>450:7 - 450:47<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:8: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>450:8 - 450:46<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:8: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:91:22 <US>c:main.c@4132@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>450:8 - 450:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:8: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:91:22 <US>c:main.c@4132@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>450:8 - 450:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:8: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:91:22 (Reference) <US>c:main.c@4132@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>450:8 - 450:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:450:27: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>450:27 - 450:46<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:5: ParenExpr= <US><UE> <DS><DE> Extent=<ES>451:5 - 451:67<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:6: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>451:6 - 451:66<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:6: ParenExpr= <US><UE> <DS><DE> Extent=<ES>451:6 - 451:43<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>451:7 - 451:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:7: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>451:7 - 451:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:7: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>451:7 - 451:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:7: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 (Reference) <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>451:7 - 451:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>451:23 - 451:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:451:47: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>451:47 - 451:66<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:452:3: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>452:3 - 465:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:454:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>454:5 - 454:77<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:454:21: VarDecl=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:454:21 (Definition) <US>c:main.c@16358@F@recordEvent@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>454:5 - 454:76<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:454:43: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>454:43 - 454:76<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:454:60: UnexposedExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:95:21 <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>454:60 - 454:76<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:454:60: DeclRefExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:95:21 (Reference) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>454:60 - 454:76<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:457:5: DeclStmt= <US><UE> <DS><DE> Extent=<ES>457:5 - 457:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:457:19: VarDecl=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:457:19 (Definition) <US>c:main.c@16586@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>457:5 - 457:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:458:5: ForStmt= <US><UE> <DS><DE> Extent=<ES>458:5 - 460:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:458:10: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>458:10 - 458:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:458:10: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:457:19 (Reference) <US>c:main.c@16586@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>458:10 - 458:11<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:458:14: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>458:14 - 458:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:458:14: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>458:14 - 458:15<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:458:17: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>458:17 - 458:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:458:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:457:19 <US>c:main.c@16586@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>458:17 - 458:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:458:17: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:457:19 <US>c:main.c@16586@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>458:17 - 458:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:458:17: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:457:19 (Reference) <US>c:main.c@16586@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>458:17 - 458:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:458:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>458:21 - 458:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:458:42: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>458:42 - 458:45<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:458:42: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:457:19 (Reference) <US>c:main.c@16586@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>458:42 - 458:43<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:458:47: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>458:47 - 460:6<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:459:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>459:7 - 459:64<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:459:7: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>459:7 - 459:43<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:459:7: UnexposedExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:454:21 <US>c:main.c@16358@F@recordEvent@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>459:7 - 459:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:459:7: DeclRefExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:454:21 (Reference) <US>c:main.c@16358@F@recordEvent@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>459:7 - 459:26<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:459:27: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>459:27 - 459:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:459:27: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 (Reference) <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>459:27 - 459:40<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:459:46: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>459:46 - 459:64<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:459:46: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>459:46 - 459:64<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:459:46: UnexposedExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:92:22 <US>c:main.c@4214@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>459:46 - 459:61<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:459:46: DeclRefExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:92:22 (Reference) <US>c:main.c@4214@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>459:46 - 459:61<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:459:62: UnexposedExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:457:19 <US>c:main.c@16586@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>459:62 - 459:63<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:459:62: DeclRefExpr=i|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:457:19 (Reference) <US>c:main.c@16586@F@recordEvent@i<UE> <DS>i<DE> Extent=<ES>459:62 - 459:63<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:464:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>464:5 - 464:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:464:5: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:91:22 (Reference) <US>c:main.c@4132@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>464:5 - 464:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:464:23: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>464:23 - 464:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:464:23: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>464:23 - 464:24<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:468:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>468:3 - 472:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:468:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>468:7 - 468:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:468:7: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:91:22 <US>c:main.c@4132@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>468:7 - 468:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:468:7: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:91:22 <US>c:main.c@4132@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>468:7 - 468:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:468:7: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:91:22 (Reference) <US>c:main.c@4132@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>468:7 - 468:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:468:25: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>468:25 - 468:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:468:46: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>468:46 - 472:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>470:5 - 470:122<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:5: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>470:5 - 470:39<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:5: UnexposedExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:92:22 <US>c:main.c@4214@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>470:5 - 470:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:5: DeclRefExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:92:22 (Reference) <US>c:main.c@4214@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>470:5 - 470:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:21: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>470:21 - 470:38<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:21: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:91:22 (Reference) <US>c:main.c@4132@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>470:21 - 470:36<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:42: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>470:42 - 470:122<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:42: ParenExpr= <US><UE> <DS><DE> Extent=<ES>470:42 - 470:88<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:43: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>470:43 - 470:87<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:43: ParenExpr= <US><UE> <DS><DE> Extent=<ES>470:43 - 470:68<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:44: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>470:44 - 470:67<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:59: UnexposedExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:448:32 <US>c:main.c@16063@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>470:59 - 470:67<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:59: DeclRefExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:448:32 (Reference) <US>c:main.c@16063@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>470:59 - 470:67<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:72: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>470:72 - 470:87<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:91: ParenExpr= <US><UE> <DS><DE> Extent=<ES>470:91 - 470:122<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:92: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>470:92 - 470:121<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:92: UnexposedExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22 <US>c:main.c@4021@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>470:92 - 470:104<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:92: DeclRefExpr=curTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:90:22 (Reference) <US>c:main.c@4021@curTimestamp<UE> <DS>curTimestamp<DE> Extent=<ES>470:92 - 470:104<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:107: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>470:107 - 470:121<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:470:107: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>470:107 - 470:121<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:471:5: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>471:5 - 471:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:471:5: DeclRefExpr=prevMatState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:100:22 (Reference) <US>c:main.c@4726@prevMatState<UE> <DS>prevMatState<DE> Extent=<ES>471:5 - 471:17<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:471:20: UnexposedExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:448:32 <US>c:main.c@16063@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>471:20 - 471:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:471:20: DeclRefExpr=matState|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:448:32 (Reference) <US>c:main.c@16063@F@recordEvent@matState<UE> <DS>unsigned char<DE> Extent=<ES>471:20 - 471:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:476:6: FunctionDecl=clearTimestamps|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:476:6 (Definition) <US>c:@F@clearTimestamps<UE> <DS>void clearTimestamps(void)<DE> Extent=<ES>476:1 - 487:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:476:28: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>476:28 - 487:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:477:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>477:3 - 477:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:477:3: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:91:22 (Reference) <US>c:main.c@4132@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>477:3 - 477:18<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:477:21: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>477:21 - 477:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:477:21: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>477:21 - 477:22<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:478:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>478:3 - 478:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:478:3: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 (Reference) <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>478:3 - 478:16<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:478:19: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>478:19 - 478:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:478:19: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>478:19 - 478:20<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:481:3: DeclStmt= <US><UE> <DS><DE> Extent=<ES>481:3 - 481:75<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:481:19: VarDecl=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:481:19 (Definition) <US>c:main.c@17446@F@clearTimestamps@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>481:3 - 481:74<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:481:41: CStyleCastExpr= <US><UE> <DS><DE> Extent=<ES>481:41 - 481:74<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:481:58: UnexposedExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:95:21 <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>481:58 - 481:74<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:481:58: DeclRefExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:95:21 (Reference) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>481:58 - 481:74<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:3: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>484:3 - 484:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:3: UnaryOperator= <US><UE> <DS><DE> Extent=<ES>484:3 - 484:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:4: UnexposedExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:481:19 <US>c:main.c@17446@F@clearTimestamps@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>484:4 - 484:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:4: DeclRefExpr=timestampStoragePtr|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:481:19 (Reference) <US>c:main.c@17446@F@clearTimestamps@timestampStoragePtr<UE> <DS>timestampStoragePtr<DE> Extent=<ES>484:4 - 484:23<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:26: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>484:26 - 484:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:484:26: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>484:26 - 484:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:15: FunctionDecl=getTimestamp|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:15 (Definition) <US>c:@F@getTimestamp<UE> <DS>unsigned long getTimestamp(unsigned short)<DE> Extent=<ES>490:1 - 498:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:43: ParmDecl=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:43 (Definition) <US>c:main.c@17936@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>490:28 - 490:57<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:59: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>490:59 - 498:2<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:491:3: IfStmt= <US><UE> <DS><DE> Extent=<ES>491:3 - 497:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:491:7: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>491:7 - 491:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:491:7: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:43 <US>c:main.c@17936@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>491:7 - 491:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:491:7: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:43 <US>c:main.c@17936@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>491:7 - 491:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:491:7: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:43 (Reference) <US>c:main.c@17936@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>491:7 - 491:21<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:491:24: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>491:24 - 491:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:491:24: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>491:24 - 491:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:491:24: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 (Reference) <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>491:24 - 491:37<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:491:39: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>491:39 - 493:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:492:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>492:5 - 492:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:492:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>492:12 - 492:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:492:12: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>492:12 - 492:44<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:492:12: UnexposedExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:95:21 <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>492:12 - 492:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:492:12: DeclRefExpr=timestampStorage|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:95:21 (Reference) <US>c:@timestampStorage<UE> <DS>timestampStorage<DE> Extent=<ES>492:12 - 492:28<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:492:29: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:43 <US>c:main.c@17936@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>492:29 - 492:43<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:492:29: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:43 (Reference) <US>c:main.c@17936@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>492:29 - 492:43<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:493:10: IfStmt= <US><UE> <DS><DE> Extent=<ES>493:10 - 497:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:493:14: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>493:14 - 493:64<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:493:14: ParenExpr= <US><UE> <DS><DE> Extent=<ES>493:14 - 493:46<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:493:15: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>493:15 - 493:45<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:493:15: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:43 <US>c:main.c@17936@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>493:15 - 493:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:493:15: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:43 <US>c:main.c@17936@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>493:15 - 493:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:493:15: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:43 (Reference) <US>c:main.c@17936@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>493:15 - 493:29<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:493:32: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>493:32 - 493:45<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:493:32: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>493:32 - 493:45<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:493:32: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 (Reference) <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>493:32 - 493:45<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:493:49: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:91:22 <US>c:main.c@4132@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>493:49 - 493:64<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:493:49: UnexposedExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:91:22 <US>c:main.c@4132@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>493:49 - 493:64<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:493:49: DeclRefExpr=timeBufferIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:91:22 (Reference) <US>c:main.c@4132@timeBufferIndex<UE> <DS>timeBufferIndex<DE> Extent=<ES>493:49 - 493:64<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:493:66: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>493:66 - 495:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:494:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>494:5 - 494:59<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:494:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>494:12 - 494:59<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:494:12: ArraySubscriptExpr= <US><UE> <DS><DE> Extent=<ES>494:12 - 494:59<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:494:12: UnexposedExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:92:22 <US>c:main.c@4214@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>494:12 - 494:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:494:12: DeclRefExpr=timestampBuffer|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:92:22 (Reference) <US>c:main.c@4214@timestampBuffer<UE> <DS>timestampBuffer<DE> Extent=<ES>494:12 - 494:27<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:494:28: BinaryOperator= <US><UE> <DS><DE> Extent=<ES>494:28 - 494:58<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:494:28: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:43 <US>c:main.c@17936@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>494:28 - 494:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:494:28: UnexposedExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:43 <US>c:main.c@17936@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>494:28 - 494:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:494:28: DeclRefExpr=timestampIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:490:43 (Reference) <US>c:main.c@17936@F@getTimestamp@timestampIndex<UE> <DS>unsigned short<DE> Extent=<ES>494:28 - 494:42<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:494:45: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>494:45 - 494:58<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:494:45: UnexposedExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>494:45 - 494:58<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:494:45: DeclRefExpr=timeStorIndex|C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:93:22 (Reference) <US>c:main.c@4320@timeStorIndex<UE> <DS>timeStorIndex<DE> Extent=<ES>494:45 - 494:58<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:495:10: CompoundStmt= <US><UE> <DS><DE> Extent=<ES>495:10 - 497:4<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:496:5: ReturnStmt= <US><UE> <DS><DE> Extent=<ES>496:5 - 496:13<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:496:12: UnexposedExpr= <US><UE> <DS><DE> Extent=<ES>496:12 - 496:13<EE>
+<L>C:\Users\Freddy\Documents\MSP430\namasteRC\main.c:496:12: IntegerLiteral= <US><UE> <DS><DE> Extent=<ES>496:12 - 496:13<EE>

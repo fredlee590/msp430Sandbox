@@ -1,3 +1,8 @@
+/*
+    main.c
+    Code for Namaste Rev 3
+*/
+
 #include <msp430.h>
 #include <stdbool.h>
 
@@ -132,6 +137,7 @@ void main(void) {
   /* set inputs and outputs */
   P1DIR = DBG0 | DBG1 | DBG2; /* debugging leds are outputs. all others are inputs / don't cares */
   P2DIR = SENVCC;
+  P3DIR = LED0;
   
   /* use pulldowns */
   P1OUT = 0;
@@ -141,7 +147,7 @@ void main(void) {
   /* enable/disable pull-downs */
   P1REN = (unsigned char)(~(DBG0 | DBG1 | DBG2));
   P2REN = (unsigned char)(~(PCCOMM | SENSEIN | SENVCC | XIN | XOUT));
-  P3REN = (unsigned char)(~(UARTTX | UARTRX));
+  P3REN = (unsigned char)(~(UARTTX | UARTRX | LED0));
 
   /* set I/O type */
   P2SEL = (XIN | XOUT);
@@ -157,12 +163,12 @@ void main(void) {
    * DCOCLK = 1 MHz, sourced from XT1
    * 
    * MCLK = DCOCLK
-   * SMCLK = XT1
+   * SMCLK = DCOCLK
    * ACLK = XT1
    */
   DCOCTL = CALDCO_1MHZ;
   BCSCTL1 = XT2OFF | CALBC1_1MHZ;
-  BCSCTL2 = SELS; /* SMCLK = ACLK */
+  BCSCTL2 = 0; /* SMCLK = DCOCLK */
   BCSCTL3 = LFXT1S_0 | XCAP_1; /* use 32768 Hz XT1 with 6pF effective load cap */
 
   /* wait until there are no osc. faults */
@@ -202,7 +208,7 @@ __interrupt void P2_ISR(void)
   }
 }
 
-#pragma vector=TIMERA0_VECTOR
+#pragma vector=TIMER0_A0_VECTOR
 __interrupt void TA_ISR(void) {
 
   switch(mode)
@@ -214,6 +220,17 @@ __interrupt void TA_ISR(void) {
         uartModeStart();        /* switch to UART mode */
       }
     } else {                        /* cable is disconnected */
+      pcCommStableCnt = 0;        /* reset counter */
+    }
+    break;
+  case UARTMODE:
+    if(!(P2IN & PCCOMM)){         /* PC comm pin is low (cable is disconnected) */
+      if (++pcCommStableCnt == UART_PCCOMM_LOW_CNT) {
+                                        /* cable has been disconnected, switch to UARTDONE mode */
+        uartModeStop();         /* UART mode is now done */
+          return;
+      }
+    } else {                        /* cable is still connected */
       pcCommStableCnt = 0;        /* reset counter */
     }
     break;
@@ -232,13 +249,18 @@ __interrupt void TA_ISR(void) {
     }
     break;
   case SENSEMODE:
+    P2OUT |= SENVCC;
+    __delay_cycles(30);             /* wait 30 us */
+    
     if (curTimestamp != 0) {    // update time
       curTimestamp += 15;       // increment by 15 seconds
     }
-    P2OUT |= SENVCC;
+    
     if (prevMatState != MAT_OPEN && (P2IN & SENSEIN)) {
+      P1OUT = DBG0; // remove later
       recordEvent(MAT_OPEN);
     } else if(prevMatState != MAT_CLOSED && !(P2IN & SENSEIN)) {
+      P1OUT = DBG1; // remove later
       recordEvent(MAT_CLOSED);
     }
     P2OUT &= ~SENVCC;
@@ -352,8 +374,7 @@ void uartModeStart(void) {
    pcCommStableCnt = 0;
    UARTSetup();
    P3OUT |= LED0;
-   CCTL0 = 0;              /* disable timer interrupt */
-   TACTL = 0;              /* disable timer */
+   timerASetup(mode);
 }
 
 // Wake up every 1 second to keep time
@@ -369,12 +390,12 @@ void uartModeStop(void) {
 void startIdleSenseMode(void) {
    if (curTimestamp == 0) {    /* don't go to SENSE mode, just go into IDLE */
      mode = IDLEMODE;
+     prevMatState = MAT_UNDEF;
      CCTL0 = 0;                /* disable timer interrupt */
      TACTL = 0;                /* disable timer */
      PCCOMMIntrOn();
    } else {                    /* go into SENSE mode */
      mode = SENSEMODE;
-     prevMatState = MAT_UNDEF;
      PCCOMMIntrOn();
      timerASetup(mode);      // will generate periodic interrupts
    }
@@ -409,10 +430,10 @@ void transmitChar(char charToTransmit)
 void UARTSetup(void)
 {
   UCA0CTL1 |= UCSWRST;
-  UCA0CTL1 |= UCSSEL_2;                     // BRCLK = SMCLK = ACLK = 32kHz
-  UCA0BR0 = 3;                              // 32kHz/9600 = 3
+  UCA0CTL1 |= UCSSEL_2;                     // BRCLK = SMCLK = MCLK = 1MHz
+  UCA0BR0 = 104;                            // 1MHz/9600 = 104.166
   UCA0BR1 = 0x00;
-  UCA0MCTL = UCBRS0 | UCBRS1;               // Modulation UCBRSx = 3
+  UCA0MCTL = UCBRS0;                        // Modulation UCBRSx = 1
   UCA0CTL1 &= ~UCSWRST;                     // **Initialize USCI state machine**
   IE2 |= UCA0RXIE;                          // Enable USCI_A0 RX interrupt
 }

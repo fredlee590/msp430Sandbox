@@ -68,23 +68,22 @@ void exampleUARTSetup( void )
 #pragma vector=USCIAB0RX_VECTOR
 __interrupt void USCI0RX_ISR(void)
 {
-  switch(UCA0RXBUF)
+  unsigned char received = UCA0RXBUF;
+  switch(received)
   {
   case 'a':
     P1OUT ^= 0x01;
-    transmitChar('x');
     break;
   case 'b':
     P1OUT ^= 0x02;
-    transmitChar('y');
     break;
   case 'q':
     P1OUT = 0x00;
-    transmitChar('z');
     break;
   default:
     break;
-  }
+  }  
+  transmitChar(received);
   transmitString("khan");
 }
 

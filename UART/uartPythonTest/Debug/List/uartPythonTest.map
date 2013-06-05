@@ -2,7 +2,7 @@
 #                                                                              #
 #      IAR Universal Linker V5.4.1.30                                          #
 #                                                                              #
-#           Link time     =  11/May/2013  22:29:19                             #
+#           Link time     =  30/May/2013  15:31:54                             #
 #           Target CPU    =  MSP430                                            #
 #           List file     =  C:\Users\Freddy\Documents\MSP430\UART\uartPythonT #
 #                            est\Debug\List\uartPythonTest.map                 #
@@ -259,11 +259,11 @@ DATA16_AN
            CALBC1_1MHZ             10FF 
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 8306 - 8313 (0xe bytes), align: 1
+  Relative segment, address: 82F4 - 8301 (0xe bytes), align: 1
   Segment part 33.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           main                    8306            Segment part 17 (?cstart)
+           main                    82F4            Segment part 17 (?cstart)
                calls direct
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
@@ -276,7 +276,7 @@ DATA16_AN
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 8258 - 82AF (0x58 bytes), align: 1
+  Relative segment, address: 8258 - 829D (0x46 bytes), align: 1
   Segment part 31.            Intra module refs:   USCI0RX_ISR::??INTVEC 14
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
@@ -286,28 +286,28 @@ DATA16_AN
                CSTACK = 00000000 ( 0000000C )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 8314 - 831F (0xc bytes), align: 1
+  Relative segment, address: 8302 - 830D (0xc bytes), align: 1
   Segment part 28.            Intra module refs:   USCI0RX_ISR
                                                    transmitString
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           transmitChar            8314 
+           transmitChar            8302 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 82D6 - 82EF (0x1a bytes), align: 1
+  Relative segment, address: 82C4 - 82DD (0x1a bytes), align: 1
   Segment part 29.            Intra module refs:   transmitString
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           myStrLen                82D6 
+           myStrLen                82C4 
                CSTACK = 00000000 ( 00000002 )
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 82B0 - 82D5 (0x26 bytes), align: 1
+  Relative segment, address: 829E - 82C3 (0x26 bytes), align: 1
   Segment part 30.            Intra module refs:   USCI0RX_ISR
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           transmitString          82B0 
+           transmitString          829E 
                calls direct
                CSTACK = 00000000 ( 00000004 )
     -------------------------------------------------------------------------
@@ -331,11 +331,11 @@ DATA16_C
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: 8328 - 8329 (0x2 bytes), align: 1
+  Relative segment, address: 8316 - 8317 (0x2 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __DebugBreak            8328            __exit (?__exit)
+           __DebugBreak            8316            __exit (?__exit)
 
     -------------------------------------------------------------------------
   LIBRARY MODULE, NAME : ?__exit
@@ -343,11 +343,11 @@ DATA16_C
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: 82F0 - 8305 (0x16 bytes), align: 1
+  Relative segment, address: 82DE - 82F3 (0x16 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           __exit                  82F0            Segment part 6 (?_exit)
+           __exit                  82DE            Segment part 6 (?_exit)
                                                    _exit (?_exit)
                calls direct
 
@@ -357,14 +357,14 @@ DATA16_C
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: 8320, align: 1
+  Relative segment, address: 830E, align: 1
   Segment part 0.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           _exit                   8320            exit (?exit)
+           _exit                   830E            exit (?exit)
     -------------------------------------------------------------------------
 <CODE> 1 (was CODE)
-  Relative segment, address: 8320 - 8323 (0x4 bytes), align: 1
+  Relative segment, address: 830E - 8311 (0x4 bytes), align: 1
   Segment part 6.             Intra module refs:   _exit
 
     -------------------------------------------------------------------------
@@ -411,11 +411,11 @@ RESET
   SEGMENTS IN THE MODULE
   ======================
 <CODE> 1 (was CODE)
-  Relative segment, address: 8324 - 8327 (0x4 bytes), align: 1
+  Relative segment, address: 8312 - 8315 (0x4 bytes), align: 1
   Segment part 2.
            ENTRY                   ADDRESS         REF BY
            =====                   =======         ======
-           exit                    8324            Segment part 17 (?cstart)
+           exit                    8312            Segment part 17 (?cstart)
                calls direct
                CSTACK = 00000000 ( 00000002 )
 
@@ -437,11 +437,11 @@ Module               CODE      DATA      CONST
 ?cstart                12
 ?exit                   4
 ?reset_vector           2
-main                  266            21      5
+main                  248            21      5
   + common             16
 N/A (command line)            80
 ----------            ---     --     --      -
-Total:                312     80     21      5
+Total:                294     80     21      5
   + common             16
 
 
@@ -468,7 +468,7 @@ CSTACK                                 05B0 - 05FF              50   rel    1
 DATA16_AN                              10FE - 10FF               2   rel    0
 DATA16_C                               8000 - 8004               5   rel    0
 CSTART                                 8006 - 8011               C   rel    1
-<CODE> 1                               8200 - 8329             12A   rel    1
+<CODE> 1                               8200 - 8317             118   rel    1
 INTVEC                                 FFE0 - FFEF              10   com    1
 RESET                                  FFFE - FFFF               2   rel    1
 
@@ -478,7 +478,7 @@ RESET                                  FFFE - FFFF               2   rel    1
                 *                                      *
                 ****************************************
 
- 328 bytes of CODE  memory
+ 310 bytes of CODE  memory
   80 bytes of DATA  memory (+ 21 absolute )
    5 bytes of CONST memory
 

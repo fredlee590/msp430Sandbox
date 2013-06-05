@@ -1,3 +1,8 @@
+/*
+    main.c
+    Code for AMBER Board
+*/
+
 #include <msp430.h>
 #include <stdbool.h>
 
