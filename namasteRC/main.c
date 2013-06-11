@@ -121,7 +121,7 @@ void main(void) {
    * Outputs: 
    *  P1: (DBG0 | DGB1 | DBG2)
    *  P2: (SENVCC)
-   *  P3: ()
+   *  P3: (LED0)
    * Pull-ups:
    *  P1: ()
    *  P2: ()
@@ -129,7 +129,7 @@ void main(void) {
    * Disabled pull-up/downs: 
    *  P1: (DBG0 | DBG1 | DBG2)
    *  P2: (PCCOM | SENSEIN | SENVCC | XIN | XOUT)
-   *  P3: (UARTTX | UARTRX)
+   *  P3: (UARTTX | UARTRX | LED0)
    */
   /* set inputs and outputs */
   P1DIR = DBG0 | DBG1 | DBG2; /* debugging leds are outputs. all others are inputs / don't cares */
