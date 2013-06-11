@@ -36,7 +36,7 @@
 #define ACK_VALUE       '!'
 
 /* timing constants */
-// freddyChange: These timing values correspond to the use of the external 32kHz crystal
+// These timing values correspond to the use of the external 32kHz crystal
 #define SENSEMODE_TIMER_PERIOD      61440   /* 15 sec, assuming 4096 Hz clock (ACLK/8) */
 #define UARTWAITMODE_TIMER_PERIOD   819     /* 200 ms, assuming 4096 Hz clock (ACLK/8) */
 #define UARTMODE_TIMER_PERIOD       109     /* 1/300 sec, assuming 32768 Hz clk (ACLK) */
@@ -56,9 +56,6 @@
 #define PCCOMMIntrOn()  do{P2IFG &= ~(PCCOMM); P2IE |= PCCOMM;}while(0)     /* turn on PC comm. interrupt */
 #define PCCOMMIntrOff() do{P2IE &= ~(PCCOMM); P2IFG &= ~(PCCOMM);}while(0)  /* turn off PC comm. interrupt */
 #define getNumTimestamps()  (((unsigned short)timeStorIndex) + ((unsigned short)timeBufferIndex))   /* returns the total number of stored timestamps */
-
-/* debugging */
-#define ONE_DELAY 5000
 
 /* function prototypes */
 /* interrupts */
@@ -130,7 +127,7 @@ void main(void) {
    *  P2: ()
    *  P3: ()
    * Disabled pull-up/downs: 
-   *  P1: (DBG0 | DBG1)
+   *  P1: (DBG0 | DBG1 | DBG2)
    *  P2: (PCCOM | SENSEIN | SENVCC | XIN | XOUT)
    *  P3: (UARTTX | UARTRX)
    */
@@ -156,7 +153,6 @@ void main(void) {
   /* initialize interrupt pins */
   P2IES &= ~(PCCOMM);                 /* respond to rising edge of PCCOMM */
 
-  // freddyChange: use this to use external 32kHz crystal
   /* *** setup clocks *** 
    * 
    * XT1 = 32768 Hz (external)
@@ -184,6 +180,7 @@ void main(void) {
 
   /* *** initialize shared variables and mode *** */
   curTimestamp = 0;
+  prevMatState = MAT_UNDEF;
   clearTimestamps();
   startIdleSenseMode();   /* initially enter IDLE mode */
 
@@ -228,7 +225,7 @@ __interrupt void TA_ISR(void) {
       if (++pcCommStableCnt == UART_PCCOMM_LOW_CNT) {
                                         /* cable has been disconnected, switch to UARTDONE mode */
         uartModeStop();         /* UART mode is now done */
-          return;
+        return;
       }
     } else {                        /* cable is still connected */
       pcCommStableCnt = 0;        /* reset counter */
@@ -257,10 +254,8 @@ __interrupt void TA_ISR(void) {
     }
     
     if (prevMatState != MAT_OPEN && (P2IN & SENSEIN)) {
-      P1OUT = DBG0; // remove later
       recordEvent(MAT_OPEN);
     } else if(prevMatState != MAT_CLOSED && !(P2IN & SENSEIN)) {
-      P1OUT = DBG1; // remove later
       recordEvent(MAT_CLOSED);
     }
     P2OUT &= ~SENVCC;
@@ -291,8 +286,9 @@ __interrupt void USCI0RX_ISR(void)
 
     // Quitting, send 1 byte ack after receiving new timestamp
     case 'q':
-      sendingIndex = 0;
       recvingTimestamp = true;
+      sendingIndex = 0;
+      rcvTimestamp = 0;
       transmitChar(ACK_VALUE);
       break;
 
@@ -309,6 +305,7 @@ __interrupt void USCI0RX_ISR(void)
       CCTL0 = 0;              /* disable serial timer interrupts */
       clearTimestamps();
       CCTL0 = CCIE;           /* re-enable serial timer interrupts */
+      prevMatState = MAT_UNDEF; /* start data from scratch */
       transmitChar(ACK_VALUE);
       break;
 
@@ -361,20 +358,19 @@ void timerASetup(unsigned char op_mode) {
 
 // Start UART wait mode (wait until cable is stable and then start UART mode)
 void uartWaitModeStart(void) {
-   mode = UARTWAITMODE;
-   curTimestamp = 0;       // will stop keeping time, so throw out the timestamp
-   pcCommStableCnt = 0;
-   timerASetup(mode);      // will generate periodic interrupts
+  mode = UARTWAITMODE;
+  curTimestamp = 0;       // will stop keeping time, so throw out the timestamp
+  pcCommStableCnt = 0;
+  timerASetup(mode);      // will generate periodic interrupts
 }
 
 // Start UART mode
 void uartModeStart(void) {
-   mode = UARTMODE;
-   recvingTimestamp = false;
-   pcCommStableCnt = 0;
-   UARTSetup();
-   P3OUT |= LED0;
-   timerASetup(mode);
+  mode = UARTMODE;
+  recvingTimestamp = false;
+  pcCommStableCnt = 0;
+  UARTSetup();
+  timerASetup(mode);
 }
 
 // Wake up every 1 second to keep time
@@ -382,7 +378,6 @@ void uartModeStop(void) {
   mode = UARTDONEMODE;
   pcCommStableCnt = 0;
   UARTSleep();
-  P3OUT &= ~LED0;
   timerASetup(mode);      // will generate periodic interrupts
 }
 
@@ -390,7 +385,6 @@ void uartModeStop(void) {
 void startIdleSenseMode(void) {
    if (curTimestamp == 0) {    /* don't go to SENSE mode, just go into IDLE */
      mode = IDLEMODE;
-     prevMatState = MAT_UNDEF;
      CCTL0 = 0;                /* disable timer interrupt */
      TACTL = 0;                /* disable timer */
      PCCOMMIntrOn();
